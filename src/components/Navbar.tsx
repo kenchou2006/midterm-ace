@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   GraduationCap, 
   BookOpen, 
@@ -6,7 +6,10 @@ import {
   History, 
   BarChart3, 
   Bookmark,
-  Sparkles
+  Sparkles,
+  Download,
+  WifiOff,
+  CheckCircle2
 } from 'lucide-react';
 
 export type ActiveTab = 'exams' | 'mistakes' | 'history' | 'bookmarks' | 'stats';
@@ -30,6 +33,36 @@ export const Navbar: React.FC<NavbarProps> = ({
   hasActiveQuiz,
   onResumeQuiz
 }) => {
+  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+  const [isOnline, setIsOnline] = useState<boolean>(navigator.onLine);
+
+  useEffect(() => {
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+    const handleBeforeInstall = (e: any) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    };
+
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    window.addEventListener('beforeinstallprompt', handleBeforeInstall);
+
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+      window.removeEventListener('beforeinstallprompt', handleBeforeInstall);
+    };
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === 'accepted') {
+      setDeferredPrompt(null);
+    }
+  };
   return (
     <header className="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -148,6 +181,29 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="hidden sm:inline">數據備份</span>
               <span className="sm:hidden">數據</span>
             </button>
+
+            {/* Offline indicator */}
+            {!isOnline && (
+              <div 
+                className="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300 border border-amber-300 dark:border-amber-700"
+                title="目前處於離線狀態，已啟用完整本地快取題庫"
+              >
+                <WifiOff className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+                <span className="hidden md:inline">離線模式</span>
+              </div>
+            )}
+
+            {/* PWA Install Button */}
+            {deferredPrompt && (
+              <button
+                onClick={handleInstallClick}
+                className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-semibold bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:from-blue-700 hover:to-indigo-700 shadow-sm shadow-blue-500/20 transition transform hover:scale-105"
+                title="安裝 MidtermAce 為獨立桌面 / 手機 App"
+              >
+                <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                <span className="hidden sm:inline">安裝 App</span>
+              </button>
+            )}
 
           </nav>
         </div>
