@@ -15,7 +15,7 @@ import {
 
 interface QuizViewProps {
   session: QuizSession;
-  onUpdateAnswer: (questionId: string, answer: string) => void;
+  onUpdateAnswer: (questionId: string, answer: string, isConfirmed?: boolean) => void;
   onToggleFlag: (questionId: string) => void;
   onSubmitQuiz: () => void;
   onExitQuiz: () => void;
@@ -159,13 +159,14 @@ export const QuizView: React.FC<QuizViewProps> = ({
       <main className="flex-1 max-w-4xl w-full mx-auto p-4 sm:p-6 lg:p-8">
         {currentQuestion && (
           <QuestionCard
+            key={currentQuestion.id}
             question={currentQuestion}
             currentIndex={currentIndex}
             totalQuestions={total}
             userAnswer={session.userAnswers[currentQuestion.id] || ''}
             isFlagged={Boolean(session.flagged[currentQuestion.id])}
             mode={session.config.mode}
-            onSelectAnswer={(ans) => onUpdateAnswer(currentQuestion.id, ans)}
+            onSelectAnswer={(ans, isConfirmed) => onUpdateAnswer(currentQuestion.id, ans, isConfirmed)}
             onToggleFlag={() => onToggleFlag(currentQuestion.id)}
             onOpenImage={(src) => setZoomImageSrc(src)}
           />

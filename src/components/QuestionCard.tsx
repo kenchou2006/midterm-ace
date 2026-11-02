@@ -22,7 +22,7 @@ interface QuestionCardProps {
   userAnswer: string;
   isFlagged: boolean;
   mode: QuizMode;
-  onSelectAnswer: (answer: string) => void;
+  onSelectAnswer: (answer: string, isConfirmed?: boolean) => void;
   onToggleFlag: () => void;
   onOpenImage: (src: string) => void;
 }
@@ -50,8 +50,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     userAnswer.split('').sort().join('') === question.answer.split('').sort().join('')
   );
 
+  // Whether practice feedback (green/red & explanation) should be revealed
+  const isRevealed = mode === 'practice' && isAnswered && (!isMultiple || showExplanation);
+
   const handleOptionClick = (key: string) => {
     if (isMultiple) {
+      if (showExplanation) return; // already submitted
       // Toggle key in userAnswer string
       const currentSelected = userAnswer ? userAnswer.split('') : [];
       let updated: string[];
@@ -60,9 +64,9 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       } else {
         updated = [...currentSelected, key];
       }
-      onSelectAnswer(updated.sort().join(''));
+      onSelectAnswer(updated.sort().join(''), false);
     } else {
-      onSelectAnswer(key);
+      onSelectAnswer(key, true);
       if (mode === 'practice') {
         setShowExplanation(true);
       }
@@ -186,7 +190,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             
             let btnStyle = 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
             
-            if (mode === 'practice' && isAnswered) {
+            if (isRevealed) {
               if (isCorrectOption) {
                 btnStyle = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 ring-2 ring-emerald-500/30';
               } else if (isSelected && !isCorrectOption) {
@@ -228,7 +232,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             let optStyle = 'border-slate-200 dark:border-slate-800 hover:border-blue-300 dark:hover:border-blue-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
             let badgeStyle = 'border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300';
 
-            if (mode === 'practice' && isAnswered) {
+            if (isRevealed) {
               if (isCorrectOption) {
                 optStyle = 'border-emerald-500 bg-emerald-50/70 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-100 ring-1 ring-emerald-500/40';
                 badgeStyle = 'border-emerald-500 bg-emerald-500 text-white';
@@ -237,8 +241,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                 badgeStyle = 'border-rose-500 bg-rose-500 text-white';
               }
             } else if (isSelected) {
-              optStyle = 'border-blue-600 bg-blue-50/70 dark:bg-blue-900/40 text-blue-950 dark:text-blue-100 ring-2 ring-blue-500/30';
-              badgeStyle = 'border-blue-600 bg-blue-600 text-white';
+              optStyle = isMultiple
+                ? 'border-purple-600 bg-purple-50/70 dark:bg-purple-900/40 text-purple-950 dark:text-purple-100 ring-2 ring-purple-500/30'
+                : 'border-blue-600 bg-blue-50/70 dark:bg-blue-900/40 text-blue-950 dark:text-blue-100 ring-2 ring-blue-500/30';
+              badgeStyle = isMultiple
+                ? 'border-purple-600 bg-purple-600 text-white'
+                : 'border-blue-600 bg-blue-600 text-white';
             }
 
             return (
@@ -268,7 +276,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                 </div>
 
                 {/* Status Icon in Practice Mode */}
-                {mode === 'practice' && isAnswered && (
+                {isRevealed && (
                   <div className="shrink-0 pt-1">
                     {isCorrectOption ? (
                       <CheckCircle className="w-5 h-5 text-emerald-500" />
@@ -287,8 +295,11 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       {isMultiple && mode === 'practice' && !showExplanation && isAnswered && (
         <div className="mb-6 flex justify-end">
           <button
-            onClick={() => setShowExplanation(true)}
-            className="px-5 py-2 rounded-xl text-xs font-bold bg-purple-600 hover:bg-purple-700 text-white shadow-sm flex items-center gap-1.5 transition"
+            onClick={() => {
+              setShowExplanation(true);
+              onSelectAnswer(userAnswer, true);
+            }}
+            className="px-5 py-2.5 rounded-xl text-xs font-bold bg-purple-600 hover:bg-purple-700 text-white shadow-md shadow-purple-500/20 flex items-center gap-1.5 transition active:scale-95"
           >
             <Sparkles className="w-4 h-4" />
             <span>送出多選答案並查看解析</span>
@@ -297,7 +308,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       )}
 
       {/* Practice Mode Explanation Box */}
-      {mode === 'practice' && (isAnswered || showExplanation) && (
+      {isRevealed && (
         <div className={`p-5 rounded-2xl border animate-fade-in ${
           isCorrect 
             ? 'bg-emerald-50/80 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-800/60' 

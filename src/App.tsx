@@ -202,7 +202,7 @@ export function App() {
   }, [exams, mistakes, rawToeicWords, rawQuestions]);
 
   // Update Answer during active test
-  const handleUpdateAnswer = useCallback((questionId: string, answer: string) => {
+  const handleUpdateAnswer = useCallback((questionId: string, answer: string, isConfirmed: boolean = false) => {
     setActiveSession(prev => {
       if (!prev) return null;
       const updated = {
@@ -214,22 +214,25 @@ export function App() {
       };
       saveActiveSession(updated);
 
-      // In practice mode, record immediately to correct/mistake bank
+      // In practice mode, record immediately to correct/mistake bank only when confirmed or single/tf choice
       if (prev.config.mode === 'practice' || prev.config.mode === 'mistake_workout') {
         const q = prev.questions.find(item => item.id === questionId);
-        if (q) {
-          const isCorrect = answer.split('').sort().join('') === q.answer.split('').sort().join('');
-          if (isCorrect) {
-            recordCorrect(q.examId, q.id);
-            // In mistake workout, remove from mistake bank if answered correctly!
-            if (prev.config.mode === 'mistake_workout') {
-              removeMistake(q.id);
+        if (q && answer) {
+          const isMulti = q.type === 'multiple';
+          if (!isMulti || isConfirmed) {
+            const isCorrect = answer.split('').sort().join('') === q.answer.split('').sort().join('');
+            if (isCorrect) {
+              recordCorrect(q.examId, q.id);
+              // In mistake workout, remove from mistake bank if answered correctly!
+              if (prev.config.mode === 'mistake_workout') {
+                removeMistake(q.id);
+              }
+            } else {
+              recordMistake(q.examId, q, answer);
             }
-          } else {
-            recordMistake(q.examId, q, answer);
+            setMistakes(getMistakes());
+            setCorrects(getCorrects());
           }
-          setMistakes(getMistakes());
-          setCorrects(getCorrects());
         }
       }
 

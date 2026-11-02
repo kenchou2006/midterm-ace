@@ -91,8 +91,10 @@ export const QuestionDrawer: React.FC<QuestionDrawerProps> = ({
                 const isCorrect = ans.split('').sort().join('') === q.answer.split('').sort().join('');
                 if (isCorrect) {
                   btnStyle = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-bold';
-                } else {
+                } else if (q.type !== 'multiple') {
                   btnStyle = 'border-rose-500 bg-rose-50 dark:bg-rose-950 text-rose-700 dark:text-rose-300 font-bold';
+                } else {
+                  btnStyle = 'border-purple-600 bg-purple-600 text-white font-bold shadow-sm';
                 }
               } else if (isAnswered) {
                 btnStyle = 'border-blue-600 bg-blue-600 text-white font-bold shadow-sm';

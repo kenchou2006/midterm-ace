@@ -54,7 +54,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({
 
   // Shuffling
   const [shuffleQuestions, setShuffleQuestions] = useState<boolean>(true);
-  const [shuffleOptions, setShuffleOptions] = useState<boolean>(true);
+  const [shuffleOptions, setShuffleOptions] = useState<boolean>(false);
 
   // Calculate total questions in selected sections
   const availableInScope = useMemo(() => {
