@@ -146,6 +146,32 @@ ail_files = [
     ('AIL 國際認證題庫第三份.pdf', '第三份：單選與複選進階綜合題庫', 3)
 ]
 
+def clean_ail_text(text):
+    if not text:
+        return ''
+    # Remove leaked section headers at end
+    text = re.sub(r'[\s\n]*二、\s*複選題[\s\n]*$', '', text)
+    text = re.sub(r'[\s\n]*一、\s*(單選題|是非題)[\s\n]*$', '', text)
+    
+    text = text.replace('\r', '')
+    # Collapse multiple blank lines
+    text = re.sub(r'[ \t]*\n[ \t\n]*', '\n', text)
+    
+    # 1. ASCII-ASCII newline -> space
+    text = re.sub(r'([a-zA-Z0-9,\.\(\)])\n([a-zA-Z0-9,\.\(\)])', r'\1 \2', text)
+    # 2. CJK-CJK newline -> join without space
+    cjk = r'[\u4e00-\u9fff\u3400-\u4dbf\uff00-\uffef\u3000-\u303f]'
+    text = re.sub(f'({cjk})\n({cjk})', r'\1\2', text)
+    # 3. CJK-ASCII or ASCII-CJK newline -> join without newline
+    text = re.sub(f'({cjk})\n([a-zA-Z0-9_\\(\\)])', r'\1\2', text)
+    text = re.sub(f'([a-zA-Z0-9_\\(\\)])\n({cjk})', r'\1\2', text)
+    
+    # Any leftover newlines
+    text = re.sub(r'\n+', ' ', text)
+    # Collapse spaces
+    text = re.sub(r'[ \t]+', ' ', text)
+    return text.strip()
+
 ail_questions = []
 ail_global_index = 0
 
@@ -182,35 +208,35 @@ for filename, part_name, part_num in ail_files:
                 {'key': 'O', 'text': '正確 (True)'},
                 {'key': 'X', 'text': '錯誤 (False)'}
             ]
-            question_stem = body
+            question_stem = clean_ail_text(body)
         elif len(ans_clean) > 1:
             q_type = 'multiple'
             type_label = '複選題'
             # Parse options
             opt_start = re.search(r'(?:\s|\n|^)\([A-E]\)', body)
             if opt_start:
-                question_stem = body[:opt_start.start()].strip()
+                question_stem = clean_ail_text(body[:opt_start.start()])
                 opts_text = body[opt_start.start():].strip()
                 opt_splits = re.split(r'(?:\s|\n|^)\(([A-E])\)\s*', opts_text)
                 options = []
                 for o in range(1, len(opt_splits), 2):
-                    options.append({'key': opt_splits[o], 'text': opt_splits[o+1].strip()})
+                    options.append({'key': opt_splits[o], 'text': clean_ail_text(opt_splits[o+1])})
             else:
-                question_stem = body
+                question_stem = clean_ail_text(body)
                 options = [{'key': l, 'text': ''} for l in ['A', 'B', 'C', 'D']]
         else:
             q_type = 'single'
             type_label = '單選題'
             opt_start = re.search(r'(?:\s|\n|^)\([A-E]\)', body)
             if opt_start:
-                question_stem = body[:opt_start.start()].strip()
+                question_stem = clean_ail_text(body[:opt_start.start()])
                 opts_text = body[opt_start.start():].strip()
                 opt_splits = re.split(r'(?:\s|\n|^)\(([A-E])\)\s*', opts_text)
                 options = []
                 for o in range(1, len(opt_splits), 2):
-                    options.append({'key': opt_splits[o], 'text': opt_splits[o+1].strip()})
+                    options.append({'key': opt_splits[o], 'text': clean_ail_text(opt_splits[o+1])})
             else:
-                question_stem = body
+                question_stem = clean_ail_text(body)
                 options = [{'key': l, 'text': ''} for l in ['A', 'B', 'C', 'D']]
                 
         ail_global_index += 1
@@ -287,6 +313,46 @@ for pno, page in enumerate(doc_eec):
                 if not eec_raw_questions[-1]['ans'] and c1:
                     eec_raw_questions[-1]['ans'] = c1
 
+def clean_eec_soft_wraps(text):
+    if not text:
+        return ''
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    if len(lines) <= 1:
+        return text.strip()
+    result = lines[0]
+    for next_line in lines[1:]:
+        prev_char = result[-1] if result else ''
+        next_char = next_line[0] if next_line else ''
+        is_prev_cjk = '\u4e00' <= prev_char <= '\u9fff' or prev_char in '，。；：！？（）「」《》、'
+        is_next_cjk = '\u4e00' <= next_char <= '\u9fff' or next_char in '，。；：！？（）「」《》、'
+        if is_prev_cjk and is_next_cjk:
+            result += next_line
+        elif is_prev_cjk or is_next_cjk:
+            if next_char in '，。；：！？（）「」《》、' or prev_char in '，。；：！？（）「」《》、':
+                result += next_line
+            else:
+                result += ' ' + next_line
+        else:
+            result += ' ' + next_line
+    return result
+
+def clean_eec_stem(stem):
+    if not stem:
+        return ''
+    lines = [l.strip() for l in stem.split('\n') if l.strip()]
+    if len(lines) <= 1:
+        return stem.strip()
+    blocks = []
+    current_block = [lines[0]]
+    for l in lines[1:]:
+        if re.match(r'^[\(（][0-9一二三四甲乙丙丁a-zA-Z][\)）]', l) or re.match(r'^[0-9一二三四甲乙丙丁][\.\)）、]', l):
+            blocks.append(clean_eec_soft_wraps('\n'.join(current_block)))
+            current_block = [l]
+        else:
+            current_block.append(l)
+    blocks.append(clean_eec_soft_wraps('\n'.join(current_block)))
+    return '\n'.join(blocks)
+
 eec_questions = []
 eec_global_index = 0
 
@@ -306,13 +372,13 @@ for q in eec_raw_questions:
     opt_start = re.search(r'(?:\s|\n|^)\([A-E]\)', body)
     options = []
     if opt_start:
-        question_stem = body[:opt_start.start()].strip()
+        question_stem = clean_eec_stem(body[:opt_start.start()].strip())
         opts_text = body[opt_start.start():].strip()
         opt_splits = re.split(r'(?:\s|\n|^)\(([A-E])\)\s*', opts_text)
         for o in range(1, len(opt_splits), 2):
-            options.append({'key': opt_splits[o], 'text': opt_splits[o+1].strip()})
+            options.append({'key': opt_splits[o], 'text': clean_eec_soft_wraps(opt_splits[o+1].strip())})
     else:
-        question_stem = body
+        question_stem = clean_eec_stem(body)
         options = [{'key': l, 'text': ''} for l in ['A', 'B', 'C', 'D']]
         
     # Check if this question gets an image
@@ -325,8 +391,9 @@ for q in eec_raw_questions:
         elif (p + 1) in eec_img_map:
             q_images.append(eec_img_map[p+1])
             
+    unit_prefix = '單元四' if '4' in q['unit'] else q['unit'][:3]
     eec_questions.append({
-        'id': f"eec_{q['unit'][:3]}_{q['num']}_{eec_global_index}",
+        'id': f"eec_{unit_prefix}_{q['num']}_{eec_global_index}",
         'globalIndex': eec_global_index,
         'examId': 'eec',
         'section': q['unit'],

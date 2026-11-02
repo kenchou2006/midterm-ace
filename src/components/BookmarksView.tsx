@@ -175,14 +175,19 @@ export const BookmarksView: React.FC<BookmarksViewProps> = ({
                   {q.options.map(opt => (
                     <div
                       key={opt.key}
-                      className={`p-2 rounded-xl border text-xs flex items-center gap-2 ${
+                      className={`p-2 rounded-xl border text-xs flex flex-col gap-1 ${
                         q.answer.includes(opt.key)
                           ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-100 font-bold'
                           : 'border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400'
                       }`}
                     >
-                      <span className="font-bold">{opt.key}.</span>
-                      <span className="truncate">{opt.text || '(見圖)'}</span>
+                      <div className="flex items-center gap-2">
+                        <span className="font-bold">{opt.key}.</span>
+                        <span className="whitespace-pre-wrap">{opt.text || '(見圖)'}</span>
+                      </div>
+                      {opt.image && (
+                        <img src={resolveAssetUrl(opt.image)} alt="選項圖" className="mt-1 max-h-20 object-contain rounded border border-slate-200 dark:border-slate-700 bg-white" />
+                      )}
                     </div>
                   ))}
                 </div>

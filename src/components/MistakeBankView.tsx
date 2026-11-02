@@ -271,9 +271,14 @@ export const MistakeBankView: React.FC<MistakeBankViewProps> = ({
                     }
 
                     return (
-                      <div key={opt.key} className={`p-2 rounded-xl border text-xs flex items-center gap-2 ${style}`}>
-                        <span className="font-bold">{opt.key}.</span>
-                        <span className="truncate">{opt.text || '(見圖)'}</span>
+                      <div key={opt.key} className={`p-2 rounded-xl border text-xs flex flex-col gap-1 ${style}`}>
+                        <div className="flex items-center gap-2">
+                          <span className="font-bold">{opt.key}.</span>
+                          <span className="whitespace-pre-wrap">{opt.text || '(見圖)'}</span>
+                        </div>
+                        {opt.image && (
+                          <img src={resolveAssetUrl(opt.image)} alt="選項圖" className="mt-1 max-h-20 object-contain rounded border border-slate-200 dark:border-slate-700 bg-white" />
+                        )}
                       </div>
                     );
                   })}
