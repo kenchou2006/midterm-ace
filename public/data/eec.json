@@ -1,0 +1,8014 @@
+[
+  {
+    "id": "eec_單元一_1_1",
+    "globalIndex": 1,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 1,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於「行銷 4P」與「行銷 4C」的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "「行銷 4P」中的產品（Product）對應「行銷 4C」中的消費者需求（Consumer's needs\nand wants）"
+      },
+      {
+        "key": "B",
+        "text": "「行銷 4P」中的價格（Price）對應「行銷 4C」中的物超所值（Cost and value to\nsatisfy to needs and wants）"
+      },
+      {
+        "key": "C",
+        "text": "「行銷 4P」中的通路（Place）對應「行銷 4C」中的溝通（Communication）"
+      },
+      {
+        "key": "D",
+        "text": "行銷 5C 中增加的一個 C 是社群（Community），透過社群平台可以讓 4P 與 4C 的\n行銷規劃更完善"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_2_2",
+    "globalIndex": 2,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 2,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於行銷概念的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "行銷緣起於想滿足消費者的需要"
+      },
+      {
+        "key": "B",
+        "text": "價值知覺優於價格知覺時交易才會發生"
+      },
+      {
+        "key": "C",
+        "text": "行銷中的銷售觀念（Sales Concept）為只要產品夠好，自然銷路就會好"
+      },
+      {
+        "key": "D",
+        "text": "行銷組合包括產品（Product）、價格（Price）、通路（Place）及生產力（Productive\nForces）"
+      }
+    ],
+    "answer": "AB",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_3_3",
+    "globalIndex": 3,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "嬌生嬰兒洗髮精藉由「溫和」的訴求，成功地打入成人市場，以補救嬰兒使用者日益減少\n的窘境，這種進入新的市場區隔的市場修正是屬於產品生命週期中的哪一時期？",
+    "options": [
+      {
+        "key": "A",
+        "text": "導入期"
+      },
+      {
+        "key": "B",
+        "text": "成長期"
+      },
+      {
+        "key": "C",
+        "text": "成熟期"
+      },
+      {
+        "key": "D",
+        "text": "衰退期"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_4_4",
+    "globalIndex": 4,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "白蘭氏依照不同年齡、性別分別推出四物雞精、兒童雞精、靈芝雞精等不同產品，這是為\n了因應哪一種區隔變數？",
+    "options": [
+      {
+        "key": "A",
+        "text": "地理區隔變數"
+      },
+      {
+        "key": "B",
+        "text": "人口統計變數"
+      },
+      {
+        "key": "C",
+        "text": "心理統計變數"
+      },
+      {
+        "key": "D",
+        "text": "行為變數"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_5_5",
+    "globalIndex": 5,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 5,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於定位的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "定位的結果不應由行銷人員認定，而應該以消費者的主觀認知來判斷"
+      },
+      {
+        "key": "B",
+        "text": "在大環境和消費需求的變化下，任何品牌都可能需要重定位"
+      },
+      {
+        "key": "C",
+        "text": "經由良好的定位有助於口碑流傳，並進一步擴大市場基礎"
+      },
+      {
+        "key": "D",
+        "text": "針對利基市場的獨特產品時，可假設該市場無競爭者"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_6_6",
+    "globalIndex": 6,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於品牌的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "品牌權益是由企業本身及市場環境來認定的"
+      },
+      {
+        "key": "B",
+        "text": "品牌延伸的類別太雜亂，反而會讓消費者印象錯亂，造成反效果"
+      },
+      {
+        "key": "C",
+        "text": "高度的品牌知名度與忠誠度可降低行銷成本，為公司創造競爭優勢"
+      },
+      {
+        "key": "D",
+        "text": "品牌權益是一種無形資產，也是企業競爭力與市場地位的重要指標"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_7_7",
+    "globalIndex": 7,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 7,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "蘋果公司（Apple Inc.）的 iPod 和 iPhone，不但在價格上比同級產品高，而且每每推出\n就造成狂銷，主要是因為下列哪些因素？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "品牌知名度"
+      },
+      {
+        "key": "B",
+        "text": "品牌聯想"
+      },
+      {
+        "key": "C",
+        "text": "品牌價值"
+      },
+      {
+        "key": "D",
+        "text": "品牌忠誠度"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "eec_單元一_8_8",
+    "globalIndex": 8,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷的出現與盛行，並不是代表傳統一般行銷就沒落。所謂的「行銷 4P」最早是由\n密西根州立大學的 Jerome McCarthy 教授在 1964 年提出，將企業進行行銷決策時所要\n考慮的要素概括為四大項。雖然之後引申演變出許多不同的變化，都是脫離不了上述的\n4P。上述所提到的「行銷 4P」是指下列哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "產品決策（Product）、價格決策（Price）、通路決策（Place）和政策決策（Policy）"
+      },
+      {
+        "key": "B",
+        "text": "人員決策（People）、成效決策（Performance）、步驟決策（Process）和預測決策\n（Prediction）"
+      },
+      {
+        "key": "C",
+        "text": "產品決策（Product）、價格決策（Price）、通路決策（Place）、推廣決策（Promotion）"
+      },
+      {
+        "key": "D",
+        "text": "產品決策（Product）、通路決策（Place）、步驟決策（Process）、成效決策\n（Performance）"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_9_9",
+    "globalIndex": 9,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「行銷 4P」雖然是最普遍的企業行銷決策方式，但是 4P 理論都是以企業的角度思考。\n1991 年，Robert Lauterborn 教授發表「行銷 4C」新論，以消費者的立場思考。下列哪\n一項不屬於 Robert Lauterborn 提出的 4C？",
+    "options": [
+      {
+        "key": "A",
+        "text": "消費者結構（Customer Configuration）"
+      },
+      {
+        "key": "B",
+        "text": "物超所值（Cost & Value to satisfy to needs & Wants）"
+      },
+      {
+        "key": "C",
+        "text": "溝通（Communication）"
+      },
+      {
+        "key": "D",
+        "text": "便利性（Convenience）"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_10_10",
+    "globalIndex": 10,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 10,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於行銷觀念的演進，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "生產觀念著重在提高生產效率、降低生產成本、以低廉價格出售產品來打開市場"
+      },
+      {
+        "key": "B",
+        "text": "產品觀念是企業轉向研發與創意，只要產品夠好，自然銷路就會好"
+      },
+      {
+        "key": "C",
+        "text": "行銷觀念強調業績競賽、高佣金制，或是進行價格折扣，至今仍有許多企業深信這是\n獲利的妙方"
+      },
+      {
+        "key": "D",
+        "text": "社會行銷即是提醒企業，為了社會全體最佳的長期利益兼顧社會福祉的平衡"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_11_11",
+    "globalIndex": 11,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "1995 年，台新銀行針對女性市場推出的信用卡「台新銀行玫瑰卡」，開啟了台新玫瑰卡二\n十年的市場，並在 2014 年推出新的形象廣告，是成功的市場區隔案例。此種方式是採用\n下列哪一種變數來區隔市場？",
+    "options": [
+      {
+        "key": "A",
+        "text": "人口統計變數"
+      },
+      {
+        "key": "B",
+        "text": "地理統計變數"
+      },
+      {
+        "key": "C",
+        "text": "心理統計變數"
+      },
+      {
+        "key": "D",
+        "text": "行為特性變數"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_12_12",
+    "globalIndex": 12,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在完成了行銷策略的「STP」，也就是「市場區隔」、「選擇目標市場」、「定位」之後，接\n著就能據以發展行銷 4P 決策，關於行銷 4P 決策的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "這些決策決定了要以何種產品來滿足目標市場的需求"
+      },
+      {
+        "key": "B",
+        "text": "行銷 4P 決策規劃必須選擇市場並找出目標受眾"
+      },
+      {
+        "key": "C",
+        "text": "行銷 4P 決策規劃決定了在產品生命週期中應該採取何種推廣手法"
+      },
+      {
+        "key": "D",
+        "text": "正確的行銷 4P 決策能以最有效的資源運用，發揮企業核心能力創造市場優勢"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_13_13",
+    "globalIndex": 13,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "決定一個品牌的品牌權益有五個主要的因素，下列哪一項不包括在內？",
+    "options": [
+      {
+        "key": "A",
+        "text": "品牌知名度"
+      },
+      {
+        "key": "B",
+        "text": "品牌名稱"
+      },
+      {
+        "key": "C",
+        "text": "顧客感受的品質"
+      },
+      {
+        "key": "D",
+        "text": "品牌忠誠度"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_14_14",
+    "globalIndex": 14,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種導向是行銷觀念最重要的觀點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "生產導向"
+      },
+      {
+        "key": "B",
+        "text": "產品導向"
+      },
+      {
+        "key": "C",
+        "text": "市場導向"
+      },
+      {
+        "key": "D",
+        "text": "銷售導向"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "eec_單元一_15_15",
+    "globalIndex": 15,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如附圖所示，下列哪些項目內容與「行銷組合（Marketing Mix）, 行銷 4P」目的及內涵\n有關？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234"
+      },
+      {
+        "key": "B",
+        "text": "2345"
+      },
+      {
+        "key": "C",
+        "text": "1235"
+      },
+      {
+        "key": "D",
+        "text": "1345"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/eec/eec_p3_q15.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_16_16",
+    "globalIndex": 16,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "4P 與 4C 在對照意義詮釋上，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Price – Consistency"
+      },
+      {
+        "key": "B",
+        "text": "Place – Communication"
+      },
+      {
+        "key": "C",
+        "text": "Product – Consumer's needs and wants"
+      },
+      {
+        "key": "D",
+        "text": "Promotion – Convenience"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_17_17",
+    "globalIndex": 17,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 17,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於長尾理論的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "適合用來描述博客來及 momo 購物的網站商業模式"
+      },
+      {
+        "key": "B",
+        "text": "較知名的網站由於銷售總量巨大，累積起來的總收益也會有超過主流產品的現象"
+      },
+      {
+        "key": "C",
+        "text": "曲線長尾表現平平的產品，大部分應該放棄它們"
+      },
+      {
+        "key": "D",
+        "text": "在網路經濟中，只有大約 70% 的商品能創造銷售收入"
+      }
+    ],
+    "answer": "AB",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_18_18",
+    "globalIndex": 18,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「相逢自是有緣，華航以客為尊」，這句話屬於下列哪一種定位？",
+    "options": [
+      {
+        "key": "A",
+        "text": "產品屬性與利益"
+      },
+      {
+        "key": "B",
+        "text": "使用者的情境與功能"
+      },
+      {
+        "key": "C",
+        "text": "相對於競爭者的優勢"
+      },
+      {
+        "key": "D",
+        "text": "品質定位"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_19_19",
+    "globalIndex": 19,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "桂綸美代言「城市咖啡一分鐘探索影展系列」，主要能凸顯哪一項品牌權益？",
+    "options": [
+      {
+        "key": "A",
+        "text": "品牌知名度"
+      },
+      {
+        "key": "B",
+        "text": "品牌聯想"
+      },
+      {
+        "key": "C",
+        "text": "品牌忠誠度"
+      },
+      {
+        "key": "D",
+        "text": "品牌的專屬資產"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_20_20",
+    "globalIndex": 20,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 20,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "行銷 4P 理論是從企業本位思考，追求企業利潤最大化，然而行銷 4C 則是追求顧客利\n益最大化，下列哪些為行銷 4C 元素？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "消費者需求（Consumer）"
+      },
+      {
+        "key": "B",
+        "text": "關懷（Care）"
+      },
+      {
+        "key": "C",
+        "text": "便利性（Convenience）"
+      },
+      {
+        "key": "D",
+        "text": "溝通（Communication）"
+      }
+    ],
+    "answer": "ACD",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_21_21",
+    "globalIndex": 21,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "TA（Target Audience）目標受眾/目標客戶是行銷策略中相當重要的環節，下列哪一項是\n較完整的 TA 敘述？",
+    "options": [
+      {
+        "key": "A",
+        "text": "晴時多雲偶陣雨"
+      },
+      {
+        "key": "B",
+        "text": "奶茶去冰不要糖"
+      },
+      {
+        "key": "C",
+        "text": "30 歲喜網購女性"
+      },
+      {
+        "key": "D",
+        "text": "加速 0-100 只要 3 秒鐘"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "eec_單元一_22_22",
+    "globalIndex": 22,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 22,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是市場區隔常見變數？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "人口統計變數"
+      },
+      {
+        "key": "B",
+        "text": "地理統計變數"
+      },
+      {
+        "key": "C",
+        "text": "心理統計變數"
+      },
+      {
+        "key": "D",
+        "text": "行為特徵變數"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_23_23",
+    "globalIndex": 23,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 23,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "2011 年臺灣發生食品安全問題事件，又稱為塑化劑事件，食品廠商在其產品中添加不當\n原料，造成消費者健康疑慮，對於品牌價值也造成傷害。品牌可以使用下列哪些方式挽回\n消費者的信心？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "降價促銷，吸引越多人購買，品牌價值就會回溫"
+      },
+      {
+        "key": "B",
+        "text": "透過正式官方稿，告知消費者如何避免食用有疑慮的產品，並承諾相關回收處理機制"
+      },
+      {
+        "key": "C",
+        "text": "邀請媒體、部落客參觀生廠工廠與原料供應來源，進而強調對食品安全重視"
+      },
+      {
+        "key": "D",
+        "text": "蒐集網路相關討論內容，對提出質疑者提出控訴"
+      }
+    ],
+    "answer": "BC",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_24_24",
+    "globalIndex": 24,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 24,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "消費者的購買行為通常會受到下列哪些因素的影響？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "經濟環境"
+      },
+      {
+        "key": "B",
+        "text": "過去的使用經驗"
+      },
+      {
+        "key": "C",
+        "text": "企業的行銷行為"
+      },
+      {
+        "key": "D",
+        "text": "瀏覽商品紀錄"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_25_25",
+    "globalIndex": 25,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "由於網路社群的影響力日漸擴大，企業在進行行銷的規畫由「行銷 4C」 多增加了一個\n「C」，縮寫「C」是指下列哪一項英文名詞？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Country"
+      },
+      {
+        "key": "B",
+        "text": "Collaboration"
+      },
+      {
+        "key": "C",
+        "text": "Community"
+      },
+      {
+        "key": "D",
+        "text": "Company"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_26_26",
+    "globalIndex": 26,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在進行市場區隔時，若要開發「左撇子」市場的商品，很容易面臨下列哪一項市場區隔變\n數效果不好的問題？",
+    "options": [
+      {
+        "key": "A",
+        "text": "差異反應"
+      },
+      {
+        "key": "B",
+        "text": "足量性"
+      },
+      {
+        "key": "C",
+        "text": "可接近性"
+      },
+      {
+        "key": "D",
+        "text": "可衡量性"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_27_27",
+    "globalIndex": 27,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 27,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "「家樂福」、「7-SELECT」及「Kirkland」等品牌屬於下列哪些品牌歸屬？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "製造商品牌（Manufacturer’s brand）"
+      },
+      {
+        "key": "B",
+        "text": "中間商品牌（Private）"
+      },
+      {
+        "key": "C",
+        "text": "無品牌（Generic product）"
+      },
+      {
+        "key": "D",
+        "text": "經銷商品牌（Dealer brand）"
+      }
+    ],
+    "answer": "BD",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_28_28",
+    "globalIndex": 28,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "政治人物在選舉前不斷強調自己的理念、政策以及對人民未來的保證等，但是選舉結束\n後，隨即忘記之前的承諾，這是屬於下列哪一項行銷理念？",
+    "options": [
+      {
+        "key": "A",
+        "text": "銷售導向（Sales Orientation）"
+      },
+      {
+        "key": "B",
+        "text": "生產導向（Production Orientation）"
+      },
+      {
+        "key": "C",
+        "text": "產品導向（Product Orientation）"
+      },
+      {
+        "key": "D",
+        "text": "社會行銷導向（Social Marketing Orientation）"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_29_29",
+    "globalIndex": 29,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "兒童食品「寶貝蛋」藉由「易吞、營養」的訴求，以成功地打入老人市場，來彌補兒童使\n用者日益減少的窘境，這種進入新市場區隔的市場修正是屬於下列哪一項產品生命週期中\n的時期？",
+    "options": [
+      {
+        "key": "A",
+        "text": "導入期"
+      },
+      {
+        "key": "B",
+        "text": "成長期"
+      },
+      {
+        "key": "C",
+        "text": "成熟期"
+      },
+      {
+        "key": "D",
+        "text": "衰退期"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "eec_單元一_30_30",
+    "globalIndex": 30,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "善存（Centrum）是某公司食品級的多重補充維他命，依照不同年齡、性別分別推出小善\n存、銀寶善存、男性加鋅善存、女性加鈣善存等不同產品，這是為了因應下列哪一項市場\n區隔變數？",
+    "options": [
+      {
+        "key": "A",
+        "text": "地理區隔變數"
+      },
+      {
+        "key": "B",
+        "text": "行為特性變數"
+      },
+      {
+        "key": "C",
+        "text": "心理統計變數"
+      },
+      {
+        "key": "D",
+        "text": "人口統計變數"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_31_31",
+    "globalIndex": 31,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 31,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "定位（Positioning）是指企業對行銷組合的選擇，包括企業想塑造的形象、產品利益、溝\n通訊息，流通管理和定價等。關於定位的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "定位的結果不是行銷人員認定，而是由消費者的主觀認知來決定"
+      },
+      {
+        "key": "B",
+        "text": "在日漸變化的消費需求下，任何品牌都可能需要重定位"
+      },
+      {
+        "key": "C",
+        "text": "在選定的市場區隔中擁有清楚的品牌形象就是定位"
+      },
+      {
+        "key": "D",
+        "text": "針對利基市場的獨特產品時，可假設該市場無競爭者的定位"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_32_32",
+    "globalIndex": 32,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "SWOT 分析主要是態勢分析，幫助我們認識自己和競爭者。通過調查將企業的優劣得失\n列舉出來，思考如何拓展優勢（Strengths）、去除劣勢（Weaknesses）、利用機會\n（Opportunities）、勝過威脅（Threats），是幫助企業思考品牌行銷策略的重要工具。以\nS、W、O、T、內部及外部的交互影響下所做出的策略分析，下列哪一項適合採取 Mini-\nMaxi 策略？",
+    "options": [
+      {
+        "key": "A",
+        "text": "TO"
+      },
+      {
+        "key": "B",
+        "text": "TW"
+      },
+      {
+        "key": "C",
+        "text": "WO"
+      },
+      {
+        "key": "D",
+        "text": "WS"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_33_33",
+    "globalIndex": 33,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "4C 行銷強調顧客導向，下列哪一項是從顧客角度設計行銷活動？",
+    "options": [
+      {
+        "key": "A",
+        "text": "促銷，提供顧客折扣商品"
+      },
+      {
+        "key": "B",
+        "text": "便利，即所謂為顧客提供最大的購物和使用便利"
+      },
+      {
+        "key": "C",
+        "text": "通路，提供線上購物管道"
+      },
+      {
+        "key": "D",
+        "text": "定價，計算產品成本後加成以決定價格"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_34_34",
+    "globalIndex": 34,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "相對於傳統的 4P，下列哪一項屬於 4C 行銷的特色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "更加重視 STP 規劃流程"
+      },
+      {
+        "key": "B",
+        "text": "消費者為導向的思維模式"
+      },
+      {
+        "key": "C",
+        "text": "著重在社群媒體的經營"
+      },
+      {
+        "key": "D",
+        "text": "採用虛實整合的行銷模式"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_35_35",
+    "globalIndex": 35,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "行銷策略規劃是公司重要的行銷活動，下列哪些屬於行銷策略規劃的活動內容？(1)針對市\n場進行區隔、(2)定義目標市場、(3)進行市場區隔、(4)發展 4P 行銷組合、(5)分析消費者\n行為",
+    "options": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "1234"
+      },
+      {
+        "key": "C",
+        "text": "1235"
+      },
+      {
+        "key": "D",
+        "text": "12345"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_36_36",
+    "globalIndex": 36,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於品牌權益的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "消費者心目中對於特定品牌的整體印象"
+      },
+      {
+        "key": "B",
+        "text": "品牌權益來自於消費者的反應差異"
+      },
+      {
+        "key": "C",
+        "text": "品牌權益會反應在消費者的行為、認知、偏好上"
+      },
+      {
+        "key": "D",
+        "text": "有學者提出直接測量某一品牌產品相比其他產品的溢價，將之作為品牌權益的計算依\n據"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "eec_單元一_37_37",
+    "globalIndex": 37,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是屬於行銷的意義？",
+    "options": [
+      {
+        "key": "A",
+        "text": "個人與團體透過創造、提供、以及與他人自由交換有價值的產品和服務的社會過程"
+      },
+      {
+        "key": "B",
+        "text": "如何將產品賣給顧客，讓顧客能採用"
+      },
+      {
+        "key": "C",
+        "text": "創造、溝通與傳送價值給顧客、經營顧客關係，以便讓組織及利益關係人受益的一種\n組織功能與程序"
+      },
+      {
+        "key": "D",
+        "text": "是一種由規則組成的體系，由國家強制力保證實施，規範個人行為"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元一_38_38",
+    "globalIndex": 38,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 38,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於「行銷 4P」與「行銷 4C」敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "行銷 4C 以消費者為中心，重新思考消費者真正需求，創造便利的消費環境，與消費\n者雙向溝通，為企業創造市場商機"
+      },
+      {
+        "key": "B",
+        "text": "行銷 4C 追求企業的利益最大化"
+      },
+      {
+        "key": "C",
+        "text": "行銷 4P 的概念無論是從產品、價格、分配、推廣，都是以消費者的角度思考"
+      },
+      {
+        "key": "D",
+        "text": "行銷 4P 是最普遍的企業行銷決策方式"
+      }
+    ],
+    "answer": "AD",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元一_39_39",
+    "globalIndex": 39,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項敘述，不屬於一般常用的區隔市場變數？",
+    "options": [
+      {
+        "key": "A",
+        "text": "國家別、地區別"
+      },
+      {
+        "key": "B",
+        "text": "法律、法規"
+      },
+      {
+        "key": "C",
+        "text": "產品使用率、品牌忠誠度"
+      },
+      {
+        "key": "D",
+        "text": "性別、年齡"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元一_40_40",
+    "globalIndex": 40,
+    "examId": "eec",
+    "section": "單元一：行銷概念",
+    "sectionName": "單元一：行銷概念",
+    "number": 40,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "決定一個品牌的品牌權益裡有五個主要的因素，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "品牌忠誠度"
+      },
+      {
+        "key": "B",
+        "text": "其他專有的品牌資產"
+      },
+      {
+        "key": "C",
+        "text": "企業認知的價格"
+      },
+      {
+        "key": "D",
+        "text": "品牌聯想"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元二_1_41",
+    "globalIndex": 41,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在網路行銷的執行運作中，唯有整合 4P（Product、Price、Place、Promotion）才能發揮\n綜效。下列哪一項作業的效率與狀況掌控能在網路行銷中發揮加乘效果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "產品（product）"
+      },
+      {
+        "key": "B",
+        "text": "價格（price）"
+      },
+      {
+        "key": "C",
+        "text": "通路（place）"
+      },
+      {
+        "key": "D",
+        "text": "推廣（promotion）"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元二_2_42",
+    "globalIndex": 42,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "阿松因為雷射印表機故障，因此將一支庫存碳粉匣在網路上以 800 元拍賣成交，此商業\n行為屬於哪一種電子商務型態？",
+    "options": [
+      {
+        "key": "A",
+        "text": "B2C"
+      },
+      {
+        "key": "B",
+        "text": "B2B"
+      },
+      {
+        "key": "C",
+        "text": "C2C"
+      },
+      {
+        "key": "D",
+        "text": "C2B"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元二_3_43",
+    "globalIndex": 43,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 3,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於「物聯網」的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "在網際網路基礎上的延伸和擴展的網路"
+      },
+      {
+        "key": "B",
+        "text": "網路擴展到任何物品間進行訊息交換和通訊"
+      },
+      {
+        "key": "C",
+        "text": "是指「物」與「物」相連的網際網路"
+      },
+      {
+        "key": "D",
+        "text": "是指「人」與「物」相連的網際網路"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元二_4_44",
+    "globalIndex": 44,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在網路社群中，下列哪一項參與度最小？",
+    "options": [
+      {
+        "key": "A",
+        "text": "瀏覽者（Explorers）"
+      },
+      {
+        "key": "B",
+        "text": "社交者（Socializers）"
+      },
+      {
+        "key": "C",
+        "text": "主動者（Achievers）"
+      },
+      {
+        "key": "D",
+        "text": "搗蛋者（Killers）"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "eec_單元二_5_45",
+    "globalIndex": 45,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在網際網路的發展史上，全球資訊網「WWW」出現前有數個知名的網路雛形如：(1)\nGalactic Network、(2) ARPANET、(3) CSNET、(4) NREN，請依其出現順序，下列哪一\n項是正確的排列順序？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234"
+      },
+      {
+        "key": "B",
+        "text": "2341"
+      },
+      {
+        "key": "C",
+        "text": "2134"
+      },
+      {
+        "key": "D",
+        "text": "3421"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_6_46",
+    "globalIndex": 46,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於 Web 2.0 之敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "將用戶當作共同開發者來信任"
+      },
+      {
+        "key": "B",
+        "text": "利用集體智慧"
+      },
+      {
+        "key": "C",
+        "text": "通過客戶的自我服務來發揮長尾力量"
+      },
+      {
+        "key": "D",
+        "text": "人工智慧的應用"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_7_47",
+    "globalIndex": 47,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "巴哈姆特是喜歡電玩的網友分享資訊的網路論壇，它是屬於哪一種類型的社群媒體\n（Social Media）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "利基型社群"
+      },
+      {
+        "key": "B",
+        "text": "交誼型社群"
+      },
+      {
+        "key": "C",
+        "text": "平台型社群"
+      },
+      {
+        "key": "D",
+        "text": "無法歸類"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_8_48",
+    "globalIndex": 48,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「業者根據使用者所持行動設備的所在位置和其他資訊，提供給使用者相關的加值服\n務」，是下列哪一種服務？",
+    "options": [
+      {
+        "key": "A",
+        "text": "LBS"
+      },
+      {
+        "key": "B",
+        "text": "BBS"
+      },
+      {
+        "key": "C",
+        "text": "NFC"
+      },
+      {
+        "key": "D",
+        "text": "RFID"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_9_49",
+    "globalIndex": 49,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪個網址必須是政府單位名義申請？",
+    "options": [
+      {
+        "key": "A",
+        "text": "edu.tw"
+      },
+      {
+        "key": "B",
+        "text": "gov.tw"
+      },
+      {
+        "key": "C",
+        "text": "idv.tw"
+      },
+      {
+        "key": "D",
+        "text": "net.tw"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_10_50",
+    "globalIndex": 50,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "因應資訊科技的發展，傳統的消費者 AIDA 模式，發展為一全新的網路行銷傳播模式\nAISDAS，所增加的兩個「S」，依序為下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Search、Smart"
+      },
+      {
+        "key": "B",
+        "text": "Search、Share"
+      },
+      {
+        "key": "C",
+        "text": "Simple、Smart"
+      },
+      {
+        "key": "D",
+        "text": "Simple、Search"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_11_51",
+    "globalIndex": 51,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 11,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "網路行銷並非只為了品牌曝光，或與消費者互動，或只是想創造話題，最重要的是達成當\n初進行網路行銷的預設目標。下列哪些是有效的網路行銷操作規劃需要把握的原則？ (複\n選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "以企業為中心，深耕企業價值，建立以企業為中心的資料庫系統"
+      },
+      {
+        "key": "B",
+        "text": "傳遞品牌承諾，找出目標對象慣用的網路工具，做好溝通，提供承諾"
+      },
+      {
+        "key": "C",
+        "text": "串連人脈網絡，讓網友發揮傳播的力量，善用口碑行銷，主動將品牌經驗傳給他的人\n脈網絡"
+      },
+      {
+        "key": "D",
+        "text": "享受品牌體驗，讓顧客在親身體驗中，與品牌之產生關係自然強化的效果"
+      }
+    ],
+    "answer": "BCD",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "eec_單元二_12_52",
+    "globalIndex": 52,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 12,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "製造商與品牌商在網路上與消費者或顧客溝通可以透過的網路行銷運作模式非常的多，我\n們可以將其分為「前端行銷」與「後端平台」，下列說明哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "「後端平台」指的是會員管理系統或顧客經營平台"
+      },
+      {
+        "key": "B",
+        "text": "「前端行銷」指的是透過網路與目標對象交流的形式"
+      },
+      {
+        "key": "C",
+        "text": "網路廣告和電子報是「前端行銷」可以應用的工具"
+      },
+      {
+        "key": "D",
+        "text": "官方網站和網路活動是屬於「後端平台」"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "eec_單元二_13_53",
+    "globalIndex": 53,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 13,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於網路行銷可達成的目標，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "收集和分析消費者的潛在需求"
+      },
+      {
+        "key": "B",
+        "text": "新商品上市的行銷活動"
+      },
+      {
+        "key": "C",
+        "text": "促進消費者的互動速度和關係"
+      },
+      {
+        "key": "D",
+        "text": "確認企業定位"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "eec_單元二_14_54",
+    "globalIndex": 54,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "1991 年，Robert Lauterborn 教授發表「行銷 4C」新論，以消費者的立場思考。而由於\n網路社群影響力日漸擴大，企業在進行行銷的規劃由「行銷 4C」多增加了一個「C」成\n為「行銷 5C」，所增加的第 5 個 C 所指的是下列哪一項英文名詞？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Community"
+      },
+      {
+        "key": "B",
+        "text": "Customer"
+      },
+      {
+        "key": "C",
+        "text": "Convenience"
+      },
+      {
+        "key": "D",
+        "text": "Communication"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "eec_單元二_15_55",
+    "globalIndex": 55,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 15,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "Web 2.0 的概念開始於 2004 年一個會議中，在 O'Reilly 與 MediaLive 國際公司之間的\n腦力激盪中被提出來。他們把在網路泡沫化的過程中還存活下來的公司所展現出來的精神\n以七個原則來表達。下列哪些屬於 Web 2.0 的七個原則？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "以網際網路作為開放平台"
+      },
+      {
+        "key": "B",
+        "text": "利用集體智慧"
+      },
+      {
+        "key": "C",
+        "text": "軟體超越單一設備"
+      },
+      {
+        "key": "D",
+        "text": "豐富的企業體驗"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "eec_單元二_16_56",
+    "globalIndex": 56,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群媒體（social media）已經成為目前最熱門的網路平台，也成為網路行銷不可忽視的力\n量。一般社群媒體以主題來看可以區分為幾種類別，若使用者是基於某種特性的愛好或理\n由聚集在一起組成的社群，是屬於下列哪一類的社群媒體？",
+    "options": [
+      {
+        "key": "A",
+        "text": "平台型社群"
+      },
+      {
+        "key": "B",
+        "text": "交誼型社群"
+      },
+      {
+        "key": "C",
+        "text": "分享型社群"
+      },
+      {
+        "key": "D",
+        "text": "利基型社群"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "eec_單元二_17_57",
+    "globalIndex": 57,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "因應網路的發展而由傳統的消費者行為 AIDA 模式延生出的一種全新消費者行為分析\n「AISDAS」模式，AISDAS 模式與 AIDA 模式的差異，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "「AISDAS」模式是指消費者在採行購買行動（Action）之後，會在網路上撰寫自己\n的感想，與他人分享（Share）意見"
+      },
+      {
+        "key": "B",
+        "text": "「AISDAS」模式的第一個「S」，是指消費者在產生消費興趣（Interest）之後，會藉\n儲存（Save）網路上的相關資訊相關訊息"
+      },
+      {
+        "key": "C",
+        "text": "消費者在網路上分享的消費經驗，很快又成為其他消費者搜尋的情報，這種消費經驗\n的循環過程，就會形成網路口碑"
+      },
+      {
+        "key": "D",
+        "text": "「AISDAS」模式是在傳統的 AIDA 模式中分別加上搜尋（Search）與分享（Share）\n等兩個消費者的自發行為"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "eec_單元二_18_58",
+    "globalIndex": 58,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 18,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "自從 WEB2.0 的概念提出不久之後，就已經開始有許多人在討論 WEB3.0 的網路世界將\n會是什麼樣子。雖然各專家對 WEB3.0 有許多不同的說法，下列哪些為 WEB3.0 的說\n明？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "多元的網路環境"
+      },
+      {
+        "key": "B",
+        "text": "人工智慧的應用"
+      },
+      {
+        "key": "C",
+        "text": "服務導向結構及語義網的結合"
+      },
+      {
+        "key": "D",
+        "text": "輕量型程式設計模型"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "eec_單元二_19_59",
+    "globalIndex": 59,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路在今日的世界中具有舉足輕重的地位，是因為相較過去的媒體，網路有許多突破性的\n特色。而基於網路的特色，網路人口也發展出許多特質。關於網路人口特質的敘述，下列\n哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網友具有自己的看法，習慣在網路上表達自己的主張，從部落格和臉書（Facebook）\n的使用可以看出網友喜歡分享想法的普遍情況，網路行銷人員應該善加利用"
+      },
+      {
+        "key": "B",
+        "text": "網友對於網路上的資訊好奇，喜歡瀏覽網路資訊，對於有興趣的話題會即刻分享給朋\n友，也因為這樣的特色，在網路上面搜尋資訊也經常是網友最常運用網路的功能"
+      },
+      {
+        "key": "C",
+        "text": "網路活動與網路廣告如果能夠符合網友的喜好或引起注意，網友的參與度是相當高\n的，網路行銷如果運用得當，可以吸引網友成為會員，進而將會員培養成顧客，甚至\n成為忠誠顧客"
+      },
+      {
+        "key": "D",
+        "text": "很多網友會質疑知名品牌或知名人物所宣稱訊息的可靠性，因此形成了「反權威有\n理」、「無名氏萬歲」的狀況，在網路好負評通常不是品牌商自己能夠掌握的，所以行\n銷人員不必在網路進行話題監控"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "eec_單元二_20_60",
+    "globalIndex": 60,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "受到網路的特色與上網人口的特質所影響，消費者行為也與過去的情況大不相同。傳統的\n消費者行為有所謂的「AIDA」行銷傳播模式，網路行銷傳播的模式則是在傳統「AIDA」\n行銷傳播模式之間加入了兩個 S，變為「AISDAS」行銷傳播模式。請問增加的兩個\n「S」依序應為下列哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Search, Share"
+      },
+      {
+        "key": "B",
+        "text": "Search, Survey"
+      },
+      {
+        "key": "C",
+        "text": "Survey, Search"
+      },
+      {
+        "key": "D",
+        "text": "Share, Search"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "eec_單元二_21_61",
+    "globalIndex": 61,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一個網際網路工具，不僅能寄送文字資訊，更可寄送圖片、影音和超連結等所有類\n型的媒體，現在對個人與企業傳遞文件時依賴仍大？",
+    "options": [
+      {
+        "key": "A",
+        "text": "搜尋引擎"
+      },
+      {
+        "key": "B",
+        "text": "電子郵件"
+      },
+      {
+        "key": "C",
+        "text": "社群網站"
+      },
+      {
+        "key": "D",
+        "text": "部落格"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "eec_單元二_22_62",
+    "globalIndex": 62,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如附圖所示，網際網路商業化發展的過程，請選擇其近期正確時序為下列哪一項？\n(1)微博/APP、(2)Web 2.0、(3)SoLoMo、(4)社群平台",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234"
+      },
+      {
+        "key": "B",
+        "text": "2341"
+      },
+      {
+        "key": "C",
+        "text": "2134"
+      },
+      {
+        "key": "D",
+        "text": "2413"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/eec/eec_p10_q22.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "eec_單元二_23_63",
+    "globalIndex": 63,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「SoLoMo」的概念為人們的數位生活做了一個很好的詮釋，下列哪一個英文字義的搭配\n錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "So - Social"
+      },
+      {
+        "key": "B",
+        "text": "Lo - Local"
+      },
+      {
+        "key": "C",
+        "text": "Mo - Mobile"
+      },
+      {
+        "key": "D",
+        "text": "Mo - Motion"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "eec_單元二_24_64",
+    "globalIndex": 64,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是 Web 2.0 所表現的內容或特點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "發佈"
+      },
+      {
+        "key": "B",
+        "text": "BitTorrent"
+      },
+      {
+        "key": "C",
+        "text": "搜尋引擎優化"
+      },
+      {
+        "key": "D",
+        "text": "利用消費者的自助服務與演算法上的資料管理"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "eec_單元二_25_65",
+    "globalIndex": 65,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 25,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "網路的佼佼者經常利用集體智慧表現，關於個別競爭優勢的敘述，哪些是正確的？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yahoo! 是第一個成功使用分類目錄來蒐集網路用戶們集體作品的角色"
+      },
+      {
+        "key": "B",
+        "text": "Google 利用網路的鏈接結構，機器學習系統，分析使用者的搜尋需求、分析網站的內\n容品質、提供更完美的搜尋體驗"
+      },
+      {
+        "key": "C",
+        "text": "eBay 運用更多的邀請讓用戶以多元方式，在近乎所有的頁面進行參與"
+      },
+      {
+        "key": "D",
+        "text": "Amazon 是特定環境的促成者，促成關鍵性的大量買家和賣家"
+      }
+    ],
+    "answer": "AB",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "eec_單元二_26_66",
+    "globalIndex": 66,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人類善於應用科技，基於網路特色，網路人口也發展出一些特質，哪一項敘述不完全正\n確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "立即回應；社群導向"
+      },
+      {
+        "key": "B",
+        "text": "自我主張；隨興好奇"
+      },
+      {
+        "key": "C",
+        "text": "具世界觀；也具本土觀"
+      },
+      {
+        "key": "D",
+        "text": "喜好參與；質疑權威"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "eec_單元二_27_67",
+    "globalIndex": 67,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路消費者行為 AISDAS 模式，哪一個英文縮寫對照錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A - Attention; Action"
+      },
+      {
+        "key": "B",
+        "text": "I - Interest"
+      },
+      {
+        "key": "C",
+        "text": "S - Search; Share"
+      },
+      {
+        "key": "D",
+        "text": "D - Demand"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "eec_單元二_28_68",
+    "globalIndex": 68,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷的市場區隔比較以生活型態以及心理年齡為主來做分眾行銷，下列哪一種行銷的\n分眾錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "薰衣草行銷-年齡較大 45 歲以上"
+      },
+      {
+        "key": "B",
+        "text": "即溶牛奶行銷-年齡在 25~45 歲"
+      },
+      {
+        "key": "C",
+        "text": "龍舌蘭行銷-年齡在 25 歲以下"
+      },
+      {
+        "key": "D",
+        "text": "病毒式行銷-全年齡"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_29_69",
+    "globalIndex": 69,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷運作模式分為「後端平台」與「前台行銷」，下列哪一項組合錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "「後端平台」- 顧客經營平台"
+      },
+      {
+        "key": "B",
+        "text": "「前台行銷」- 部落格/社群"
+      },
+      {
+        "key": "C",
+        "text": "「後端平台」- 官方網站"
+      },
+      {
+        "key": "D",
+        "text": "「前台行銷」- 網路媒體"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_30_70",
+    "globalIndex": 70,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 30,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些為網際網路瀏覽器？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Edge"
+      },
+      {
+        "key": "B",
+        "text": "Chrome"
+      },
+      {
+        "key": "C",
+        "text": "Facebook"
+      },
+      {
+        "key": "D",
+        "text": "Safari"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_31_71",
+    "globalIndex": 71,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種不是媒體分類方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Own Media"
+      },
+      {
+        "key": "B",
+        "text": "Paid Media"
+      },
+      {
+        "key": "C",
+        "text": "Social Media"
+      },
+      {
+        "key": "D",
+        "text": "Rich Media"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_32_72",
+    "globalIndex": 72,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於程序化購買（Programmatic Buying）的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "程序化購買要透過特定廠商或媒體規劃的程序進行"
+      },
+      {
+        "key": "B",
+        "text": "RTB（即時競價）是程序化購買的特色之一"
+      },
+      {
+        "key": "C",
+        "text": "程序化購買與 AI（人工智慧）發展息息相關"
+      },
+      {
+        "key": "D",
+        "text": "程序化購買無法省略對於目標族群（Target Audience） 與人性的觀察"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_33_73",
+    "globalIndex": 73,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在多屏時代，數位行銷企劃上需要特別注意下列哪一項要點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "RWD 響應式網頁設計（Responsive Web Design）"
+      },
+      {
+        "key": "B",
+        "text": "TA 的觀察與特徵"
+      },
+      {
+        "key": "C",
+        "text": "消費者何時觀看電視或手機"
+      },
+      {
+        "key": "D",
+        "text": "社群媒體內容是否有趣"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_34_74",
+    "globalIndex": 74,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項專有名詞最符合行銷趨勢的敘述？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Show & Memory"
+      },
+      {
+        "key": "B",
+        "text": "Special & Motive"
+      },
+      {
+        "key": "C",
+        "text": "Social & Mobile"
+      },
+      {
+        "key": "D",
+        "text": "Strategy & Movie"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_35_75",
+    "globalIndex": 75,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 35,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些平台具有 Web2.0 特色，且由用戶主導而生成內容的網際網路型態？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mobile01"
+      },
+      {
+        "key": "B",
+        "text": "PTT"
+      },
+      {
+        "key": "C",
+        "text": "Instagram"
+      },
+      {
+        "key": "D",
+        "text": "Wiki 維基百科"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_36_76",
+    "globalIndex": 76,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於近代消費者行為的轉變，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "行動裝置使用時間增加"
+      },
+      {
+        "key": "B",
+        "text": "資訊碎片化"
+      },
+      {
+        "key": "C",
+        "text": "越來越依賴搜尋引擎"
+      },
+      {
+        "key": "D",
+        "text": "專注時間降低"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "eec_單元二_37_77",
+    "globalIndex": 77,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群媒體的主要收入來源隨著技術演變，也有越來越多的商業模式，其中下列哪一項不應\n該成為主要的獲利來源？",
+    "options": [
+      {
+        "key": "A",
+        "text": "販售會員個人資料"
+      },
+      {
+        "key": "B",
+        "text": "網路廣告"
+      },
+      {
+        "key": "C",
+        "text": "會員付費"
+      },
+      {
+        "key": "D",
+        "text": "購買點數以及電子商務"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_38_78",
+    "globalIndex": 78,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 38,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是「網路行銷」所帶來的影響？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "消費者樂於參與"
+      },
+      {
+        "key": "B",
+        "text": "顧客的感覺更重要"
+      },
+      {
+        "key": "C",
+        "text": "對顧客說話並且讓他們參與"
+      },
+      {
+        "key": "D",
+        "text": "廣告獨白"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_39_79",
+    "globalIndex": 79,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項定律的概念，與「網路的外部性效果（Network Externality）」的概念相同？",
+    "options": [
+      {
+        "key": "A",
+        "text": "摩爾定律（Moore's Law）"
+      },
+      {
+        "key": "B",
+        "text": "梅特卡夫法則（Metcalf Law）"
+      },
+      {
+        "key": "C",
+        "text": "公司遞減定律（Law of Diminishing Firms）"
+      },
+      {
+        "key": "D",
+        "text": "擾亂定律（Law of Disruption）"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_40_80",
+    "globalIndex": 80,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「對社群的歸屬感及認同感」指的是下列哪一項社群構面？",
+    "options": [
+      {
+        "key": "A",
+        "text": "會員關係"
+      },
+      {
+        "key": "B",
+        "text": "影響力"
+      },
+      {
+        "key": "C",
+        "text": "需求的整合及滿足"
+      },
+      {
+        "key": "D",
+        "text": "情感的分享連結"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_41_81",
+    "globalIndex": 81,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於網際網路的特色，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "互動性、即時性最高的媒體"
+      },
+      {
+        "key": "B",
+        "text": "成本較低的溝通媒體"
+      },
+      {
+        "key": "C",
+        "text": "單向溝通形式"
+      },
+      {
+        "key": "D",
+        "text": "可承載大量資訊，資訊內容可隨時更新"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_42_82",
+    "globalIndex": 82,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是網路人口的特質？",
+    "options": [
+      {
+        "key": "A",
+        "text": "社群導向"
+      },
+      {
+        "key": "B",
+        "text": "喜好參與"
+      },
+      {
+        "key": "C",
+        "text": "崇拜權威"
+      },
+      {
+        "key": "D",
+        "text": "具世界觀"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_43_83",
+    "globalIndex": 83,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 43,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "學者 Hanson 於 2001 年提出的網路行銷架構，應該由下列哪些項目所組成？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "資訊科技（IT）"
+      },
+      {
+        "key": "B",
+        "text": "行銷（Marketing）"
+      },
+      {
+        "key": "C",
+        "text": "社群（Community）"
+      },
+      {
+        "key": "D",
+        "text": "商業（Business）"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_44_84",
+    "globalIndex": 84,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 44,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "透過網路與消費者或顧客溝通時，所採用的網路行銷運作模式，企業可以透過下列哪些方\n式與顧客溝通？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "建置官方網站"
+      },
+      {
+        "key": "B",
+        "text": "社群媒體粉絲頁"
+      },
+      {
+        "key": "C",
+        "text": "發送 eDM"
+      },
+      {
+        "key": "D",
+        "text": "電子報訂閱"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_45_85",
+    "globalIndex": 85,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 45,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在 Web 1.0 時代，網路業者都以自己的立場揣摩網路使用者的喜好和需求，來提供相關\n的服務。而在 Web 2.0 的時代，由網路使用者主導，他們希望網路提供甚麼服務，業者\n根據這樣的需求來調整及設計。關於兩者比較的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "就行為模式而言，Web 1.0 僅能下載、閱讀，Web 2.0 可以上傳、分享"
+      },
+      {
+        "key": "B",
+        "text": "就基礎架構而言，Web 1.0 是 P2P，Web 2.0 是 Client/Server"
+      },
+      {
+        "key": "C",
+        "text": "就社群媒介而言，Web 1.0 僅有聊天室，Web 2.0 有部落格"
+      },
+      {
+        "key": "D",
+        "text": "就商業模式而言，Web 1.0 販賣單一產品為主，Web 2.0 提供相關產品可選擇"
+      }
+    ],
+    "answer": "AC",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "eec_單元二_46_86",
+    "globalIndex": 86,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Mobile 01 最早是分享討論 3C 產品使用心得的社群，是屬於下列哪一項類別的社群媒體\n（Social Media）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "利基型社群"
+      },
+      {
+        "key": "B",
+        "text": "交誼型社群"
+      },
+      {
+        "key": "C",
+        "text": "平台型社群"
+      },
+      {
+        "key": "D",
+        "text": "交易型社群"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_47_87",
+    "globalIndex": 87,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "EKB 模式將消費者的購買決策過程（Buying Decision Process）分成五個階段，其中方案\n評估（Alternative Evaluation）是接在下列哪一項決策之後？",
+    "options": [
+      {
+        "key": "A",
+        "text": "問題認知（Problem Recognition）"
+      },
+      {
+        "key": "B",
+        "text": "購買選擇（Purchase Choice）"
+      },
+      {
+        "key": "C",
+        "text": "購買結果（Outcome）"
+      },
+      {
+        "key": "D",
+        "text": "資訊尋求（Information Search）"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_48_88",
+    "globalIndex": 88,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當消費者看完一個網路廣告，通常所記得的論點是和該消費者先前刻板印象比較吻合的論\n點，這是下列哪一項消費者知覺的選擇？",
+    "options": [
+      {
+        "key": "A",
+        "text": "選擇性注意（Selective Attention）"
+      },
+      {
+        "key": "B",
+        "text": "選擇性扭曲（Selective Distortion）"
+      },
+      {
+        "key": "C",
+        "text": "選擇性展露（Selective Exposure）"
+      },
+      {
+        "key": "D",
+        "text": "選擇性記憶（Selective Retention）"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_49_89",
+    "globalIndex": 89,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 49,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是傳統行銷與網路行銷的差異？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網路行銷可以利用大數據分析進行精準行銷"
+      },
+      {
+        "key": "B",
+        "text": "傳統行銷活動主要採用調查與訪談法進行消費者分析"
+      },
+      {
+        "key": "C",
+        "text": "傳統行銷活動已經落伍，現在應全面採用網路行銷"
+      },
+      {
+        "key": "D",
+        "text": "網路行銷可以透過線上社群網絡進行銷售活動"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_50_90",
+    "globalIndex": 90,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不屬於社群媒體行銷可以達成的轉化成效？",
+    "options": [
+      {
+        "key": "A",
+        "text": "到訪網站"
+      },
+      {
+        "key": "B",
+        "text": "成為網站會員"
+      },
+      {
+        "key": "C",
+        "text": "線上購買"
+      },
+      {
+        "key": "D",
+        "text": "分析消費習慣"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_51_91",
+    "globalIndex": 91,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Podcast 是一種新型態的數位媒體，下列哪一項是其特性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "收聽 Podcast 的目的在打發時間，或者購買限時折扣商品"
+      },
+      {
+        "key": "B",
+        "text": "指一系列的音訊、影片、線上電臺或文字以列表形式經網際網路發布，聽眾可下載或\n串流當中的檔案以欣賞"
+      },
+      {
+        "key": "C",
+        "text": "一項廣播頻道，聽眾族群主要以銀髮族為主，不善使用智慧型手機"
+      },
+      {
+        "key": "D",
+        "text": "經營 Podcast 的門檻很高，需耗資百萬以上之錄音設備才能錄製"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_52_92",
+    "globalIndex": 92,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Clubhouse 是一款多人線上語音聊天社交軟體，關於這項新型態的社交媒體的敘述，下列\n哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可以利用該平台傳送影片或者文字進行宣傳"
+      },
+      {
+        "key": "B",
+        "text": "該平台使用者可以在軟體內開設用於公開或私密的語音聊天「房間」（virtual rooms）"
+      },
+      {
+        "key": "C",
+        "text": "初期發行採用「邀請碼」方式才可以註冊"
+      },
+      {
+        "key": "D",
+        "text": "主持人擁有允許聽眾講話或停話的權力"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "eec_單元二_53_93",
+    "globalIndex": 93,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於社群媒體行銷的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "社群媒體行銷應該要傾聽消費者的聲音"
+      },
+      {
+        "key": "B",
+        "text": "社群媒體的特性與大眾傳播媒體一樣，具有單方向廣播的特性"
+      },
+      {
+        "key": "C",
+        "text": "社群媒體行銷可以達到提升銷售的目的"
+      },
+      {
+        "key": "D",
+        "text": "企業可以運用社群媒體建立忠誠顧客關係"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_54_94",
+    "globalIndex": 94,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 54,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "經由資料探勘技術（Data mining）分析消費者資料，可以幫助行銷人員達成下列哪些目\n標？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "修正行銷組合"
+      },
+      {
+        "key": "B",
+        "text": "找到無瀏覽記錄的潛在消費者"
+      },
+      {
+        "key": "C",
+        "text": "預測消費者下次購買時間點"
+      },
+      {
+        "key": "D",
+        "text": "發現新產品的商機"
+      }
+    ],
+    "answer": "ACD",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_55_95",
+    "globalIndex": 95,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "新聞報導出現敘述某一族群的報導：「月光族指將每月賺的錢都用光、花光的人，而無法\n進行儲蓄。月光族一般都是年輕人，因為剛出社會薪水較少，固定開銷如食物、穿著、房\n租等等花完便所剩無幾。」以上敘述在消費者分析的應用屬於下列哪一項概念？",
+    "options": [
+      {
+        "key": "A",
+        "text": "宅經濟"
+      },
+      {
+        "key": "B",
+        "text": "e 世代族群"
+      },
+      {
+        "key": "C",
+        "text": "生活型態"
+      },
+      {
+        "key": "D",
+        "text": "顧客生命週期"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_56_96",
+    "globalIndex": 96,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於網路行銷定義的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "凡利用電話進行商品的議價、推銷、推廣及服務等活動，期以比競爭者更能瞭解及滿\n足顧客的需求，以達成個人之目標"
+      },
+      {
+        "key": "B",
+        "text": "利用網際網路來進行行銷活動的方法，稱之為網路行銷"
+      },
+      {
+        "key": "C",
+        "text": "只要行銷活動的某個任務，透過網際網路達成，就可以算是網路行銷"
+      },
+      {
+        "key": "D",
+        "text": "透過網際網路把行銷4P 的內涵傳播給網際網路的目標對象"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_57_97",
+    "globalIndex": 97,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於網際網路（Internet）的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網際網路可說是影響力速度最快的媒體"
+      },
+      {
+        "key": "B",
+        "text": "自從 DNS 網域名稱系統（Domain Name System）開始使用之後，就不必再記下毫無\n意義難記的 IP 位置數字，只需要記住網站的域名就可以了"
+      },
+      {
+        "key": "C",
+        "text": "網路最大的搜尋引擎是 Google 搜尋引擎"
+      },
+      {
+        "key": "D",
+        "text": "網際網路使用的通訊協定是 NCP（Network Control Program）"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_58_98",
+    "globalIndex": 98,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在全球社交網絡的發展上，圖片共享社交網絡 IG（Instagram）成為新興寵兒，關於 IG\n的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "IG 是一種適合視覺化行銷的網路平台"
+      },
+      {
+        "key": "B",
+        "text": "IG 使用者主要以桌上型電腦與筆記型電腦為主"
+      },
+      {
+        "key": "C",
+        "text": "IG 的名稱取自即時（Instant）與電報（Telegram）兩個單詞的結合，人與人之間的相\n片分享「就像用電線傳遞電報訊息」"
+      },
+      {
+        "key": "D",
+        "text": "使用者在 IG 裡發佈一則訊息最少必須上傳一張圖（或視訊），不一定要打字"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_59_99",
+    "globalIndex": 99,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 59,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於「新零售」與「O2O」的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "新零售是指以消費者體驗為中心，利用人工智慧、物聯網、大數據技術，來支援線上\n的資訊流、金流、商流，以及線下的服務體驗及物流配送的一種全通路零售模式"
+      },
+      {
+        "key": "B",
+        "text": "「Google 我的商家」是屬於一種 O2O（Online To Offline）在地化行銷的運用"
+      },
+      {
+        "key": "C",
+        "text": "新零售是由騰訊公司馬化騰提出的一個理論，該理論的核心是「未來沒有網路拍賣只\n有新零售」"
+      },
+      {
+        "key": "D",
+        "text": "O2O（Online To Offline 線上到線下）是一種新的電子商務模式，指線上行銷及線上購\n買帶動線下（非網路上的）經營和線下消費"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "eec_單元二_60_100",
+    "globalIndex": 100,
+    "examId": "eec",
+    "section": "單元二：網路市場與消費者",
+    "sectionName": "單元二：網路市場與消費者",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不屬於 Web 2.0 的七個原則？",
+    "options": [
+      {
+        "key": "A",
+        "text": "利用集體智慧（Harnessing Collective Intelligence）"
+      },
+      {
+        "key": "B",
+        "text": "安全的管理者體驗（Security Manager Experiences）"
+      },
+      {
+        "key": "C",
+        "text": "軟體發佈週期的終結（End of the Software Release Cycle）"
+      },
+      {
+        "key": "D",
+        "text": "以網際網路作為開放平臺（The Web As Platform）"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_1_101",
+    "globalIndex": 101,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Jakob Nielsen 博士提出的網站優使性（Usability）原則，讓所規畫網站好用、容易瀏\n覽、不易在網站中迷路。下列敘述哪一項違背優使性原則？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網站調性設計要一致，但首頁要更突出"
+      },
+      {
+        "key": "B",
+        "text": "從企業角度思考，可以減少使用時的挫折感"
+      },
+      {
+        "key": "C",
+        "text": "網站將收集使用者的任何信息，必須有「隱私政策」鏈結的網頁"
+      },
+      {
+        "key": "D",
+        "text": "如果有購物車功能在網站上，宜置於首頁"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_2_102",
+    "globalIndex": 102,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 2,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "為使所有民眾可順利使用網站，也方便身心障礙人士取得網頁內容之設計準則而制定的\n「無障礙網頁開發規範」。下列哪些符合此規範？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "設計只用顏色來提供特殊資訊"
+      },
+      {
+        "key": "B",
+        "text": "使用者可以處理時間、敏感內容的改變"
+      },
+      {
+        "key": "C",
+        "text": "提供內容導引資訊"
+      },
+      {
+        "key": "D",
+        "text": "網頁設計者應該在文件裡標示自然語言使用的變化"
+      }
+    ],
+    "answer": "BCD",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_3_103",
+    "globalIndex": 103,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "為了讓網站能在搜尋引擎中取得較高排名，關鍵字的選擇與網站內容最佳化都是重要的\nSEO 基本功夫。關鍵字在網頁中的密度（KW density）一般建議值為多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5% ~ 20%"
+      },
+      {
+        "key": "B",
+        "text": "10% ~ 25%"
+      },
+      {
+        "key": "C",
+        "text": "15% ~ 30%"
+      },
+      {
+        "key": "D",
+        "text": "20% ~ 35%"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_4_104",
+    "globalIndex": 104,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "活動網站對於參加會員具有「黏性」，是代表下列哪一項指標值高？",
+    "options": [
+      {
+        "key": "A",
+        "text": "會員回訪率"
+      },
+      {
+        "key": "B",
+        "text": "點回活動網站人數"
+      },
+      {
+        "key": "C",
+        "text": "每日不重複造訪人數"
+      },
+      {
+        "key": "D",
+        "text": "擴散率"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_5_105",
+    "globalIndex": 105,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項指標值可以看出病毒式行銷的實際成效？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網站每日造訪人次"
+      },
+      {
+        "key": "B",
+        "text": "每日不重複造訪人數"
+      },
+      {
+        "key": "C",
+        "text": "會員回訪率"
+      },
+      {
+        "key": "D",
+        "text": "點回活動網站人數"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_6_106",
+    "globalIndex": 106,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 6,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於微電影行銷的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "微電影因為 Youtube 等視頻網站興起，而得以大規模的傳播"
+      },
+      {
+        "key": "B",
+        "text": "瀏覽率是微電影的效益評估方式之一"
+      },
+      {
+        "key": "C",
+        "text": "微電影的影片長度比商業廣告以及電影的影片長度短"
+      },
+      {
+        "key": "D",
+        "text": "微電影故事性強，易在短時間內引發共鳴"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_7_107",
+    "globalIndex": 107,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群行銷主要的價值是得以建立長期正面的品牌形象，透過網路社群對產品的分享和討\n論，提高品牌的知名度和好感度，達到「口碑行銷」效益，藉由社群經營，與網友建立緊\n密關係，達到「關係行銷」效果。關於網路社群平台的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "常見的部落格平台有新浪微博、騰訊微博、痞客邦、Xuite 等"
+      },
+      {
+        "key": "B",
+        "text": "常用的影音平台是 Youtube"
+      },
+      {
+        "key": "C",
+        "text": "常見的微網誌平台是 Plurk、Twitter"
+      },
+      {
+        "key": "D",
+        "text": "常見的論壇及討論區平台有 Dcard、台大批踢踢實業坊"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "eec_單元三_8_108",
+    "globalIndex": 108,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "虛擬社群的理論基礎為六度分隔理論（Six Degree of Separation），又稱為小世界現象\n（Small world phenomenon），意即最多通過六個人你就能夠認識任何一個陌生人。此理\n論是由下列哪一位學者提出？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Jerome McCarthy"
+      },
+      {
+        "key": "B",
+        "text": "Philip Kotler"
+      },
+      {
+        "key": "C",
+        "text": "Neil Borden"
+      },
+      {
+        "key": "D",
+        "text": "Stanley Milgram"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_9_109",
+    "globalIndex": 109,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "部落格（Blog）行銷乃利用部落格進行行銷操作或行銷活動，下列哪一項不是部落格的特\n色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "個人化"
+      },
+      {
+        "key": "B",
+        "text": "分享性"
+      },
+      {
+        "key": "C",
+        "text": "知識性"
+      },
+      {
+        "key": "D",
+        "text": "短文化"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_10_110",
+    "globalIndex": 110,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "因為「行銷 5C」中的哪一個 C，使得病毒式行銷及口碑行銷變得更為容易？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Consumer"
+      },
+      {
+        "key": "B",
+        "text": "Convenience"
+      },
+      {
+        "key": "C",
+        "text": "Communication"
+      },
+      {
+        "key": "D",
+        "text": "Community"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_11_111",
+    "globalIndex": 111,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "交通部觀光局推出「國內旅遊住宿優惠補助」，活動一公布馬上造成全國網友大量轉寄訊\n息。此敘述是運用下列哪一種行銷方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "分類行銷"
+      },
+      {
+        "key": "B",
+        "text": "病毒式行銷"
+      },
+      {
+        "key": "C",
+        "text": "關鍵字行銷"
+      },
+      {
+        "key": "D",
+        "text": "行動行銷"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_12_112",
+    "globalIndex": 112,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於口碑行銷應用方式的敘述，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "蛋糕店請網友試新產品，並請網友將試吃心得放在網站上"
+      },
+      {
+        "key": "B",
+        "text": "Microsoft 推出新版作業系統，邀請網友參與 Beta 版試用測試"
+      },
+      {
+        "key": "C",
+        "text": "參觀完展覽，請網友上網填寫資料抽獎"
+      },
+      {
+        "key": "D",
+        "text": "收集法律相關文章，刊登在網站上"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_13_113",
+    "globalIndex": 113,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「來自深海的海藻提煉而成的保養品，治癒了灼傷的博士…」、「七年級女生運用台灣優質\n水果反覆試驗製作，做出帶給人幸福感的果醬」。此敘述符合下列哪一種行銷方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "體驗行銷"
+      },
+      {
+        "key": "B",
+        "text": "說故事行銷"
+      },
+      {
+        "key": "C",
+        "text": "病毒式行銷"
+      },
+      {
+        "key": "D",
+        "text": "部落格行銷"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_14_114",
+    "globalIndex": 114,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "口碑行銷的目標對象可以分為「現有顧客」和「潛在顧客」兩種，針對兩者的口碑行銷差\n異點說明，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "對現有顧客了解他的消費經驗，對潛在顧客則強化他對於產品的正面印象"
+      },
+      {
+        "key": "B",
+        "text": "對現有顧客提高品牌知名度，對潛在顧客則關注他們提出的各項建議"
+      },
+      {
+        "key": "C",
+        "text": "對現有顧客改變他們對產品的負面印象，對潛在顧客則盡速處理他們的不滿和抱怨情\n緒"
+      },
+      {
+        "key": "D",
+        "text": "對現有顧客消除購買產品的風險與不確定性，對潛在顧客則迅速回覆他們對於產品的\n疑問"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_15_115",
+    "globalIndex": 115,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在開啟網頁時，該網站或網頁出現之前插入一個新視窗，顯示廣告的網路廣告模式稱為下\n列哪一種？",
+    "options": [
+      {
+        "key": "A",
+        "text": "橫幅廣告"
+      },
+      {
+        "key": "B",
+        "text": "按鈕廣告"
+      },
+      {
+        "key": "C",
+        "text": "浮水印廣告"
+      },
+      {
+        "key": "D",
+        "text": "彈跳廣告"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "eec_單元三_16_116",
+    "globalIndex": 116,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "線上遊戲中，以寶物、場景、工具等讓玩家有足夠時間與產品體驗互動，最常結合下列哪\n一項以達到廣告效果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "浮水印廣告"
+      },
+      {
+        "key": "B",
+        "text": "網頁橫幅廣告"
+      },
+      {
+        "key": "C",
+        "text": "置入性廣告"
+      },
+      {
+        "key": "D",
+        "text": "社群廣告"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 17
+  },
+  {
+    "id": "eec_單元三_17_117",
+    "globalIndex": 117,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是關鍵字行銷的特色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "免費"
+      },
+      {
+        "key": "B",
+        "text": "精準"
+      },
+      {
+        "key": "C",
+        "text": "效率"
+      },
+      {
+        "key": "D",
+        "text": "低預算門檻"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 17
+  },
+  {
+    "id": "eec_單元三_18_118",
+    "globalIndex": 118,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於推式行銷的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "病毒式行銷"
+      },
+      {
+        "key": "B",
+        "text": "關鍵字行銷"
+      },
+      {
+        "key": "C",
+        "text": "E-MAIL 行銷"
+      },
+      {
+        "key": "D",
+        "text": "EDM"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 17
+  },
+  {
+    "id": "eec_單元三_19_119",
+    "globalIndex": 119,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪幾項屬於一對一行銷的類似概念？ (1) 關係行銷（Relationship Marketing）、(2)\n資料庫行銷（database marketing）、(3) 直效行銷（direct marketing）、(4) 口碑行銷\n（word of mouth）、(5) 標竿行銷（benchmark marketing）",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234"
+      },
+      {
+        "key": "B",
+        "text": "1235"
+      },
+      {
+        "key": "C",
+        "text": "1345"
+      },
+      {
+        "key": "D",
+        "text": "2345"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 17
+  },
+  {
+    "id": "eec_單元三_20_120",
+    "globalIndex": 120,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 20,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "「優使性（Usability）」是網站規劃的重要基本原則之一，下列哪些屬於優使性大師\nJakob Nielsen 認為網站優使性應該包括的面向？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "學習度，使用者在首次造訪網站時，是否能快速容易學習使用網站中的功能"
+      },
+      {
+        "key": "B",
+        "text": "記憶度，當使用者再度造訪網站時，是否能立即想起網站的操作方式"
+      },
+      {
+        "key": "C",
+        "text": "訊息度，網站內容的訊息數量以及訊息深度"
+      },
+      {
+        "key": "D",
+        "text": "滿意度，在使用後，使用者對網站整體的滿意度評價"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 17
+  },
+  {
+    "id": "eec_單元三_21_121",
+    "globalIndex": 121,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "行政院研究發展考核委員會 2002 年研訂「無障礙網頁開發規範」，規範內容包括無障礙\n網頁可及性設計 4 項原則、3 個優先等級、3 個檢測等級、14 條規範和 90 個標準檢測\n碼。關於無障礙網頁可及性設計的 4 項原則，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "多媒體相關資訊的可及性：針對網頁內各種多媒體資訊應加入替代或等值的文字以提\n高這些資訊的可及性"
+      },
+      {
+        "key": "B",
+        "text": "網頁結構和呈現處理的可及性：在規劃網頁結構和呈現時應同時考量可及性的因素，\n適當的使用網頁的結構標籤，忠實地利用結構和呈現標籤原先設定的功能"
+      },
+      {
+        "key": "C",
+        "text": "網頁開發和輸出入裝置相關技術處理的可及性：網頁設計在融入新技術時，應考量到\n身心障礙人士的特殊上網裝置可能尚不支援此技術，應該考慮各種可及性替代方案"
+      },
+      {
+        "key": "D",
+        "text": "網站豐富體驗的可及性：為提供網路使用者與品牌互動體驗，網站的設計製作應該儘\n可能地利用網路多媒體技術，網站瀏覽機制的設計應力求豐富多變"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 17
+  },
+  {
+    "id": "eec_單元三_22_122",
+    "globalIndex": 122,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在目前網際網路盛行之下，企業網站已經是每個企業的必備系統。企業網站不是只有網頁\n設計包裝和資訊貼上而已，它應該是公司經營的呈現，也就是說企業網站應和企業經營整\n合。關於企業網站的規劃時必須要考慮的因素，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網站功能須能分成為前瑞和後瑞功能，尤其是前瑞功能，它是管理後瑞的平台"
+      },
+      {
+        "key": "B",
+        "text": "網站的內容和相關資訊，必須能適時的更正和調整，特別是新聞或最新消息（News）\n類的內容"
+      },
+      {
+        "key": "C",
+        "text": "網站的介面規劃一定要考慮人性化，瀏覽過程必須方便、流暢"
+      },
+      {
+        "key": "D",
+        "text": "網站規劃不能只以行銷角度思考"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_23_123",
+    "globalIndex": 123,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷規劃可以分為五個步驟如下，請選出正確的執行步驟順序為下列哪一項？\n(1) 選擇目標受眾及定位、(2) 市場情勢分析找出商機、(3) 決定創意及差異內容、\n(4) 規劃執行內容、刊登媒體及預算、(5) 效益評估及行銷修正",
+    "options": [
+      {
+        "key": "A",
+        "text": "12345"
+      },
+      {
+        "key": "B",
+        "text": "23145"
+      },
+      {
+        "key": "C",
+        "text": "21345"
+      },
+      {
+        "key": "D",
+        "text": "32145"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_24_124",
+    "globalIndex": 124,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "活動網站規模會比官方網站（Official web site）小，因此也稱作 mini site 或 campaign\nsite。在 Jakob Nielsen 對於活動網站規劃的優使性原則當中，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "活動網站要在首頁即說明舉辦活動的原因、內容、活動辦法及獎勵"
+      },
+      {
+        "key": "B",
+        "text": "要求參加活動的使用者填寫的資料越多越詳細越好"
+      },
+      {
+        "key": "C",
+        "text": "活動的內容以參與、互動、分享為主要的設計方向"
+      },
+      {
+        "key": "D",
+        "text": "活動的流程事先規劃時，要考慮視覺設計和系統程式的可行性"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_25_125",
+    "globalIndex": 125,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷並非只為了品牌曝光，或與消費者互動，或只是想創造話題，最重要的是達成當\n初進行網路行銷的預設目標。網路行銷操作規劃需要把握的原則，下列哪些正確？\n(1) 以顧客為中心、(2) 傳遞品牌承諾、(3) 串連人脈網絡、(4) 享受品牌體驗、(5) 與傳\n統媒體合作",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234"
+      },
+      {
+        "key": "B",
+        "text": "2345"
+      },
+      {
+        "key": "C",
+        "text": "1345"
+      },
+      {
+        "key": "D",
+        "text": "1245"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_26_126",
+    "globalIndex": 126,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 26,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "部落格行銷就是利用部落格進行行銷操作或行銷活動。下列哪些是部落格在行銷上的特\n色？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "對部落格的使用者來說，部落格是一個高度個人化的空間"
+      },
+      {
+        "key": "B",
+        "text": "對所有的網路使用者而言，透過部落格公開的內容則有高度的共享性"
+      },
+      {
+        "key": "C",
+        "text": "部落格公開內容也為其他的網路使用者提供了不同領域的知識與經驗，使得部落格具\n有很高的知識性"
+      },
+      {
+        "key": "D",
+        "text": "透過部落格行銷企業可以和特定的消費者進行一對一的行銷溝通，具有高度的精準性"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_27_127",
+    "globalIndex": 127,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 27,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "社群行銷最主要的價值為下列哪些？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "強化網友對品牌的忠誠度，有效與競爭品牌區隔"
+      },
+      {
+        "key": "B",
+        "text": "能夠透過增加搜尋引擎結果頁面能見度的方式來推銷網站或廣告訊息"
+      },
+      {
+        "key": "C",
+        "text": "透過網路社群中對產品或品牌經驗的分享與討論，提高品牌的知名度與好感度，達到\n口碑行銷的效益"
+      },
+      {
+        "key": "D",
+        "text": "建立長期正面的品牌形象"
+      }
+    ],
+    "answer": "ACD",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_28_128",
+    "globalIndex": 128,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群平台的種類相當廣泛，不同的社群平台有不同的特性，適合不同的行銷操作方式。關\n於台灣地區常用的社群平台，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "「愛情公寓」是以女性使用者為主的交友社區，尤以獨特的「網路同居」最具特色"
+      },
+      {
+        "key": "B",
+        "text": "台灣使用者數量最多也最常使用的社群平台就是「臉書（Facebook）」"
+      },
+      {
+        "key": "C",
+        "text": "「巴哈姆特」電玩資訊站，華人地區最大的電玩社群網站，以論壇方式提供遊戲玩家\n相關的新聞、討論及資訊"
+      },
+      {
+        "key": "D",
+        "text": "「Dcard（狄卡）」是鎖定國小學生，提供學齡兒童族群的互動社群網站"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 18
+  },
+  {
+    "id": "eec_單元三_29_129",
+    "globalIndex": 129,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 29,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於病毒式行銷（Viral marketing）的說明，下列哪些錯誤？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "病毒式行銷是利用網友喜歡分享的心理，透過網路工具複製傳播，迅速擴大訊息傳播\n的效果"
+      },
+      {
+        "key": "B",
+        "text": "利用程式病毒植入使用者的電腦，由程式自動利用使用者的電子郵件名單寄出行銷郵\n件"
+      },
+      {
+        "key": "C",
+        "text": "病毒式行銷就是電子郵件行銷，是指企業大量購買電子郵件名單並寄送廣告的行銷方\n式"
+      },
+      {
+        "key": "D",
+        "text": "病毒式行銷又稱為核爆式行銷"
+      }
+    ],
+    "answer": "BC",
+    "images": [],
+    "page": 19
+  },
+  {
+    "id": "eec_單元三_30_130",
+    "globalIndex": 130,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "成功的病毒式行銷的操作必須創造出容易引起網友分享傳播的話題內容。關於容易引起網\n友分享傳播的話題內容類型，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網友們經常分享經過整理後的實用生活資訊，有用的資訊是容易引起網友傳播的話題"
+      },
+      {
+        "key": "B",
+        "text": "有趣的或是好笑的故事或影片總是網友最樂於分享的，也是一般對病毒式行銷最初的\n印象"
+      },
+      {
+        "key": "C",
+        "text": "影響到消費者生命財產安全的資訊，嚇人的話題也是網友們經常分享的內容"
+      },
+      {
+        "key": "D",
+        "text": "網路上感人的故事總是會不斷被網友傳播分享，摘要說明網路熱門事件的「懶人包」\n是屬於感人的話題"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 19
+  },
+  {
+    "id": "eec_單元三_31_131",
+    "globalIndex": 131,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 31,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些為網路口碑行銷操作方式？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "負面言論消毒，當網路上出現對產品或品牌的惡意攻擊或負面言論時應該要儘快反\n應，提出證據澄清"
+      },
+      {
+        "key": "B",
+        "text": "持續監控各個主要網路口碑傳播的平台，對於自己和競爭者的產品及品牌資訊流通情\n形以及討論議題，一方面提高警覺，一方面伺機進行口碑傳播"
+      },
+      {
+        "key": "C",
+        "text": "雖然沒有真實的口碑，也要利用網路寫手大量傳播創造出來的口碑故事，同時藉機與\n消費者建立關係，使其對品牌產生好感"
+      },
+      {
+        "key": "D",
+        "text": "當網友在主要網路口碑傳播的平台提出對產品或品牌的質疑或問題時，應該要儘快提\n出回應解答，避免消費者在缺乏正確資訊下便散播負面評價"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 19
+  },
+  {
+    "id": "eec_單元三_32_132",
+    "globalIndex": 132,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "口碑行銷是最古老的行銷方式之一，但是隨著網路的應用，使得利用網路進行的分享和傳\n播的口碑行銷成效相當高，網路口碑行銷對企業的重要性，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "根據網路消費者行為的研究，100 位欲購買某項產品的消費者，若接受到負面的網路\n口碑，平均有 44 人會因此打消購買的念頭並持續散發負面的口碑"
+      },
+      {
+        "key": "B",
+        "text": "「2009 年全球網路消費者調查報告」發現，有 9 成的消費者相信認識的朋友對產品\n的評價，有 7 成消費者相信網友發表的意見與評價"
+      },
+      {
+        "key": "C",
+        "text": "從 AISDAS 網路行銷傳播模式可以看得出來，許多網友在購買商品前會上網查詢產\n品相關訊息，於是網路上的口碑就會不斷循環產生影響"
+      },
+      {
+        "key": "D",
+        "text": "行銷大師 Andy Sernovite 表示，只有大約百分之二十口碑是在網路上進行，所以事實\n上網路口碑行銷操作並不重要"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 19
+  },
+  {
+    "id": "eec_單元三_33_133",
+    "globalIndex": 133,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷媒體的類型，若以付費或自有來劃分，可以分為買來的媒體（Bought Media）、\n自有的媒體（Owned Media）以及賺來的媒體（Earned Media），也就是網路行銷經營\nBOE。關於 BOE 的說明，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "買來的媒體（Bought Media）是付費買到的廣告版面"
+      },
+      {
+        "key": "B",
+        "text": "買來的媒體（Bought Media）範圍廣、可控制、可信度高，所以效果最好"
+      },
+      {
+        "key": "C",
+        "text": "自有的媒體（Owned Media）是企業自己經營的媒體，例如官網、官方部落格、臉書\n粉絲團"
+      },
+      {
+        "key": "D",
+        "text": "口碑行銷和病毒式行銷是屬於賺來的媒體（Earned Media）"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 19
+  },
+  {
+    "id": "eec_單元三_34_134",
+    "globalIndex": 134,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要能獲得網路廣告的實質效果，5M 規劃原則不能少。下列哪一項不屬於網路廣告規劃的\n5M 原則？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mission"
+      },
+      {
+        "key": "B",
+        "text": "Message"
+      },
+      {
+        "key": "C",
+        "text": "Media"
+      },
+      {
+        "key": "D",
+        "text": "e-Mail"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 20
+  },
+  {
+    "id": "eec_單元三_35_135",
+    "globalIndex": 135,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 35,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "統一營養強化牛乳針對年輕上班族推出的網路愛情圖文小說《草食男 V.S 肉食女之戀愛營\n養學》網路活動，邀請知名的網路作家咖啡因執筆及宅男女神李毓芬飾演女主角「鐵定美」、\n人氣歌手方炯鑌飾演男主角「鈣有型」，以草食男話題出發，為產品賦予個性。網路廣告曝\n光 1,000 萬次，報紙廣編稿 5 篇，活動網站流量超過 300 萬，媒體新聞曝光 192 則，和\n臉書（Facebook）和噗浪（Plurk）參與、轉貼和分享超過 10,000 次。此案採用了網路行\n銷媒體 BOE 應用上的哪些項目？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "購買網路廣告曝光及報紙廣編稿是運用了買來的媒體（Bought Media）"
+      },
+      {
+        "key": "B",
+        "text": "建立活動網站，邀請知名的網路作家及知名藝人，以熱門的議題出發，是運用了自有\n的媒體（Owned Media）"
+      },
+      {
+        "key": "C",
+        "text": "經營活動 Facebook 專頁是屬於買來的媒體（Bought Media）"
+      },
+      {
+        "key": "D",
+        "text": "臉書（Facebook）和噗浪（Plurk）參與、轉貼和分享超過 10,000 次是成功運用了賺\n來的媒體（Earned Media）"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 20
+  },
+  {
+    "id": "eec_單元三_36_136",
+    "globalIndex": 136,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如附圖所示，圖中有哪些是由店家所購買的關鍵字廣告，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "12345"
+      },
+      {
+        "key": "B",
+        "text": "1234"
+      },
+      {
+        "key": "C",
+        "text": "1245"
+      },
+      {
+        "key": "D",
+        "text": "125"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/eec/eec_p21_q36.png"
+    ],
+    "page": 21
+  },
+  {
+    "id": "eec_單元三_37_137",
+    "globalIndex": 137,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路科技發展至此，網路與手機、平板電腦等行動裝置結合已成趨勢。「SoLoMo」的概念\n為人們的數位生活做了一個很好的詮釋。關於「SoLoMo」的敘述，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "「So」是指 Social（社會性），也是指 Social Media（社群媒體）的應用"
+      },
+      {
+        "key": "B",
+        "text": "「Lo」是指 Low Price（低價性），也就是強調以最優惠的價格滿足消費者的需求"
+      },
+      {
+        "key": "C",
+        "text": "「Mo」指的是 Mobile，是行動裝置或行動網路的應用"
+      },
+      {
+        "key": "D",
+        "text": "消費者利用智慧型手機查看週邊有哪些餐廳，到臉書上看朋友們的消費評語，以決定\n要去哪一家餐廳消費，就是「SoLoMo」的應用"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_38_138",
+    "globalIndex": 138,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "McMillan 與 Chavis（1986），所提出的社群四大構面沒有包括哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "消費力"
+      },
+      {
+        "key": "B",
+        "text": "情感的分享連結"
+      },
+      {
+        "key": "C",
+        "text": "會員關係"
+      },
+      {
+        "key": "D",
+        "text": "需求的整合及滿足"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_39_139",
+    "globalIndex": 139,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是交誼性的社群媒體？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Line"
+      },
+      {
+        "key": "B",
+        "text": "愛情公寓"
+      },
+      {
+        "key": "C",
+        "text": "Mobile 01"
+      },
+      {
+        "key": "D",
+        "text": "Facebook"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_40_140",
+    "globalIndex": 140,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當今 YouTube 已經是全球最大的影音社群媒體，下列敘述哪一個錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "YouTube 因低頻寬需求，可以簡易的藉由 Flash Plug-in 內嵌於其他網站中"
+      },
+      {
+        "key": "B",
+        "text": "YouTube 每月的活躍用戶已經超過 Facebook"
+      },
+      {
+        "key": "C",
+        "text": "高收入的 YouTuber 有年輕化趨勢"
+      },
+      {
+        "key": "D",
+        "text": "台灣 2017 年 YouTube Top 100，全部都是個人YouTube 創作者"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_41_141",
+    "globalIndex": 141,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 41,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "愛情公寓的營運特色有下列哪些？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "販賣虛擬商品為主要業務收入"
+      },
+      {
+        "key": "B",
+        "text": "提供小窩佈置、虛擬寵物、相簿、部落格等社群服務"
+      },
+      {
+        "key": "C",
+        "text": "與異業結盟推出「愛情公寓」實體建案來吸引新人"
+      },
+      {
+        "key": "D",
+        "text": "以虛擬人物「Avatar」方式招攬新會員"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_42_142",
+    "globalIndex": 142,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "口碑行銷是因為媒體的流量大而得以彰顯它的重要性，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "論壇"
+      },
+      {
+        "key": "B",
+        "text": "企業形象網站"
+      },
+      {
+        "key": "C",
+        "text": "部落格"
+      },
+      {
+        "key": "D",
+        "text": "社群"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_43_143",
+    "globalIndex": 143,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "六度分隔理論（Six Degree of Separation）內容中，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主要為串連人脈網絡"
+      },
+      {
+        "key": "B",
+        "text": "展現傳播力量，將品牌經驗傳給他的人脈網絡"
+      },
+      {
+        "key": "C",
+        "text": "一對一行銷的表現"
+      },
+      {
+        "key": "D",
+        "text": "此實驗當時，平均只需六個人就可以聯繫任何兩個互相不認識的美國人"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_44_144",
+    "globalIndex": 144,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關鍵字廣告的操作方式，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "關鍵字廣告是搜尋行銷下的一個產物"
+      },
+      {
+        "key": "B",
+        "text": "關鍵字廣告是以「聯播」的概念，結合不同網站做關鍵字的連結及呈現"
+      },
+      {
+        "key": "C",
+        "text": "關鍵字廣告以「刊播時間長短或出現次數」來計費"
+      },
+      {
+        "key": "D",
+        "text": "電視廣告結合網路上的關鍵字廣告成為一種新的溝通工具"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_45_145",
+    "globalIndex": 145,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Facebook 以其網站特性與特點讓廣告成效特別顯著，下列哪一項說法錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Facebook 的廣告服務可以依廣告主需要而設定居住地點、年齡、興趣等條件篩選廣告\n受眾"
+      },
+      {
+        "key": "B",
+        "text": "Facebook 是個實名制網站，可能擁有最精確的會員資料"
+      },
+      {
+        "key": "C",
+        "text": "Facebook 的廣告，也提供廣告成效監看"
+      },
+      {
+        "key": "D",
+        "text": "Facebook 最新的廣告類型是全螢幕互動類型"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 22
+  },
+  {
+    "id": "eec_單元三_46_146",
+    "globalIndex": 146,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "GDN-Google Display Network 稱做多媒體聯播展示網，使用不同的投放設定使廣告效益最\n大化，下列哪一項不屬於 GDN 投放設定？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主題設定"
+      },
+      {
+        "key": "B",
+        "text": "指定刊登"
+      },
+      {
+        "key": "C",
+        "text": "區位行銷"
+      },
+      {
+        "key": "D",
+        "text": "內容比對"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 23
+  },
+  {
+    "id": "eec_單元三_47_147",
+    "globalIndex": 147,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 47,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "如附圖所示， Line 上面的官網 PO 文，您認為該圖產生了哪些優點與廣告的效用？(複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "提供了民眾（顧客）所需要的訊息"
+      },
+      {
+        "key": "B",
+        "text": "時限提醒加上多種誘因讓民眾更積極與熱絡"
+      },
+      {
+        "key": "C",
+        "text": "可以精確預估參加民眾人數"
+      },
+      {
+        "key": "D",
+        "text": "可以增加民眾（顧客）對品牌（桃園市政府）的信心"
+      }
+    ],
+    "answer": "ABD",
+    "images": [
+      "images/eec/eec_p23_q47.png"
+    ],
+    "page": 23
+  },
+  {
+    "id": "eec_單元三_48_148",
+    "globalIndex": 148,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "可口可樂「美粒果」開金蓋送 Facebook 開心農場百萬農民幣的活動，下列哪一個敘述錯\n誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "活動進行中提升愛土地與愛家園環保意識"
+      },
+      {
+        "key": "B",
+        "text": "這是一個能掌握新動態與符合潮流的行銷內容"
+      },
+      {
+        "key": "C",
+        "text": "這是一個網實品牌成功結合的活動"
+      },
+      {
+        "key": "D",
+        "text": "買美粒果一瓶 25 元，可以換得一點農民幣；一點農民幣直接購買約 7.5 元，也由此\n可見，網路人口對流行的敏感度與流行事物下的不理性行為"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 23
+  },
+  {
+    "id": "eec_單元三_49_149",
+    "globalIndex": 149,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "口碑行銷的目標對象可分為「現有顧客」和「潛在顧客」，下列哪一個說法錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "對現有的顧客，持續了解他們的消費經驗"
+      },
+      {
+        "key": "B",
+        "text": "對潛在的顧客，良好口碑在提高產品與品牌的知名度"
+      },
+      {
+        "key": "C",
+        "text": "對現有的客戶持續提高他們的滿意度與忠誠度"
+      },
+      {
+        "key": "D",
+        "text": "對潛在的顧客，營造良好的口碑是唯一消除購買風險與不確定感的方法"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 23
+  },
+  {
+    "id": "eec_單元三_50_150",
+    "globalIndex": 150,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷經營 BOE（Bought, Owned Earned），下列哪一項不是自有的媒體（Owned\nMedia）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Buzz"
+      },
+      {
+        "key": "B",
+        "text": "instagram"
+      },
+      {
+        "key": "C",
+        "text": "Blog"
+      },
+      {
+        "key": "D",
+        "text": "Facebook"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 23
+  },
+  {
+    "id": "eec_單元三_51_151",
+    "globalIndex": 151,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網站規劃一定要考慮到搜尋的結果，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "字數越多越好"
+      },
+      {
+        "key": "B",
+        "text": "RWD 響應式網站"
+      },
+      {
+        "key": "C",
+        "text": "關鍵字配置或購買"
+      },
+      {
+        "key": "D",
+        "text": "內容檔案的命名"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_52_152",
+    "globalIndex": 152,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪個措施可以增加網站的安全性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用 http"
+      },
+      {
+        "key": "B",
+        "text": "開啟ftp"
+      },
+      {
+        "key": "C",
+        "text": "使用 https"
+      },
+      {
+        "key": "D",
+        "text": "不更新 flash"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_53_153",
+    "globalIndex": 153,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "影響網路活動成效的因素不勝枚舉，下列哪一項最為關鍵？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在哪一個平台舉辦"
+      },
+      {
+        "key": "B",
+        "text": "創意與時事共鳴度"
+      },
+      {
+        "key": "C",
+        "text": "活動的手法：心理測驗或有獎徵答"
+      },
+      {
+        "key": "D",
+        "text": "程式設計的優劣"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_54_154",
+    "globalIndex": 154,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路活動往往需要搭配廣告宣傳，才有在短期間推廣，達到宣傳目的，下列哪一個行銷方\n法較不適用於活動網站？",
+    "options": [
+      {
+        "key": "A",
+        "text": "廣告媒體導流"
+      },
+      {
+        "key": "B",
+        "text": "網紅宣傳推廣"
+      },
+      {
+        "key": "C",
+        "text": "線下通路協作"
+      },
+      {
+        "key": "D",
+        "text": "搜尋引擎優化"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_55_155",
+    "globalIndex": 155,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路活動爭議時有所聞，如果不謹慎規劃原本立意良善的互動活動，反而可能招致客訴，\n下列哪一項無助於順利舉辦網路活動？",
+    "options": [
+      {
+        "key": "A",
+        "text": "活動辦法思考需要周全"
+      },
+      {
+        "key": "B",
+        "text": "獎勵機制明確並且依約進行"
+      },
+      {
+        "key": "C",
+        "text": "加註警語，對於不當的灌票、作弊機制取消參加資格"
+      },
+      {
+        "key": "D",
+        "text": "如果有參加者不滿，儘量補足需求，避免抱怨"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_56_156",
+    "globalIndex": 156,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "部落格行銷已經是廣泛應用的內容行銷工具，下列哪一項不是部落格行銷的特色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "具分眾行銷特性"
+      },
+      {
+        "key": "B",
+        "text": "可以有效提升搜尋能見度"
+      },
+      {
+        "key": "C",
+        "text": "免費的行銷工具，完全不需要編列預算"
+      },
+      {
+        "key": "D",
+        "text": "部落客對產品可以有獨到見解"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_57_157",
+    "globalIndex": 157,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "冰桶挑戰（英語：Ice Bucket Challenge）是一項於社群網路上發起的籌款活動，參加者將\n一桶冰水從自己頭上倒下，並將過程拍成影片上傳至社群網路，同時號召朋友共襄盛舉。\n參加此活動的公眾人物包含：劉德華、比爾蓋茲、馬克·祖克柏....等等，造成廣大社會迴響，\n這是屬於哪一種行銷擴散方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "病毒式行銷"
+      },
+      {
+        "key": "B",
+        "text": "E-mail 行銷"
+      },
+      {
+        "key": "C",
+        "text": "資料庫行銷"
+      },
+      {
+        "key": "D",
+        "text": "SEO 搜尋優化行銷"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_58_158",
+    "globalIndex": 158,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不屬於 RTB（Real Time Bidding）即時競價廣告特性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "價高者得"
+      },
+      {
+        "key": "B",
+        "text": "鎖定群眾"
+      },
+      {
+        "key": "C",
+        "text": "橫跨平台"
+      },
+      {
+        "key": "D",
+        "text": "指定時段"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_59_159",
+    "globalIndex": 159,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "某企業投放 10,000 元關鍵字廣告，合計引導 2,000 名訪客，平均購買轉換率為 50%， 營\n業額為 300,000 元，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "關鍵字 CPC=5 元"
+      },
+      {
+        "key": "B",
+        "text": "關鍵字 CPC=30 元"
+      },
+      {
+        "key": "C",
+        "text": "行銷活動期間總購買人數為 1,000 人"
+      },
+      {
+        "key": "D",
+        "text": "提袋價為 150 元"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 24
+  },
+  {
+    "id": "eec_單元三_60_160",
+    "globalIndex": 160,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項屬於關鍵字廣告呈現方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Google Adword"
+      },
+      {
+        "key": "B",
+        "text": "Yahoo 原生廣告"
+      },
+      {
+        "key": "C",
+        "text": "trueview"
+      },
+      {
+        "key": "D",
+        "text": "FB 貼文廣告"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_61_161",
+    "globalIndex": 161,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 61,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "LBS 定址廣告推播（Location Based Service），利用人/機定位關係，推廣適合的廣告內容，\n是行動廣告常見的應用手法。下列哪一項不適用 LBS 廣告？",
+    "options": [
+      {
+        "key": "A",
+        "text": "某腳踏車品牌台中倉庫清倉特賣會"
+      },
+      {
+        "key": "B",
+        "text": "信義區百貨公司限時週年慶"
+      },
+      {
+        "key": "C",
+        "text": "四年一次縣市長選舉"
+      },
+      {
+        "key": "D",
+        "text": "全國子宮頸抹片檢查宣導"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_62_162",
+    "globalIndex": 162,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 62,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "美國優使性大師 Jakob Nielsen 認為網站的優使性應該包含五個面向，分別為學習度、使\n用效率、記憶度、錯誤率及滿意度。請問「使用者在首次造訪網站時，是否能對網站中的功\n能，例如找尋資訊或訂購商品能快速上手」，指的是下列哪一個面向？",
+    "options": [
+      {
+        "key": "A",
+        "text": "學習度"
+      },
+      {
+        "key": "B",
+        "text": "使用效率"
+      },
+      {
+        "key": "C",
+        "text": "記憶度"
+      },
+      {
+        "key": "D",
+        "text": "錯誤率"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_63_163",
+    "globalIndex": 163,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 63,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在設計網站時，公司名稱及標誌所佔的面積並不需要非常大的版面，但至少要比周圍的項\n目更為突出，當使用者進入網站時第一眼就被吸引。一般而言，「？」的位置通常是最好的\n位置。「？」指的是下列哪一個位置？",
+    "options": [
+      {
+        "key": "A",
+        "text": "正中央"
+      },
+      {
+        "key": "B",
+        "text": "右上角"
+      },
+      {
+        "key": "C",
+        "text": "左上角"
+      },
+      {
+        "key": "D",
+        "text": "最上方"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_64_164",
+    "globalIndex": 164,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 64,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷規劃共有五個步驟，分別為：A. 規畫行銷內容媒體與預算、B. 決定創意及差異化\n策略、C. 選擇目標受眾及定位、D. 市場情勢分析找出商機、E. 效益評估與行銷修正。下\n列哪一項是正確順序？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ABCDE"
+      },
+      {
+        "key": "B",
+        "text": "DCBAE"
+      },
+      {
+        "key": "C",
+        "text": "CBADE"
+      },
+      {
+        "key": "D",
+        "text": "BACDE"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_65_165",
+    "globalIndex": 165,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 65,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「當會員人數有下降的現象時，就發送 eDM 給會員，讓會員找更多的會員，或發送網路\n新聞稿增加活動的曝光」。此活動屬於下列哪一項網路行銷規劃步驟？",
+    "options": [
+      {
+        "key": "A",
+        "text": "選擇目標受眾及定位"
+      },
+      {
+        "key": "B",
+        "text": "效益評估及行銷修正"
+      },
+      {
+        "key": "C",
+        "text": "決定創意及差異化內容"
+      },
+      {
+        "key": "D",
+        "text": "規劃行銷內容、刊登媒體與預算"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_66_166",
+    "globalIndex": 166,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 66,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是企業在利用部落格進行口碑行銷操作的主要方式？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "刊登部落格廣告"
+      },
+      {
+        "key": "B",
+        "text": "與知名部落客合作"
+      },
+      {
+        "key": "C",
+        "text": "在新產品上市時才更新部落格"
+      },
+      {
+        "key": "D",
+        "text": "運用「體驗行銷」"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 25
+  },
+  {
+    "id": "eec_單元三_67_167",
+    "globalIndex": 167,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 67,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是社群行銷必須掌握的要點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "尊重個人"
+      },
+      {
+        "key": "B",
+        "text": "創造討論"
+      },
+      {
+        "key": "C",
+        "text": "持續互動"
+      },
+      {
+        "key": "D",
+        "text": "置入商品"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_68_168",
+    "globalIndex": 168,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 68,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些項目可以用來敘述病毒式行銷的特色？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "又稱為核爆式行銷"
+      },
+      {
+        "key": "B",
+        "text": "訊息的「接收者」會自願主動成為訊息的「傳播者」"
+      },
+      {
+        "key": "C",
+        "text": "為一種訊息的傳播策略，利用網友喜歡炫耀的心理，利過網路工具複製傳播，迅速擴\n大訊息傳播的效果"
+      },
+      {
+        "key": "D",
+        "text": "可以用相對較低廉的行銷成本創造出一炮而紅的行銷效果"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_69_169",
+    "globalIndex": 169,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 69,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在病毒式行銷中，「懶人包」的製作是屬於下列哪一種類型的話題內容？",
+    "options": [
+      {
+        "key": "A",
+        "text": "有用的"
+      },
+      {
+        "key": "B",
+        "text": "有趣的"
+      },
+      {
+        "key": "C",
+        "text": "方便的"
+      },
+      {
+        "key": "D",
+        "text": "簡單的"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_70_170",
+    "globalIndex": 170,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 70,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於口碑行銷的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "口碑行銷是靠消費者將自己的消費經驗分享出去"
+      },
+      {
+        "key": "B",
+        "text": "口碑行銷對消費者決策有重大影響力，其主要來自口碑的「正式性質」"
+      },
+      {
+        "key": "C",
+        "text": "口碑的來源通常是親朋好友、意見領袖或專家學者、專業社群等消費者在線上或線上\n所熟識的個人或群體"
+      },
+      {
+        "key": "D",
+        "text": "口碑行銷是最古老的行銷方式之一，英文名稱為「Word of mouth（WOM）」"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_71_171",
+    "globalIndex": 171,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 71,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於「難以控制、可能有負面意見、範圍廣、難以衡量」這四種挑戰，是下列哪一項屬性的\n網路媒體類型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "買來的媒體"
+      },
+      {
+        "key": "B",
+        "text": "自有的媒體"
+      },
+      {
+        "key": "C",
+        "text": "賺來的媒體"
+      },
+      {
+        "key": "D",
+        "text": "付費媒體"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_72_172",
+    "globalIndex": 172,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 72,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "與傳統媒體廣告相比較，網路廣告具有下列哪些特色？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "互動"
+      },
+      {
+        "key": "B",
+        "text": "即時"
+      },
+      {
+        "key": "C",
+        "text": "分眾"
+      },
+      {
+        "key": "D",
+        "text": "多樣化"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_73_173",
+    "globalIndex": 173,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 73,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「準確地將當地旅遊資訊發送到來訪的遊客面前，為遊客帶來更方便的旅遊經驗，同時也\n刺激遊客到鄰近店家消費」。此敘述指的是下列哪一種行銷活動？",
+    "options": [
+      {
+        "key": "A",
+        "text": "置入式廣告"
+      },
+      {
+        "key": "B",
+        "text": "話題行銷"
+      },
+      {
+        "key": "C",
+        "text": "適地性服務"
+      },
+      {
+        "key": "D",
+        "text": "遊戲行銷"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_74_174",
+    "globalIndex": 174,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 74,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「星巴克的星禮程制度，為了促使消費者回購，持續不斷推出優惠活動。消費者只需註冊\n就能享有會員資格並於消費時累點數。而根據你收集到的點數會分成不同等級的會員，等\n級越高、優惠越多」。此活動指的是下列哪一項行銷策略？",
+    "options": [
+      {
+        "key": "A",
+        "text": "置入性行銷"
+      },
+      {
+        "key": "B",
+        "text": "遊戲化行銷"
+      },
+      {
+        "key": "C",
+        "text": "行動行銷"
+      },
+      {
+        "key": "D",
+        "text": "口碑行銷"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 26
+  },
+  {
+    "id": "eec_單元三_75_175",
+    "globalIndex": 175,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 75,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "UX（ User Experience）主要的範疇為根據使用者的習慣，設計、優化用戶體驗。UI（ User\nInterface）主要是負責使用者介面。關於 UI/UX 的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "UX 主要考慮的是產品使用起來的感覺"
+      },
+      {
+        "key": "B",
+        "text": "UI 主要考慮的是產品怎麼呈現"
+      },
+      {
+        "key": "C",
+        "text": "UI 設計師比起網頁設計師，更重視使用者流程的介面細節"
+      },
+      {
+        "key": "D",
+        "text": "UI/UX 是上下游關係，UI 設計師透過分析使用者需求，將網頁的架構勾勒出來後，\n交由 UX 設計師做具體呈現"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_76_176",
+    "globalIndex": 176,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 76,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Mohammed 等學者建議，網路行銷規劃應有七大步驟：(1) 善用科技整合顧客資料、(2) 設\n計與管理顧客經驗、(3) 分析市場機會、(4) 擬定網路行銷策略、(5) 規劃與設計顧客介面、\n(6) 擬定網路行銷行動計畫、(7) 評估網路行銷方案執行成效，下列哪一項是正確順序？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234567"
+      },
+      {
+        "key": "B",
+        "text": "3425617"
+      },
+      {
+        "key": "C",
+        "text": "1342567"
+      },
+      {
+        "key": "D",
+        "text": "4365217"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_77_177",
+    "globalIndex": 177,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 77,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群的成員們具有歸屬感，關心其他成員和融入團體、能互相分享、彼此信任，並且能透過\n給予承諾、團結合作來滿足個人需求。關於 McMillan 與 Chavis 提出的社群四大構面的\n敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "會員關係：對社群的權利及義務"
+      },
+      {
+        "key": "B",
+        "text": "影響力：被社群影響或影響其他社群成員"
+      },
+      {
+        "key": "C",
+        "text": "需求的整合及滿足：被社群支援及支援社群的感覺"
+      },
+      {
+        "key": "D",
+        "text": "情感的分享連結：分享自身的經驗、心情與看法"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_78_178",
+    "globalIndex": 178,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 78,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以電子郵件行銷為基礎，在電子郵件內容最後加上「與好朋友一起分享」、「轉寄給親朋好\n友」等字眼，然後填上 e-mail 地址，將信件轉寄出去。是指下列哪一項行銷手法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "許可式行銷"
+      },
+      {
+        "key": "B",
+        "text": "病毒式行銷"
+      },
+      {
+        "key": "C",
+        "text": "聯盟網站行銷"
+      },
+      {
+        "key": "D",
+        "text": "部落格行銷"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_79_179",
+    "globalIndex": 179,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 79,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "企業透過 e-mail 或簡訊對目標顧客群行銷，屬於下列哪一項策略？",
+    "options": [
+      {
+        "key": "A",
+        "text": "推進策略（Push Stratey）"
+      },
+      {
+        "key": "B",
+        "text": "誘導策略（Pull Stratey）"
+      },
+      {
+        "key": "C",
+        "text": "推-拉式策略（Push & Pull Stratey）"
+      },
+      {
+        "key": "D",
+        "text": "互動策略（Interactive Strategy）"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_80_180",
+    "globalIndex": 180,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 80,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷的媒體類型，若以付費或自有來劃分，可以分為買來的媒體（Bought Media）、自\n有的媒體（Owned Media）以及賺來的媒體（Earned Media），也就是網路行銷經營BOE。\n關於 BOE 的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "口碑行銷是屬於賺來的媒體"
+      },
+      {
+        "key": "B",
+        "text": "部落格屬於自有的媒體"
+      },
+      {
+        "key": "C",
+        "text": "搜尋廣告屬於買來的媒體"
+      },
+      {
+        "key": "D",
+        "text": "官網是屬於買來的媒體"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_81_181",
+    "globalIndex": 181,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 81,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "推式（Push）行銷策略，指企業經由通路將產品「推向」消費者，是一種「以產品來決定\n消費者喜好」的銷售思考模式。下列哪一項不屬於推式行銷策略？",
+    "options": [
+      {
+        "key": "A",
+        "text": "病毒式行銷"
+      },
+      {
+        "key": "B",
+        "text": "關鍵字廣告"
+      },
+      {
+        "key": "C",
+        "text": "E-mail"
+      },
+      {
+        "key": "D",
+        "text": "EDM"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 27
+  },
+  {
+    "id": "eec_單元三_82_182",
+    "globalIndex": 182,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 82,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "行動行銷為利用無線媒體與消費者溝通並促銷其產品、服務或理念，藉此創造利潤。關於\n行動廣告的特色，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "任何時間"
+      },
+      {
+        "key": "B",
+        "text": "任何地點"
+      },
+      {
+        "key": "C",
+        "text": "任何內容"
+      },
+      {
+        "key": "D",
+        "text": "任何行動設備"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_83_183",
+    "globalIndex": 183,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 83,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "行動裝置與桌上型電腦最大的不同就是螢幕尺寸，所以開發人員在開發行動版網頁或 App\n時，應掌握下列哪些原則？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "多使用彈跳式視窗，以節省空間"
+      },
+      {
+        "key": "B",
+        "text": "字型要夠大，避免看不清楚"
+      },
+      {
+        "key": "C",
+        "text": "按鈕要夠大，方便使用者點選"
+      },
+      {
+        "key": "D",
+        "text": "重要內容要最先顯示"
+      }
+    ],
+    "answer": "BCD",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_84_184",
+    "globalIndex": 184,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 84,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Facebook 平台上有一款 Candy Crush Saga 遊戲，曾造成全世界的風潮，這類型的遊戲主\n要利用社群平台上的下列哪一項優勢資源進行傳播？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Facebook 社團"
+      },
+      {
+        "key": "B",
+        "text": "免費開發平台"
+      },
+      {
+        "key": "C",
+        "text": "使用者的社群網絡（social network）"
+      },
+      {
+        "key": "D",
+        "text": "Facebook 粉專"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_85_185",
+    "globalIndex": 185,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 85,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "建立一個電子郵件行銷（Email marketing）活動，事先要準備下列哪些資料？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "建立顧客的郵件清單"
+      },
+      {
+        "key": "B",
+        "text": "設計行銷文案"
+      },
+      {
+        "key": "C",
+        "text": "記錄顧客 IP 位址"
+      },
+      {
+        "key": "D",
+        "text": "追蹤分析點閱率及轉化率"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_86_186",
+    "globalIndex": 186,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 86,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種行銷手法屬於口碑行銷（Word of mouth）的應用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "舉辦集點活動"
+      },
+      {
+        "key": "B",
+        "text": "網站上限時限量搶購"
+      },
+      {
+        "key": "C",
+        "text": "採用邀請制申請的方式入會"
+      },
+      {
+        "key": "D",
+        "text": "聘請產品達人在 YouTube 上直播開箱文"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_87_187",
+    "globalIndex": 187,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 87,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於無障礙網頁開發規範的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "無障礙網頁開發規範標章等級共分為 A、A+、AA、AAA 四個等級"
+      },
+      {
+        "key": "B",
+        "text": "無障礙網頁開發規範 2.0 標章等級共分為 A、AA、AAA 三個等級"
+      },
+      {
+        "key": "C",
+        "text": "勞動部勞動力發展署於 2002 年研訂「無障礙網頁開發規範」希望藉此降低網站應用\n之困難，提升政府資訊流通與應用的機會"
+      },
+      {
+        "key": "D",
+        "text": "無障礙網頁開發規範標章乃參考 ICANN（The Internet Corporation for Assigned Names\nand Numbers）訂定的無障礙網頁內容標準相關規範，並參照各國在制訂無障礙網頁\n相關政策和推廣策略的做法，及台灣近年來在身心障礙者保護政策、無障礙空間的推\n動、視覺障礙者在無障礙網路相關措施等經驗所訂定"
+      }
+    ],
+    "answer": "AB",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_88_188",
+    "globalIndex": 188,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 88,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路行銷規劃步驟一：市場情勢分析找出商機 → 步驟二：選擇目標受眾及定位 → 步驟\n三：決定創意及差異化內容 → 步驟四：規劃行銷內容、刊登媒體與預算，下列哪一項是第\n五步驟？",
+    "options": [
+      {
+        "key": "A",
+        "text": "建立編排良好的表格"
+      },
+      {
+        "key": "B",
+        "text": "使用過渡的解決方案"
+      },
+      {
+        "key": "C",
+        "text": "提供內容導引資訊"
+      },
+      {
+        "key": "D",
+        "text": "效益評估及行銷修正"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_89_189",
+    "globalIndex": 189,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 89,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於病毒式行銷（Viral Marketing）的步驟，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1. 創造話題 → 2. 確定傳播訊息 → 3. 選擇適當媒體 → 4. 監看成效"
+      },
+      {
+        "key": "B",
+        "text": "1. 確定傳播訊息 → 2. 選擇適當媒體 → 3. 創造話題 → 4. 監看成效"
+      },
+      {
+        "key": "C",
+        "text": "1. 選擇適當媒體 → 2. 創造話題 → 3. 確定傳播訊息 → 4. 監看成效"
+      },
+      {
+        "key": "D",
+        "text": "1. 確定傳播訊息 → 2. 創造話題 → 3. 選擇適當媒體 → 4. 監看成效"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 28
+  },
+  {
+    "id": "eec_單元三_90_190",
+    "globalIndex": 190,
+    "examId": "eec",
+    "section": "單元三、網路行銷規劃",
+    "sectionName": "單元三、網路行銷規劃",
+    "number": 90,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些選項屬於網路廣告規劃的 5M 原則？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manage（管理）"
+      },
+      {
+        "key": "B",
+        "text": "More（更多）"
+      },
+      {
+        "key": "C",
+        "text": "Money（預算）"
+      },
+      {
+        "key": "D",
+        "text": "Measurement（衡量）"
+      }
+    ],
+    "answer": "CD",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "eec_單元 _1_191",
+    "globalIndex": 191,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "某校因應即將到來的百年校慶，舉辦線上「校友回娘家」活動網站，吸引 10 萬名訪客到活\n動首頁，有 5 萬名訪客參與該網路活動，有 12,000 名校友留下資料，轉換率（Conversion\nRate）為多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.08"
+      },
+      {
+        "key": "B",
+        "text": "0.12"
+      },
+      {
+        "key": "C",
+        "text": "0.24"
+      },
+      {
+        "key": "D",
+        "text": "0.5"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "eec_單元 _2_192",
+    "globalIndex": 192,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "某校因應即將到來的百年校慶，舉辦線上「校友回娘家」網路活動，網路廣告曝光 10 萬\n次，有 5 萬名訪客點擊廣告參與該網路活動，有 12,000 名校友留下資料，點選率（CTR）\n為多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8%"
+      },
+      {
+        "key": "B",
+        "text": "12%"
+      },
+      {
+        "key": "C",
+        "text": "24%"
+      },
+      {
+        "key": "D",
+        "text": "50%"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "eec_單元 _3_193",
+    "globalIndex": 193,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於 Google AdWords 廣告的轉換（Conversion），下列哪一種情況會視為成功的 2 次轉\n換？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用者按下廣告並完成轉換後，10 天內又透過書籤回到該網站，並完成了另一次轉換"
+      },
+      {
+        "key": "B",
+        "text": "使用者按下廣告後並未完成轉換，但於10 天內又透過書籤回到該網站，並完成了轉換"
+      },
+      {
+        "key": "C",
+        "text": "使用者按下廣告但沒有完成轉換，卻在隔天再次進行搜尋，然後按下同一個廣告並完\n成轉換"
+      },
+      {
+        "key": "D",
+        "text": "使用者按下廣告並完成轉換，然後在隔天再次進行搜尋，按下同一個廣告，並完成另\n一次轉換"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "eec_單元 _4_194",
+    "globalIndex": 194,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "某校因應即將到來的百年校慶，舉辦線上「校友回娘家」活動網站，吸引 10 萬人次訪客，\n其中有 56,000 名不重複訪客參與該網路活動，共計 40 萬頁面瀏覽數（page view），請問\n平均每人次的頁面瀏覽數（average page view）為多少？（計算到小數點兩位）",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.79"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5.36"
+      },
+      {
+        "key": "D",
+        "text": "7.14"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "eec_單元 _5_195",
+    "globalIndex": 195,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 5,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "某校因應即將到來的百年校慶，舉辦「校友回娘家-留影憶當年」網路活動，校友網站原有\n校友會員 30,000 筆資料，為了替百年校慶暖身，並且能找回更多失聯校友，因此在入口網\n站刊登廣告，廣告預算 50 萬元，活動期間廣告曝光 2,500 萬次，共被點擊了 90,000 次，\n共有 15,000 人上傳照片參加活動，並有 10,000 位校友留下聯絡資料登錄為新會員。下列\n哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPM=50"
+      },
+      {
+        "key": "B",
+        "text": "CTR=0.36%"
+      },
+      {
+        "key": "C",
+        "text": "CPC=5.56"
+      },
+      {
+        "key": "D",
+        "text": "CPL=33.33"
+      }
+    ],
+    "answer": "BC",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "eec_單元 _6_196",
+    "globalIndex": 196,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 6,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於網路廣告效益評估指標之敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPM 是「每千次曝光成本」"
+      },
+      {
+        "key": "B",
+        "text": "CTR 是「客戶點選率」"
+      },
+      {
+        "key": "C",
+        "text": "CPA 是「每次參與成本」"
+      },
+      {
+        "key": "D",
+        "text": "CPL 是「單一訂單成本」"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _7_197",
+    "globalIndex": 197,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群經營效益評估中，「評量轉換率」是下列哪一種評量方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "客戶動搖率（churn）"
+      },
+      {
+        "key": "B",
+        "text": "漏斗分析（funnel analysis）"
+      },
+      {
+        "key": "C",
+        "text": "互動追蹤（engagement tracking）"
+      },
+      {
+        "key": "D",
+        "text": "訪客持續度（visitor retention）"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _8_198",
+    "globalIndex": 198,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "企業透過網站績效分析，可以達成的目標為哪些？(1) 瞭解企業經營現況、(2) 提高企業營\n運績效、(3) 增進企業與客戶間的互動效果、(4) 優化網站使用者經驗、(5) 提高客戶忠誠\n度、(6) 建立品牌知名度",
+    "options": [
+      {
+        "key": "A",
+        "text": "12356"
+      },
+      {
+        "key": "B",
+        "text": "12345"
+      },
+      {
+        "key": "C",
+        "text": "13456"
+      },
+      {
+        "key": "D",
+        "text": "23456"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _9_199",
+    "globalIndex": 199,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 9,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於評估網站維運的效益指標，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "不重複使用者（Unique Visitor）：在一定期間之內，不重複的到訪使用者人數"
+      },
+      {
+        "key": "B",
+        "text": "網頁瀏覽總數（PV, Page View）：單一頁面被網路使用者瀏覽的總次數，這個數字必\n須區分是否為不重複的使用者"
+      },
+      {
+        "key": "C",
+        "text": "平均網頁瀏覽次數（Average Page View）：即以網頁總瀏覽次數除以造訪人次，算出每\n位造訪者平均瀏覽頁面數"
+      },
+      {
+        "key": "D",
+        "text": "單次造訪停留時間（Duration per Visit）：相關期間內單一網路使用者單次到訪平均停\n留時間，停留時間愈長則表示網站內容對網友產生的黏度越強"
+      }
+    ],
+    "answer": "ACD",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _10_200",
+    "globalIndex": 200,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 10,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "企業為宣傳新上市的產品而舉辦網路活動，下列哪些為用於評估網路活動成效的方式？\n(複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "活動網站每日造訪人次"
+      },
+      {
+        "key": "B",
+        "text": "加入會員人數"
+      },
+      {
+        "key": "C",
+        "text": "單一訂單的成本"
+      },
+      {
+        "key": "D",
+        "text": "會員回訪率"
+      }
+    ],
+    "answer": "ABD",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _11_201",
+    "globalIndex": 201,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "某廠商為推廣新產品，預計以 50 萬元廣告預算投入在 A 網站，購買 2,500 萬次廣告曝\n光，結果獲得 25,000 個廣告點擊，收集到 5,000 筆有效名單，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPL = 100"
+      },
+      {
+        "key": "B",
+        "text": "CPM = 200"
+      },
+      {
+        "key": "C",
+        "text": "CPL = 1,000"
+      },
+      {
+        "key": "D",
+        "text": "CPC = 1.5"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _12_202",
+    "globalIndex": 202,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於社群經營效益評估的說明，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "粉絲數、朋友數、關注以及追隨者，代表著社群大小規模"
+      },
+      {
+        "key": "B",
+        "text": "回應或留言篇數愈多表示互動關係愈好"
+      },
+      {
+        "key": "C",
+        "text": "轉貼、分享、引用、邀請等指標數值愈大，表示擴散力愈高"
+      },
+      {
+        "key": "D",
+        "text": "活躍人數代表愈高產品的銷售量愈高"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _13_203",
+    "globalIndex": 203,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 13,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "對於一個新產品上市或一個新品牌的導入，業者計畫在 YouTube 刊播廣告，而且也有充足\n的預算，請您評估要用哪些廣告較具有成效？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "In-Video Banner 影片內嵌廣告"
+      },
+      {
+        "key": "B",
+        "text": "First Watch 廣告"
+      },
+      {
+        "key": "C",
+        "text": "首頁可展開式刊頭廣告"
+      },
+      {
+        "key": "D",
+        "text": "In-Stream Video 片頭影音廣告"
+      }
+    ],
+    "answer": "BC",
+    "images": [],
+    "page": 30
+  },
+  {
+    "id": "eec_單元 _14_204",
+    "globalIndex": 204,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路廣告成效測量指標有許多種，下列哪一項不是網路廣告成效測量指標？",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPC"
+      },
+      {
+        "key": "B",
+        "text": "CPV"
+      },
+      {
+        "key": "C",
+        "text": "CVS"
+      },
+      {
+        "key": "D",
+        "text": "CPM"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _15_205",
+    "globalIndex": 205,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Google 提供了出版者工具，協助處理從智慧型分析到提高流量等，下列哪一個工具不包括\n在內？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Google Allo"
+      },
+      {
+        "key": "B",
+        "text": "Google AdWords"
+      },
+      {
+        "key": "C",
+        "text": "Google Trend"
+      },
+      {
+        "key": "D",
+        "text": "Google Webmasters"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _16_206",
+    "globalIndex": 206,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "提升網路品牌價值的網路廣告做法，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "設計一個令人驚豔的登錄頁面"
+      },
+      {
+        "key": "B",
+        "text": "提供一個誘因讓費者願意點選廣告"
+      },
+      {
+        "key": "C",
+        "text": "安排一個應景的網路活動"
+      },
+      {
+        "key": "D",
+        "text": "廣告與網路商城的行銷手法相結合"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _17_207",
+    "globalIndex": 207,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "評估網站行銷活動指標，哪一個比較不重要？",
+    "options": [
+      {
+        "key": "A",
+        "text": "會員在活動網站停留的時間"
+      },
+      {
+        "key": "B",
+        "text": "活動期間招收的會員數越多越好"
+      },
+      {
+        "key": "C",
+        "text": "會員人數的增加"
+      },
+      {
+        "key": "D",
+        "text": "會員對於廣告的點閱率越高越好"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _18_208",
+    "globalIndex": 208,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 18,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "Jakob Nielesen 提出網站的優使性包含五個面向，下列哪些項目也對網路活動成效測量有\n所助益？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "學習度"
+      },
+      {
+        "key": "B",
+        "text": "使用效率"
+      },
+      {
+        "key": "C",
+        "text": "記憶度"
+      },
+      {
+        "key": "D",
+        "text": "錯誤率"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _19_209",
+    "globalIndex": 209,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設某地區上網的人 1000 萬人，某網站 1 月份不重複使用者（Unique Visitor）為 10 萬\n人，平均使用時間為 3 分鐘，每不重複使用者瀏覽 2.5 頁，合計 2 萬人註冊成為會員，\n下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "到達率1%"
+      },
+      {
+        "key": "B",
+        "text": "總停留時間300,000mins"
+      },
+      {
+        "key": "C",
+        "text": "網頁總瀏覽數為250,000 次"
+      },
+      {
+        "key": "D",
+        "text": "註冊轉換率20%"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _20_210",
+    "globalIndex": 210,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "網路活動成效檢視，行銷漏斗診對是最重要的觀念，下列哪一項為正確的排列順序？（漏\n斗由上至下）",
+    "options": [
+      {
+        "key": "A",
+        "text": "曝光次數-造訪人數-參與活動-加入會員"
+      },
+      {
+        "key": "B",
+        "text": "造訪人數-參與活動-曝光次數-加入會員"
+      },
+      {
+        "key": "C",
+        "text": "參與活動-曝光次數-造訪人數-加入會員"
+      },
+      {
+        "key": "D",
+        "text": "加入會員-參與活動-造訪人數-曝光次數"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _21_211",
+    "globalIndex": 211,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 21,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "網路活動往往真對特定行銷目標，在一定時間內透過互動達到溝通、促銷、招募....等目的，\n下列哪些為常見的網路活動 KPI（key performance indicators）關鍵績效指標？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "銷售數量"
+      },
+      {
+        "key": "B",
+        "text": "會員會粉絲團人數增加"
+      },
+      {
+        "key": "C",
+        "text": "試用品領取數量"
+      },
+      {
+        "key": "D",
+        "text": "網站速度"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 31
+  },
+  {
+    "id": "eec_單元 _22_212",
+    "globalIndex": 212,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "「在一定期間之內，瀏覽該網站的不重複網路使用者全體網路人口（或潛在客戶）的百分\n比」。此敘述指的是下列哪一項用來測量網站流量的指標？",
+    "options": [
+      {
+        "key": "A",
+        "text": "單次造訪停留時間（Duration per Visit）"
+      },
+      {
+        "key": "B",
+        "text": "網頁瀏覽總數（PV, Page View）"
+      },
+      {
+        "key": "C",
+        "text": "Web 上網次數（Web Session）"
+      },
+      {
+        "key": "D",
+        "text": "到達率（Reach）"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _23_213",
+    "globalIndex": 213,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 23,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "網路活動的效益指標提供了活動期間修改宣傳方法及內容的依據。請問在網路活動設計方\n面，下列哪些項目會是吸引網路使用者參加的原因？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "清楚的活動說明"
+      },
+      {
+        "key": "B",
+        "text": "創新的點子"
+      },
+      {
+        "key": "C",
+        "text": "獎品的內容"
+      },
+      {
+        "key": "D",
+        "text": "流暢的動線"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _24_214",
+    "globalIndex": 214,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "行銷人員可依據「每千次曝光／展示成本（CPM， Cost Per Mille）」之數據瞭解廣告預算所\n能購買的曝光數。請問：若某網路媒體的 CPM 為 50 元，廣告預算為 80 萬，則其所購買\n的曝光數為何，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "40,000"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "16,000,000"
+      },
+      {
+        "key": "D",
+        "text": "1,600,000"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _25_215",
+    "globalIndex": 215,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在社群經營效益評估時，必須採用比追蹤瀏覽量更好的方式來取得更多的資訊。請問「漏\n斗分析」是用來評估或測量下列哪一個項目？",
+    "options": [
+      {
+        "key": "A",
+        "text": "多少人會再回來網站"
+      },
+      {
+        "key": "B",
+        "text": "衡量人們做些什麼事"
+      },
+      {
+        "key": "C",
+        "text": "評量成效率"
+      },
+      {
+        "key": "D",
+        "text": "評量轉換率"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _26_216",
+    "globalIndex": 216,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "某百貨公司舉辦線上「周年慶」活動，該網站吸引 12 萬名訪客到活動首頁，有 5 萬名訪\n客參與該活動，有 2,500 名消費者完成訂單，轉換率（Conversion Rate）為多少，下列哪\n一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.02"
+      },
+      {
+        "key": "B",
+        "text": "0.05"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _27_217",
+    "globalIndex": 217,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 27,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "某百貨公司因為周年慶將至，舉辦「會員回娘家送電子抵用券」網路活動，該公司原有會員\n資料 20 萬筆，為了周年慶能提高營業額，並且能找回許多已經久未活動的會員和新會員。\n因此，在入口網站刊登廣告，廣告預算 20 萬元，活動期間廣告曝光 5,000 萬次，共被點\n擊了 12 萬次，共有 15,000 人 參與周年慶活動，並有 8,500 人留下聯絡資料，登錄為新\n會員。請根據上述資料計算網路廣告效益評估指標，下列哪些評估指標計算正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "每千次曝光成本 CPM = 0.04"
+      },
+      {
+        "key": "B",
+        "text": "點選率 CTR = 0.24"
+      },
+      {
+        "key": "C",
+        "text": "每次點選成本 CPC = 1.67"
+      },
+      {
+        "key": "D",
+        "text": "每份名單成本 CPL = 23.53"
+      }
+    ],
+    "answer": "CD",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _28_218",
+    "globalIndex": 218,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "社群經營效益評估指標分為網站流量、互動關係和聚合能力等三個評量項目。其中，關於\n「網站流量」的評量指標之敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "粉絲數"
+      },
+      {
+        "key": "B",
+        "text": "朋友數"
+      },
+      {
+        "key": "C",
+        "text": "分享數"
+      },
+      {
+        "key": "D",
+        "text": "網站造訪人次"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 32
+  },
+  {
+    "id": "eec_單元 _29_219",
+    "globalIndex": 219,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於社群媒體經營成效指標的敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "指標愈多愈好，才能展現經營成效的全貌"
+      },
+      {
+        "key": "B",
+        "text": "粉絲（追蹤者數目）與互動率可做為群媒體經營成效指標"
+      },
+      {
+        "key": "C",
+        "text": "根據經營社群媒體的目標去選擇適當的指標"
+      },
+      {
+        "key": "D",
+        "text": "可以分為社群媒體內與社群媒體外的經營成效指標"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元 _30_220",
+    "globalIndex": 220,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪些指標可衡量社群媒體經營成效？\n(1) 粉絲專頁人數、(2) 互動率、(3) 網站停留時間、(4) 品牌情感分數",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "123"
+      },
+      {
+        "key": "C",
+        "text": "124"
+      },
+      {
+        "key": "D",
+        "text": "1234"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元 _31_221",
+    "globalIndex": 221,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是社群媒體經營成效工具的未來發展趨勢？",
+    "options": [
+      {
+        "key": "A",
+        "text": "朝向整合型工具發展，提供使用者一站式的滿足"
+      },
+      {
+        "key": "B",
+        "text": "應用人工智慧並提供精準行銷功能"
+      },
+      {
+        "key": "C",
+        "text": "因競爭激烈，工具會開放免費使用"
+      },
+      {
+        "key": "D",
+        "text": "提供數位儀表服務，隨時掌握社群動態"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元 _32_222",
+    "globalIndex": 222,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪些指標可做為衡量廣告的績效指標？ (1) 每千次曝光成本 CPM（Cost Per Mille）、\n(2) 每次點擊成本 CPC（ Cost Per Click）、(3) 點擊率 CTR（ Click Through Rate）、(4) 每\n次轉換成本 CPA（Click Per Acquisition）",
+    "options": [
+      {
+        "key": "A",
+        "text": "1234"
+      },
+      {
+        "key": "B",
+        "text": "234"
+      },
+      {
+        "key": "C",
+        "text": "23"
+      },
+      {
+        "key": "D",
+        "text": "134"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元 _33_223",
+    "globalIndex": 223,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一個選項，不是企業透過網站績效分析，可以達成的五大目標？",
+    "options": [
+      {
+        "key": "A",
+        "text": "利用集體智慧"
+      },
+      {
+        "key": "B",
+        "text": "提供企業營運績效"
+      },
+      {
+        "key": "C",
+        "text": "優化網站使用者經驗"
+      },
+      {
+        "key": "D",
+        "text": "提高客戶忠誠度"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元 _34_224",
+    "globalIndex": 224,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於網路活動網站（mini site）成效的指標敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "網站標籤（Windows Title）"
+      },
+      {
+        "key": "B",
+        "text": "加入會員的人數"
+      },
+      {
+        "key": "C",
+        "text": "擴散率"
+      },
+      {
+        "key": "D",
+        "text": "訪客平均瀏覽頁面數"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元 _35_225",
+    "globalIndex": 225,
+    "examId": "eec",
+    "section": "單元 4：網路行銷成效分析",
+    "sectionName": "單元 4：網路行銷成效分析",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於點選率（CTR，Click Through Rate）的敘述，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "以廣告總成本除以參與會員數，得出每次的參與需要花費多少金額"
+      },
+      {
+        "key": "B",
+        "text": "一則廣告成功地被傳送到符合資格使用者的瀏覽器上，讓使用者「有機會看到」，伺\n服器即記錄一次「廣告曝光」"
+      },
+      {
+        "key": "C",
+        "text": "以廣告總成本除以所得到的名單資料，計算出每份名單所應付出的成本"
+      },
+      {
+        "key": "D",
+        "text": "即點選次數在所有總廣告曝光次數的百分比，代表使用者對於廣告有興趣想要一探究\n竟"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 33
+  },
+  {
+    "id": "eec_單元五_1_226",
+    "globalIndex": 226,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客關係管理的行銷溝通方式有哪兩大直接效用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "向上銷售、直接銷售"
+      },
+      {
+        "key": "B",
+        "text": "交叉銷售、集中銷售"
+      },
+      {
+        "key": "C",
+        "text": "集中銷售、直接銷售"
+      },
+      {
+        "key": "D",
+        "text": "向上銷售、交叉銷售"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_2_227",
+    "globalIndex": 227,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在顧客模式分析中，以顧客購買產品行為及顧客對企業的利潤貢獻度來分析，可將顧客分\n為四種類型，下列哪一項是「曇花型」顧客的敘述？",
+    "options": [
+      {
+        "key": "A",
+        "text": "只是順便經過，購買最低價產品的顧客"
+      },
+      {
+        "key": "B",
+        "text": "在短期內願意購買高單價產品，但購買頻率不高"
+      },
+      {
+        "key": "C",
+        "text": "應加強維持彼此關係，顧客關係經營與維持很重要"
+      },
+      {
+        "key": "D",
+        "text": "可促使曇花型顧客購買高利潤商品，而成為朋友型的顧客"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_3_228",
+    "globalIndex": 228,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "資料庫行銷中經常使用的 RFM 分析（Rencency、Frequency、Monetary），下列哪些是\nRFM 分析的特徵？(1) 現有顧客重於潛在顧客、(2) 可預測個人未來的行為、(3) 不可重複\n對相同顧客行銷、(4) 可評定顧客等級，採取不同的行銷手法",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "23"
+      },
+      {
+        "key": "D",
+        "text": "34"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_4_229",
+    "globalIndex": 229,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 4,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於「精準行銷」的敘述，下列哪些正確？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "CRM/Ecrm 系統是精準行銷的重要工具之一，透過一連串的客戶資料篩選、交叉分析\n的動作，找出目標客戶群"
+      },
+      {
+        "key": "B",
+        "text": "精準行銷是明確界定行銷目的與行銷對象，已從單純的使用者行為分析，發展為整合\n行動與互動的行銷方式"
+      },
+      {
+        "key": "C",
+        "text": "關鍵字行銷是由消費者主動輸入查詢，表示消費者已有相關的需求，所以關鍵字行銷\n也是精準行銷的一種類型"
+      },
+      {
+        "key": "D",
+        "text": "精準行銷僅適用於網路平台，行動通訊並不包含在內"
+      }
+    ],
+    "answer": "ABC",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_5_230",
+    "globalIndex": 230,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "就資料庫行銷而言，下列哪一項對於加強客戶終身價值沒有幫助？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加銷售額"
+      },
+      {
+        "key": "B",
+        "text": "降低間接成本"
+      },
+      {
+        "key": "C",
+        "text": "增加留存客戶"
+      },
+      {
+        "key": "D",
+        "text": "增加客戶推薦朋友"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_6_231",
+    "globalIndex": 231,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於顧客模式分析的說明，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "做好顧客關係管理必須瞭解顧客的模式與其對於企業的貢獻度"
+      },
+      {
+        "key": "B",
+        "text": "顧客模式分析是把顧客適當的分級以便採取不同的顧客關係經營策略"
+      },
+      {
+        "key": "C",
+        "text": "對於短期關係、利潤貢獻度低的「過客型」顧客，要設法引導朝向「曇花」或「朋\n友」移動"
+      },
+      {
+        "key": "D",
+        "text": "對於長期關係、利潤貢獻度高的「朋友型」顧客，因為關係穩定，應該儘量減少關係\n維擊成本"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_7_232",
+    "globalIndex": 232,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客價值分析枝術，也可以運用 RFM 來判斷。關於 RFM 的說明，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "最近購買日（Recency）：指顧客最近一次購買的日期距離分析日期的天數"
+      },
+      {
+        "key": "B",
+        "text": "購買頻率（Frequency）：指顧客在一定期間內購買該企業產品的次數"
+      },
+      {
+        "key": "C",
+        "text": "購買金額（Monetary Amount）：是指購買者在未來可能為企業帶來的收益總和"
+      },
+      {
+        "key": "D",
+        "text": "RFM 的優點是簡單而且具成本效益、增加回應率、降低每一次的訂購成本、獲得更\n高的利潤"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_8_233",
+    "globalIndex": 233,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客關係平台中的重要的觀念，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "顧客資料庫系統應以企業產品或部門為中心以及分類的依據"
+      },
+      {
+        "key": "B",
+        "text": "針對每一種類型的顧客進行不同的第一次接觸，再根據顧客特性來進行顧客分群與類\n別管理"
+      },
+      {
+        "key": "C",
+        "text": "藉由系統的設定決定行銷接觸與互動，在適當的互動後，調整顧客類別與等級，以創\n造最大顧客忠誠度"
+      },
+      {
+        "key": "D",
+        "text": "資料庫的設計以個別顧客為基礎，顧客的基本資料、瀏覽行為、活動參與交易紀錄等\n均以顧客為中心建立資料庫"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 34
+  },
+  {
+    "id": "eec_單元五_9_234",
+    "globalIndex": 234,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客關係管理可以透過科技來建置適當的系統（eCRM），建立以顧客為中心的資料庫，請\n問企業應在維護與運用顧客資料時，應避免下列哪一種的方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在顧客加入網路會員時，即要求顧客填寫完整而詳細的個人資料"
+      },
+      {
+        "key": "B",
+        "text": "依據企業所需，決定要取得那些顧客偏好資料，並把需求的資料設計在互動溝通中"
+      },
+      {
+        "key": "C",
+        "text": "可在每次的溝通中，增加或修改原已設定的顧客偏好資料"
+      },
+      {
+        "key": "D",
+        "text": "精準地針對不同類型的顧客制定適切的行銷策略，持續與會員接觸，並在每次活動的\n接觸機會要求會員分別提供不同項目的資料"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 35
+  },
+  {
+    "id": "eec_單元五_10_235",
+    "globalIndex": 235,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 10,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "如附圖所示，為顧客生命週期行銷圖，下列哪些位置錯誤？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.轉化"
+      },
+      {
+        "key": "B",
+        "text": "2.接觸"
+      },
+      {
+        "key": "C",
+        "text": "3.增加顧客滿意度"
+      },
+      {
+        "key": "D",
+        "text": "4.增加顧客忠誠度"
+      }
+    ],
+    "answer": "ABC",
+    "images": [
+      "images/eec/eec_p35_q10.png"
+    ],
+    "page": 35
+  },
+  {
+    "id": "eec_單元五_11_236",
+    "globalIndex": 236,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "捷安特、鼎泰豐、王品、華碩與台積電屢屢創造顧客價值的最大化，下列做法哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "行銷 ROI 效益佳"
+      },
+      {
+        "key": "B",
+        "text": "品牌忠誠"
+      },
+      {
+        "key": "C",
+        "text": "顧客滿意度"
+      },
+      {
+        "key": "D",
+        "text": "良好互動"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 35
+  },
+  {
+    "id": "eec_單元五_12_237",
+    "globalIndex": 237,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客價值分析可以用 R（ Recency 最近購買日）、F（ Frequency 購買頻率）、M（ Monetary\nAmount）來判斷，顧客在資料庫中的紀錄以三個數字為組合（R,M,F），請指出下列哪一個\n是最佳的組合？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（3x4x5）"
+      },
+      {
+        "key": "B",
+        "text": "（5x4x3）"
+      },
+      {
+        "key": "C",
+        "text": "（1x2x3）"
+      },
+      {
+        "key": "D",
+        "text": "（1x3x2）"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 35
+  },
+  {
+    "id": "eec_單元五_13_238",
+    "globalIndex": 238,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如附圖所示，為 LINE@ 口袋商店的對話內容示意圖，為網路行銷中哪一種行銷（選擇最\n佳）成功的案例？",
+    "options": [
+      {
+        "key": "A",
+        "text": "遊戲行銷"
+      },
+      {
+        "key": "B",
+        "text": "口碑行銷"
+      },
+      {
+        "key": "C",
+        "text": "精準行銷"
+      },
+      {
+        "key": "D",
+        "text": "病毒行銷"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/eec/eec_p36_q13.png"
+    ],
+    "page": 36
+  },
+  {
+    "id": "eec_單元五_14_239",
+    "globalIndex": 239,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "依照購買型態與利潤貢獻分成四個類型：曇花、朋友、過客、雞肋，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "雞肋：長期關係、利潤貢獻低"
+      },
+      {
+        "key": "B",
+        "text": "朋友：短期關係、利潤貢獻高"
+      },
+      {
+        "key": "C",
+        "text": "曇花：短期關係、利潤貢獻低"
+      },
+      {
+        "key": "D",
+        "text": "過客：長期關係、利潤貢獻低"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 36
+  },
+  {
+    "id": "eec_單元五_15_240",
+    "globalIndex": 240,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於資料庫行銷的解讀，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "資料庫行銷有助於將行銷預算花在刀口上"
+      },
+      {
+        "key": "B",
+        "text": "好的會員管理系統可以協助企業產品改良或研發"
+      },
+      {
+        "key": "C",
+        "text": "針對既有顧客轉化效率最高，ROI 表現最好,若已經累積足夠客戶資料就可以不要浪\n費資源做其他的廣告"
+      },
+      {
+        "key": "D",
+        "text": "精準行銷、許可式行銷都仰賴完善的顧客資料系統"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 36
+  },
+  {
+    "id": "eec_單元五_16_241",
+    "globalIndex": 241,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 16,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "電子商務發展蓬勃，無論是電子商務平台、開店平台、自架商城都是需要累積會員資料，下\n列哪些是建立以顧客為中心的資料庫後的行銷應用？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "精準行銷"
+      },
+      {
+        "key": "B",
+        "text": "eDM 派發"
+      },
+      {
+        "key": "C",
+        "text": "VIP 貴賓優先體驗"
+      },
+      {
+        "key": "D",
+        "text": "紅利積點活動"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 36
+  },
+  {
+    "id": "eec_單元五_17_242",
+    "globalIndex": 242,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要做好顧客關係管理必須瞭解顧客的模式與其對於企業利潤的貢獻率，再把顧客適當分級\n以採取不同的顧客關係經營策略。而顧客類型可分為四種類型：過客型、曇花型、雞肋型與\n朋友型。該如何敘述「曇花型」的顧客，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "短期關係、利潤貢獻度低"
+      },
+      {
+        "key": "B",
+        "text": "長期關係、利潤貢獻度低"
+      },
+      {
+        "key": "C",
+        "text": "短期關係、利潤貢獻度高"
+      },
+      {
+        "key": "D",
+        "text": "長期關係、利潤貢獻度高"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 36
+  },
+  {
+    "id": "eec_單元五_18_243",
+    "globalIndex": 243,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客價值分析，可用 RFM 來判斷。其中的 R 指的是下列哪一項英文名稱？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reminder"
+      },
+      {
+        "key": "B",
+        "text": "Recency"
+      },
+      {
+        "key": "C",
+        "text": "Regulation"
+      },
+      {
+        "key": "D",
+        "text": "Report"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_19_244",
+    "globalIndex": 244,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "美國第二大百貨集團Target 是採用下列哪一種方式，才能做到比父親更早知道女兒懷孕？",
+    "options": [
+      {
+        "key": "A",
+        "text": "大數據與精準行銷"
+      },
+      {
+        "key": "B",
+        "text": "大數據與虛擬行銷"
+      },
+      {
+        "key": "C",
+        "text": "O2O（On-line to Off-line）"
+      },
+      {
+        "key": "D",
+        "text": "適地性服務"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_20_245",
+    "globalIndex": 245,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以顧客購買產品行為及顧客對企業的利潤貢獻度來分析，顧客模式將顧客分為四種類型，\n下列哪一項是「雞肋型」顧客的敘述？",
+    "options": [
+      {
+        "key": "A",
+        "text": "只是順便經過，購買最低價產品的顧客"
+      },
+      {
+        "key": "B",
+        "text": "在短期內願意購買高單價產品，但購買頻率不高"
+      },
+      {
+        "key": "C",
+        "text": "應加強維持彼此關係，顧客關係經營與維持很重要"
+      },
+      {
+        "key": "D",
+        "text": "長期購買的顧客，耗用企業大量的關係經營成本，卻無法有好的利潤貢獻"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_21_246",
+    "globalIndex": 246,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "顧客價值分析枝術經常使用的 RFM 分析（Rencency、 Frequency、 Monetary）以評估顧客\n價值，下列哪一項不是 RFM 分析的缺點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "回應率降低"
+      },
+      {
+        "key": "B",
+        "text": "可能重複對相同顧客行銷"
+      },
+      {
+        "key": "C",
+        "text": "區塊重於個人"
+      },
+      {
+        "key": "D",
+        "text": "無法預測個人未來的行為"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_22_247",
+    "globalIndex": 247,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "由於資料庫行銷接觸個別顧客的特性，使行銷資料庫能夠達到多項行銷功能。關於資料庫\n行銷功能之敘述，下列哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "進行顧客價值分析"
+      },
+      {
+        "key": "B",
+        "text": "計算顧客終身價值"
+      },
+      {
+        "key": "C",
+        "text": "增加顧客宣導率"
+      },
+      {
+        "key": "D",
+        "text": "作為行銷決策支援系統"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_23_248",
+    "globalIndex": 248,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 23,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "網站經營者會預期顧客在雙方保持買賣關係期間，能為網站帶來淨收益金額為多少，稱為\n顧客終身價值。下列哪些指標與計算顧客終身價值有關？ (複選)",
+    "options": [
+      {
+        "key": "A",
+        "text": "顧客每次購買商品所花費的金額"
+      },
+      {
+        "key": "B",
+        "text": "顧客保持買賣關係的時間長度"
+      },
+      {
+        "key": "C",
+        "text": "顧客終身將花費在此網站的預估總金額"
+      },
+      {
+        "key": "D",
+        "text": "顧客在網站的購買頻率"
+      }
+    ],
+    "answer": "ABCD",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_24_249",
+    "globalIndex": 249,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當消費者在購物網站瀏覽 A 商品時，有時會出現「購買過 A 商品的消費者，也會購買B 商\n品」的訊息，下列哪一項系統可以提供這種交叉銷售的服務？",
+    "options": [
+      {
+        "key": "A",
+        "text": "購物車"
+      },
+      {
+        "key": "B",
+        "text": "會員系統"
+      },
+      {
+        "key": "C",
+        "text": "推薦系統"
+      },
+      {
+        "key": "D",
+        "text": "會員資料建檔"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 37
+  },
+  {
+    "id": "eec_單元五_25_250",
+    "globalIndex": 250,
+    "examId": "eec",
+    "section": "單元五：顧客模式分析與資料庫行銷",
+    "sectionName": "單元五：顧客模式分析與資料庫行銷",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以行銷的角度來看，顧客關係管理可以達成的效果，下列哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "「顧客數量最大化」、「顧客價值最大化」、「行銷預算最小化」"
+      },
+      {
+        "key": "B",
+        "text": "「顧客數量最大化」、「顧客價值最大化」、「行銷預算最大化」"
+      },
+      {
+        "key": "C",
+        "text": "「顧客數量最大化」、「顧客價值最小化」、「行銷預算最大化」"
+      },
+      {
+        "key": "D",
+        "text": "「顧客數量最小化」、「顧客價值最大化」、「行銷預算最小化」"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 37
+  }
+]

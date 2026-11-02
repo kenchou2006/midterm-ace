@@ -1,0 +1,8240 @@
+[
+  {
+    "id": "ictp_1_1",
+    "globalIndex": 1,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列Python 運算式，何者不能正確表達數學關係式10<a<15？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10<a or a<15"
+      },
+      {
+        "key": "B",
+        "text": "a>10 and a<15"
+      },
+      {
+        "key": "C",
+        "text": "10<a<15"
+      },
+      {
+        "key": "D",
+        "text": "a=11 or a=12 or a=13 or a=14"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_2",
+    "globalIndex": 2,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問運算式5.0**2 會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.5"
+      },
+      {
+        "key": "B",
+        "text": "25.00"
+      },
+      {
+        "key": "C",
+        "text": "25.0"
+      },
+      {
+        "key": "D",
+        "text": "25.000000"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_3",
+    "globalIndex": 3,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問運算式5*2.0 會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10.000000"
+      },
+      {
+        "key": "B",
+        "text": "10.0"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "1e1"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_4",
+    "globalIndex": 4,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問Python 指令x=5; x&=1; print(x) 會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_5",
+    "globalIndex": 5,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於Python 程式語言的註解，下列何者才是正確的作法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "將註解放在任何一行的 // 符號之後"
+      },
+      {
+        "key": "B",
+        "text": "將註解放在第一行程式碼之前，用空白行隔開"
+      },
+      {
+        "key": "C",
+        "text": "將註解放在任何一行的 /* 和 */ 符\n號之間"
+      },
+      {
+        "key": "D",
+        "text": "將註解放在任何一行的 # 符號之後"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_6",
+    "globalIndex": 6,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關邏輯運算子的描述，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用and、or 運算子做邏輯運算時，會採用快捷運算"
+      },
+      {
+        "key": "B",
+        "text": "result = (48 % 6 == 0) and (24 % 4 == 0)運算後的result 回傳False"
+      },
+      {
+        "key": "C",
+        "text": "運算結果僅有「真(True)」與「假(False)」兩種值"
+      },
+      {
+        "key": "D",
+        "text": "包括and、or、not 等運算子"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_7",
+    "globalIndex": 7,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設pi=3.1415927， 請問print(\"%f \" % pi) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.141592"
+      },
+      {
+        "key": "B",
+        "text": "3.141593"
+      },
+      {
+        "key": "C",
+        "text": "3.1415"
+      },
+      {
+        "key": "D",
+        "text": "3.1416"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_8",
+    "globalIndex": 8,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面關於Python 的說明，何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Python 有豐富的資料類型"
+      },
+      {
+        "key": "B",
+        "text": "Python 有豐富的程式庫"
+      },
+      {
+        "key": "C",
+        "text": "Python 是物件導向式語言"
+      },
+      {
+        "key": "D",
+        "text": "Python 是編譯式語言"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_9",
+    "globalIndex": 9,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Python 程式裡的區塊，可以透過哪一種方式來區分出程式碼層級，讓程式更具有可讀性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "跳行"
+      },
+      {
+        "key": "B",
+        "text": "留白"
+      },
+      {
+        "key": "C",
+        "text": "縮排"
+      },
+      {
+        "key": "D",
+        "text": "註解"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_10",
+    "globalIndex": 10,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設a=7, b=2, c=4，求運算式a%3+b*b-c//5 的值為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1.25"
+      },
+      {
+        "key": "B",
+        "text": "1.25"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_11",
+    "globalIndex": 11,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當運算所得到的數值超出該型別所能表示的範圍，系統會丟出何種例外？",
+    "options": [
+      {
+        "key": "A",
+        "text": "SystemError"
+      },
+      {
+        "key": "B",
+        "text": "OverflowError"
+      },
+      {
+        "key": "C",
+        "text": "IndexError"
+      },
+      {
+        "key": "D",
+        "text": "TypeError"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_12",
+    "globalIndex": 12,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "a, b, c, d 分別代表一個變數，關於數學表示式 ab/(3cd) 下面何者不是正確的Python 表示式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "a*b/3<*c*d"
+      },
+      {
+        "key": "B",
+        "text": "a*b/(3*c*d)"
+      },
+      {
+        "key": "C",
+        "text": "a/3*b/c/d"
+      },
+      {
+        "key": "D",
+        "text": "a*b/3/c/d"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_13",
+    "globalIndex": 13,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "表示式16/4-2**5*8/4%5/2 的值為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_14",
+    "globalIndex": 14,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "6.0"
+      },
+      {
+        "key": "C",
+        "text": "1.0"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s1_q14_1_18.png"
+    ],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_15",
+    "globalIndex": 15,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.0"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "6.0"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q15_1_19.png"
+    ],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_16",
+    "globalIndex": 16,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.0"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "5.0"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s1_q16_1_20.png"
+    ],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_17",
+    "globalIndex": 17,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問以下程式會輸出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "error"
+      },
+      {
+        "key": "B",
+        "text": "abcabcabcabcabc"
+      },
+      {
+        "key": "C",
+        "text": "5abc"
+      },
+      {
+        "key": "D",
+        "text": "5*'abc'"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s1_q17_1_21.png"
+    ],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_18",
+    "globalIndex": 18,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一個函數可以回傳ASCII 碼對應的字？",
+    "options": [
+      {
+        "key": "A",
+        "text": "strip()函數"
+      },
+      {
+        "key": "B",
+        "text": "split()函數"
+      },
+      {
+        "key": "C",
+        "text": "ord()函數"
+      },
+      {
+        "key": "D",
+        "text": "chr()函數"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_19",
+    "globalIndex": 19,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "True"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q19_1_22.png"
+    ],
+    "page": 1
+  },
+  {
+    "id": "ictp_1_20",
+    "globalIndex": 20,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.0"
+      },
+      {
+        "key": "B",
+        "text": "x*2.0"
+      },
+      {
+        "key": "C",
+        "text": "10.0"
+      },
+      {
+        "key": "D",
+        "text": "10.000000"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s1_q20_1_25.png"
+    ],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_21",
+    "globalIndex": 21,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "底下Python 程式碼的註解，下列何者是正確的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B)"
+      },
+      {
+        "key": "C",
+        "text": "(D)"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q21_1_26.png",
+      "images/ictp/ictp_s1_q21_2_27.png",
+      "images/ictp/ictp_s1_q21_3_28.png",
+      "images/ictp/ictp_s1_q21_4_29.png"
+    ],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_22",
+    "globalIndex": 22,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hello, WORLD!"
+      },
+      {
+        "key": "B",
+        "text": "Hello, world!"
+      },
+      {
+        "key": "C",
+        "text": "HELLO, WORLD!"
+      },
+      {
+        "key": "D",
+        "text": "hello, World!"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s1_q22_1_30.png"
+    ],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_23",
+    "globalIndex": 23,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "使用檔案物件所提供的方法從檔案讀取資料不包括？",
+    "options": [
+      {
+        "key": "A",
+        "text": "readline()方法"
+      },
+      {
+        "key": "B",
+        "text": "seek()方法"
+      },
+      {
+        "key": "C",
+        "text": "read()方法"
+      },
+      {
+        "key": "D",
+        "text": "readlines()方法"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_24",
+    "globalIndex": 24,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關Python 變數命名與指派，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Python 是區分大小寫的程式語言"
+      },
+      {
+        "key": "B",
+        "text": "變數的值是使用等號（=）來指派"
+      },
+      {
+        "key": "C",
+        "text": "使用變數時要事先宣告其資料型態"
+      },
+      {
+        "key": "D",
+        "text": "每個變\n數有其資料型態"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_25",
+    "globalIndex": 25,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一個函數（或方法）可以指定分隔符號將字串分割為子字串？",
+    "options": [
+      {
+        "key": "A",
+        "text": "strip()函數"
+      },
+      {
+        "key": "B",
+        "text": "len()函數"
+      },
+      {
+        "key": "C",
+        "text": "split()函數"
+      },
+      {
+        "key": "D",
+        "text": "ord()函數"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_26",
+    "globalIndex": 26,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "運算式5/4*6//5%2 執行的结果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.0"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_27",
+    "globalIndex": 27,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列有關運算子與運算式的描述，何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "運算式是由運算子（Operator）與運算元（Operand）所組成"
+      },
+      {
+        "key": "B",
+        "text": "運算子如果只有一個運算元則稱為「一元運算子」"
+      },
+      {
+        "key": "C",
+        "text": "運\n算式運算結果的資料型態將以運算元中資料型態最大的變數為主"
+      },
+      {
+        "key": "D",
+        "text": "「/」與「%」都是除法運算子，「/」會有浮點數；「%」\n會將除法結果的小數部分去掉"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_28",
+    "globalIndex": 28,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對於try 指令描述，何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "無論有無例外，皆會將程式執行完畢"
+      },
+      {
+        "key": "B",
+        "text": "用來捕捉例外"
+      },
+      {
+        "key": "C",
+        "text": "搭配except 指令可指定一個例外型別"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_29",
+    "globalIndex": 29,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q29_1_31.png"
+    ],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_30",
+    "globalIndex": 30,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "計算以下的Python 數學運算式(3 * (1 + 2) ** 3 - (2 ** 3) * 2)結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "65"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_31",
+    "globalIndex": 31,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面哪一項不符合演算法的特性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 個或多個輸入資料"
+      },
+      {
+        "key": "B",
+        "text": "允許無窮迴路"
+      },
+      {
+        "key": "C",
+        "text": "至少會有一個輸出結果"
+      },
+      {
+        "key": "D",
+        "text": "步驟清楚且可行"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_32",
+    "globalIndex": 32,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "運算式5%3+3//5*2 執行的结果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_33",
+    "globalIndex": 33,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關Python 變數命名，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "不能使用Python 內建的保留字"
+      },
+      {
+        "key": "B",
+        "text": "不能使用空白字元"
+      },
+      {
+        "key": "C",
+        "text": "變數名稱第一個字元可以是數字"
+      },
+      {
+        "key": "D",
+        "text": "變數名稱支援中文"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_34",
+    "globalIndex": 34,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當所要求開啟或寫入的檔案不存在時，系統會丟出底下何種例外？",
+    "options": [
+      {
+        "key": "A",
+        "text": "TypeError"
+      },
+      {
+        "key": "B",
+        "text": "FileNotFoundError"
+      },
+      {
+        "key": "C",
+        "text": "SystemError"
+      },
+      {
+        "key": "D",
+        "text": "OverflowError"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_35",
+    "globalIndex": 35,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一個方法可以用來尋找指定字元，並回傳第一個出現該字元或字串的索引編號？",
+    "options": [
+      {
+        "key": "A",
+        "text": "strip()"
+      },
+      {
+        "key": "B",
+        "text": "replace"
+      },
+      {
+        "key": "C",
+        "text": "count()"
+      },
+      {
+        "key": "D",
+        "text": "find()"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_36",
+    "globalIndex": 36,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關Python 資料型態的說明，下列何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "動態型別、強型別"
+      },
+      {
+        "key": "B",
+        "text": "動態型別、弱型別"
+      },
+      {
+        "key": "C",
+        "text": "靜態型別、弱型別"
+      },
+      {
+        "key": "D",
+        "text": "靜態型別、強型別"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_37",
+    "globalIndex": 37,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "9.0"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4.500000"
+      },
+      {
+        "key": "D",
+        "text": "3.0"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s1_q37_1_32.png"
+    ],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_38",
+    "globalIndex": 38,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於字串的描述，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "利用三重單或雙引號把多行字串，固定其輸出的模式"
+      },
+      {
+        "key": "B",
+        "text": "輸出字串時想要分行顯示，可以在要斷行的地方加入「b」"
+      },
+      {
+        "key": "C",
+        "text": "字\n串物件一但被配置，它的內容是不可變的"
+      },
+      {
+        "key": "D",
+        "text": "當程式碼太長時，只要在該行末端加一個反斜線即可換行繼續撰寫"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_39",
+    "globalIndex": 39,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請輸入空格，以輸出'Hello World'_______________ ('Hello World')",
+    "options": [
+      {
+        "key": "A",
+        "text": "found"
+      },
+      {
+        "key": "B",
+        "text": "list"
+      },
+      {
+        "key": "C",
+        "text": "print"
+      },
+      {
+        "key": "D",
+        "text": "echo"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 2
+  },
+  {
+    "id": "ictp_1_40",
+    "globalIndex": 40,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "lo,"
+      },
+      {
+        "key": "B",
+        "text": "llo"
+      },
+      {
+        "key": "C",
+        "text": "ell"
+      },
+      {
+        "key": "D",
+        "text": "Hel"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s1_q40_1_40.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_41",
+    "globalIndex": 41,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在Python 運算式中，下列何者能正確表達數學關係：n 是m 的倍數？",
+    "options": [
+      {
+        "key": "A",
+        "text": "n % m == 0"
+      },
+      {
+        "key": "B",
+        "text": "n // m != 0"
+      },
+      {
+        "key": "C",
+        "text": "n // m == 0"
+      },
+      {
+        "key": "D",
+        "text": "n % m != 0"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_42",
+    "globalIndex": 42,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.0"
+      },
+      {
+        "key": "B",
+        "text": "41"
+      },
+      {
+        "key": "C",
+        "text": "error"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q42_1_41.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_43",
+    "globalIndex": 43,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "數學關係表示式3 ≤ x < 10 表示成正確的Python 表示式為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3<=x or x<10"
+      },
+      {
+        "key": "B",
+        "text": "3<=x or <10"
+      },
+      {
+        "key": "C",
+        "text": "3<=x and x<10"
+      },
+      {
+        "key": "D",
+        "text": "3<=x and <10"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_44",
+    "globalIndex": 44,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關檔案的描述，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "通常我們用「.」代表現在目錄，而用「..」代表上一層目錄"
+      },
+      {
+        "key": "B",
+        "text": "檔名可區分成「主檔名」與「副檔名」"
+      },
+      {
+        "key": "C",
+        "text": "使用open()函數\n開啟檔案時，檔案路徑必須以跳脫序列來表示"
+      },
+      {
+        "key": "D",
+        "text": "「相對路徑」就是相對於現在目錄的路徑表示法"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_45",
+    "globalIndex": 45,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面哪一個Python 程式庫不適合做科學計算？",
+    "options": [
+      {
+        "key": "A",
+        "text": "NumPy"
+      },
+      {
+        "key": "B",
+        "text": "SciPy"
+      },
+      {
+        "key": "C",
+        "text": "PyQT"
+      },
+      {
+        "key": "D",
+        "text": "Matplotlib"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_46",
+    "globalIndex": 46,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "False"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s1_q46_1_42.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_47",
+    "globalIndex": 47,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "第一科技軟體公司聘請你成為在程式開發團隊中程式設計部門的實習生，你必須撰寫一支程式要求使用者輸入一個值，並將其轉\n換為一個整數來進行運算，你需要編寫程式碼以符合要求，你應該使用哪個程式碼片段？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B)"
+      },
+      {
+        "key": "C",
+        "text": "(D)"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s1_q47_1_43.png",
+      "images/ictp/ictp_s1_q47_2_44.png",
+      "images/ictp/ictp_s1_q47_3_46.png",
+      "images/ictp/ictp_s1_q47_4_45.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_48",
+    "globalIndex": 48,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面哪一項不是演算法的特性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可行性"
+      },
+      {
+        "key": "B",
+        "text": "有限性"
+      },
+      {
+        "key": "C",
+        "text": "簡潔性"
+      },
+      {
+        "key": "D",
+        "text": "明確性"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_49",
+    "globalIndex": 49,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "使用內建函數時，參數的型別正確，但值不正確，系統會丟出何種例外？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ValueError"
+      },
+      {
+        "key": "B",
+        "text": "SystemError"
+      },
+      {
+        "key": "C",
+        "text": "OverflowError"
+      },
+      {
+        "key": "D",
+        "text": "IndexError"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_50",
+    "globalIndex": 50,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設pi=3.1415927， 請問print(\"%.3f \" % pi) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.142"
+      },
+      {
+        "key": "B",
+        "text": "3.1415"
+      },
+      {
+        "key": "C",
+        "text": "3.1416"
+      },
+      {
+        "key": "D",
+        "text": "3.141"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_51",
+    "globalIndex": 51,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "e"
+      },
+      {
+        "key": "B",
+        "text": "H"
+      },
+      {
+        "key": "C",
+        "text": "!"
+      },
+      {
+        "key": "D",
+        "text": "l"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q51_1_47.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_52",
+    "globalIndex": 52,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問Python 指令x=5.0; x**=2; print(x) 會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "25.0"
+      },
+      {
+        "key": "B",
+        "text": "0.5"
+      },
+      {
+        "key": "C",
+        "text": "2.5"
+      },
+      {
+        "key": "D",
+        "text": "5.0"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_53",
+    "globalIndex": 53,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "125"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q53_1_48.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_54",
+    "globalIndex": 54,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "aa"
+      },
+      {
+        "key": "B",
+        "text": "2a"
+      },
+      {
+        "key": "C",
+        "text": "error"
+      },
+      {
+        "key": "D",
+        "text": "a"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q54_1_49.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_55",
+    "globalIndex": 55,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問運算式8**(1/3) 會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.0"
+      },
+      {
+        "key": "B",
+        "text": "64"
+      },
+      {
+        "key": "C",
+        "text": "2.7"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_56",
+    "globalIndex": 56,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問以下程式會輸出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "2.50000"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "2.5"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q56_1_50.png"
+    ],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_57",
+    "globalIndex": 57,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列運算式中，何者的值不是1？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1^0"
+      },
+      {
+        "key": "B",
+        "text": "15%2"
+      },
+      {
+        "key": "C",
+        "text": "4//3"
+      },
+      {
+        "key": "D",
+        "text": "~1"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 3
+  },
+  {
+    "id": "ictp_1_58",
+    "globalIndex": 58,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對於finally 指令描述，何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "引發例外"
+      },
+      {
+        "key": "B",
+        "text": "捕捉例外"
+      },
+      {
+        "key": "C",
+        "text": "處理例外"
+      },
+      {
+        "key": "D",
+        "text": "無論有無異常皆會把程式執行完畢"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_59",
+    "globalIndex": 59,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要新建二進位檔案，就是把open()方法的mode 參數加入哪一個參數？",
+    "options": [
+      {
+        "key": "A",
+        "text": "t"
+      },
+      {
+        "key": "B",
+        "text": "m"
+      },
+      {
+        "key": "C",
+        "text": "h"
+      },
+      {
+        "key": "D",
+        "text": "b"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_60",
+    "globalIndex": 60,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於Python 2.x 和3.x 的區別，何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Python 2.x 保留兩種整數型的資料類型：long 和 int 類型"
+      },
+      {
+        "key": "B",
+        "text": "Python 2.x 有Unicode 和非 Unicode 兩種字串類型"
+      },
+      {
+        "key": "C",
+        "text": "Python 3.x \n可以使用兩種不等運算子：!= 和 <>"
+      },
+      {
+        "key": "D",
+        "text": "Python 3.x 只有Unicode 一種字串類型"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_61",
+    "globalIndex": 61,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 61,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對於try/except 的描述，何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "except 指令只能指定一個例外型別"
+      },
+      {
+        "key": "B",
+        "text": "無論有無例外引發，else 指令所形成的區段一定會被執行"
+      },
+      {
+        "key": "C",
+        "text": "try 敘述是用來捕捉例\n外"
+      },
+      {
+        "key": "D",
+        "text": "無論有無例外，皆會將程式執行完畢"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_62",
+    "globalIndex": 62,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 62,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面哪一個是合法的變數名？",
+    "options": [
+      {
+        "key": "A",
+        "text": "X-Y"
+      },
+      {
+        "key": "B",
+        "text": "X_yz"
+      },
+      {
+        "key": "C",
+        "text": "123abc"
+      },
+      {
+        "key": "D",
+        "text": "and"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_63",
+    "globalIndex": 63,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 63,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設a=7, b=2, c=4，求運算式a/2+b/2-c 的值為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.25"
+      },
+      {
+        "key": "B",
+        "text": "0.5"
+      },
+      {
+        "key": "C",
+        "text": "-1.25"
+      },
+      {
+        "key": "D",
+        "text": "-0.5"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_64",
+    "globalIndex": 64,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 64,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要在Windows 下直接執行Python，應該如何設定？",
+    "options": [
+      {
+        "key": "A",
+        "text": "將 Python 的安裝目錄添加到Windows 下的 PATH 變數中"
+      },
+      {
+        "key": "B",
+        "text": "Python 並不提供此項功能"
+      },
+      {
+        "key": "C",
+        "text": "不須特別設定，使用內定安裝即\n可"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_65",
+    "globalIndex": 65,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 65,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關檔案的描述，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "檔名可區分成「主檔名」與「副檔名」"
+      },
+      {
+        "key": "B",
+        "text": "通常我們用「.」代表現在目錄，而用「..」代表上一層目錄"
+      },
+      {
+        "key": "C",
+        "text": "「相對路徑」就\n是相對於現在目錄的路徑表示法"
+      },
+      {
+        "key": "D",
+        "text": "使用open()函數開啟檔案時，檔案路徑必須以跳脫序列 來表示"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_66",
+    "globalIndex": 66,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 66,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問運算式 ’abc’+’1.0’ 會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "error"
+      },
+      {
+        "key": "B",
+        "text": "abc1.0"
+      },
+      {
+        "key": "C",
+        "text": "abc1"
+      },
+      {
+        "key": "D",
+        "text": "abc1.000000"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_67",
+    "globalIndex": 67,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 67,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問指令 print(’A’>’a’)會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "False"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_68",
+    "globalIndex": 68,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 68,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問運算式5.000000/2.000000 會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.5"
+      },
+      {
+        "key": "B",
+        "text": "2.500000"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_69",
+    "globalIndex": 69,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 69,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問Python 指令x=5; x |=2; print(x) 會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_70",
+    "globalIndex": 70,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 70,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "運算式int (1234.5678*10+0.5)%100 執行的结果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "56"
+      },
+      {
+        "key": "B",
+        "text": "46"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "57"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_71",
+    "globalIndex": 71,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 71,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設pi=3.1415927， 請問print(\"%2.2f \" % pi) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "03.15"
+      },
+      {
+        "key": "B",
+        "text": "03.14"
+      },
+      {
+        "key": "C",
+        "text": "3.15"
+      },
+      {
+        "key": "D",
+        "text": "3.14"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_72",
+    "globalIndex": 72,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 72,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.0"
+      },
+      {
+        "key": "B",
+        "text": "2.0"
+      },
+      {
+        "key": "C",
+        "text": "1.0"
+      },
+      {
+        "key": "D",
+        "text": "0.0"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s1_q72_1_53.png"
+    ],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_73",
+    "globalIndex": 73,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 73,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "2.5"
+      },
+      {
+        "key": "C",
+        "text": "5.2"
+      },
+      {
+        "key": "D",
+        "text": "2.0"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s1_q73_1_54.png"
+    ],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_74",
+    "globalIndex": 74,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 74,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hello, world!"
+      },
+      {
+        "key": "B",
+        "text": "hello, world!"
+      },
+      {
+        "key": "C",
+        "text": "hello, World!"
+      },
+      {
+        "key": "D",
+        "text": "HELLO, WORLD!"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s1_q74_1_55.png"
+    ],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_75",
+    "globalIndex": 75,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 75,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問運算式5.00%2.00 會出現什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.00"
+      },
+      {
+        "key": "B",
+        "text": "2.5"
+      },
+      {
+        "key": "C",
+        "text": "2.500000"
+      },
+      {
+        "key": "D",
+        "text": "1.0"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_76",
+    "globalIndex": 76,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 76,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要將數值轉為整數，使用哪一個函式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "float()"
+      },
+      {
+        "key": "B",
+        "text": "count()"
+      },
+      {
+        "key": "C",
+        "text": "int()"
+      },
+      {
+        "key": "D",
+        "text": "decimal()"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_77",
+    "globalIndex": 77,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 77,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問以下程式會輸出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.0"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "3.000000"
+      },
+      {
+        "key": "D",
+        "text": "error"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s1_q77_1_56.png"
+    ],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_78",
+    "globalIndex": 78,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 78,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設f 是新開的空檔，請問執行f.writelines([\"aa\",\"bb\",\"cc\"]) 後，f 檔案內有幾行資料？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_79",
+    "globalIndex": 79,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 79,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列何者不是安裝 Anaconda 後會出現的應用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anaconda Navigator"
+      },
+      {
+        "key": "B",
+        "text": "Jupyter Notebook"
+      },
+      {
+        "key": "C",
+        "text": "PyCharm"
+      },
+      {
+        "key": "D",
+        "text": "Spyder"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 4
+  },
+  {
+    "id": "ictp_1_80",
+    "globalIndex": 80,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 80,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "運算式「a = 15 % 4」，變數a 會儲存？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_1_81",
+    "globalIndex": 81,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 81,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關指派運算子的描述，何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在Python 中單一個等號「=」是指派，兩個等號「==」用來做關係比較"
+      },
+      {
+        "key": "B",
+        "text": "使用指派運算子時，變數的值不必事先設定"
+      },
+      {
+        "key": "C",
+        "text": "是將等號右方的資料值指派給等號左方的變數"
+      },
+      {
+        "key": "D",
+        "text": "有單一指派和複合指派兩種指派方式"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_1_82",
+    "globalIndex": 82,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 82,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問以下程式會輸出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "2.0"
+      },
+      {
+        "key": "D",
+        "text": "2.5"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s1_q82_1_59.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_1_83",
+    "globalIndex": 83,
+    "examId": "ictp",
+    "section": 1,
+    "sectionName": "第一部分：Python 基礎語法與運算",
+    "number": 83,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問Python 指令x=5; x <<=2; print(x) 會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_1",
+    "globalIndex": 84,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "NameError"
+      },
+      {
+        "key": "C",
+        "text": "False"
+      },
+      {
+        "key": "D",
+        "text": "TypeError"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q1_1_60.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_2",
+    "globalIndex": 85,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "'apple','banana','cherry'"
+      },
+      {
+        "key": "B",
+        "text": "['apple','banana','cherry']"
+      },
+      {
+        "key": "C",
+        "text": "lst"
+      },
+      {
+        "key": "D",
+        "text": "error"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q2_1_61.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_3",
+    "globalIndex": 86,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "台北"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "TypeError"
+      },
+      {
+        "key": "D",
+        "text": "Mary"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q3_1_62.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_4",
+    "globalIndex": 87,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令fruit = (\"Apple\" , \"Orange\" , \"Banana\" , \"Lemon\")，請問fruit[2]是什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Banana"
+      },
+      {
+        "key": "B",
+        "text": "Lemon"
+      },
+      {
+        "key": "C",
+        "text": "Apple"
+      },
+      {
+        "key": "D",
+        "text": "Orange"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_5",
+    "globalIndex": 88,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "'banana'"
+      },
+      {
+        "key": "B",
+        "text": "[ ]"
+      },
+      {
+        "key": "C",
+        "text": "'apple'"
+      },
+      {
+        "key": "D",
+        "text": "[' ']"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q5_1_63.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_6",
+    "globalIndex": 89,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "[1, 2, 3, 4, 5, 6, 7]"
+      },
+      {
+        "key": "B",
+        "text": "顯示執行錯誤"
+      },
+      {
+        "key": "C",
+        "text": "[7, 6, 5, 4, 3, 2, 1]"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q6_1_64.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_7",
+    "globalIndex": 90,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於容器資料型別的陳述，下列何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "set(集合)資料具有無序與互異的特性"
+      },
+      {
+        "key": "B",
+        "text": "tuple 是不可變物件"
+      },
+      {
+        "key": "C",
+        "text": "dict（字典）是「鍵（Key）」與「值（Value）」對應的物\n件，是可變物件"
+      },
+      {
+        "key": "D",
+        "text": "set 資料放置於中括號[ ]內"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_8",
+    "globalIndex": 91,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "顯示執行錯誤"
+      },
+      {
+        "key": "B",
+        "text": "[1, 2, 3, 4, 5, 6, 7]"
+      },
+      {
+        "key": "C",
+        "text": "[7, 6, 5, 4, 3, 2, 1]"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q8_1_65.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_9",
+    "globalIndex": 92,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設lst=['a', 'b', 'c', 'd']， 請問len(lst) 是多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_10",
+    "globalIndex": 93,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令num=[[1,2,3],[4,5,6],[7,8,9]]，請問len(num)是哪一個值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "TypeError"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_11",
+    "globalIndex": 94,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "['apple', 'banana', 'cherry']"
+      },
+      {
+        "key": "B",
+        "text": "['apple', 'banana']"
+      },
+      {
+        "key": "C",
+        "text": "'apple', 'banana', 'cherry'"
+      },
+      {
+        "key": "D",
+        "text": "'apple', 'banana'"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q11_1_66.png"
+    ],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_12",
+    "globalIndex": 95,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設s1 = {\"a\", \"b\", \"c\"}， s2 = {\"b\", \"c\", \"e\"}，請問print(s1 | s2) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "{\"c\", \"b\"}"
+      },
+      {
+        "key": "B",
+        "text": "{\"a\", \"e\"}"
+      },
+      {
+        "key": "C",
+        "text": "{\"a\"}"
+      },
+      {
+        "key": "D",
+        "text": "{\"a\", \"b\", \"e\", \"c\"}"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_13",
+    "globalIndex": 96,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令fruit = (\"Apple\" , \"Orange\" , \"Banana\" , \"Lemon\")，請問print(fruit[1])會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lemon"
+      },
+      {
+        "key": "B",
+        "text": "Orange"
+      },
+      {
+        "key": "C",
+        "text": "Banana"
+      },
+      {
+        "key": "D",
+        "text": "Apple"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 5
+  },
+  {
+    "id": "ictp_2_14",
+    "globalIndex": 97,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "'banana'"
+      },
+      {
+        "key": "B",
+        "text": "[' ']"
+      },
+      {
+        "key": "C",
+        "text": "'apple'"
+      },
+      {
+        "key": "D",
+        "text": "[ ]"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q14_1_69.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_15",
+    "globalIndex": 98,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設lst=['a', 'b', 'c']， 請問print('b' in lst) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "False"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_16",
+    "globalIndex": 99,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令score = (5, 7, 4, 9, 3)，請問score[1]+score[3]是哪一個值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_17",
+    "globalIndex": 100,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "apple"
+      },
+      {
+        "key": "B",
+        "text": "banana"
+      },
+      {
+        "key": "C",
+        "text": "cherry"
+      },
+      {
+        "key": "D",
+        "text": "tomato"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q17_1_70.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_18",
+    "globalIndex": 101,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於dict 字典資料型態的陳述，下列何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "適用於序列型別的「切片」運算，在字典中就無法使用"
+      },
+      {
+        "key": "B",
+        "text": "每一筆資料是一對key:value"
+      },
+      {
+        "key": "C",
+        "text": "資料放置於大括號{}內"
+      },
+      {
+        "key": "D",
+        "text": "dict 字典中的value 必須是不可變的資料型態"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_19",
+    "globalIndex": 102,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "執行以下的程式碼：  \n \n請問輸出列印的內容為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "True"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q19_1_71.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_20",
+    "globalIndex": 103,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設data = {\"name\":\"Mary\", \"age\":\"20\", \"addr\":\"台北\", \"addr\":\"高雄\"}， 請問print(len(data)]) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "TypeError"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_21",
+    "globalIndex": 104,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "False"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q21_1_72.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_22",
+    "globalIndex": 105,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "True"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q22_1_73.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_23",
+    "globalIndex": 106,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q23_1_74.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_24",
+    "globalIndex": 107,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "TypeError"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "台北"
+      },
+      {
+        "key": "D",
+        "text": "Mary"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q24_1_75.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_25",
+    "globalIndex": 108,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "[5, 4, 2, 1]"
+      },
+      {
+        "key": "B",
+        "text": "5, 4, 2, 1"
+      },
+      {
+        "key": "C",
+        "text": "[1, 2, 4, 5]"
+      },
+      {
+        "key": "D",
+        "text": "1, 2, 4, 5"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q25_1_76.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_26",
+    "globalIndex": 109,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q26_1_77.png"
+    ],
+    "page": 6
+  },
+  {
+    "id": "ictp_2_27",
+    "globalIndex": 110,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "[ ]"
+      },
+      {
+        "key": "B",
+        "text": ":"
+      },
+      {
+        "key": "C",
+        "text": "'apple', 'banana', 'cherry'"
+      },
+      {
+        "key": "D",
+        "text": "['apple', 'banana', 'cherry']"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q27_1_80.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_28",
+    "globalIndex": 111,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "''"
+      },
+      {
+        "key": "B",
+        "text": "cherry"
+      },
+      {
+        "key": "C",
+        "text": "'apple'"
+      },
+      {
+        "key": "D",
+        "text": "'banana'"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q28_1_81.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_29",
+    "globalIndex": 112,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於list 串列資料型態的陳述，下列何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一串由逗號分隔的值"
+      },
+      {
+        "key": "B",
+        "text": "Python 提供生成式，是一種建立串列更快速彈性的作法"
+      },
+      {
+        "key": "C",
+        "text": "類似其他程式語言的陣列結構"
+      },
+      {
+        "key": "D",
+        "text": "不\n可以包含不同的資料型別"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_30",
+    "globalIndex": 113,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "你為你的公司開發了Python 應用程式，一個名為books 的清單包含1000 種書籍，你需要分割這個清單，顯示由第二本書開始到\n最後，中間間隔1 本書籍，你應該使用哪個程式碼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "books [1::2]"
+      },
+      {
+        "key": "B",
+        "text": "books [::2]"
+      },
+      {
+        "key": "C",
+        "text": "books [1:2]"
+      },
+      {
+        "key": "D",
+        "text": "books [2:2]"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_31",
+    "globalIndex": 114,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B) ['apple', 'banana', 'cherry']"
+      },
+      {
+        "key": "C",
+        "text": "x"
+      },
+      {
+        "key": "D",
+        "text": "error  \napple \nbanana \ncherry"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q31_1_82.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_32",
+    "globalIndex": 115,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "台北"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "TypeError"
+      },
+      {
+        "key": "D",
+        "text": "Mary"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q32_1_83.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_33",
+    "globalIndex": 116,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "TypeError"
+      },
+      {
+        "key": "C",
+        "text": "NameError"
+      },
+      {
+        "key": "D",
+        "text": "True"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q33_1_84.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_34",
+    "globalIndex": 117,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "cherry"
+      },
+      {
+        "key": "B",
+        "text": "apple"
+      },
+      {
+        "key": "C",
+        "text": "banana"
+      },
+      {
+        "key": "D",
+        "text": "tomato"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q34_1_85.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_35",
+    "globalIndex": 118,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令num=[[1,2,3],[4,5,6],[7,8,9]]，請問num[2][1]-num[1][2]是哪一個值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_36",
+    "globalIndex": 119,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "顯示執行錯誤"
+      },
+      {
+        "key": "B",
+        "text": "['Python', 'Thanks', 'flexibility', 'of', 'the', 'to']"
+      },
+      {
+        "key": "C",
+        "text": "['flexibility', 'of', 'Python', 'Thanks', 'the', 'to']"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q36_1_86.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_37",
+    "globalIndex": 120,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q37_1_87.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_38",
+    "globalIndex": 121,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令score = (5, 7, 4, 9, 3)，請問哪一個索引可以正確取用值9？",
+    "options": [
+      {
+        "key": "A",
+        "text": "score[4]"
+      },
+      {
+        "key": "B",
+        "text": "score[3]"
+      },
+      {
+        "key": "C",
+        "text": "score(4)"
+      },
+      {
+        "key": "D",
+        "text": "score(3)"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_39",
+    "globalIndex": 122,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "cherry"
+      },
+      {
+        "key": "B",
+        "text": "banana"
+      },
+      {
+        "key": "C",
+        "text": "' '"
+      },
+      {
+        "key": "D",
+        "text": "apple"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s2_q39_1_88.png"
+    ],
+    "page": 7
+  },
+  {
+    "id": "ictp_2_40",
+    "globalIndex": 123,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設lst=[1, 4, 2, 5]， 請問print(lst[0:2]) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "[1, 4]"
+      },
+      {
+        "key": "B",
+        "text": "1, 4"
+      },
+      {
+        "key": "C",
+        "text": "[1, 4, 2]"
+      },
+      {
+        "key": "D",
+        "text": "1, 4, 2"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_41",
+    "globalIndex": 124,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "False"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q41_1_91.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_42",
+    "globalIndex": 125,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設s=(5, 7, 4, 9, 3)，請問下列哪個指令不能算出平均值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "sum(s)/len(s)"
+      },
+      {
+        "key": "B",
+        "text": "(s[0]+s[1]+s[2]+s[3]+s[4])/5"
+      },
+      {
+        "key": "C",
+        "text": "sum(s)/5"
+      },
+      {
+        "key": "D",
+        "text": "(s(0)+s(1)+s(2)+s(3)+s(4))/5"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_43",
+    "globalIndex": 126,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令num=[[1,2,3],[4,5,6],[7,8,9]]，請問下列哪一個索引num[1][2]是哪一個值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_44",
+    "globalIndex": 127,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設data = {\"name\":\"Mary\", \"age\":\"20\", \"addr\":\"台北\"}， 請問print(data['name']) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mary"
+      },
+      {
+        "key": "B",
+        "text": "台北"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "TypeError"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_45",
+    "globalIndex": 128,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設lst=['a', 'b', 'c']， 請問print(lst[2]) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "b"
+      },
+      {
+        "key": "B",
+        "text": "c"
+      },
+      {
+        "key": "C",
+        "text": "'c'"
+      },
+      {
+        "key": "D",
+        "text": "'b'"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_46",
+    "globalIndex": 129,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(3.0+4.0)^2.0)=49.0"
+      },
+      {
+        "key": "B",
+        "text": "({4}+{3})^2)={49}"
+      },
+      {
+        "key": "C",
+        "text": "(4+3)^2)=49"
+      },
+      {
+        "key": "D",
+        "text": "({3}+{4})^2)={49}"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q46_1_92.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_47",
+    "globalIndex": 130,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於tuple 序對資料型態的陳述，下列何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "序對可以存放不同資料型態的元素"
+      },
+      {
+        "key": "B",
+        "text": "「*」運算子可以複製序對的元素成多個"
+      },
+      {
+        "key": "C",
+        "text": "tuple 是有序物件"
+      },
+      {
+        "key": "D",
+        "text": "序對內的元素可\n以用 [ ] 運算子來改變元素的值"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_48",
+    "globalIndex": 131,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "{\"e\", \"b\"}"
+      },
+      {
+        "key": "B",
+        "text": "{\"a\", \"f\", \"g\", \"b\", \"e\", \"c\"}"
+      },
+      {
+        "key": "C",
+        "text": "{\"a\", \"c\"}"
+      },
+      {
+        "key": "D",
+        "text": "{\"a\", \"f\", \"g\", \"c\"}"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q48_1_93.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_49",
+    "globalIndex": 132,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "[1, 2, 3]"
+      },
+      {
+        "key": "B",
+        "text": "['a', 'b', 'c', '1', '2', '3']"
+      },
+      {
+        "key": "C",
+        "text": "['a', 'b', 'c', 1, 2, 3]"
+      },
+      {
+        "key": "D",
+        "text": "error"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s2_q49_1_94.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_50",
+    "globalIndex": 133,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "cherry"
+      },
+      {
+        "key": "B",
+        "text": "banana"
+      },
+      {
+        "key": "C",
+        "text": "apple"
+      },
+      {
+        "key": "D",
+        "text": "' '"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q50_1_95.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_51",
+    "globalIndex": 134,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "cherry"
+      },
+      {
+        "key": "B",
+        "text": "banana"
+      },
+      {
+        "key": "C",
+        "text": "' '"
+      },
+      {
+        "key": "D",
+        "text": "apple"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q51_1_96.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_52",
+    "globalIndex": 135,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "{\"e\", \"b\"}"
+      },
+      {
+        "key": "B",
+        "text": "{\"a\", \"c\"}"
+      },
+      {
+        "key": "C",
+        "text": "{\"a\", \"f\", \"g\", \"c\"}"
+      },
+      {
+        "key": "D",
+        "text": "{\"a\", \"f\", \"g\", \"b\", \"e\", \"c\"}"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s2_q52_1_97.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_53",
+    "globalIndex": 136,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設lst=['a', 'b', 'c']， 請問print(lst[1]) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "'a'"
+      },
+      {
+        "key": "B",
+        "text": "b"
+      },
+      {
+        "key": "C",
+        "text": "a"
+      },
+      {
+        "key": "D",
+        "text": "'b'"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_54",
+    "globalIndex": 137,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q54_1_98.png"
+    ],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_55",
+    "globalIndex": 138,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "range(2,8)會產生下列哪一個串列？",
+    "options": [
+      {
+        "key": "A",
+        "text": "[2, 8]"
+      },
+      {
+        "key": "B",
+        "text": "[2, 3, 4, 5, 6, 7, 8]"
+      },
+      {
+        "key": "C",
+        "text": "[1, 2, 3, 4, 5, 6, 7]"
+      },
+      {
+        "key": "D",
+        "text": "[2, 3, 4, 5, 6, 7]"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 8
+  },
+  {
+    "id": "ictp_2_56",
+    "globalIndex": 139,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設lst=[1, 4, 2, 5]， 請問print(lst.reverse()) 會印出什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1, 2, 4, 5"
+      },
+      {
+        "key": "B",
+        "text": "5, 4, 2, 1"
+      },
+      {
+        "key": "C",
+        "text": "[5, 2, 4, 1]"
+      },
+      {
+        "key": "D",
+        "text": "[1, 2, 4, 5]"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "ictp_2_57",
+    "globalIndex": 140,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "['tomato', 'banana']"
+      },
+      {
+        "key": "B",
+        "text": "['banana', 'tomato']"
+      },
+      {
+        "key": "C",
+        "text": "['apple']"
+      },
+      {
+        "key": "D",
+        "text": "['tomato']"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s2_q57_1_101.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_2_58",
+    "globalIndex": 141,
+    "examId": "ictp",
+    "section": 2,
+    "sectionName": "第二部分：資料型態、容器與控制結構",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "令fruit = (\"Apple\" , \"Orange\" , \"Banana\" , \"Lemon\")，請問len(fruit)是哪一個值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "TypeError"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_1",
+    "globalIndex": 142,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "若要查詢Python 版本或作業系統平台，則需先匯入底下哪個模組？",
+    "options": [
+      {
+        "key": "A",
+        "text": "import sys"
+      },
+      {
+        "key": "B",
+        "text": "import math"
+      },
+      {
+        "key": "C",
+        "text": "import os"
+      },
+      {
+        "key": "D",
+        "text": "import random"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_2",
+    "globalIndex": 143,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "{'a': 0, 'b': 2, 'c': 5}"
+      },
+      {
+        "key": "B",
+        "text": "{'a': 2, 'b': 0, 'c': 5}"
+      },
+      {
+        "key": "C",
+        "text": "{'a': 5, 'b': 2, 'c': 5}"
+      },
+      {
+        "key": "D",
+        "text": "{'a': 0, 'b': 5, 'c': 2}"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q2_1_102.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_3",
+    "globalIndex": 144,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪個選項不是底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "49 92 83 30 51 19 13 15 52 51"
+      },
+      {
+        "key": "B",
+        "text": "25 50 55 75 42 32 58 93 83 99"
+      },
+      {
+        "key": "C",
+        "text": "19 84 92 90 64 61 57 88 73 73"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q3_1_103.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_4",
+    "globalIndex": 145,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問執行for i in \"ILoveYou\": 的迴圈指令，迴圈總共會執行幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_5",
+    "globalIndex": 146,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "無窮迴圈，不顯示任何內容"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q5_1_104.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_6",
+    "globalIndex": 147,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面if 決策的程式碼，若x=4，則輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "orange"
+      },
+      {
+        "key": "B",
+        "text": "grape"
+      },
+      {
+        "key": "C",
+        "text": "apple"
+      },
+      {
+        "key": "D",
+        "text": "banana"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q6_1_105.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_7",
+    "globalIndex": 148,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "53"
+      },
+      {
+        "key": "B",
+        "text": "(C) 531"
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q7_1_106.png",
+      "images/ictp/ictp_s3_q7_2_107.png",
+      "images/ictp/ictp_s3_q7_3_108.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_8",
+    "globalIndex": 149,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B) 13"
+      },
+      {
+        "key": "C",
+        "text": "(D) 135"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q8_1_109.png",
+      "images/ictp/ictp_s3_q8_2_111.png",
+      "images/ictp/ictp_s3_q8_3_110.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_9",
+    "globalIndex": 150,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面for 迴圈的程式片段，若希望x=7 時離開，則空白行處應填何指令？",
+    "options": [
+      {
+        "key": "A",
+        "text": "continue"
+      },
+      {
+        "key": "B",
+        "text": "break"
+      },
+      {
+        "key": "C",
+        "text": "pass"
+      },
+      {
+        "key": "D",
+        "text": "exit"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q9_1_112.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "ictp_3_10",
+    "globalIndex": 151,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於定義函數的說明下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Python 定義函數是使用關鍵字「def」"
+      },
+      {
+        "key": "B",
+        "text": "定義函數時一定要傳入參數"
+      },
+      {
+        "key": "C",
+        "text": "沒有回傳值時，函數會自動回傳None 物件"
+      },
+      {
+        "key": "D",
+        "text": "函數的程式指令區塊必須縮排"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_11",
+    "globalIndex": 152,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，最後k 值會為多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q11_1_115.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_12",
+    "globalIndex": 153,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6.0"
+      },
+      {
+        "key": "B",
+        "text": "4.0"
+      },
+      {
+        "key": "C",
+        "text": "7.5"
+      },
+      {
+        "key": "D",
+        "text": "5.0"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q12_1_116.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_13",
+    "globalIndex": 154,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "不顯示任何內容"
+      },
+      {
+        "key": "C",
+        "text": "顯示錯誤"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q13_1_117.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_14",
+    "globalIndex": 155,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於模組與套件的說明，下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "模組是一個「*.py」檔案"
+      },
+      {
+        "key": "B",
+        "text": "擁有「__init__.py」檔案的目錄就會被視為一個套件"
+      },
+      {
+        "key": "C",
+        "text": "如果要一次匯入多個套件，則必須以\n分號（;）隔開不同的套件名稱"
+      },
+      {
+        "key": "D",
+        "text": "多個模組組合在一起還能產生套件"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_15",
+    "globalIndex": 156,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B)"
+      },
+      {
+        "key": "C",
+        "text": "531"
+      },
+      {
+        "key": "D",
+        "text": "53"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q15_1_118.png",
+      "images/ictp/ictp_s3_q15_2_107.png",
+      "images/ictp/ictp_s3_q15_3_108.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_16",
+    "globalIndex": 157,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有關指派運算子的描述，何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "是將等號右方的資料值指派給等號左方的變數"
+      },
+      {
+        "key": "B",
+        "text": "使用指派運算子時，變數的值不必事先設定"
+      },
+      {
+        "key": "C",
+        "text": "在Python 中單一個等號\n「=」是指派，兩個等號「==」用來做關係比較"
+      },
+      {
+        "key": "D",
+        "text": "有單一指派和複合指派兩種指派方式"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_17",
+    "globalIndex": 158,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B) 012"
+      },
+      {
+        "key": "C",
+        "text": "(D) 0123"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q17_1_119.png",
+      "images/ictp/ictp_s3_q17_2_120.png",
+      "images/ictp/ictp_s3_q17_3_121.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_18",
+    "globalIndex": 159,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行num(5)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "720"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q18_1_122.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_19",
+    "globalIndex": 160,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於函數回傳值的說明下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "定義函數時一定要有回傳值"
+      },
+      {
+        "key": "B",
+        "text": "多個回傳值，只要以逗號（,）分隔回傳值"
+      },
+      {
+        "key": "C",
+        "text": "可以包含一個以上的return 指令"
+      },
+      {
+        "key": "D",
+        "text": "當程式\n執行到return 指令就終止，然後將值傳回"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_20",
+    "globalIndex": 161,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行fib(5)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q20_1_123.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "ictp_3_21",
+    "globalIndex": 162,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面if 決策的程式碼，若x=6，則輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "orange"
+      },
+      {
+        "key": "B",
+        "text": "apple"
+      },
+      {
+        "key": "C",
+        "text": "banana"
+      },
+      {
+        "key": "D",
+        "text": "grape"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q21_1_126.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_22",
+    "globalIndex": 163,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於函數的說明下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "有助於日後程式的除錯和維護"
+      },
+      {
+        "key": "B",
+        "text": "要使用函數的唯一管道就是自訂函數"
+      },
+      {
+        "key": "C",
+        "text": "可以大幅縮短開發的時間"
+      },
+      {
+        "key": "D",
+        "text": "可以省去重複撰\n寫相同程式碼"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_23",
+    "globalIndex": 164,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設a=0; b=1，並且定義下面函數，請問下面哪一個引用的結果跟其他不同？",
+    "options": [
+      {
+        "key": "A",
+        "text": "func(0, b=1)"
+      },
+      {
+        "key": "B",
+        "text": "func(a, b)"
+      },
+      {
+        "key": "C",
+        "text": "func(a=0, 1)"
+      },
+      {
+        "key": "D",
+        "text": "func(0, 1)"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q23_1_127.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_24",
+    "globalIndex": 165,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "無窮迴圈，不顯示任何內容"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q24_1_128.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_25",
+    "globalIndex": 166,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面指令會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      },
+      {
+        "key": "C",
+        "text": "False"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q25_1_129.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_26",
+    "globalIndex": 167,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對於while 迴圈的描述，何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "要注意檢查離開迴圈的條件是否存在，才不會導致無窮迴圈"
+      },
+      {
+        "key": "B",
+        "text": "當判斷條件式為真時才會執行迴圈內的敘述"
+      },
+      {
+        "key": "C",
+        "text": "進入迴圈\n並不會做條件檢查"
+      },
+      {
+        "key": "D",
+        "text": "通常具備變數初始值、迴圈條件式及調整變數增減值三個要件"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_27",
+    "globalIndex": 168,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列程式碼是用來判斷所輸入的數字是偶數或奇數，第2 行空白處內容應為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "num % 2 == 0"
+      },
+      {
+        "key": "B",
+        "text": "num // 2 == 0"
+      },
+      {
+        "key": "C",
+        "text": "num % 2 == 1"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q27_1_130.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_28",
+    "globalIndex": 169,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於函數參數的傳遞，下列哪種型態的變數是傳值的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "集合變數"
+      },
+      {
+        "key": "B",
+        "text": "串列變數"
+      },
+      {
+        "key": "C",
+        "text": "數值變數"
+      },
+      {
+        "key": "D",
+        "text": "字典變數"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_29",
+    "globalIndex": 170,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "執行下面的程式，請問第07 行的輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10000"
+      },
+      {
+        "key": "B",
+        "text": "200"
+      },
+      {
+        "key": "C",
+        "text": "100"
+      },
+      {
+        "key": "D",
+        "text": "TypeError"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q29_1_131.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_30",
+    "globalIndex": 171,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "True"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q30_1_132.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_31",
+    "globalIndex": 172,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對於for/in 迴圈的描述，何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "for 迴圈可以走訪任何序列項目"
+      },
+      {
+        "key": "B",
+        "text": "遞增值預設加2"
+      },
+      {
+        "key": "C",
+        "text": "計數器要有起始值和終止值"
+      },
+      {
+        "key": "D",
+        "text": "巢狀迴圈架構，迴圈間不可交錯"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_32",
+    "globalIndex": 173,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "若要查詢目前工作資料夾路徑，或是取得文件大小，則需先匯入底下哪個模組？",
+    "options": [
+      {
+        "key": "A",
+        "text": "import os"
+      },
+      {
+        "key": "B",
+        "text": "import math"
+      },
+      {
+        "key": "C",
+        "text": "import random"
+      },
+      {
+        "key": "D",
+        "text": "import sys"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 11
+  },
+  {
+    "id": "ictp_3_33",
+    "globalIndex": 174,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面for 迴圈的程式片段，若希望印出所有小於5 的x，則空白行處應填何指令？",
+    "options": [
+      {
+        "key": "A",
+        "text": "pass()"
+      },
+      {
+        "key": "B",
+        "text": "exit()"
+      },
+      {
+        "key": "C",
+        "text": "break"
+      },
+      {
+        "key": "D",
+        "text": "continue"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q33_1_135.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_34",
+    "globalIndex": 175,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行num(6)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "720"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q34_1_136.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_35",
+    "globalIndex": 176,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q35_1_137.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_36",
+    "globalIndex": 177,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "無窮迴圈，不顯示任何內容"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q36_1_138.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_37",
+    "globalIndex": 178,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設a=b=4，下面哪一個迴圈指令不會執行？",
+    "options": [
+      {
+        "key": "A",
+        "text": "while a=b:"
+      },
+      {
+        "key": "B",
+        "text": "while True:"
+      },
+      {
+        "key": "C",
+        "text": "while a>1:"
+      },
+      {
+        "key": "D",
+        "text": "while a:"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_38",
+    "globalIndex": 179,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面for 迴圈的程式片段，若希望統計串列數字小於5 的個數，則05 行空白處可填何指令？",
+    "options": [
+      {
+        "key": "A",
+        "text": "continue"
+      },
+      {
+        "key": "B",
+        "text": "pass()"
+      },
+      {
+        "key": "C",
+        "text": "break"
+      },
+      {
+        "key": "D",
+        "text": "exit()"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q38_1_139.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_39",
+    "globalIndex": 180,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於Python 的函數說明下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "呼叫函數時使用括號「( )」運算子"
+      },
+      {
+        "key": "B",
+        "text": "引數分為位置引數與關鍵字引數"
+      },
+      {
+        "key": "C",
+        "text": "無法採用預設引數的方式"
+      },
+      {
+        "key": "D",
+        "text": "關鍵字引數的位\n置並不一定要依照參數順"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_40",
+    "globalIndex": 181,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於函數與參數傳遞的說明下列何者有誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可變物件（Mutable Object）（如清單），傳遞引數時以「傳址」處理"
+      },
+      {
+        "key": "B",
+        "text": "區域變數適用於所宣告的函數或流程控制的程式區\n塊"
+      },
+      {
+        "key": "C",
+        "text": "河內塔問題使用遞迴式與佇列觀念來解決問題"
+      },
+      {
+        "key": "D",
+        "text": "一個函數或副程式，是由自身所定義或呼叫的，就稱為遞迴"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_41",
+    "globalIndex": 182,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面if 決策的程式碼，若x=7，則輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "banana"
+      },
+      {
+        "key": "B",
+        "text": "orange"
+      },
+      {
+        "key": "C",
+        "text": "grape"
+      },
+      {
+        "key": "D",
+        "text": "apple"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q41_1_140.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_42",
+    "globalIndex": 183,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設a=0; b=1，並且定義函數def func(a=0, b=1):，請問下面哪一個是錯誤的引用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "func(a, b)"
+      },
+      {
+        "key": "B",
+        "text": "func(a=0, b)"
+      },
+      {
+        "key": "C",
+        "text": "func(a, b=1)"
+      },
+      {
+        "key": "D",
+        "text": "func(a=0, b=1)"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_43",
+    "globalIndex": 184,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行num(10)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "55"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q43_1_141.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "ictp_3_44",
+    "globalIndex": 185,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "運算式「a=15%4」，變數a 會儲存？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_45",
+    "globalIndex": 186,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼，輸出結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q45_1_144.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_46",
+    "globalIndex": 187,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "(C)"
+      },
+      {
+        "key": "D",
+        "text": "135"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q46_1_145.png",
+      "images/ictp/ictp_s3_q46_2_147.png",
+      "images/ictp/ictp_s3_q46_3_146.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_47",
+    "globalIndex": 188,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對於迴圈的描述，何者不正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "如果跳離迴圈的條件設定不當，有可能陷入無窮迴圈"
+      },
+      {
+        "key": "B",
+        "text": "在for/in 迴圈中，還可以包含其他的for/in 迴圈"
+      },
+      {
+        "key": "C",
+        "text": "巢狀迴圈內外\n迴圈可以交錯使用"
+      },
+      {
+        "key": "D",
+        "text": "while 迴圈會先檢查條件運算式"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_48",
+    "globalIndex": 189,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設alist=[3,1,0,5,4,7,9,6]，則下面程式片段的輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q48_1_148.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_49",
+    "globalIndex": 190,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "你編寫一個函數可以讀取檔案並輸出檔案中的每一行，如下的程式碼，其中包含的行號只是做為參考，執行到第三行時會發生錯\n誤，請問原因為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "path 物件中不存在isfile 方法"
+      },
+      {
+        "key": "B",
+        "text": "isfile 方法需要兩個參數"
+      },
+      {
+        "key": "C",
+        "text": "你需要匯入os 函數庫"
+      },
+      {
+        "key": "D",
+        "text": "path 方法並不存在os 物件中"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q49_1_149.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_50",
+    "globalIndex": 191,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "Python 程式裡的區塊，可以透過哪一種方式來區分出程式碼層級，讓程式更具有可讀性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "留白"
+      },
+      {
+        "key": "B",
+        "text": "縮排"
+      },
+      {
+        "key": "C",
+        "text": "跳行"
+      },
+      {
+        "key": "D",
+        "text": "註解"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_51",
+    "globalIndex": 192,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如何避免不同模組之間同名衝突的問題？",
+    "options": [
+      {
+        "key": "A",
+        "text": "將模組以大小寫區分"
+      },
+      {
+        "key": "B",
+        "text": "將模組資源限定在模組的命名空間內"
+      },
+      {
+        "key": "C",
+        "text": "下達不同的匯入指令"
+      },
+      {
+        "key": "D",
+        "text": "絕對不能有同名的模組"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_52",
+    "globalIndex": 193,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "8.0"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "16.0"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q52_1_150.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_53",
+    "globalIndex": 194,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "for/in 迴圈每執行一次，如果增減值沒有特別指定，預設值為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_54",
+    "globalIndex": 195,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "你正在編寫的程式碼用來生成隨機整數，最小值為3，最大值為8，你應該使用哪兩種函數？  \n(1)random.randrange(3,9,1)  \n(2)random.randrange(3,8,1)  \n(3)random.randint(3,8)  \n(4)random.randint(3,9)",
+    "options": [
+      {
+        "key": "A",
+        "text": "(2)(3)"
+      },
+      {
+        "key": "B",
+        "text": "(1)(3)"
+      },
+      {
+        "key": "C",
+        "text": "(1)(2)"
+      },
+      {
+        "key": "D",
+        "text": "(3)(4)"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_55",
+    "globalIndex": 196,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "執行下面的程式，請問最後一行的輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "TypeError"
+      },
+      {
+        "key": "B",
+        "text": "100"
+      },
+      {
+        "key": "C",
+        "text": "200"
+      },
+      {
+        "key": "D",
+        "text": "10000"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q55_1_151.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_56",
+    "globalIndex": 197,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面指令會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "False"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s3_q56_1_152.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "ictp_3_57",
+    "globalIndex": 198,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於下面if 決策的程式碼，若x=5，則輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "banana"
+      },
+      {
+        "key": "B",
+        "text": "orange"
+      },
+      {
+        "key": "C",
+        "text": "apple"
+      },
+      {
+        "key": "D",
+        "text": "grape"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q57_1_126.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_58",
+    "globalIndex": 199,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行fib(6)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q58_1_155.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_59",
+    "globalIndex": 200,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於函數參數的傳遞，下列哪種型態的變數是傳址的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "布林變數"
+      },
+      {
+        "key": "B",
+        "text": "串列變數"
+      },
+      {
+        "key": "C",
+        "text": "字串變數"
+      },
+      {
+        "key": "D",
+        "text": "數值變數"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_60",
+    "globalIndex": 201,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設alist=[2,3,1,6,5,4,7,9,0,8]，則下面程式片段的輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s3_q60_1_156.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_61",
+    "globalIndex": 202,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 61,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "6.0"
+      },
+      {
+        "key": "D",
+        "text": "18.0"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q61_1_157.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_62",
+    "globalIndex": 203,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 62,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行num(8)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "28"
+      },
+      {
+        "key": "B",
+        "text": "55"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "45"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s3_q62_1_158.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_63",
+    "globalIndex": 204,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 63,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設a=0; b=1，並且定義函數def func(**num):，請問下面哪一個是正確的引用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "func(a, b)"
+      },
+      {
+        "key": "B",
+        "text": "func(a=0, b=1)"
+      },
+      {
+        "key": "C",
+        "text": "func(a, b=1)"
+      },
+      {
+        "key": "D",
+        "text": "func(a=0, b)"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_64",
+    "globalIndex": 205,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 64,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼，輸出結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q64_1_159.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_65",
+    "globalIndex": 206,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 65,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "你正在編寫使用randint 函數的應用程式，這個程式必須使用名稱rd 引用該函數，你需要導入該函數，你應該使用哪個程式碼片\n段？",
+    "options": [
+      {
+        "key": "A",
+        "text": "from random import randint as rd"
+      },
+      {
+        "key": "B",
+        "text": "import randint from random as rd"
+      },
+      {
+        "key": "C",
+        "text": "import random.randint as s rd"
+      },
+      {
+        "key": "D",
+        "text": "from random.randint \nrd"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_66",
+    "globalIndex": 207,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 66,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "執行下面的程式，請問第03 行的輸出為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10000"
+      },
+      {
+        "key": "B",
+        "text": "200"
+      },
+      {
+        "key": "C",
+        "text": "100"
+      },
+      {
+        "key": "D",
+        "text": "TypeError"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q66_1_160.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "ictp_3_67",
+    "globalIndex": 208,
+    "examId": "ictp",
+    "section": 3,
+    "sectionName": "第三部分：函式、模組與檔案處理",
+    "number": 67,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面程式碼會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s3_q67_1_163.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_1",
+    "globalIndex": 209,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "若有16 筆已經排序的資料，使用『循序搜尋法』欲搜尋某個數字，最差情況要搜尋幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_2",
+    "globalIndex": 210,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，哪個選項不可能輸出？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q2_1_164.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_3",
+    "globalIndex": 211,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面是插入排序法的主要程式片段，假設a=[3, 6, 4, 2]，請問執行後，第04 列的資料交換會執行幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q3_1_165.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_4",
+    "globalIndex": 212,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q4_1_166.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_5",
+    "globalIndex": 213,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "123"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "124578"
+      },
+      {
+        "key": "D",
+        "text": "123456789"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q5_1_167.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_6",
+    "globalIndex": 214,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面是循序搜尋法的函數內容，假設執行SeqSearch([5, 3, 1, 4, 6, 2], 4)，請問回傳何值？",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q6_1_168.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_7",
+    "globalIndex": 215,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面是交換排序法的主要程式片段，假設a=[4, 7, 3, 2]，請問執行後，第04 列的資料交換會執行幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s4_q7_1_169.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_8",
+    "globalIndex": 216,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "兩個數字比大小，再依需要交換位置，是排序裡重要的工作，下面哪一個指令可以做資料交換的工作？",
+    "options": [
+      {
+        "key": "A",
+        "text": "a, b=b, a"
+      },
+      {
+        "key": "B",
+        "text": "a=b; b=a"
+      },
+      {
+        "key": "C",
+        "text": "c=a; b=c; a=b"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_9",
+    "globalIndex": 217,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "120"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q9_1_170.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "ictp_4_10",
+    "globalIndex": 218,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行fib(6)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q10_1_173.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_11",
+    "globalIndex": 219,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q11_1_174.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_12",
+    "globalIndex": 220,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "利用氣泡排序法，欲將10 筆資料由小到大排序，最多需要交換幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "90"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_13",
+    "globalIndex": 221,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q13_1_175.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_14",
+    "globalIndex": 222,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q14_1_176.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_15",
+    "globalIndex": 223,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "演算法的特性不包括？",
+    "options": [
+      {
+        "key": "A",
+        "text": "允許無窮迴路"
+      },
+      {
+        "key": "B",
+        "text": "0 個或多個輸入資料"
+      },
+      {
+        "key": "C",
+        "text": "步驟清楚且可行"
+      },
+      {
+        "key": "D",
+        "text": "至少會有一個輸出結果"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_16",
+    "globalIndex": 224,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "26"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q16_1_177.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_17",
+    "globalIndex": 225,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "120"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q17_1_178.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_18",
+    "globalIndex": 226,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "執行錯誤"
+      },
+      {
+        "key": "B",
+        "text": "[2, 3, 5, 7]"
+      },
+      {
+        "key": "C",
+        "text": "[7, 5, 3, 2]"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q18_1_179.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_19",
+    "globalIndex": 227,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q19_1_180.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "ictp_4_20",
+    "globalIndex": 228,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行num(6)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "720"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q20_1_183.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_21",
+    "globalIndex": 229,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的遞迴函數，請問執行num(8)的結果為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "36"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "55"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q21_1_184.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_22",
+    "globalIndex": 230,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "27"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "81"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q22_1_185.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_23",
+    "globalIndex": 231,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q23_1_186.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_24",
+    "globalIndex": 232,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "你正在為一個公車公司編寫Python 應用程式，公司希望鼓勵學生和上班族儘量搭大眾運輸交通工具，學生和上班族將會獲得35%\n的折扣，你編寫以下程式碼，其中包含的行號只是做為參考，你必須完成這個程式碼，在03 行中你將加入什麼程式碼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "if not (Student and office_worker):"
+      },
+      {
+        "key": "B",
+        "text": "if not (Student or office_worker):"
+      },
+      {
+        "key": "C",
+        "text": "if (not Student) or office_worker:"
+      },
+      {
+        "key": "D",
+        "text": "if (not Student) \nand office_worker:"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q24_1_187.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_25",
+    "globalIndex": 233,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q25_1_188.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_26",
+    "globalIndex": 234,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "99"
+      },
+      {
+        "key": "B",
+        "text": "54"
+      },
+      {
+        "key": "C",
+        "text": "55"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q26_1_189.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "ictp_4_27",
+    "globalIndex": 235,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(B)"
+      },
+      {
+        "key": "C",
+        "text": "(D)"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q27_1_192.png",
+      "images/ictp/ictp_s4_q27_2_195.png",
+      "images/ictp/ictp_s4_q27_3_196.png",
+      "images/ictp/ictp_s4_q27_4_194.png",
+      "images/ictp/ictp_s4_q27_5_193.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_28",
+    "globalIndex": 236,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面是氣泡排序法的主要程式片段，假設a=[3, 2, 6, 4]，請問執行後，第04 列的資料交換會執行幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q28_1_197.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_29",
+    "globalIndex": 237,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "120"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q29_1_198.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_30",
+    "globalIndex": 238,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q30_1_199.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_31",
+    "globalIndex": 239,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的函數，請問執行func1(42, 39)，其回傳值為和？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q31_1_200.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_32",
+    "globalIndex": 240,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "26"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/ictp/ictp_s4_q32_1_201.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_33",
+    "globalIndex": 241,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q33_1_202.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "ictp_4_34",
+    "globalIndex": 242,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面是二元搜尋法的函數內容，請問第06 列應填什麼指令？",
+    "options": [
+      {
+        "key": "A",
+        "text": "binary_search(a, start, mid-1, x)"
+      },
+      {
+        "key": "B",
+        "text": "binary_search(a, start, mid, x)"
+      },
+      {
+        "key": "C",
+        "text": "binary_search(a, start-1, mid, x)"
+      },
+      {
+        "key": "D",
+        "text": "binary_search(a, start-\n1, mid-1, x)"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q34_1_205.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_35",
+    "globalIndex": 243,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "26"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q35_1_206.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_36",
+    "globalIndex": 244,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "定義下面的函數，請問執行func1(16, 30)，其回傳值為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q36_1_207.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_37",
+    "globalIndex": 245,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下面是選擇排序法的主要程式片段，假設a=[4, 7, 3, 2]，請問執行後，第05 列的變數min 會被改變幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q37_1_208.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_38",
+    "globalIndex": 246,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "會印出什麼結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "輸入必需為數字"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q38_1_209.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_39",
+    "globalIndex": 247,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "66"
+      },
+      {
+        "key": "C",
+        "text": "55"
+      },
+      {
+        "key": "D",
+        "text": "45"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/ictp/ictp_s4_q39_1_210.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_40",
+    "globalIndex": 248,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "試問下列程式碼中，輸出結果為？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/ictp/ictp_s4_q40_1_211.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_41",
+    "globalIndex": 249,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "若有16 筆已經排序的資料，使用『二分搜尋法』搜尋某個數字，最差情況要搜尋幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "page": 19
+  },
+  {
+    "id": "ictp_4_42",
+    "globalIndex": 250,
+    "examId": "ictp",
+    "section": 4,
+    "sectionName": "第四部分：演算法、物件與進階應用",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請寫出底下程式碼的執行結果：",
+    "options": [
+      {
+        "key": "A",
+        "text": "120"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/ictp/ictp_s4_q42_1_214.png"
+    ],
+    "page": 20
+  }
+]

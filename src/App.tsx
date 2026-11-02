@@ -1,0 +1,641 @@
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { 
+  ExamMeta, 
+  Question, 
+  QuizConfig, 
+  QuizSession, 
+  MistakeItem, 
+  CorrectItem, 
+  HistoryItem,
+  QuizMode
+} from './types/exam';
+import { Navbar, ActiveTab } from './components/Navbar';
+import { ExamCard } from './components/ExamCard';
+import { ConfigModal } from './components/ConfigModal';
+import { QuizView } from './components/QuizView';
+import { ResultView } from './components/ResultView';
+import { MistakeBankView } from './components/MistakeBankView';
+import { HistoryView } from './components/HistoryView';
+import { BookmarksView } from './components/BookmarksView';
+import { StatsView } from './components/StatsView';
+import { 
+  getMistakes, 
+  recordMistake, 
+  removeMistake, 
+  clearMistakes,
+  getCorrects,
+  recordCorrect,
+  getHistory,
+  saveHistory,
+  clearHistory,
+  getBookmarks,
+  toggleBookmark,
+  getActiveSession,
+  saveActiveSession,
+  clearActiveSession
+} from './utils/storage';
+import { generateToeicQuestions, RawToeicWord } from './utils/toeicGenerator';
+import { resolveAssetUrl } from './utils/asset';
+import { Sparkles, GraduationCap, Flame, ArrowRight } from 'lucide-react';
+
+function shuffle<T>(arr: T[]): T[] {
+  const res = [...arr];
+  for (let i = res.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [res[i], res[j]] = [res[j], res[i]];
+  }
+  return res;
+}
+
+export function App() {
+  // Navigation
+  const [activeTab, setActiveTab] = useState<ActiveTab>('exams');
+
+  // Loaded Data
+  const [exams, setExams] = useState<ExamMeta[]>([]);
+  const [rawQuestions, setRawQuestions] = useState<Record<string, Question[]>>({});
+  const [rawToeicWords, setRawToeicWords] = useState<RawToeicWord[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  // Local Storage state
+  const [mistakes, setMistakes] = useState<Record<string, MistakeItem>>({});
+  const [corrects, setCorrects] = useState<Record<string, CorrectItem>>({});
+  const [history, setHistory] = useState<HistoryItem[]>([]);
+  const [bookmarks, setBookmarks] = useState<Record<string, boolean>>({});
+
+  // Active Session
+  const [activeSession, setActiveSession] = useState<QuizSession | null>(null);
+
+  // Config Modal State
+  const [configModalExam, setConfigModalExam] = useState<ExamMeta | null>(null);
+  const [configDefaultMode, setConfigDefaultMode] = useState<QuizMode>('exam');
+
+  // Refresh LocalStorage data in state
+  const reloadStorageData = useCallback(() => {
+    setMistakes(getMistakes());
+    setCorrects(getCorrects());
+    setHistory(getHistory());
+    setBookmarks(getBookmarks());
+  }, []);
+
+  // Initial Data Fetch
+  useEffect(() => {
+    async function loadData() {
+      try {
+        reloadStorageData();
+
+        // Check if there was an in-progress session
+        const existingSession = getActiveSession();
+        if (existingSession) {
+          setActiveSession(existingSession);
+        }
+
+        const [metaRes, ictpRes, ailRes, eecRes, toeicRes] = await Promise.all([
+          fetch(resolveAssetUrl('data/exams_meta.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/ictp.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/ail.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/eec.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/toeic.json')).then(r => r.json())
+        ]);
+
+        setExams(metaRes);
+        setRawQuestions({
+          ictp: ictpRes,
+          ail: ailRes,
+          eec: eecRes
+        });
+        setRawToeicWords(toeicRes);
+      } catch (err) {
+        console.error('Failed to load question banks', err);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadData();
+  }, [reloadStorageData]);
+
+  // Combined Map of all questions for easy lookup in Bookmarks
+  const allQuestionsMap = useMemo(() => {
+    const map: Record<string, Question> = {};
+    Object.values(rawQuestions).forEach(list => {
+      list.forEach(q => { map[q.id] = q; });
+    });
+    // Add TOEIC words as questions
+    if (rawToeicWords.length > 0) {
+      const toeicQuestions = generateToeicQuestions(rawToeicWords, 'mixed');
+      toeicQuestions.forEach(q => { map[q.id] = q; });
+    }
+    return map;
+  }, [rawQuestions, rawToeicWords]);
+
+  // Start Quiz Handler
+  const handleStartQuiz = useCallback((config: QuizConfig) => {
+    const examMeta = exams.find(e => e.id === config.examId);
+    if (!examMeta) return;
+
+    let pool: Question[] = [];
+
+    if (config.mode === 'mistake_workout') {
+      // Pick from mistake bank for this exam
+      const examMistakes = Object.values(mistakes).filter(m => m.examId === config.examId);
+      pool = examMistakes.map(m => m.question);
+    } else if (config.examId === 'toeic') {
+      // Filter words by selected categories
+      const selectedCats = new Set(config.selectedSections);
+      const filteredWords = rawToeicWords.filter(w => selectedCats.has(w.category));
+      pool = generateToeicQuestions(filteredWords, config.toeicType || 'mixed');
+    } else {
+      // ICTP, AIL, EEC
+      const questions = rawQuestions[config.examId] || [];
+      const selectedSecs = new Set(config.selectedSections);
+      pool = questions.filter(q => selectedSecs.has(q.section));
+    }
+
+    // Shuffle questions if requested
+    let finalQuestions = config.shuffleQuestions ? shuffle(pool) : [...pool];
+
+    // Slice to requested count
+    finalQuestions = finalQuestions.slice(0, config.questionCount);
+
+    // Shuffle options if requested (only for single/multiple choice, keep O/X order)
+    if (config.shuffleOptions) {
+      finalQuestions = finalQuestions.map(q => {
+        if (q.type === 'true_false' || q.options.length <= 1) return q;
+        const shuffledOpts = shuffle(q.options);
+        // Map new keys A, B, C, D
+        const keys = ['A', 'B', 'C', 'D', 'E'];
+        let updatedAnswer = '';
+        const mappedOptions = shuffledOpts.map((opt, i) => {
+          const newKey = keys[i];
+          if (q.answer.includes(opt.key)) {
+            updatedAnswer += newKey;
+          }
+          return {
+            ...opt,
+            key: newKey
+          };
+        });
+        return {
+          ...q,
+          options: mappedOptions,
+          answer: updatedAnswer.split('').sort().join('')
+        };
+      });
+    }
+
+    const newSession: QuizSession = {
+      id: `session_${Date.now()}`,
+      config,
+      examMeta,
+      questions: finalQuestions,
+      userAnswers: {},
+      flagged: {},
+      startTime: Date.now(),
+      timeSpentSeconds: 0,
+      isSubmitted: false
+    };
+
+    setActiveSession(newSession);
+    saveActiveSession(newSession);
+    setConfigModalExam(null);
+  }, [exams, mistakes, rawToeicWords, rawQuestions]);
+
+  // Update Answer during active test
+  const handleUpdateAnswer = useCallback((questionId: string, answer: string) => {
+    setActiveSession(prev => {
+      if (!prev) return null;
+      const updated = {
+        ...prev,
+        userAnswers: {
+          ...prev.userAnswers,
+          [questionId]: answer
+        }
+      };
+      saveActiveSession(updated);
+
+      // In practice mode, record immediately to correct/mistake bank
+      if (prev.config.mode === 'practice' || prev.config.mode === 'mistake_workout') {
+        const q = prev.questions.find(item => item.id === questionId);
+        if (q) {
+          const isCorrect = answer.split('').sort().join('') === q.answer.split('').sort().join('');
+          if (isCorrect) {
+            recordCorrect(q.examId, q.id);
+            // In mistake workout, remove from mistake bank if answered correctly!
+            if (prev.config.mode === 'mistake_workout') {
+              removeMistake(q.id);
+            }
+          } else {
+            recordMistake(q.examId, q, answer);
+          }
+          setMistakes(getMistakes());
+          setCorrects(getCorrects());
+        }
+      }
+
+      return updated;
+    });
+  }, []);
+
+  // Toggle Flag
+  const handleToggleFlag = useCallback((questionId: string) => {
+    setActiveSession(prev => {
+      if (!prev) return null;
+      const nextFlag = !prev.flagged[questionId];
+      const updated = {
+        ...prev,
+        flagged: {
+          ...prev.flagged,
+          [questionId]: nextFlag
+        }
+      };
+      saveActiveSession(updated);
+      return updated;
+    });
+  }, []);
+
+  // Submit Quiz
+  const handleSubmitQuiz = useCallback(() => {
+    if (!activeSession) return;
+
+    const total = activeSession.questions.length;
+    let correctCount = 0;
+    let wrongCount = 0;
+
+    activeSession.questions.forEach(q => {
+      const userAns = (activeSession.userAnswers[q.id] || '').split('').sort().join('');
+      const trueAns = q.answer.split('').sort().join('');
+      if (userAns && userAns === trueAns) {
+        correctCount++;
+        recordCorrect(q.examId, q.id);
+        // If in mistake workout mode, answer correct removes it from mistake bank
+        if (activeSession.config.mode === 'mistake_workout') {
+          removeMistake(q.id);
+        }
+      } else {
+        wrongCount++;
+        recordMistake(q.examId, q, activeSession.userAnswers[q.id] || '');
+      }
+    });
+
+    const score = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+    const isPassed = score >= activeSession.examMeta.passRate;
+    const timeSpentSeconds = Math.round((Date.now() - activeSession.startTime) / 1000);
+
+    const completedSession: QuizSession = {
+      ...activeSession,
+      isSubmitted: true,
+      endTime: Date.now(),
+      timeSpentSeconds,
+      score,
+      correctCount,
+      wrongCount,
+      isPassed
+    };
+
+    // Save to History
+    saveHistory({
+      id: completedSession.id,
+      examId: completedSession.examMeta.id,
+      examTitle: completedSession.examMeta.title,
+      mode: completedSession.config.mode,
+      date: new Date().toISOString(),
+      score,
+      totalQuestions: total,
+      correctCount,
+      wrongCount,
+      timeSpentSeconds,
+      isPassed,
+      questions: completedSession.questions,
+      userAnswers: completedSession.userAnswers
+    });
+
+    clearActiveSession();
+    setActiveSession(completedSession);
+    reloadStorageData();
+  }, [activeSession, reloadStorageData]);
+
+  // Retake with same configuration
+  const handleRetakeSame = useCallback(() => {
+    if (!activeSession) return;
+    handleStartQuiz(activeSession.config);
+  }, [activeSession, handleStartQuiz]);
+
+  // Retake mistakes only
+  const handleRetakeMistakes = useCallback((mistakeQuestions: Question[]) => {
+    if (!activeSession) return;
+    const newSession: QuizSession = {
+      id: `session_${Date.now()}`,
+      config: {
+        ...activeSession.config,
+        mode: 'practice', // Practice mode for mistake workout
+        questionCount: mistakeQuestions.length
+      },
+      examMeta: activeSession.examMeta,
+      questions: mistakeQuestions,
+      userAnswers: {},
+      flagged: {},
+      startTime: Date.now(),
+      timeSpentSeconds: 0,
+      isSubmitted: false
+    };
+    setActiveSession(newSession);
+    saveActiveSession(newSession);
+  }, [activeSession]);
+
+  // Start workout from Mistake Bank or Bookmarks directly
+  const handleStartCustomWorkout = useCallback((questions: Question[], title: string = '專項特訓') => {
+    if (questions.length === 0) return;
+    const firstExamId = questions[0].examId;
+    const examMeta = exams.find(e => e.id === firstExamId) || exams[0];
+
+    const newSession: QuizSession = {
+      id: `session_${Date.now()}`,
+      config: {
+        examId: examMeta.id,
+        mode: 'practice',
+        questionCount: questions.length,
+        selectedSections: [],
+        timeLimitMinutes: 0,
+        shuffleQuestions: false,
+        shuffleOptions: false
+      },
+      examMeta: {
+        ...examMeta,
+        title: `${examMeta.title} (${title})`
+      },
+      questions,
+      userAnswers: {},
+      flagged: {},
+      startTime: Date.now(),
+      timeSpentSeconds: 0,
+      isSubmitted: false
+    };
+
+    setActiveSession(newSession);
+    saveActiveSession(newSession);
+  }, [exams]);
+
+  // Bookmark toggle
+  const handleToggleBookmark = useCallback((questionId: string) => {
+    toggleBookmark(questionId);
+    setBookmarks(getBookmarks());
+  }, []);
+
+  // Remove single mistake
+  const handleRemoveMistake = useCallback((questionId: string) => {
+    removeMistake(questionId);
+    setMistakes(getMistakes());
+  }, []);
+
+  // Clear all mistakes
+  const handleClearMistakes = useCallback((examId?: string) => {
+    clearMistakes(examId);
+    setMistakes(getMistakes());
+  }, []);
+
+  // Clear all history
+  const handleClearHistory = useCallback((examId?: string) => {
+    clearHistory(examId);
+    setHistory(getHistory());
+  }, []);
+
+  // Reset all data
+  const handleResetAllData = useCallback(() => {
+    clearMistakes();
+    clearHistory();
+    clearActiveSession();
+    localStorage.clear();
+    reloadStorageData();
+    setActiveSession(null);
+  }, [reloadStorageData]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col items-center justify-center p-4">
+        <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white shadow-lg animate-bounce mb-4">
+          <GraduationCap className="w-8 h-8" />
+        </div>
+        <h2 className="text-lg font-bold text-slate-800 dark:text-slate-100">
+          正在載入四種考試題庫與圖資...
+        </h2>
+        <p className="text-xs text-slate-400 mt-1">
+          ICTP ‧ AIL ‧ EEC ‧ TOEIC 共 2,153 題
+        </p>
+      </div>
+    );
+  }
+
+  // Active Test in progress
+  if (activeSession && !activeSession.isSubmitted) {
+    return (
+      <QuizView
+        session={activeSession}
+        onUpdateAnswer={handleUpdateAnswer}
+        onToggleFlag={handleToggleFlag}
+        onSubmitQuiz={handleSubmitQuiz}
+        onExitQuiz={() => setActiveSession(null)}
+      />
+    );
+  }
+
+  // Active Test completed Result View
+  if (activeSession && activeSession.isSubmitted) {
+    return (
+      <div>
+        <Navbar
+          activeTab={activeTab}
+          onSelectTab={(tab) => {
+            setActiveSession(null);
+            setActiveTab(tab);
+          }}
+          mistakeCount={Object.keys(mistakes).length}
+          historyCount={history.length}
+          bookmarkCount={Object.keys(bookmarks).length}
+          hasActiveQuiz={false}
+        />
+        <ResultView
+          session={activeSession}
+          onRetakeSameConfig={handleRetakeSame}
+          onRetakeMistakes={handleRetakeMistakes}
+          onReturnHome={() => setActiveSession(null)}
+          onGoToMistakeBank={() => {
+            setActiveSession(null);
+            setActiveTab('mistakes');
+          }}
+          bookmarks={bookmarks}
+          onToggleBookmark={handleToggleBookmark}
+        />
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 flex flex-col justify-between">
+      
+      {/* Top Navbar */}
+      <Navbar
+        activeTab={activeTab}
+        onSelectTab={setActiveTab}
+        mistakeCount={Object.keys(mistakes).length}
+        historyCount={history.length}
+        bookmarkCount={Object.keys(bookmarks).length}
+        hasActiveQuiz={Boolean(activeSession && !activeSession.isSubmitted)}
+        onResumeQuiz={() => setActiveSession(activeSession)}
+      />
+
+      {/* Main Content Area based on Tab */}
+      <main className="flex-1 pb-16">
+        {activeTab === 'exams' && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fade-in">
+            
+            {/* Hero Welcome Banner */}
+            <div className="relative rounded-3xl bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white p-8 sm:p-10 shadow-xl overflow-hidden mb-10">
+              <div className="relative z-10 max-w-2xl">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-white/20 backdrop-blur-md text-blue-100 mb-4">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>全功能離線題庫 ‧ 模擬考試 ‧ 即時刷題 ‧ 錯題消滅</span>
+                </div>
+                <h1 className="text-3xl sm:text-4xl font-black tracking-tight mb-3">
+                  期中與專業認證模擬測驗系統
+                </h1>
+                <p className="text-sm sm:text-base text-blue-100 leading-relaxed mb-6">
+                  精選收錄本目錄下四門核心考試，支援自選範圍、自訂測驗題數、計時交卷、錯題本與對題歷史分析，助您考取高分及格！
+                </p>
+
+                {/* Quick Stats Pill */}
+                <div className="flex flex-wrap items-center gap-4 text-xs font-bold text-blue-200">
+                  <span className="flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                    總收錄 2,153 題
+                  </span>
+                  <span className="flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-amber-400"></span>
+                    本機已做對 {Object.keys(corrects).length} 題
+                  </span>
+                  {Object.keys(mistakes).length > 0 && (
+                    <button
+                      onClick={() => setActiveTab('mistakes')}
+                      className="px-3 py-1 rounded-full bg-rose-500/80 hover:bg-rose-500 text-white transition flex items-center gap-1"
+                    >
+                      <span>錯題本有 {Object.keys(mistakes).length} 題待消滅</span>
+                      <ArrowRight className="w-3 h-3" />
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              {/* Decorative Background Glows */}
+              <div className="absolute right-0 top-0 -mt-10 -mr-10 w-96 h-96 rounded-full bg-blue-500/20 blur-3xl pointer-events-none" />
+              <div className="absolute right-1/4 bottom-0 -mb-10 w-64 h-64 rounded-full bg-purple-500/20 blur-2xl pointer-events-none" />
+            </div>
+
+            {/* Exam Cards Grid */}
+            <div className="mb-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                  <GraduationCap className="w-5 h-5 text-blue-600" />
+                  <span>選擇測驗考試科目 (共 4 門)</span>
+                </h2>
+                <span className="text-xs text-slate-500 dark:text-slate-400">
+                  點擊各考試即可設定測驗題數與單元範圍
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {exams.map(exam => {
+                  const examCorrect = Object.values(corrects).filter(c => c.examId === exam.id).length;
+                  const examMistakes = Object.values(mistakes).filter(m => m.examId === exam.id).length;
+                  const lastExamHistory = history.find(h => h.examId === exam.id);
+
+                  return (
+                    <ExamCard
+                      key={exam.id}
+                      exam={exam}
+                      correctCount={examCorrect}
+                      mistakeCount={examMistakes}
+                      lastScore={lastExamHistory ? lastExamHistory.score : null}
+                      onOpenConfig={(targetExam, defaultMode) => {
+                        setConfigModalExam(targetExam);
+                        setConfigDefaultMode(defaultMode || 'exam');
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+
+          </div>
+        )}
+
+        {activeTab === 'mistakes' && (
+          <MistakeBankView
+            mistakes={mistakes}
+            exams={exams}
+            onRemoveMistake={handleRemoveMistake}
+            onClearMistakes={handleClearMistakes}
+            onStartMistakeWorkout={(questions) => handleStartCustomWorkout(questions, '錯題特訓')}
+          />
+        )}
+
+        {activeTab === 'history' && (
+          <HistoryView
+            history={history}
+            exams={exams}
+            onClearHistory={handleClearHistory}
+            onRetakeFromHistory={(questions) => handleStartCustomWorkout(questions, '歷史試卷重測')}
+            bookmarks={bookmarks}
+            onToggleBookmark={handleToggleBookmark}
+            onReturnHome={() => setActiveTab('exams')}
+            onGoToMistakeBank={() => setActiveTab('mistakes')}
+          />
+        )}
+
+        {activeTab === 'bookmarks' && (
+          <BookmarksView
+            bookmarks={bookmarks}
+            allQuestionsMap={allQuestionsMap}
+            exams={exams}
+            onToggleBookmark={handleToggleBookmark}
+            onStartBookmarkWorkout={(questions) => handleStartCustomWorkout(questions, '收藏題特訓')}
+          />
+        )}
+
+        {activeTab === 'stats' && (
+          <StatsView
+            exams={exams}
+            history={history}
+            mistakes={mistakes}
+            corrects={corrects}
+            bookmarks={bookmarks}
+            onDataReset={handleResetAllData}
+            onDataImported={reloadStorageData}
+          />
+        )}
+      </main>
+
+      {/* Config Modal */}
+      {configModalExam && (
+        <ConfigModal
+          exam={configModalExam}
+          allExams={exams}
+          onSelectExam={(e) => setConfigModalExam(e)}
+          defaultMode={configDefaultMode}
+          mistakeCount={Object.values(mistakes).filter(m => m.examId === configModalExam.id).length}
+          onClose={() => setConfigModalExam(null)}
+          onStartQuiz={handleStartQuiz}
+        />
+      )}
+
+      {/* Footer */}
+      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm py-6 text-center text-xs text-slate-400">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span>期中證照模擬測驗與刷題系統 ‧ 題庫由本機目錄 PDF/Excel 即時驅動</span>
+          <span>支援 ICTP Python ‧ AIL 人工智慧 ‧ EEC 網路行銷 ‧ TOEIC 多益</span>
+        </div>
+      </footer>
+
+    </div>
+  );
+}
+export default App;

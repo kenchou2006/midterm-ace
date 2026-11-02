@@ -1,0 +1,6817 @@
+[
+  {
+    "id": "ail_1_single_1_1",
+    "globalIndex": 1,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "充分考慮公共區、商務區、居住區的不同需求，融合應用物聯網、互聯網、移動通\n信等各種資訊技術，發展社區政務、智慧家居系統、智慧樓宇管理、智慧社區服務、\n社區遠端監控、安全管理、智慧商務辦公等智慧應用系統，使居民生活“智慧化發\n展”。這是屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧交通，建設智慧化城市交通綜合管理和服務系統"
+      },
+      {
+        "key": "B",
+        "text": "智慧政務城市綜合\n管理運營平臺"
+      },
+      {
+        "key": "C",
+        "text": "智慧安居服務"
+      },
+      {
+        "key": "D",
+        "text": "智慧教育文化服務：積極推進智慧教育文\n化體系建設"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_2_2",
+    "globalIndex": 2,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧AI 在圖像識別上已經超越了人類，支援這些圖像識別技術的，通常是\n_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "雲計算"
+      },
+      {
+        "key": "B",
+        "text": "神經計算"
+      },
+      {
+        "key": "C",
+        "text": "網際網路"
+      },
+      {
+        "key": "D",
+        "text": "深度神經網路"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_3_3",
+    "globalIndex": 3,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________是智慧工廠的核心，透過領先的資料收集和呈現，實現智慧工廠數\n位化轉型。",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧型引導運輸車IGV (intelligent guided vehicle)"
+      },
+      {
+        "key": "B",
+        "text": "感測器(sensor)"
+      },
+      {
+        "key": "C",
+        "text": "工\n業機器人"
+      },
+      {
+        "key": "D",
+        "text": "工業4.0 戰情室(situation room)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_4_4",
+    "globalIndex": 4,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "因為大數據是建立在_____________，所以我們才可以正確地考察細節，並進行新\n的分析。",
+    "options": [
+      {
+        "key": "A",
+        "text": "在掌握少量精確資料的基礎上，盡可能多方地收集其他資料"
+      },
+      {
+        "key": "B",
+        "text": "掌握少量資\n料，至少是盡可能精確地資料的基礎上"
+      },
+      {
+        "key": "C",
+        "text": "盡可能掌握具多元與精確資料的基礎\n上"
+      },
+      {
+        "key": "D",
+        "text": "掌握所有資料，至少是盡可能多資料的基礎上"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_5_5",
+    "globalIndex": 5,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "第一次的工業革命(簡稱工業1.0)是_____________的革命。",
+    "options": [
+      {
+        "key": "A",
+        "text": "智能化"
+      },
+      {
+        "key": "B",
+        "text": "機械化"
+      },
+      {
+        "key": "C",
+        "text": "信息化"
+      },
+      {
+        "key": "D",
+        "text": "電氣化"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_6_6",
+    "globalIndex": 6,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "設計智慧家居時要充分考慮到用戶體驗，並注重操作的便利化和直觀性，最好能採\n用圖像化的控制介面，讓操作所見即所得(What you see is what you get.)，這是屬於\n設計智慧家居系統遵循的_____________原則。",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠性"
+      },
+      {
+        "key": "B",
+        "text": "實用便利"
+      },
+      {
+        "key": "C",
+        "text": "方便性"
+      },
+      {
+        "key": "D",
+        "text": "標準性"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_7_7",
+    "globalIndex": 7,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "產品生命週期管理是一種對智慧工廠所有與產品相關的資料、在其整個生命週期內，\n進行管理的技術，英文簡稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPS"
+      },
+      {
+        "key": "B",
+        "text": "Internet"
+      },
+      {
+        "key": "C",
+        "text": "AGV"
+      },
+      {
+        "key": "D",
+        "text": "PLM"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_8_8",
+    "globalIndex": 8,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "曾經是全球電子商務重要的推動者之一，馬雲先生在五大變革中提出的“新能源”是\n指_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "數據"
+      },
+      {
+        "key": "B",
+        "text": "核能"
+      },
+      {
+        "key": "C",
+        "text": "風能"
+      },
+      {
+        "key": "D",
+        "text": "太陽能"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_9_9",
+    "globalIndex": 9,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________是個大奇蹟，被認為可能是繼互聯網之後，人類最偉大的技術革命。",
+    "options": [
+      {
+        "key": "A",
+        "text": "Internet"
+      },
+      {
+        "key": "B",
+        "text": "AI"
+      },
+      {
+        "key": "C",
+        "text": "Database"
+      },
+      {
+        "key": "D",
+        "text": "IoT"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_10_10",
+    "globalIndex": 10,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "過去，統計學家們總是把他們的興趣放在提高樣本的隨機性，而不是數量上。這\n是因為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高樣本隨機性是為了減少統計分析的工作量"
+      },
+      {
+        "key": "B",
+        "text": "提高樣本隨機性可以減少\n對資料量的需求"
+      },
+      {
+        "key": "C",
+        "text": "可以獲取的資料少，只要提高樣本隨機性可提高分析準確率"
+      },
+      {
+        "key": "D",
+        "text": "樣本隨機性優於對大量數據的分析"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_11_11",
+    "globalIndex": 11,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧的發展伴隨著越來越多的個人資料被記錄和分析，而在這個過程中\n_____________是能夠增加社會信任的重要條件。",
+    "options": [
+      {
+        "key": "A",
+        "text": "加強資料傳播"
+      },
+      {
+        "key": "B",
+        "text": "提高存儲能力"
+      },
+      {
+        "key": "C",
+        "text": "重視資料壓縮"
+      },
+      {
+        "key": "D",
+        "text": "保護個人隱私"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_12_12",
+    "globalIndex": 12,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧城市的英文是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smart IoT"
+      },
+      {
+        "key": "B",
+        "text": "smart district"
+      },
+      {
+        "key": "C",
+        "text": "Internet city"
+      },
+      {
+        "key": "D",
+        "text": "smart city"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_13_13",
+    "globalIndex": 13,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "廣義的大數據與狹義的大數據差異為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "有更多樣的資料類型(結構化、非結構化等)"
+      },
+      {
+        "key": "B",
+        "text": "包含了人才、組織、萬物"
+      },
+      {
+        "key": "C",
+        "text": "有較高的真實性"
+      },
+      {
+        "key": "D",
+        "text": "不同的資料處理、處理與分析技術等"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_14_14",
+    "globalIndex": 14,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________是影像處理中的一項關鍵技術，一直都受到人們的高度重視。",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖像分割"
+      },
+      {
+        "key": "B",
+        "text": "圖像解析"
+      },
+      {
+        "key": "C",
+        "text": "數據離散"
+      },
+      {
+        "key": "D",
+        "text": "圖像聚合"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_15_15",
+    "globalIndex": 15,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧經常被稱為世界三大尖端技術之一，下列說法中錯誤的是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "基因工程、納米科學、人工智慧"
+      },
+      {
+        "key": "B",
+        "text": "人工智慧已成為一個獨立的學科分支，\n無論在理論和實踐上都已自成系統"
+      },
+      {
+        "key": "C",
+        "text": "空間技術、能源技術、人工智慧"
+      },
+      {
+        "key": "D",
+        "text": "管\n理技術、工程技術、人工智慧"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_16_16",
+    "globalIndex": 16,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "機器學習的許多演算法都是基於_____________理論所衍生或改良演進而來。",
+    "options": [
+      {
+        "key": "A",
+        "text": "貝葉斯"
+      },
+      {
+        "key": "B",
+        "text": "聚類"
+      },
+      {
+        "key": "C",
+        "text": "決策樹"
+      },
+      {
+        "key": "D",
+        "text": "回歸"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_17_17",
+    "globalIndex": 17,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧家居通過_____________技術將家中的各種設備（如多媒體影像設備、 照明系\n統、窗簾控制、空調控制、安防系統、數位影院系統、 影音伺服器、網路家電等）\n連接到一起。",
+    "options": [
+      {
+        "key": "A",
+        "text": "互聯網"
+      },
+      {
+        "key": "B",
+        "text": "內聯網"
+      },
+      {
+        "key": "C",
+        "text": "物聯網"
+      },
+      {
+        "key": "D",
+        "text": "社交網"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_18_18",
+    "globalIndex": 18,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "語音處理是研究語音發聲過程、語音信號的統計特性、_____________、機器合成\n以及語音感知等各種處理技術的總稱。",
+    "options": [
+      {
+        "key": "A",
+        "text": "語音的自動識別"
+      },
+      {
+        "key": "B",
+        "text": "語音的自動降噪"
+      },
+      {
+        "key": "C",
+        "text": "語音的自動類比"
+      },
+      {
+        "key": "D",
+        "text": "語音的自動\n檢測"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_19_19",
+    "globalIndex": 19,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在建立機器學習的模型時，通常用_____________已知的(歷史資料)考古題作為訓\n練資料(training data)，剩下的_____________用來作為測試資料(test data)。",
+    "options": [
+      {
+        "key": "A",
+        "text": "70%-80%, 20%-30%"
+      },
+      {
+        "key": "B",
+        "text": "50%, 50%"
+      },
+      {
+        "key": "C",
+        "text": "任意,任意"
+      },
+      {
+        "key": "D",
+        "text": "20%-30%, 70%-80%"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_20_20",
+    "globalIndex": 20,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如果將人工智慧分成運算資源基礎、核心技術發展與應用領域等層次，深度學習\n(deep learning)是屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "核心技術發展"
+      },
+      {
+        "key": "B",
+        "text": "運算資源基礎"
+      },
+      {
+        "key": "C",
+        "text": "應用領域"
+      },
+      {
+        "key": "D",
+        "text": "運算資源基礎、核心技\n術發展、應用領域等三者都有"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_21_21",
+    "globalIndex": 21,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "運用人工智慧機器演算法建立的模型或函數機制，有時候會去「背考古題」，遇\n過的考古題全部都會，但是對於未見過的問題，有時會回答的很離譜，這種情況稱\n作_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "syntax error (語法錯誤)"
+      },
+      {
+        "key": "B",
+        "text": "overfitting (過適；過度擬合)"
+      },
+      {
+        "key": "C",
+        "text": "just make it (正好)"
+      },
+      {
+        "key": "D",
+        "text": "over guess (過猜；過度猜想)"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_22_22",
+    "globalIndex": 22,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在開發或應用人工智慧系統時，許多用戶所執行的任務涉及人類生命或高昂設備\n風險，因此在依靠人工智慧來執行任務之前，首先要解決或確認該人工智慧系統的\n_____________問題。",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠性(reliability)"
+      },
+      {
+        "key": "B",
+        "text": "人員與文化方面"
+      },
+      {
+        "key": "C",
+        "text": "信任方面(trust)"
+      },
+      {
+        "key": "D",
+        "text": "安全性方面\n(security)"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_23_23",
+    "globalIndex": 23,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧是研究與開發用於模擬、延伸和擴展人的智慧，所採用的理論、方法、\n技術及應用系統的一門交叉科學。人工智慧是一門極富挑戰性的_____________技\n術科學。",
+    "options": [
+      {
+        "key": "A",
+        "text": "應用型"
+      },
+      {
+        "key": "B",
+        "text": "研究型與應用型"
+      },
+      {
+        "key": "C",
+        "text": "研究型"
+      },
+      {
+        "key": "D",
+        "text": "自然型與社會型"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_24_24",
+    "globalIndex": 24,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧交通的軌道交通系統，所謂“列車自動保護系統”，就是指_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "ATP"
+      },
+      {
+        "key": "B",
+        "text": "物聯網IoT"
+      },
+      {
+        "key": "C",
+        "text": "車聯網"
+      },
+      {
+        "key": "D",
+        "text": "互聯網"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_25_25",
+    "globalIndex": 25,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧工廠為達到[人機協同]，需要結合現代化的_____________兩項方法，以合乎\n智慧化與簡單化的生產管理要求。",
+    "options": [
+      {
+        "key": "A",
+        "text": "大數據技術與工廠管理"
+      },
+      {
+        "key": "B",
+        "text": "無線網路技術與庫存管理"
+      },
+      {
+        "key": "C",
+        "text": "多媒體技術與人事\n管理"
+      },
+      {
+        "key": "D",
+        "text": "混合延伸虛擬實境技術(XR)與工廠管理"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_26_26",
+    "globalIndex": 26,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "線上影片租賃服務商Netflix (網飛)的主要經營業務是提供Internet 隨選流媒體播放，\n它所依賴的關鍵服務是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "百度引擎"
+      },
+      {
+        "key": "B",
+        "text": "推薦引擎"
+      },
+      {
+        "key": "C",
+        "text": "搜尋引擎"
+      },
+      {
+        "key": "D",
+        "text": "谷歌引擎"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_27_27",
+    "globalIndex": 27,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "“人工智慧物聯網”的英文縮寫是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "IoT"
+      },
+      {
+        "key": "B",
+        "text": "Smart IoT"
+      },
+      {
+        "key": "C",
+        "text": "AI"
+      },
+      {
+        "key": "D",
+        "text": "AIoT"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_28_28",
+    "globalIndex": 28,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧的廣泛應用，給人類社會帶來法律法規、道德倫理、社會治理等一系列\n的_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "新高地"
+      },
+      {
+        "key": "B",
+        "text": "新挑戰"
+      },
+      {
+        "key": "C",
+        "text": "新突破"
+      },
+      {
+        "key": "D",
+        "text": "新動能"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_29_29",
+    "globalIndex": 29,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "機器學習有三種主要類型，有人稱它們為機器學習三兄弟。下列_____________可\n以描述監督學習的個性。",
+    "options": [
+      {
+        "key": "A",
+        "text": "勇於嘗試的開創者"
+      },
+      {
+        "key": "B",
+        "text": "隨心所欲的冒險者"
+      },
+      {
+        "key": "C",
+        "text": "事前充分準備的認真者"
+      },
+      {
+        "key": "D",
+        "text": "使用塔羅牌的神算者"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_30_30",
+    "globalIndex": 30,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在機器學習中，無監督學習又稱歸納性學習，分為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "聚類(分群)和降維"
+      },
+      {
+        "key": "B",
+        "text": "聚類(分群)和回歸"
+      },
+      {
+        "key": "C",
+        "text": "分類和回歸"
+      },
+      {
+        "key": "D",
+        "text": "分類和降維"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_31_31",
+    "globalIndex": 31,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以醫院管理和電子病歷為重點，建立全市居民電子健康檔案；以實現醫院服務網\n路化為重點，推進遠端掛號、電子收費、數位遠端醫療服務、圖文體檢診斷系統等\n智慧醫療系統建設，提升醫療和健康服務水準。這是屬於智慧城市的\n_____________體系建設。",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧健康保障"
+      },
+      {
+        "key": "B",
+        "text": "智慧貿易"
+      },
+      {
+        "key": "C",
+        "text": "智慧服務業示範推廣基地"
+      },
+      {
+        "key": "D",
+        "text": "智慧物流"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_32_32",
+    "globalIndex": 32,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "大數據的數據存儲單位，1 TB (terabyte) =_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "1,024 KB"
+      },
+      {
+        "key": "B",
+        "text": "1,024 PB"
+      },
+      {
+        "key": "C",
+        "text": "1,024 MB"
+      },
+      {
+        "key": "D",
+        "text": "1,024 GB"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_33_33",
+    "globalIndex": 33,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "ANN 是一種模仿生物神經網路，其中的_____________扮演了生物神經模型中突\n觸的角色，用於調節一個神經元對另一個神經元的影響程度。",
+    "options": [
+      {
+        "key": "A",
+        "text": "細胞體"
+      },
+      {
+        "key": "B",
+        "text": "輸出通道"
+      },
+      {
+        "key": "C",
+        "text": "權重"
+      },
+      {
+        "key": "D",
+        "text": "輸入通道"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_34_34",
+    "globalIndex": 34,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以深度學習(deep learning)為代表的人工智慧核心技術取得_____________，讓人工\n智慧的發展與應用邁向新的里程碑。",
+    "options": [
+      {
+        "key": "A",
+        "text": "新動能"
+      },
+      {
+        "key": "B",
+        "text": "新高地"
+      },
+      {
+        "key": "C",
+        "text": "新突破"
+      },
+      {
+        "key": "D",
+        "text": "新挑戰"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_35_35",
+    "globalIndex": 35,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧成為世界各國競相戰略佈局的_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "新突破"
+      },
+      {
+        "key": "B",
+        "text": "新動能"
+      },
+      {
+        "key": "C",
+        "text": "新亮點"
+      },
+      {
+        "key": "D",
+        "text": "新高地"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_36_36",
+    "globalIndex": 36,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "尋找_____________是人類長久以來的習慣，即使要確定這樣的關係很困難而且用\n途不大，人類還是習慣性地尋找緣由。",
+    "options": [
+      {
+        "key": "A",
+        "text": "因果關係"
+      },
+      {
+        "key": "B",
+        "text": "資訊關係"
+      },
+      {
+        "key": "C",
+        "text": "組織關係"
+      },
+      {
+        "key": "D",
+        "text": "相關關係"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_37_37",
+    "globalIndex": 37,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "機器學習有三種主要的類型：監督學習、非監督學習和_____________學習，各自\n有著不同的特點。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自主"
+      },
+      {
+        "key": "B",
+        "text": "重複"
+      },
+      {
+        "key": "C",
+        "text": "優化"
+      },
+      {
+        "key": "D",
+        "text": "強化"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_38_38",
+    "globalIndex": 38,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "19 世紀以來，當面臨大量資料時，社會都依賴於採樣分析。但是採樣分析是屬於\n_____________時代的產物。",
+    "options": [
+      {
+        "key": "A",
+        "text": "雲"
+      },
+      {
+        "key": "B",
+        "text": "青銅器"
+      },
+      {
+        "key": "C",
+        "text": "類比資料"
+      },
+      {
+        "key": "D",
+        "text": "電腦"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_39_39",
+    "globalIndex": 39,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "從一些研究中顯示，只有_____________的數位資料是結構化的、且能適用於傳統\n資料庫。如果不接受混亂的資料，剩下_____________的非結構化資料都無法被利\n用。",
+    "options": [
+      {
+        "key": "A",
+        "text": "30%，70%"
+      },
+      {
+        "key": "B",
+        "text": "5%，95%"
+      },
+      {
+        "key": "C",
+        "text": "70%，30%"
+      },
+      {
+        "key": "D",
+        "text": "95%，5%"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_40_40",
+    "globalIndex": 40,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在電商領域，通過自動採集不同管道中用戶與企業的互動資料（包括將語音對話\n轉換成為結構化的文字資料），加上多維度的輔助分析模型，智慧客服機器能夠幫\n助企業挖掘不同業務場景下的高頻話題，及時獲取某類產品/服務的市場回饋。這\n是_____________的應用案例。",
+    "options": [
+      {
+        "key": "A",
+        "text": "用智慧客服機器守住第一觸點"
+      },
+      {
+        "key": "B",
+        "text": "借智慧客服機器獲取消費對話資訊作為洞\n察與運營決策"
+      },
+      {
+        "key": "C",
+        "text": "以智慧客服機器優化人工服務"
+      },
+      {
+        "key": "D",
+        "text": "讓智慧客服機器分發個性\n化的內容"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_41_41",
+    "globalIndex": 41,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在醫療資訊系統中，提升知識和過程處理能力，進一步推動臨床創新和研究。這\n是智慧醫療的_____________特點。",
+    "options": [
+      {
+        "key": "A",
+        "text": "互聯的"
+      },
+      {
+        "key": "B",
+        "text": "普及的"
+      },
+      {
+        "key": "C",
+        "text": "創新的"
+      },
+      {
+        "key": "D",
+        "text": "可靠的"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_42_42",
+    "globalIndex": 42,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "強化學習使用機器的個別歷史和經驗來做出決定，其經典應用是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "文字處理"
+      },
+      {
+        "key": "B",
+        "text": "資料採擷"
+      },
+      {
+        "key": "C",
+        "text": "遊戲娛樂"
+      },
+      {
+        "key": "D",
+        "text": "自動控制"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_43_43",
+    "globalIndex": 43,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧是電腦科學的一個分支，人工智慧的英文縮寫是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "APP"
+      },
+      {
+        "key": "B",
+        "text": "AI"
+      },
+      {
+        "key": "C",
+        "text": "BI"
+      },
+      {
+        "key": "D",
+        "text": "DI"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_44_44",
+    "globalIndex": 44,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "第四次的工業革命(簡稱工業4.0)是_____________的革命。",
+    "options": [
+      {
+        "key": "A",
+        "text": "信息化"
+      },
+      {
+        "key": "B",
+        "text": "電氣化"
+      },
+      {
+        "key": "C",
+        "text": "智能化"
+      },
+      {
+        "key": "D",
+        "text": "機械化"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_45_45",
+    "globalIndex": 45,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在醫療資訊系統中，即時感知、處理和分析重大的醫療事件，從而快速、有效地\n做出回應。這是智慧醫療的_____________特點。",
+    "options": [
+      {
+        "key": "A",
+        "text": "協作的"
+      },
+      {
+        "key": "B",
+        "text": "預防的"
+      },
+      {
+        "key": "C",
+        "text": "互聯的"
+      },
+      {
+        "key": "D",
+        "text": "普及的"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_46_46",
+    "globalIndex": 46,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "電腦的出現使資訊存儲和處理技術與應用等各個方面都發生了革命。下列說法中\n不正確的是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "電腦在可改變的程式的控制下運行"
+      },
+      {
+        "key": "B",
+        "text": "電腦用電子方式處理資料的技術，為\n實現人工智慧提供了一種媒介"
+      },
+      {
+        "key": "C",
+        "text": "電腦是用於操縱資訊的設備"
+      },
+      {
+        "key": "D",
+        "text": "人工智慧技\n術是後電腦時代的先進工具"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_47_47",
+    "globalIndex": 47,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "對城市工作族的居民而言，智慧城市的基本需求要件，就是能輕鬆找到最快捷的\n_____________、供水供電有保障，且街道更加安全。",
+    "options": [
+      {
+        "key": "A",
+        "text": "打醬油便利店"
+      },
+      {
+        "key": "B",
+        "text": "便宜的學區房"
+      },
+      {
+        "key": "C",
+        "text": "上下班路線"
+      },
+      {
+        "key": "D",
+        "text": "出差的訣竅"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_48_48",
+    "globalIndex": 48,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "所謂神經網路(neural network)，是指以人腦和神經系統為模型的一種\n_____________演算法。",
+    "options": [
+      {
+        "key": "A",
+        "text": "深度優先"
+      },
+      {
+        "key": "B",
+        "text": "機器學習"
+      },
+      {
+        "key": "C",
+        "text": "直接搜索"
+      },
+      {
+        "key": "D",
+        "text": "倒檔追溯"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_49_49",
+    "globalIndex": 49,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧家居是以_____________為平臺，通過物聯網IoT 技術將家中的各種設備連接\n到一起，實現智慧化的一種生態系統。",
+    "options": [
+      {
+        "key": "A",
+        "text": "社區"
+      },
+      {
+        "key": "B",
+        "text": "住宅"
+      },
+      {
+        "key": "C",
+        "text": "花園"
+      },
+      {
+        "key": "D",
+        "text": "街道"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_50_50",
+    "globalIndex": 50,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如果將人工智慧分成運算資源基礎、核心技術發展與應用領域等層次，智慧機器\n人(intelligent robot)是屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "運算資源基礎"
+      },
+      {
+        "key": "B",
+        "text": "運算資源基礎、核心技術發展、應用領域等三者都有"
+      },
+      {
+        "key": "C",
+        "text": "核心技術發展"
+      },
+      {
+        "key": "D",
+        "text": "應用領域"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_51_51",
+    "globalIndex": 51,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧城市的應用體系可能包括了智慧物流體系、智慧製造體系、智慧貿易體系、\n智慧能源應用體系、智慧公共服務、等一系列應用體系，但不包括智慧\n_____________體系。",
+    "options": [
+      {
+        "key": "A",
+        "text": "社會管理"
+      },
+      {
+        "key": "B",
+        "text": "軍工"
+      },
+      {
+        "key": "C",
+        "text": "交通體系"
+      },
+      {
+        "key": "D",
+        "text": "健康保障"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_52_52",
+    "globalIndex": 52,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在醫療資訊系統中，經授權的醫生能夠隨時查閱病人的病歷、患史、治療措施和\n保險細則，患者也可以自主選擇更換醫生或醫院。這是智慧醫療的_____________\n特點。",
+    "options": [
+      {
+        "key": "A",
+        "text": "互聯的"
+      },
+      {
+        "key": "B",
+        "text": "預防的"
+      },
+      {
+        "key": "C",
+        "text": "協作的"
+      },
+      {
+        "key": "D",
+        "text": "普及的"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_53_53",
+    "globalIndex": 53,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "數位圖像是指用數位攝像機、掃描器等設備經過採樣和數位化得到的一個大的二\n維陣列，該陣列的元素稱為_____________，其值為一整數，稱為灰度值。",
+    "options": [
+      {
+        "key": "A",
+        "text": "串流(stream)"
+      },
+      {
+        "key": "B",
+        "text": "圖元(pixel)"
+      },
+      {
+        "key": "C",
+        "text": "位元組(byte)"
+      },
+      {
+        "key": "D",
+        "text": "位元圖(bit map)"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_54_54",
+    "globalIndex": 54,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "模式識別原本是_____________的一項基本智慧。",
+    "options": [
+      {
+        "key": "A",
+        "text": "動物"
+      },
+      {
+        "key": "B",
+        "text": "人工智慧"
+      },
+      {
+        "key": "C",
+        "text": "人類"
+      },
+      {
+        "key": "D",
+        "text": "電腦"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_55_55",
+    "globalIndex": 55,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "神經網路每一層神經元的輸出，就是下一層的輸入層，如此一層一層地傳遞下去，\n這種神經網路又稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "前饋神經網路(feedforward neural network)"
+      },
+      {
+        "key": "B",
+        "text": "卷積神經網路(convolutional \n\n \n \nneural network, CNN)"
+      },
+      {
+        "key": "C",
+        "text": "深度置信網路(deep belief networks, DBN)"
+      },
+      {
+        "key": "D",
+        "text": "遞迴神經\n網路(recursive neural network, RNN)"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_56_56",
+    "globalIndex": 56,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "國際自動機工程師學會(SAE International)定義的自動駕駛為六級，「完全自動駕\n駛」的車輛是指哪一級？",
+    "options": [
+      {
+        "key": "A",
+        "text": "等級1(Level 1)"
+      },
+      {
+        "key": "B",
+        "text": "等級0(Level 0)"
+      },
+      {
+        "key": "C",
+        "text": "等級4(Level 4)"
+      },
+      {
+        "key": "D",
+        "text": "等級5(Level 5)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_57_57",
+    "globalIndex": 57,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "“智慧城市”的概念源於_____________的理念。",
+    "options": [
+      {
+        "key": "A",
+        "text": "1987 年華為公司提出的“構建萬物互聯的智慧世界”"
+      },
+      {
+        "key": "B",
+        "text": "1995 年微軟公司提出\n的“Windows 95”"
+      },
+      {
+        "key": "C",
+        "text": "2010 年谷歌公司提出的“工作賦予挑戰，挑戰帶來快樂”"
+      },
+      {
+        "key": "D",
+        "text": "2008 年IBM 公司提出的“智慧地球”"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_58_58",
+    "globalIndex": 58,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧製造中，「標準化作業」的英文簡稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "SOP"
+      },
+      {
+        "key": "B",
+        "text": "Internet"
+      },
+      {
+        "key": "C",
+        "text": "AGV"
+      },
+      {
+        "key": "D",
+        "text": "CPS"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_59_59",
+    "globalIndex": 59,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧家居系統方案的設計有一個顯著的特點，就是安裝、調試與維護的工作量非\n常大，需要大量的人力物力投入，成為行業發展的瓶頸。針對這個問題，系統在設\n計時，就應考慮安裝與維護的部分工作，系統可以通過Internet 遠端調試與維護。\n這是屬於設計智慧家居系統遵循的_____________原則。",
+    "options": [
+      {
+        "key": "A",
+        "text": "實用便利"
+      },
+      {
+        "key": "B",
+        "text": "方便性"
+      },
+      {
+        "key": "C",
+        "text": "可靠性"
+      },
+      {
+        "key": "D",
+        "text": "標準性"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_60_60",
+    "globalIndex": 60,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧家居系統方案的設計應依照產業有關標準進行，確保系統的擴充性和擴展性，\n在系統傳輸上採用標準的 TCP/IP 網路協定技術，保證不同家電商品之間系統可以\n相容與互聯。這是屬於設計智慧家居系統遵循的_____________原則。",
+    "options": [
+      {
+        "key": "A",
+        "text": "方便性"
+      },
+      {
+        "key": "B",
+        "text": "實用便利"
+      },
+      {
+        "key": "C",
+        "text": "可靠性"
+      },
+      {
+        "key": "D",
+        "text": "標準性"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_61_61",
+    "globalIndex": 61,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 61,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧客服，又稱智慧客服機器人，它的英文名稱是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "intelligent customer service"
+      },
+      {
+        "key": "B",
+        "text": "CRM"
+      },
+      {
+        "key": "C",
+        "text": "ERP"
+      },
+      {
+        "key": "D",
+        "text": "business intelligence"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_62_62",
+    "globalIndex": 62,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 62,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在一個語音理解系統中，包括音位知識、音變知識、韻律知識、詞法知識、句法\n知識，語義知識以及語用知識等，這是屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "語音辨識"
+      },
+      {
+        "key": "B",
+        "text": "語意處理"
+      },
+      {
+        "key": "C",
+        "text": "語音知識"
+      },
+      {
+        "key": "D",
+        "text": "知識處理"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_63_63",
+    "globalIndex": 63,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 63,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以醫療資訊系統為例，智慧醫療具有的特點中不包括_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "互聯的"
+      },
+      {
+        "key": "B",
+        "text": "協作的"
+      },
+      {
+        "key": "C",
+        "text": "稀有的"
+      },
+      {
+        "key": "D",
+        "text": "預防的"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_64_64",
+    "globalIndex": 64,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 64,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智能家居的英文是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "smart home"
+      },
+      {
+        "key": "B",
+        "text": "smart stay"
+      },
+      {
+        "key": "C",
+        "text": "Internet home"
+      },
+      {
+        "key": "D",
+        "text": "Internet house"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_65_65",
+    "globalIndex": 65,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 65,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧工廠是以_____________作為基本資料的搜集機制，所得到的大數據(big data)\n將是整個智慧工廠的重要資產，包括歷史資料與現在的資料。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自動導引運輸車AGV"
+      },
+      {
+        "key": "B",
+        "text": "虛實合一系統CPS"
+      },
+      {
+        "key": "C",
+        "text": "機器人應遵守人類的命令"
+      },
+      {
+        "key": "D",
+        "text": "物聯網(IoT)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_66_66",
+    "globalIndex": 66,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 66,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "圖像識別是以圖像的主要_____________為基礎的。",
+    "options": [
+      {
+        "key": "A",
+        "text": "元素"
+      },
+      {
+        "key": "B",
+        "text": "特徵"
+      },
+      {
+        "key": "C",
+        "text": "部件"
+      },
+      {
+        "key": "D",
+        "text": "圖元"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_67_67",
+    "globalIndex": 67,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 67,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "通常設計人工智慧系統時，都會先學習並分析地球上最自然的智慧系統之一，即\n_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "人腦和五官系統"
+      },
+      {
+        "key": "B",
+        "text": "肌肉和血管系統"
+      },
+      {
+        "key": "C",
+        "text": "人腦和神經系統"
+      },
+      {
+        "key": "D",
+        "text": "思維和學習\n系統"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_68_68",
+    "globalIndex": 68,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 68,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "將普通家用電器利用數位技術、網路技術及智慧控制技術，設計改進的新型家電\n產品是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "網路家電"
+      },
+      {
+        "key": "B",
+        "text": "內聯網家電"
+      },
+      {
+        "key": "C",
+        "text": "家庭自動化家電"
+      },
+      {
+        "key": "D",
+        "text": "家庭局域網家電"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_69_69",
+    "globalIndex": 69,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 69,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "工業4.0 不僅是要從過去自動化、標準化作業(SOP)的大量生產，結合智慧互聯、\n智慧生產、智慧工廠，轉變為以_____________為中心的客制化生產。",
+    "options": [
+      {
+        "key": "A",
+        "text": "通信設備"
+      },
+      {
+        "key": "B",
+        "text": "顧客"
+      },
+      {
+        "key": "C",
+        "text": "電腦"
+      },
+      {
+        "key": "D",
+        "text": "自動化裝置"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_70_70",
+    "globalIndex": 70,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 70,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________是人工智慧的核心技術之一，是使計算機具有智慧的根本途徑，其\n應用遍及人工智慧的各個領域，它主要使用歸納、綜合而不是演繹。",
+    "options": [
+      {
+        "key": "A",
+        "text": "強化學習"
+      },
+      {
+        "key": "B",
+        "text": "推薦引擎"
+      },
+      {
+        "key": "C",
+        "text": "搜尋引擎"
+      },
+      {
+        "key": "D",
+        "text": "機器學習"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_71_71",
+    "globalIndex": 71,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 71,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "製造執行系統的英文簡稱是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "MES"
+      },
+      {
+        "key": "B",
+        "text": "AGV"
+      },
+      {
+        "key": "C",
+        "text": "CPS"
+      },
+      {
+        "key": "D",
+        "text": "SOP"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_1_single_72_72",
+    "globalIndex": 72,
+    "examId": "ail",
+    "section": 1,
+    "sectionName": "第一份：人工智慧基礎概論與應用",
+    "number": 72,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "機器學習的核心是“使用_____________解析資料，從中學習，然後對世界上的某\n件事情做出決定或預測”。",
+    "options": [
+      {
+        "key": "A",
+        "text": "程式"
+      },
+      {
+        "key": "B",
+        "text": "模組"
+      },
+      {
+        "key": "C",
+        "text": "演算法"
+      },
+      {
+        "key": "D",
+        "text": "函數"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_1_73",
+    "globalIndex": 73,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 1,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "智慧城市實質上是運用現代資訊技術推動城市運行系統的互聯、整合、高效和智慧，\n以達到為城市人創造更加美好的生活，使城市發展更加舒適便利、安全和諧、更具\n活力。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_2_74",
+    "globalIndex": 74,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 2,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在智慧醫療中，醫生工作站的核心工作是採集、存儲、傳輸、處理和瞭解病人健康\n狀況，和醫療資訊的查詢與應用。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_3_75",
+    "globalIndex": 75,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 3,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "深度學習DL 的特徵學習(表徵學習)是通過機器學習技術自身來產生特徵，這種新\n的觀念與技術使機器學習向“全自動資料分析”又前進了一步。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_4_76",
+    "globalIndex": 76,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 4,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "語音辨識是實現語音自動控制的基礎之一。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_5_77",
+    "globalIndex": 77,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 5,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "簡單地說，深度學習DL 可以理解為進行“特徵學習”或“表示學習”。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_6_78",
+    "globalIndex": 78,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 6,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "建立在相關關係分析法(correlation analysis)基礎上的預測是大數據的核心。這種預\n測發生的頻率非常高，經常會有它的創新性，而且應用會越來越多。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_7_79",
+    "globalIndex": 79,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 7,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "智慧交通的建設將推進智慧城市的發展成效，智慧城市的發展成果也反映在智慧交\n通。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_8_80",
+    "globalIndex": 80,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 8,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在無法利用已有傳統管制技術的條件下，想要保障人類社會使用人工智慧的安全，\n必須另闢蹊徑，保證人工智慧技術本身及在各個領域的應用，都遵循人類社會所認\n同的倫理原則。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_9_81",
+    "globalIndex": 81,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 9,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "由價值消費轉向價格消費時代，這是新零售的新觀點。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_10_82",
+    "globalIndex": 82,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 10,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "工業4.0 不僅是自動化，而是「整條價值鏈全週期管理與服務」的新觀念。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_11_83",
+    "globalIndex": 83,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 11,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "與傳統的辦公網路及純粹的“家庭局域網”相比，家用網路加入了很多家庭應用產\n品和系統。例如，家電設備、照明系統等。因此，家用網路相應技術標準也錯綜複\n雜，其發展趨勢是將智慧家居其它系統融合進去。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_12_84",
+    "globalIndex": 84,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 12,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "採用人工智慧技術設計的阿爾法狗(AlphaGo)軟體，在圍棋比賽中目前都是不幸小\n敗給人類冠軍。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_13_85",
+    "globalIndex": 85,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 13,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "AGV 自動導引運輸車是智能製造中物流系統的關鍵設備之一，通常是以電池為動\n力，進行非接觸式導引。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_14_86",
+    "globalIndex": 86,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 14,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "強人工智慧(strong AI)，又稱為專用人工智慧(ANI, artificial narrow intelligence)。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_15_87",
+    "globalIndex": 87,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 15,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "機器學習(machine learning, ML)是深度學習(deep learning, DP)的一種演進技術，70\n餘年來AI 靠著機器學習(ML)的發展，才能一帆風順，並轉變為一種能夠改變世界\n的力量。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_16_88",
+    "globalIndex": 88,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 16,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "全球各先進國家，在有些地區的城鎮開始探索如何以數位城市(digital city)建設的\n基礎上，繼續推動智慧城市的建設。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_17_89",
+    "globalIndex": 89,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 17,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "當用戶量過大時，企業有限的客服能力會成為用戶滿意度下降的一個原因，而採\n用非人工的智慧客服方式就可幫助為企業解決這一問題。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_18_90",
+    "globalIndex": 90,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 18,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "人工智慧AI 是研究如何應用電腦的軟/硬體來類比人類某些智慧行為的基本理論、\n方法和技術。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_19_91",
+    "globalIndex": 91,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 19,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "從應用面而言，機器人專家將機器人分為兩大類，即製造環境下的工業機器人和\n非製造環境下的服務與仿人型機器人（特種機器人）。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_20_92",
+    "globalIndex": 92,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 20,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在大數據時代中，雖然相關關係是無法預知未來的，但是它只能預測可能發生的\n事情。對大數據分析師而言，已經極其珍貴了。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_21_93",
+    "globalIndex": 93,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 21,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在智慧製造的運作過程中，是允許被授權使用的客戶(網路用戶端)，可以透過網路，\n瞭解客戶本身的訂單執行的形況或結果。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_22_94",
+    "globalIndex": 94,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 22,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "AI 技術將取代人類現有的工作崗位，但同時也將創造出新的就業崗位。多位專家\n預測都表示， AI 將僅帶來很少數的就業機會。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_23_95",
+    "globalIndex": 95,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 23,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "隨著“新零售”模式的逐步落地，線上和線下將從原來的相對獨立、相互衝突逐漸\n轉化為互為促進、彼此融合，電子商務的表現形式和商業路徑必定會發生根本性的\n轉變。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_24_96",
+    "globalIndex": 96,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 24,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "世界衛生組織（WHO）對「智慧醫療」定義為：資訊通訊科技(ICT)在醫療及健康\n領域的應用，包括醫療照護、疾病管理、公共衛生監測、教育和研究。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_25_97",
+    "globalIndex": 97,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 25,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在機器學習眾多技術中，又以深度學習(DP)所取得的進步最為顯著。深度學習所\n帶來的重大技術革命之一，甚至有可能顛覆過去長期以來人們對互聯網技術的認知，\n\n \n \n實現技術體驗的跨越式發展。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_26_98",
+    "globalIndex": 98,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 26,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "大數據的混亂(chaos)資料，簡單地說就是隨著資料的增加，錯誤率也會相應增加。\n在整合來源不同的各類資訊的時候，因為它們通常不完全一致，所以也會讓大數據\n加大混亂程度。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_27_99",
+    "globalIndex": 99,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 27,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "目前的人工智慧系統可謂：有聰明智能但沒智慧、有智商卻沒情商、會計算但不\n會“算計”、有專才卻無通才。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_28_100",
+    "globalIndex": 100,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 28,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "機器學習ML 新階段的重要表現之一是：機器學習成為新的邊緣學科，並且在很\n多大學成為一門課程。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_29_101",
+    "globalIndex": 101,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 29,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "人工智慧充滿未知且曲折起伏的探索道路，但可以預測人工智慧AI 未來將無所不\n在(ubiquitous)的深入各行各業應用之中。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_30_102",
+    "globalIndex": 102,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 30,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "谷歌的流感趨勢預測是透過分析整個資料庫，分析了全美國幾十億條互聯網檢索\n記錄。這樣才能提高微觀層面分析的準確性，甚至能夠推測出美國某特定城市的流\n感狀況。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_31_103",
+    "globalIndex": 103,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 31,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "目前人工智慧AI 最關鍵的難題是機器自主創造性思維能力的塑造與提升。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_32_104",
+    "globalIndex": 104,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 32,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在大數據時代中，我們嘗試著不再探求數據之間難以捉摸的相關關係，轉而關注\n事物的因果關係。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_33_105",
+    "globalIndex": 105,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 33,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "智慧製造、智慧醫療、智慧安防、智慧零售、智慧家居等商業和應用是屬於人工\n智慧生態系統的橫向。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_34_106",
+    "globalIndex": 106,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 34,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "若與一般未經訓練過的圖像識別系統相比較，人類的圖像識別能力是很強的。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_35_107",
+    "globalIndex": 107,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 35,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "在客服領域也存在二八原理，即消費者的問題中，兩成左右都是高度重複的問題，\n雖然知識庫的資料足夠全面，目前智慧客服還無法為用戶提供多數滿意的解決方案。",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "X",
+    "images": []
+  },
+  {
+    "id": "ail_2_true_false_36_108",
+    "globalIndex": 108,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 36,
+    "type": "true_false",
+    "typeLabel": "是非題",
+    "question": "未來的智慧交通將會是車車相聯、車路相聯的車聯網環境。 \n \n \n \n \n \n \n \n\n \n \n二、複選題",
+    "options": [
+      {
+        "key": "O",
+        "text": "正確 (True)"
+      },
+      {
+        "key": "X",
+        "text": "錯誤 (False)"
+      }
+    ],
+    "answer": "O",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_1_109",
+    "globalIndex": 109,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 1,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "有研究指出，人工智慧可能會給人類社會帶來潛在威脅，包括_____________。\n(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "數位安全"
+      },
+      {
+        "key": "B",
+        "text": "年長者安全"
+      },
+      {
+        "key": "C",
+        "text": "政治安全"
+      },
+      {
+        "key": "D",
+        "text": "物理安全"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_2_110",
+    "globalIndex": 110,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 2,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "大數據的特點可用5V 或3V 來代表，_____________就是3V 的代表。(請選三項\n(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Velocity (速度)"
+      },
+      {
+        "key": "B",
+        "text": "Variety (種類)"
+      },
+      {
+        "key": "C",
+        "text": "Value (價值)"
+      },
+      {
+        "key": "D",
+        "text": "Volume (容積)"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_3_111",
+    "globalIndex": 111,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 3,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列_____________資訊服務利用了人工智慧的機器學習技術。(請選三項(含)以\n上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "QQ 郵箱轉送"
+      },
+      {
+        "key": "B",
+        "text": "智慧語音助手Siri"
+      },
+      {
+        "key": "C",
+        "text": "Alexa 個人助理用戶端"
+      },
+      {
+        "key": "D",
+        "text": "Netflix\n電影推薦"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_4_112",
+    "globalIndex": 112,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 4,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於大數據處理數據的觀點有_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "接受不精確和不完美的資料"
+      },
+      {
+        "key": "B",
+        "text": "樣本=總體"
+      },
+      {
+        "key": "C",
+        "text": "經過多年的發展，技術尚未\n成熟，尚未得到充分應用"
+      },
+      {
+        "key": "D",
+        "text": "紛繁的數據越多越好"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_5_113",
+    "globalIndex": 113,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 5,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧生態系統中三項至關重要的相關技術基礎，包括_____________。(請選\n三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠性"
+      },
+      {
+        "key": "B",
+        "text": "潛力性"
+      },
+      {
+        "key": "C",
+        "text": "安全性"
+      },
+      {
+        "key": "D",
+        "text": "信任"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_6_114",
+    "globalIndex": 114,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 6,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧技術AI 與三大新興技術跨領域結合，組成人工智慧物聯網，分別是指\n_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "大數據(big data)"
+      },
+      {
+        "key": "B",
+        "text": "物聯網(IoT, Internet of things)"
+      },
+      {
+        "key": "C",
+        "text": "邊緣計算(雲計\n算)(cloud computing)"
+      },
+      {
+        "key": "D",
+        "text": "自然語言處理"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_7_115",
+    "globalIndex": 115,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 7,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "為了發展擬人化的特性(具有人工意識或人工大腦)，許多知名企業提出人工大腦\n的基本框架。例如，有企業將人工智慧大腦劃分為應用層、認知層、感知層、演算\n法層、大數據、及雲計算等幾個層。下列_____________是屬於認知層。(請選三項\n(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "知識圖譜"
+      },
+      {
+        "key": "B",
+        "text": "自然語言處理"
+      },
+      {
+        "key": "C",
+        "text": "用戶畫像"
+      },
+      {
+        "key": "D",
+        "text": "圖像識別"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_8_116",
+    "globalIndex": 116,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 8,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "智慧醫療以人工智慧為核心的ICT 群組技術支援包括_____________等，正在\n顛覆醫療觀念、體系與技術及服務。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "雲運算技術"
+      },
+      {
+        "key": "B",
+        "text": "穿戴式/移動裝置"
+      },
+      {
+        "key": "C",
+        "text": "大數據分析"
+      },
+      {
+        "key": "D",
+        "text": "物聯網技術"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_9_117",
+    "globalIndex": 117,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 9,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "使城市交通系統具備普及化泛在感知、互聯、分析、預測、控制、應用等能力，\n是建設智慧城市的必經之路。而在智慧交通體系中，交通資訊發佈與路況管理主要\n包括_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "交通控制"
+      },
+      {
+        "key": "B",
+        "text": "公車到站信息"
+      },
+      {
+        "key": "C",
+        "text": "用路人信息"
+      },
+      {
+        "key": "D",
+        "text": "旅遊資訊"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_10_118",
+    "globalIndex": 118,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 10,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在智慧家居中，各網路家電要實現家電間互聯和資訊交換，需要解決的技術問題\n有_____________。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "傳送給大數據的格式要相同"
+      },
+      {
+        "key": "B",
+        "text": "描述家電工作特性的產品模型與規格，使得\n資料的交換具有特定含義與介面"
+      },
+      {
+        "key": "C",
+        "text": "每個家電要具有機器深度學習功能"
+      },
+      {
+        "key": "D",
+        "text": "在\n\n \n \n解決資訊傳輸的網路媒介，可選擇的方案有：電力線、無線射頻、雙絞線、同軸電\n纜、紅外線、光纖等"
+      }
+    ],
+    "answer": "BD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_11_119",
+    "globalIndex": 119,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 11,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "要落實推動工業4.0 需要先從技術面、行為面、與觀念面來瞭解工業4.0 的重\n點內涵。其中的「虛實合一系統」是_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "強調創造人機協同作業"
+      },
+      {
+        "key": "B",
+        "text": "機器人為焦點"
+      },
+      {
+        "key": "C",
+        "text": "光電設備為核心基礎"
+      },
+      {
+        "key": "D",
+        "text": "以\n「智慧工廠」為精神"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_12_120",
+    "globalIndex": 120,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 12,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "圖像識別的發展經歷了三個階段，包括_____________等。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "數位影像處理與識別"
+      },
+      {
+        "key": "B",
+        "text": "文字識別"
+      },
+      {
+        "key": "C",
+        "text": "物體識別"
+      },
+      {
+        "key": "D",
+        "text": "圖元識別"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_13_121",
+    "globalIndex": 121,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 13,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "ANN(人工神經網路)從股票市場預測到_____________和許多其他應用領域都\n有突出的應用表現。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "汽車自主控制"
+      },
+      {
+        "key": "B",
+        "text": "圖像模式識別"
+      },
+      {
+        "key": "C",
+        "text": "經濟預測"
+      },
+      {
+        "key": "D",
+        "text": "語音辨識"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_14_122",
+    "globalIndex": 122,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 14,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "立足於大數據思維，將城市交通資料有條件地開放，其中_____________等，就\n是基於開放的資料(open data)進行資料融合、深度挖掘的實際應用案例。(請選兩項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "飛機航班App 起降即時情況的查詢"
+      },
+      {
+        "key": "B",
+        "text": "每位公民繳稅、欠稅情形的查詢"
+      },
+      {
+        "key": "C",
+        "text": "高速路上每部車輛定位App 即時位置的查詢"
+      },
+      {
+        "key": "D",
+        "text": "公車、捷運(地鐵)等App，提供\n即時進站資訊的查詢"
+      }
+    ],
+    "answer": "AD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_15_123",
+    "globalIndex": 123,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 15,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下面_____________是屬於深度學習的技術。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "專家系統"
+      },
+      {
+        "key": "B",
+        "text": "遞迴神經網路(recursive neural network, RNN)"
+      },
+      {
+        "key": "C",
+        "text": "深度神經網路\n(deep neural network, DNN)"
+      },
+      {
+        "key": "D",
+        "text": "卷積神經網路(convolutional neural network, CNN)"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_16_124",
+    "globalIndex": 124,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 16,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "智慧客服的核心價值在於_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "為企業提高服務費用與產品價格變革助力。"
+      },
+      {
+        "key": "B",
+        "text": "讓企業發現有價值的資料、\n隨時發現新的商機"
+      },
+      {
+        "key": "C",
+        "text": "對成本、效率、員工滿意度、客戶滿意度多方面解決問題\n與痛點"
+      },
+      {
+        "key": "D",
+        "text": "在融入智慧客服系統之後，還能實現企業客服部門功能升級轉型"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_17_125",
+    "globalIndex": 125,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 17,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "國際市場產業研究機構(IHS, Information Handling Services)曾指出，關於現代化\n的城市(city)主要須具備的功能有：移動(mobility)和運輸(transport)、能源(energy)與\n永續(sustainability)、_____________等城市功能(city functions)。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "基礎設施(physical infrastructure)"
+      },
+      {
+        "key": "B",
+        "text": "治理(governance)"
+      },
+      {
+        "key": "C",
+        "text": "都市合併(city \nmerging)"
+      },
+      {
+        "key": "D",
+        "text": "安防(safety and security)"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_18_126",
+    "globalIndex": 126,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 18,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "得益於人工智慧技術的興起，一些行業崗位將呈現出顯著的增長趨勢。例如，\n下面_____________等三項即是。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "AI 硬體專家"
+      },
+      {
+        "key": "B",
+        "text": "電腦維修工程師"
+      },
+      {
+        "key": "C",
+        "text": "資料科學家"
+      },
+      {
+        "key": "D",
+        "text": "機器學習工程師"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_19_127",
+    "globalIndex": 127,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 19,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於智慧交通的英文為_____________。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "IoT"
+      },
+      {
+        "key": "B",
+        "text": "Internet transportation systems"
+      },
+      {
+        "key": "C",
+        "text": "intelligent transportation systems"
+      },
+      {
+        "key": "D",
+        "text": "ITS"
+      }
+    ],
+    "answer": "CD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_20_128",
+    "globalIndex": 128,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 20,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "所謂“新零售”是指:個人、企業以互聯網為依託，涵蓋_____________的零售新\n模式。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "對線上服務、線下體驗以及現代物流進行深度融合"
+      },
+      {
+        "key": "B",
+        "text": "對商品的生產、流通\n\n \n \n與銷售過程進行升級改造，進而重塑業態結構與生態圈"
+      },
+      {
+        "key": "C",
+        "text": "能主動執行零售任務\n的機器人"
+      },
+      {
+        "key": "D",
+        "text": "通過運用大數據、人工智慧等先進技術手段並運用心理學知識"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_21_129",
+    "globalIndex": 129,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 21,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "AGI ( artificial general intelligence)通用人工智慧又稱為強人工智慧，應用實例有\n_____________。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "車牌辨識系統"
+      },
+      {
+        "key": "B",
+        "text": "家庭照護用的機器人"
+      },
+      {
+        "key": "C",
+        "text": "新一代自動駕駛車"
+      },
+      {
+        "key": "D",
+        "text": "語音助\n理(Siri)"
+      }
+    ],
+    "answer": "BC",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_22_130",
+    "globalIndex": 130,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 22,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "語音信號處理是一門多學科的綜合技術。它以_____________以及聲學等基本\n學科為基礎。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "生理學"
+      },
+      {
+        "key": "B",
+        "text": "心理學"
+      },
+      {
+        "key": "C",
+        "text": "語言學"
+      },
+      {
+        "key": "D",
+        "text": "農業學"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_2_multiple_23_131",
+    "globalIndex": 131,
+    "examId": "ail",
+    "section": 2,
+    "sectionName": "第二份：是非題與複選精選特訓",
+    "number": 23,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列_____________可能是由於醫療資訊不暢，醫療資源兩極化，醫療監督機\n制不全等原因導致的。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "社區醫院比省市級醫院較少人問津"
+      },
+      {
+        "key": "B",
+        "text": "病人就診手續繁瑣"
+      },
+      {
+        "key": "C",
+        "text": "自然環境污染\n嚴重"
+      },
+      {
+        "key": "D",
+        "text": "大醫院人滿為患"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_1_132",
+    "globalIndex": 132,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧用電腦實現的方法中，_____________系統開始常犯錯誤，但它能吸取教\n訓，在下一次運行時就可能改正，至少不會永遠錯下去，通常不需要發佈新版本或\n做修正 (打補丁)。",
+    "options": [
+      {
+        "key": "A",
+        "text": "工程學方法(engineering approach)"
+      },
+      {
+        "key": "B",
+        "text": "傳統的程式設計技術(programming)"
+      },
+      {
+        "key": "C",
+        "text": "自動程式設計(auto-programming)技術"
+      },
+      {
+        "key": "D",
+        "text": "模擬法(modeling approach)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_2_133",
+    "globalIndex": 133,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧醫院中，實現與提升醫療服務的水準，分析患者過敏和用藥史，反映藥品產地\n批次等資訊，有效記錄和分析處方變更等資訊，為慢性病治療和保健提供參考。這\n是屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自動報警"
+      },
+      {
+        "key": "B",
+        "text": "臨床決策系統"
+      },
+      {
+        "key": "C",
+        "text": "智慧處方"
+      },
+      {
+        "key": "D",
+        "text": "遠端會診"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_3_134",
+    "globalIndex": 134,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "科學家Wiener 從理論上指出，所有的智慧活動都是_____________機制的結果，而\n這一機制是有可能用機器模擬的。這項發現對早期AI 的發展影響很大。",
+    "options": [
+      {
+        "key": "A",
+        "text": "回饋"
+      },
+      {
+        "key": "B",
+        "text": "分解"
+      },
+      {
+        "key": "C",
+        "text": "抽象"
+      },
+      {
+        "key": "D",
+        "text": "綜合"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_4_135",
+    "globalIndex": 135,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________不僅是要從過去自動化、標準化作業(SOP)的大量生產，結合智慧互\n聯、智慧生產、智慧工廠，轉變為以顧客為中心的客制化生產。",
+    "options": [
+      {
+        "key": "A",
+        "text": "工業2.0"
+      },
+      {
+        "key": "B",
+        "text": "工業3.0"
+      },
+      {
+        "key": "C",
+        "text": "工業1.0"
+      },
+      {
+        "key": "D",
+        "text": "工業4.0"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_5_136",
+    "globalIndex": 136,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________集合了三維地理資訊系統3D-GIS、建築資訊模型BIM 和物聯網IoT\n等多種先進技術的城市管理手段，為智慧城市發展注入了新鮮血液。",
+    "options": [
+      {
+        "key": "A",
+        "text": "AIoT 智慧物聯網模型"
+      },
+      {
+        "key": "B",
+        "text": "5G 智慧網模型"
+      },
+      {
+        "key": "C",
+        "text": "Big data city model (大數據城市\n模型)"
+      },
+      {
+        "key": "D",
+        "text": "CIM (城市資訊模型)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_6_137",
+    "globalIndex": 137,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在人工智慧機器學習領域中，若已經有明確的類別(例如：脊椎動物分為哺乳類、\n爬蟲類、兩棲類、鳥類、魚類等)，把未知的新輸入訊息歸納到已知的資訊類別。\n這是進行_____________的工作。",
+    "options": [
+      {
+        "key": "A",
+        "text": "classification (分類)"
+      },
+      {
+        "key": "B",
+        "text": "clustering (分群)"
+      },
+      {
+        "key": "C",
+        "text": "label (標籤)"
+      },
+      {
+        "key": "D",
+        "text": "activation (激勵)"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_7_138",
+    "globalIndex": 138,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以顧客為中心客制化生產的智慧工廠，在不影響產能與良率的條件下，需要具有強\n大的_____________，以滿足產品生命週期短且需要快速換線、快速交貨的市場與\n客戶要求。",
+    "options": [
+      {
+        "key": "A",
+        "text": "市場開發力"
+      },
+      {
+        "key": "B",
+        "text": "應變力"
+      },
+      {
+        "key": "C",
+        "text": "人力資源管理力"
+      },
+      {
+        "key": "D",
+        "text": "研發力"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_8_139",
+    "globalIndex": 139,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "車牌辨識主要應用了_____________技術。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自然語言處理"
+      },
+      {
+        "key": "B",
+        "text": "雲計算"
+      },
+      {
+        "key": "C",
+        "text": "自動程式設計(auto-programming)"
+      },
+      {
+        "key": "D",
+        "text": "電腦視\n覺"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_9_140",
+    "globalIndex": 140,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當我們把訓練資料送入神經網路的模型或函數學習機的學習過程中，在\n_____________的程度後，通常可以說這個神經網路的模型或函數學習機完成學習\n了。",
+    "options": [
+      {
+        "key": "A",
+        "text": "系統無法反映"
+      },
+      {
+        "key": "B",
+        "text": "誤差值r 小於可以接受"
+      },
+      {
+        "key": "C",
+        "text": "分類效果快速"
+      },
+      {
+        "key": "D",
+        "text": "反應速度\n很短快"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_10_141",
+    "globalIndex": 141,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在每個音段上標記正確的文字，再反饋給語音辨識系統做學習。這種由人工先聽\n取後，並錄入正確文字的過程，稱之為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "合成和分析"
+      },
+      {
+        "key": "B",
+        "text": "語音轉文字識別TTS"
+      },
+      {
+        "key": "C",
+        "text": "語音的自動檢測"
+      },
+      {
+        "key": "D",
+        "text": "標音"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_11_142",
+    "globalIndex": 142,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "語音辨識技術的最重大突破是在數位技術、積體電路技術發展之後，以及應用\n_____________的大詞彙量語音辨識系統，如李開復的Sphinx 系統。",
+    "options": [
+      {
+        "key": "A",
+        "text": "多功能詞彙分析系統"
+      },
+      {
+        "key": "B",
+        "text": "隱含瑪律科夫模型HMM (Hidden Markov Model)"
+      },
+      {
+        "key": "C",
+        "text": "資料編碼壓縮技術"
+      },
+      {
+        "key": "D",
+        "text": "語音轉文字識別"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_12_143",
+    "globalIndex": 143,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "工業4.0 智慧製造將所有的機台與生產資訊，透過_____________作整合資料應用，\n並且所有處理過程都是視覺化的。",
+    "options": [
+      {
+        "key": "A",
+        "text": "工業機器人"
+      },
+      {
+        "key": "B",
+        "text": "製造執行系統MES (manufacturing execution system)"
+      },
+      {
+        "key": "C",
+        "text": "工業\n4.0 戰情室(situation room)"
+      },
+      {
+        "key": "D",
+        "text": "物聯網及感測器(sensor)"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_13_144",
+    "globalIndex": 144,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "一般在發展人工智慧大約需要基礎專業知識、應用專業知識、 跨領域應用的專業\n知識等三類方向，例如，數學、統計學是屬於_____________方向。",
+    "options": [
+      {
+        "key": "A",
+        "text": "基礎專業知識"
+      },
+      {
+        "key": "B",
+        "text": "無法定義"
+      },
+      {
+        "key": "C",
+        "text": "應用專業知識"
+      },
+      {
+        "key": "D",
+        "text": "跨領域的應用方向"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_14_145",
+    "globalIndex": 145,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "聊天機器人系統一般包含語音辨識、_____________、對話管理、自然語言生成、\n語音轉換等五個主要的功能模組。",
+    "options": [
+      {
+        "key": "A",
+        "text": "機器語言合成"
+      },
+      {
+        "key": "B",
+        "text": "機器語言理解"
+      },
+      {
+        "key": "C",
+        "text": "自然語言理解"
+      },
+      {
+        "key": "D",
+        "text": "自然語言優化"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_15_146",
+    "globalIndex": 146,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在智慧製造中，_____________是指每個整子(holon)可以請求其他整子執行某種操\n作行為，也可以對其他整子提出的操作申請提供服務。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自治性"
+      },
+      {
+        "key": "B",
+        "text": "合作性"
+      },
+      {
+        "key": "C",
+        "text": "柔性"
+      },
+      {
+        "key": "D",
+        "text": "智慧性"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_16_147",
+    "globalIndex": 147,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "用於描述解決特定問題的步驟序列稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "人工智慧（Artificial Intelligence, AI）"
+      },
+      {
+        "key": "B",
+        "text": "電腦(computer)"
+      },
+      {
+        "key": "C",
+        "text": "演算法\n(algorithm)"
+      },
+      {
+        "key": "D",
+        "text": "弱人工智慧（weak AI）"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_17_148",
+    "globalIndex": 148,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在機器學習(ML)演算法中，_____________的演算法架構，是在環境給予的獎勵或\n是懲罰的刺激下，逐步形成對獎勵或懲罰刺激的預期性，產生能獲得最大利益的判\n斷演算法。",
+    "options": [
+      {
+        "key": "A",
+        "text": "強化學習"
+      },
+      {
+        "key": "B",
+        "text": "非監督學習"
+      },
+      {
+        "key": "C",
+        "text": "神經網路學習"
+      },
+      {
+        "key": "D",
+        "text": "監督學習"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_18_149",
+    "globalIndex": 149,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "_____________是裝備有電磁或光學等自動導引裝置，能夠沿著事先規劃的導引路\n徑行駛，具有安全保護以及各種移載功能的運輸車。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自動導引運輸車AGV (automated guided vehicle)"
+      },
+      {
+        "key": "B",
+        "text": "感測器(sensor)"
+      },
+      {
+        "key": "C",
+        "text": "工業\n機器人"
+      },
+      {
+        "key": "D",
+        "text": "工業4.0 戰情室(situation room)"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_19_150",
+    "globalIndex": 150,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在機器學習的主要三項演算法技術中(又稱為三劍客或三兄弟)，_____________不\n涉及提供“正確的”答案或輸出，只關注性能，讓AI 系統很快就學會了，不要重複\n這一動作。",
+    "options": [
+      {
+        "key": "A",
+        "text": "強化學習"
+      },
+      {
+        "key": "B",
+        "text": "非監督學習"
+      },
+      {
+        "key": "C",
+        "text": "監督學習"
+      },
+      {
+        "key": "D",
+        "text": "歸納學習"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_20_151",
+    "globalIndex": 151,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在開發或應用人工智慧系統時，人工智慧透明度的重要性和必要性，因具體的人\n工智慧應用而定；使用者必須能理解人工智慧系統可能被愚弄的機制。這個是針對\n人工智慧系統發展的_____________問題。",
+    "options": [
+      {
+        "key": "A",
+        "text": "信任方面(trust)"
+      },
+      {
+        "key": "B",
+        "text": "人員與文化方面"
+      },
+      {
+        "key": "C",
+        "text": "可靠性(reliability)"
+      },
+      {
+        "key": "D",
+        "text": "安全性方面\n(security)"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_21_152",
+    "globalIndex": 152,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要實現電腦視覺必須有影像處理的幫助，而影像處理依賴於_____________的有效\n運用。",
+    "options": [
+      {
+        "key": "A",
+        "text": "模式識別"
+      },
+      {
+        "key": "B",
+        "text": "輸入和輸出"
+      },
+      {
+        "key": "C",
+        "text": "專家系統"
+      },
+      {
+        "key": "D",
+        "text": "智慧規劃"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_22_153",
+    "globalIndex": 153,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當人們擁有海量即時資料時，絕對的精准不再是人們追求的主要目標。因此大數\n據的專家建議是：_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "我們應該適當地放棄精確度，不再沉迷於絕對的精准"
+      },
+      {
+        "key": "B",
+        "text": "我們應完全放棄了\n精確度，且不再沉迷於此"
+      },
+      {
+        "key": "C",
+        "text": "我們是確保精確度的前提下，適當尋求更多資料"
+      },
+      {
+        "key": "D",
+        "text": "我們不能放棄精確度，需要努力追求更精確度"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_23_154",
+    "globalIndex": 154,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在運用上，語言既是精確也是模糊的。可以想像_____________可能會給需要語音\n辨識、自然語言處理的機器帶來的問題。",
+    "options": [
+      {
+        "key": "A",
+        "text": "語言收集"
+      },
+      {
+        "key": "B",
+        "text": "語言理解"
+      },
+      {
+        "key": "C",
+        "text": "語言音色"
+      },
+      {
+        "key": "D",
+        "text": "語言表達"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_24_155",
+    "globalIndex": 155,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在智慧製造中，_____________是指對於快速變化的市場、變化的製造要求有很強\n的適應性。",
+    "options": [
+      {
+        "key": "A",
+        "text": "敏捷性"
+      },
+      {
+        "key": "B",
+        "text": "柔性"
+      },
+      {
+        "key": "C",
+        "text": "智慧性"
+      },
+      {
+        "key": "D",
+        "text": "自治性"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_25_156",
+    "globalIndex": 156,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "為發展擬人化的特性(具有人工意識或人工大腦)，許多知名企業提出人工大腦的基\n本框架：例如，將人工智慧劃分為應用層、認知層、感知層、演算法層、大數據、\n及雲計算等幾個層。其中，資料標註技術工作是屬於_____________層。",
+    "options": [
+      {
+        "key": "A",
+        "text": "雲計算"
+      },
+      {
+        "key": "B",
+        "text": "大數據"
+      },
+      {
+        "key": "C",
+        "text": "應用層"
+      },
+      {
+        "key": "D",
+        "text": "演算法層"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_26_157",
+    "globalIndex": 157,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在人工智慧技術中，________________可幫助解決更多問題，提高解決問題的效\n率；它可從使用者和輸入資料等處獲得知識或技能，重新組織已有的知識結構、使\n之不斷改善自身的性能。",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖靈測試"
+      },
+      {
+        "key": "B",
+        "text": "機器學習"
+      },
+      {
+        "key": "C",
+        "text": "搜尋引擎"
+      },
+      {
+        "key": "D",
+        "text": "推薦引擎"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_27_158",
+    "globalIndex": 158,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "自然語言處理(NLP)是AI 研究中_____________的領域之一。",
+    "options": [
+      {
+        "key": "A",
+        "text": "研究歷史較短，但研究最多、要求最高"
+      },
+      {
+        "key": "B",
+        "text": "研究歷史最長、研究最多、要求\n最高"
+      },
+      {
+        "key": "C",
+        "text": "研究歷史最短、研究較少、要求不高"
+      },
+      {
+        "key": "D",
+        "text": "研究歷史最長、研究最多，\n但要求不高"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_28_159",
+    "globalIndex": 159,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "通過找到一個現象的_____________，相關關係可以幫助我們捕捉現在和預測未來。",
+    "options": [
+      {
+        "key": "A",
+        "text": "良好的關聯物"
+      },
+      {
+        "key": "B",
+        "text": "隱藏原因"
+      },
+      {
+        "key": "C",
+        "text": "出現原因"
+      },
+      {
+        "key": "D",
+        "text": "一般的關聯物"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_29_160",
+    "globalIndex": 160,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "圖形刺激作用於人類的感覺器官，人們再辨認出它是經歷過的某一圖形的過程，\n稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖像保存"
+      },
+      {
+        "key": "B",
+        "text": "圖像再認"
+      },
+      {
+        "key": "C",
+        "text": "圖像識別"
+      },
+      {
+        "key": "D",
+        "text": "影像處理"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_30_161",
+    "globalIndex": 161,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有研究者認為，讓電腦擁有智商是很危險的，它可能會反抗人類。這種隱患已經\n在_____________中呈現過，其關鍵是允不允許機器擁有自主意識的產生與延續。",
+    "options": [
+      {
+        "key": "A",
+        "text": "政府報告"
+      },
+      {
+        "key": "B",
+        "text": "法律檔案"
+      },
+      {
+        "key": "C",
+        "text": "一些案例"
+      },
+      {
+        "key": "D",
+        "text": "多部電影"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_31_162",
+    "globalIndex": 162,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在一般情況下，訓練一個深度學習(DL)演算法需要很長的時間。這是因為深度學\n習(DL)演算法中_____________很多。",
+    "options": [
+      {
+        "key": "A",
+        "text": "引擎"
+      },
+      {
+        "key": "B",
+        "text": "機器結構"
+      },
+      {
+        "key": "C",
+        "text": "參數"
+      },
+      {
+        "key": "D",
+        "text": "搜尋"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_32_163",
+    "globalIndex": 163,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在智慧製造中，_____________是一種全新的分散式運算技術，目前已經成為一種\n進行複雜系統分析與類比的思想方法與工具。",
+    "options": [
+      {
+        "key": "A",
+        "text": "多智慧體系統MAS"
+      },
+      {
+        "key": "B",
+        "text": "數位控制車床CNC"
+      },
+      {
+        "key": "C",
+        "text": "敏捷製造Agile \nManufacturing"
+      },
+      {
+        "key": "D",
+        "text": "分散式數位控制DNC"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_33_164",
+    "globalIndex": 164,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "i-CRM 智慧客服關係管理系統包括四大方向，銷售管理、市場行銷、\n_____________、管理拓展等。",
+    "options": [
+      {
+        "key": "A",
+        "text": "人事管理"
+      },
+      {
+        "key": "B",
+        "text": "服務管理"
+      },
+      {
+        "key": "C",
+        "text": "財會管理"
+      },
+      {
+        "key": "D",
+        "text": "生產管理"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_34_165",
+    "globalIndex": 165,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "現代圖像識別技術的一項不足之處是_____________，這也是目前圖像識別技術需\n要克服的地方。",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖像圖元不足"
+      },
+      {
+        "key": "B",
+        "text": "識別結果不穩定"
+      },
+      {
+        "key": "C",
+        "text": "識別速度慢"
+      },
+      {
+        "key": "D",
+        "text": "自我調整性能差"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_35_166",
+    "globalIndex": 166,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在人工智慧機器學習領域中，輸入的資料對象經過feature(特徵)的classification (分\n類)處理後的結果，稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "enable (啟動)"
+      },
+      {
+        "key": "B",
+        "text": "label (標籤)"
+      },
+      {
+        "key": "C",
+        "text": "recognition (辨識)"
+      },
+      {
+        "key": "D",
+        "text": "activation (激勵)"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_36_167",
+    "globalIndex": 167,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在一個語音系統中，可以認為是信號處理與知識處理結合的產物，這是指\n_____________的技術。",
+    "options": [
+      {
+        "key": "A",
+        "text": "音色處理"
+      },
+      {
+        "key": "B",
+        "text": "語音理解"
+      },
+      {
+        "key": "C",
+        "text": "語音辨識"
+      },
+      {
+        "key": "D",
+        "text": "語音知識"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_37_168",
+    "globalIndex": 168,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧生態系統指的是在_____________人工智慧的配套能力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "實驗"
+      },
+      {
+        "key": "B",
+        "text": "研究"
+      },
+      {
+        "key": "C",
+        "text": "使用和管理"
+      },
+      {
+        "key": "D",
+        "text": "開發"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_38_169",
+    "globalIndex": 169,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設想訓練一台機器來識別直升機，你有150 萬張照片，其中有些照片裡邊有直\n升機，有些沒有直升機。那你需要有人先來教會電腦哪些圖像有直升機，哪些又沒\n有直升機。這就是_____________的用處所在。",
+    "options": [
+      {
+        "key": "A",
+        "text": "數據標籤專業人員"
+      },
+      {
+        "key": "B",
+        "text": "規則建構師"
+      },
+      {
+        "key": "C",
+        "text": "機器學習工程師"
+      },
+      {
+        "key": "D",
+        "text": "AI 硬體專家"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_39_170",
+    "globalIndex": 170,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在物聯網與大數據如此浩如雲海的資料中，作資料的分類提取和有效處理，需要\n強大的技術設計與運算能力，於是\"運算能力\" 有了_____________；另外的“技術設\n計”屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "雲計算,演算法(algorithm)"
+      },
+      {
+        "key": "B",
+        "text": "量子電腦,機器學習"
+      },
+      {
+        "key": "C",
+        "text": "超級電腦,演算法\n(algorithm)"
+      },
+      {
+        "key": "D",
+        "text": "雲計算,機器學習"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_40_171",
+    "globalIndex": 171,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "大數據的數據存儲單位，1 PB (petabyte) =_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "1,024 MB"
+      },
+      {
+        "key": "B",
+        "text": "1,024 TB"
+      },
+      {
+        "key": "C",
+        "text": "1,024 KB"
+      },
+      {
+        "key": "D",
+        "text": "1,024 GB"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_41_172",
+    "globalIndex": 172,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "我們經常把“人”這類群體分為“男”(male)、“女”(female)特徵進行抽象概括，而統稱\n為“性別(sex)”；這種對某一類特定群體或物件的某項特徵進行的抽象分類和概括，\n稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用者畫像(user profile)"
+      },
+      {
+        "key": "B",
+        "text": "摘要(abstract)"
+      },
+      {
+        "key": "C",
+        "text": "商業智慧(BI)"
+      },
+      {
+        "key": "D",
+        "text": "標籤(tag)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_42_173",
+    "globalIndex": 173,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "長期以來，人們已經發展了一些使用盡可能少資訊的技術。例如，傳統統計學的\n一個目的就是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "用盡可能多的資料來驗證一般的發現"
+      },
+      {
+        "key": "B",
+        "text": "用盡可能少的資料來證實盡可能重\n大的發現"
+      },
+      {
+        "key": "C",
+        "text": "用盡可能少的資料來驗證一般的發現"
+      },
+      {
+        "key": "D",
+        "text": "用盡可能少的資料來驗\n證盡可能簡單的發現"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_43_174",
+    "globalIndex": 174,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "面向特定領域的人工智慧技術，即專用人工智慧又簡稱為_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strong AI"
+      },
+      {
+        "key": "B",
+        "text": "ANI"
+      },
+      {
+        "key": "C",
+        "text": "ANN"
+      },
+      {
+        "key": "D",
+        "text": "AGI"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_44_175",
+    "globalIndex": 175,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "相對於聊天機器人，智慧客服系統的結構中最大的區別是增強了_____________部\n分，它是真正實現智慧化的核心技術。",
+    "options": [
+      {
+        "key": "A",
+        "text": "語義合成"
+      },
+      {
+        "key": "B",
+        "text": "語義理解"
+      },
+      {
+        "key": "C",
+        "text": "語音辨析"
+      },
+      {
+        "key": "D",
+        "text": "音色優化"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_45_176",
+    "globalIndex": 176,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧技術持續、健康發展的重要前提，是建立一個令人工智慧技術造福於社\n會、保護公眾利益的_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "政策、法律和標準化環境"
+      },
+      {
+        "key": "B",
+        "text": "跨國與跨領域的合作關係"
+      },
+      {
+        "key": "C",
+        "text": "低成本的運作空\n間"
+      },
+      {
+        "key": "D",
+        "text": "提供高素質AI 人才"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_46_177",
+    "globalIndex": 177,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "根據美國國防高級研究計畫局DARPA 對人工智慧技術等級的定義，人工智慧的\n深度學習、強化學習、對抗學習等技術，是屬於_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "統計機器學習"
+      },
+      {
+        "key": "B",
+        "text": "資訊感知"
+      },
+      {
+        "key": "C",
+        "text": "物聯網"
+      },
+      {
+        "key": "D",
+        "text": "大數據分析"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_47_178",
+    "globalIndex": 178,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人工智慧領域通常所指的模式識別主要是對語音波形、地震波、心電圖、腦電圖、\n圖片、照片、文字、符號、生物感測器等物件的具體模式進行_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "存儲與利用"
+      },
+      {
+        "key": "B",
+        "text": "辨識和分類"
+      },
+      {
+        "key": "C",
+        "text": "分類和計算"
+      },
+      {
+        "key": "D",
+        "text": "清洗和處理"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_48_179",
+    "globalIndex": 179,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "有一個使用大數據的修護系統，把異常情況與正常情況進行對比，就知道什麼地\n方會出毛病。通過儘早地發現異常，系統可提醒在故障之前更換零件或者修復問題。\n這是使用_____________分析方法。",
+    "options": [
+      {
+        "key": "A",
+        "text": "採樣"
+      },
+      {
+        "key": "B",
+        "text": "分類"
+      },
+      {
+        "key": "C",
+        "text": "神算"
+      },
+      {
+        "key": "D",
+        "text": "相關關係"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_49_180",
+    "globalIndex": 180,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在大資料時代，非常新穎且有價值的觀點是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "應當確認所有數據的準確性"
+      },
+      {
+        "key": "B",
+        "text": "緊盯事物之間的因果關係(causal relationship)"
+      },
+      {
+        "key": "C",
+        "text": "應當做到傳統的數據精確分析效果"
+      },
+      {
+        "key": "D",
+        "text": "應該尋找事物之間的相關關係\n(correlationship)"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_50_181",
+    "globalIndex": 181,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "圖像採集就是從_____________獲取場景圖像的過程，是機器視覺的第一步。",
+    "options": [
+      {
+        "key": "A",
+        "text": "終端設備"
+      },
+      {
+        "key": "B",
+        "text": "資料存儲"
+      },
+      {
+        "key": "C",
+        "text": "離線終端"
+      },
+      {
+        "key": "D",
+        "text": "工作現場"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_51_182",
+    "globalIndex": 182,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於人工智慧的技術之一機器學習(ML, machine learning)最早的發展可以追溯到\n_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "英國數學家貝葉斯在1763 年發表的貝葉斯定理"
+      },
+      {
+        "key": "B",
+        "text": "Donald Michie 在1963 年\n推出的強化學習的tic-tac-toe 程式"
+      },
+      {
+        "key": "C",
+        "text": "1952 年Arthur Samuel 創建的一個簡單的下\n棋遊戲程式"
+      },
+      {
+        "key": "D",
+        "text": "1950 年電腦科學家圖靈發明的圖靈測試"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_52_183",
+    "globalIndex": 183,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在智慧製造中的智慧技術中，不同結構的模組化硬體設計技術，以及實現統一資\n料格式、統一程式設計環境的工程軟體平臺技術等，是屬於_____________技術。",
+    "options": [
+      {
+        "key": "A",
+        "text": "識別技術"
+      },
+      {
+        "key": "B",
+        "text": "模組化、嵌入式控制系統設計技術"
+      },
+      {
+        "key": "C",
+        "text": "系統協同技術"
+      },
+      {
+        "key": "D",
+        "text": "新\n型傳感技術"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_53_184",
+    "globalIndex": 184,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "現代神經網路是一種非線性統計性資料建模工具。典型的神經網路具有三個部分，\n除了_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "激勵函數"
+      },
+      {
+        "key": "B",
+        "text": "尺寸"
+      },
+      {
+        "key": "C",
+        "text": "結構"
+      },
+      {
+        "key": "D",
+        "text": "學習規則"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_54_185",
+    "globalIndex": 185,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "語音理解是指利用_____________等人工智慧技術進行語句自動識別和語意理解。",
+    "options": [
+      {
+        "key": "A",
+        "text": "知識表達和組織"
+      },
+      {
+        "key": "B",
+        "text": "字典和演算法"
+      },
+      {
+        "key": "C",
+        "text": "合成和分析"
+      },
+      {
+        "key": "D",
+        "text": "聲樂和心理"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_55_186",
+    "globalIndex": 186,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧製造源於人工智慧的研究，包含智慧製造_____________和智慧製造系統。",
+    "options": [
+      {
+        "key": "A",
+        "text": "行業"
+      },
+      {
+        "key": "B",
+        "text": "技術"
+      },
+      {
+        "key": "C",
+        "text": "工具"
+      },
+      {
+        "key": "D",
+        "text": "理論"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_56_187",
+    "globalIndex": 187,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "使系統呈現智慧的效果，而不考慮所用方法是否與人或動物等機體所用的方法相\n同，是指_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "傳統的程式設計技術(programming)"
+      },
+      {
+        "key": "B",
+        "text": "模擬法(modeling approach)"
+      },
+      {
+        "key": "C",
+        "text": "遺傳\n演算法(Generic Algorithm, GA)"
+      },
+      {
+        "key": "D",
+        "text": "人工神經網路(Artificial Neural Network, ANN)"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_57_188",
+    "globalIndex": 188,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "大數據系統為了獲得更廣泛的資料而犧牲了精確性，但是也看到了很多無法被關\n注到的細節；這樣的現象，_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "無論什麼情況，我們都不能容忍錯誤的存在"
+      },
+      {
+        "key": "B",
+        "text": "在很多情況下，與致力於避\n免錯誤相比較，對錯誤的包容會帶給我們更多好處"
+      },
+      {
+        "key": "C",
+        "text": "在很多情況下，與致力於\n避免錯誤相比，對錯誤的包容會帶給我們更多問題"
+      },
+      {
+        "key": "D",
+        "text": "無論什麼情況，我們都可\n以包容錯誤"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_58_189",
+    "globalIndex": 189,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在大數據時代，要想獲得大規模資料帶來的好處，混亂資料應該是一種\n_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "非標準途徑，應該儘量避免的"
+      },
+      {
+        "key": "B",
+        "text": "不正確途徑，需要竭力避免的"
+      },
+      {
+        "key": "C",
+        "text": "標準途\n徑，而不應該是竭力避免的"
+      },
+      {
+        "key": "D",
+        "text": "非標準途徑，但可以勉強接受的"
+      }
+    ],
+    "answer": "C",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_59_190",
+    "globalIndex": 190,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧農業的英文是_____________。",
+    "options": [
+      {
+        "key": "A",
+        "text": "Internet wood"
+      },
+      {
+        "key": "B",
+        "text": "smart agriculture"
+      },
+      {
+        "key": "C",
+        "text": "smart wood"
+      },
+      {
+        "key": "D",
+        "text": "Internet agriculture"
+      }
+    ],
+    "answer": "B",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_60_191",
+    "globalIndex": 191,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "谷歌的“虛擬大腦”是模擬人類的大腦細胞相互交流、影響設計出來的，具備自我\n學習功能，它可以通過觀看Youku(優酷)、YouTube 等影片(視頻)，學習識別人臉、\n貓臉動物、聲音以及其他事物。這項技術使Google 產品變得更加智慧化，而首先\n受益的是_____________產品。",
+    "options": [
+      {
+        "key": "A",
+        "text": "語音辨識"
+      },
+      {
+        "key": "B",
+        "text": "自動翻譯"
+      },
+      {
+        "key": "C",
+        "text": "激勵函數"
+      },
+      {
+        "key": "D",
+        "text": "影像識別"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_61_192",
+    "globalIndex": 192,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 61,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "人腦是一種適應性系統，必須對變幻莫測的事物做出反應，而學習是通過修改神\n經元之間連接的_____________來進行的。",
+    "options": [
+      {
+        "key": "A",
+        "text": "強度"
+      },
+      {
+        "key": "B",
+        "text": "順序"
+      },
+      {
+        "key": "C",
+        "text": "速度"
+      },
+      {
+        "key": "D",
+        "text": "平滑度"
+      }
+    ],
+    "answer": "A",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_62_193",
+    "globalIndex": 193,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 62,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "機器學習的主要核心是“使用_____________來解析資料，從中學習，然後對某件\n事情做出決定或預測”。",
+    "options": [
+      {
+        "key": "A",
+        "text": "程式"
+      },
+      {
+        "key": "B",
+        "text": "函數"
+      },
+      {
+        "key": "C",
+        "text": "模組"
+      },
+      {
+        "key": "D",
+        "text": "演算法"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_single_63_194",
+    "globalIndex": 194,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 63,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在電商領域，通過靈活的關鍵字匹配、情感/語速識別和智慧業務模型規則，運用\n智慧客服機器深入多個業務場景，對人工客服的服務態度、話術規範及處理業務的\n流程做出自動化的批量檢測，將質檢覆蓋率提升到100%。這是_____________的應\n用案例。",
+    "options": [
+      {
+        "key": "A",
+        "text": "用智慧客服機器守住第一觸點"
+      },
+      {
+        "key": "B",
+        "text": "讓智慧客服機器分發個性化的內容"
+      },
+      {
+        "key": "C",
+        "text": "借\n智慧客服機器獲取消費對話資訊作為洞察與運營決策"
+      },
+      {
+        "key": "D",
+        "text": "以智慧客服機器優化人\n工服務  \n \n \n \n二、複選題"
+      }
+    ],
+    "answer": "D",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_1_195",
+    "globalIndex": 195,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 1,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "基於電腦視覺的圖像檢索，可以分為類似文本搜尋引擎的三個步驟，包括\n_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "建立索引"
+      },
+      {
+        "key": "B",
+        "text": "提取特徵"
+      },
+      {
+        "key": "C",
+        "text": "查詢"
+      },
+      {
+        "key": "D",
+        "text": "清晰"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_2_196",
+    "globalIndex": 196,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 2,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "目前深度學習(deep learning)各種神經網路的演算法，主要是基於_____________\n的方法。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "自動翻譯的"
+      },
+      {
+        "key": "B",
+        "text": "多層神經網路的"
+      },
+      {
+        "key": "C",
+        "text": "發現規則自學習(self-learning)"
+      },
+      {
+        "key": "D",
+        "text": "海\n量資料為輸入的"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_3_197",
+    "globalIndex": 197,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 3,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在知識發現(knowledge discovery)的處理流程中，有_____________等流程項\n目。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "資料預處理(data preprocessing)"
+      },
+      {
+        "key": "B",
+        "text": "資料挖掘(data mining)"
+      },
+      {
+        "key": "C",
+        "text": "資料篩選(data \nselection)"
+      },
+      {
+        "key": "D",
+        "text": "知識評估(knowledge evaluation)"
+      },
+      {
+        "key": "E",
+        "text": "資料格式轉換(data \ntransformation)"
+      }
+    ],
+    "answer": "ABCDE",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_4_198",
+    "globalIndex": 198,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 4,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "自從SARS, MERS 及新冠狀病毒COVID-19 連續發生以來，作為智慧醫療體系\n中的區域衛生系統的發展就變成很重要，區域衛生系統可包括_____________等。\n(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "發展電子健康檔案（electronic health records，EHRs）"
+      },
+      {
+        "key": "B",
+        "text": "區域衛生平臺+公共\n衛生系統"
+      },
+      {
+        "key": "C",
+        "text": "運用尖端的科學和電腦技術，建立醫療單位以及其它有關組織開展\n疾病危險度的評價。"
+      },
+      {
+        "key": "D",
+        "text": "制定規範以預防和控制疾病的發生"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_5_199",
+    "globalIndex": 199,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 5,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧定義中的“智慧”，涉及到諸如_____________等問題。(請選三項(含)以\n上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "意識"
+      },
+      {
+        "key": "B",
+        "text": "自我"
+      },
+      {
+        "key": "C",
+        "text": "思維"
+      },
+      {
+        "key": "D",
+        "text": "論證"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_6_200",
+    "globalIndex": 200,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 6,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "數位城市或智慧城市3S 技術，是指_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "地理資訊系統GIS"
+      },
+      {
+        "key": "B",
+        "text": "全球衛星定位系統GPS"
+      },
+      {
+        "key": "C",
+        "text": "大數據分析系統BDS"
+      },
+      {
+        "key": "D",
+        "text": "遙感RS"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_7_201",
+    "globalIndex": 201,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 7,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "為了發展擬人化的特性(具有人工意識或人工大腦)，許多知名企業提出人工大腦\n的基本框架。例如，有企業將人工智慧大腦劃分為應用層、認知層、感知層、演算\n法層、大數據、及雲計算等幾個層。下列_____________是屬於感知層。(請選擇二\n項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖像識別"
+      },
+      {
+        "key": "B",
+        "text": "機器學習"
+      },
+      {
+        "key": "C",
+        "text": "語音辨識"
+      },
+      {
+        "key": "D",
+        "text": "大數據"
+      }
+    ],
+    "answer": "AC",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_8_202",
+    "globalIndex": 202,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 8,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "通過總結人工智慧發展歷程中的經驗和教訓，我們可以得到的啟示是\n_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "尊重發展規律是推動學科健康發展的前提，實事求是設定發展目標是制定學科\n\n \n \n發展規劃的基本原則"
+      },
+      {
+        "key": "B",
+        "text": "基礎研究是學科可持續發展的基石"
+      },
+      {
+        "key": "C",
+        "text": "在人工智慧技\n術開發方面應遵循專利至上原則；在技術應用方面則應當遵循權責一致原則"
+      },
+      {
+        "key": "D",
+        "text": "應用需求是科技創新的不竭之源，學科交叉(跨領域)是創新突破的“捷徑”，寬容失\n敗是支持創新中應有之義"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_9_203",
+    "globalIndex": 203,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 9,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "大數據的混亂(chaos)資料，是指_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "在萃取或處理資料的時候，也會發生混亂"
+      },
+      {
+        "key": "B",
+        "text": "隨著資料的增加，錯誤率相應\n增加，其中的部分資料可能是錯誤的"
+      },
+      {
+        "key": "C",
+        "text": "在大數據背景下很難做到清洗資料(data \ncleansing)"
+      },
+      {
+        "key": "D",
+        "text": "在整合來源不同的各類資訊時，因格式不完全一致，會加大混亂程\n度"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_10_204",
+    "globalIndex": 204,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 10,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "知識圖譜(knowledge graph)系統的生命週期包含四個重要環節：_____________、\n知識管理與知識應用。(請選兩項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "知識表示(knowledge representation)"
+      },
+      {
+        "key": "B",
+        "text": "知識轉換(knowledge transformation)"
+      },
+      {
+        "key": "C",
+        "text": "知識獲取(knowledge acquisition)"
+      },
+      {
+        "key": "D",
+        "text": "知識評估(knowledge evaluation)"
+      }
+    ],
+    "answer": "AC",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_11_205",
+    "globalIndex": 205,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 11,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "弱人工智慧(weak AI)又稱為專用人工智慧(ANI, artificial narrow intelligence)，應\n用實例有_____________。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "車牌辨識系統"
+      },
+      {
+        "key": "B",
+        "text": "語音助理(Siri)"
+      },
+      {
+        "key": "C",
+        "text": "新一代自動駕駛車"
+      },
+      {
+        "key": "D",
+        "text": "家庭照護用的\n機器人"
+      }
+    ],
+    "answer": "AB",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_12_206",
+    "globalIndex": 206,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 12,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "要建立一套語音理解系統需要有_____________等三類知識或技術的支援。(請\n選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "知識處理"
+      },
+      {
+        "key": "B",
+        "text": "語音知識"
+      },
+      {
+        "key": "C",
+        "text": "語音辨識"
+      },
+      {
+        "key": "D",
+        "text": "語音特徵"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_13_207",
+    "globalIndex": 207,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 13,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "相較於一般的監督式學習的機器學習系統，深度學習系統還存在\n_____________的問題。(請選兩項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "建模的成本較高"
+      },
+      {
+        "key": "B",
+        "text": "需要大量的訓練資料"
+      },
+      {
+        "key": "C",
+        "text": "有些領域或問題，採用傳統的\n監督式機器學習方法，就可很好地解決問題了"
+      },
+      {
+        "key": "D",
+        "text": "現在的深度學習方法不是對人\n腦的模擬"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_14_208",
+    "globalIndex": 208,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 14,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在大規模個性化定制的生產需求下，企業從工業3.0 自動化工廠升級為工業4.0\n智慧工廠的運作模式通常會考慮的處理方式有_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用智慧機台"
+      },
+      {
+        "key": "B",
+        "text": "舊機台全部需要淘汰"
+      },
+      {
+        "key": "C",
+        "text": "舊機台盡量採外掛式提升智能"
+      },
+      {
+        "key": "D",
+        "text": "建立智慧工廠平臺"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_15_209",
+    "globalIndex": 209,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 15,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於資料結構化與非結構化的觀點，下列說法正確的是_____________。(請\n選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "據估計，只有5％的數位資料是屬於結構化資料"
+      },
+      {
+        "key": "B",
+        "text": "網頁和影像(視頻)資源大\n多屬於非結構化資料"
+      },
+      {
+        "key": "C",
+        "text": "非結構化資料可能包括很多模糊(fuzzy)和不確定\n(uncertain)的數據"
+      },
+      {
+        "key": "D",
+        "text": "資料結構化才能適用於傳統資料庫"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_16_210",
+    "globalIndex": 210,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 16,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在電腦上實現人工智慧常見的有2 種不同方式，其中，_____________等兩種是\n屬於模擬法(modeling approach)。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "文字識別"
+      },
+      {
+        "key": "B",
+        "text": "工程學方法(engineering approach)"
+      },
+      {
+        "key": "C",
+        "text": "遺傳演算法(Generic \nAlgorithm, GA)"
+      },
+      {
+        "key": "D",
+        "text": "人工神經網路(Artificial Neural Network, ANN)"
+      }
+    ],
+    "answer": "CD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_17_211",
+    "globalIndex": 211,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 17,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "有專家將強人工智慧(strong AI)分成兩類，是指_____________。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "非類人的人工智慧"
+      },
+      {
+        "key": "B",
+        "text": "類人的人工智慧"
+      },
+      {
+        "key": "C",
+        "text": "應用型的人工智慧"
+      },
+      {
+        "key": "D",
+        "text": "混成式\n的人工智慧"
+      }
+    ],
+    "answer": "AB",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_18_212",
+    "globalIndex": 212,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 18,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "智慧城市經常與_____________、無線城市、生態城市、低碳城市等區域發展\n概念相交叉，甚至與電子政務(行政事務)、智慧交通、智慧電網等行業資訊化概念\n產生重疊。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "數字城市"
+      },
+      {
+        "key": "B",
+        "text": "宜居城市"
+      },
+      {
+        "key": "C",
+        "text": "感知城市"
+      },
+      {
+        "key": "D",
+        "text": "智能城市"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_19_213",
+    "globalIndex": 213,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 19,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "影像處理技術的主要內容包括3 個部分，包括_____________等。(請選三項(含)\n以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "匹配、描述和識別"
+      },
+      {
+        "key": "B",
+        "text": "數據排序"
+      },
+      {
+        "key": "C",
+        "text": "圖像壓縮"
+      },
+      {
+        "key": "D",
+        "text": "增強和復原"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_20_214",
+    "globalIndex": 214,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 20,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在創建新零售時，至少要滿足_____________等四項需求。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "網域功能變數名稱(domain name)、雲平臺(cloud platform)"
+      },
+      {
+        "key": "B",
+        "text": "雲市場(cloud \nmarket)、全域行銷(overall marketing)"
+      },
+      {
+        "key": "C",
+        "text": "街頭店上市場(street market)、全域行銷\n(overall marketing)。"
+      },
+      {
+        "key": "D",
+        "text": "IP 位址(IP address)、雲平臺(cloud platform)"
+      }
+    ],
+    "answer": "AB",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_21_215",
+    "globalIndex": 215,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 21,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧AI 與智慧城市的關係為_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "人工智慧是實現智慧城市的技術手段之一"
+      },
+      {
+        "key": "B",
+        "text": "人工智慧技術是和其它資訊技\n術(例如:物聯網、雲計算、資料採擷…等等) 相互結合或基礎上，共同作用建設智\n慧城市的"
+      },
+      {
+        "key": "C",
+        "text": "人工智慧是有其特定概念與技術內涵的，AI 與其它技術有明確區別，\n是發揮認知、分析、運籌與決策作用的關鍵技術"
+      },
+      {
+        "key": "D",
+        "text": "智慧城市會隨著人工智慧技\n術的不斷發展深化，推演預測、自動決策等城市智慧化水準不斷提高"
+      }
+    ],
+    "answer": "ABCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_22_216",
+    "globalIndex": 216,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 22,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於大數據說法正確的是_____________。(請選兩項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "從大數據中被挖掘出來的有用資訊去服務城市就叫做“智慧城市”，去服務交通\n就叫做“智慧交通”，去服務家庭就叫做“智慧家居”，去服務於醫院就叫做“智慧醫\n院”"
+      },
+      {
+        "key": "B",
+        "text": "良好的大數據系統，隨著資料的增加，錯誤率不會相應增加，而且所有的\n資料必須是正確的"
+      },
+      {
+        "key": "C",
+        "text": "在大數據背景下很容易做到清洗資料(data cleansing)"
+      },
+      {
+        "key": "D",
+        "text": "“資料採擷”(data mining)的數據分析或挖掘技術的產生或需求，是在進行”雲計算”\n時，需要從大量數據中挖掘有用的資訊"
+      }
+    ],
+    "answer": "AD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_23_217",
+    "globalIndex": 217,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 23,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於大數據與小數據的差異性，下列說法正確的是_____________。(請選三項\n(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "當局限在可以分析和能夠確定的資料上時，對世界的整體理解就可能產生偏差\n和錯誤"
+      },
+      {
+        "key": "B",
+        "text": "大數據:更強調資料的完整性和混雜性"
+      },
+      {
+        "key": "C",
+        "text": "大數據不容易説明人們進\n一步接近事實的真相"
+      },
+      {
+        "key": "D",
+        "text": "小資料強調數據的精確性"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_24_218",
+    "globalIndex": 218,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 24,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "機器視覺需要_____________，以及物體建模等處理。一個有能力的視覺系統\n應該把所有這些處理都緊密地集成在一起。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "幾何處理和推理"
+      },
+      {
+        "key": "B",
+        "text": "圖像信號"
+      },
+      {
+        "key": "C",
+        "text": "圖像聚合"
+      },
+      {
+        "key": "D",
+        "text": "紋理和顏色建模"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_25_219",
+    "globalIndex": 219,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 25,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "圖像識別的主要方法有三種模式，包括_____________等模式。(請選三項(含)\n以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖元模式"
+      },
+      {
+        "key": "B",
+        "text": "模糊模式"
+      },
+      {
+        "key": "C",
+        "text": "結構模式"
+      },
+      {
+        "key": "D",
+        "text": "統計模式"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_26_220",
+    "globalIndex": 220,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 26,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列屬於知識發現(knowledge discovery)的技術有_____________。(請選三項(含)\n以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "關聯規則探勘(association rule mining)"
+      },
+      {
+        "key": "B",
+        "text": "分類模型(classification modeling)"
+      },
+      {
+        "key": "C",
+        "text": "序列樣式探勘(sequential pattern mining)"
+      },
+      {
+        "key": "D",
+        "text": "反聚類(anti-clustering)"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_27_221",
+    "globalIndex": 221,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 27,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧AI 在數位醫療健康領域應用中已經扮演樞紐角色，應用於\n_____________等三大領域。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "數位醫療"
+      },
+      {
+        "key": "B",
+        "text": "精准醫療"
+      },
+      {
+        "key": "C",
+        "text": "專屬醫學"
+      },
+      {
+        "key": "D",
+        "text": "預防醫學"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_28_222",
+    "globalIndex": 222,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 28,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "使城市交通系統具備普及化泛在感知、互聯、分析、預測、控制、應用等能力，\n是建設智慧城市的必經之路，而在智慧交通體系中，道路交通資訊搜集主要包括\n_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "路況監視"
+      },
+      {
+        "key": "B",
+        "text": "車輛定位"
+      },
+      {
+        "key": "C",
+        "text": "交通控制"
+      },
+      {
+        "key": "D",
+        "text": "旅遊資訊"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_29_223",
+    "globalIndex": 223,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 29,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧經常被並列稱為世界三大尖端技術之一，下列說法正確的是\n_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "基因工程、奈米科學、人工智慧"
+      },
+      {
+        "key": "B",
+        "text": "管理技術、工程技術、人工智慧"
+      },
+      {
+        "key": "C",
+        "text": "空\n間技術、能源技術、人工智慧"
+      },
+      {
+        "key": "D",
+        "text": "人工智慧已成為一個獨立的學科分支，無論在\n理論和實踐上都已自成系統"
+      }
+    ],
+    "answer": "ACD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_30_224",
+    "globalIndex": 224,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 30,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於智慧工廠應變力的具體意義與功能有_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "交期承諾短---小量客制化、且12Hr.內交貨"
+      },
+      {
+        "key": "B",
+        "text": "生產效率高---產能提高，但不\n任意擴廠、不加人"
+      },
+      {
+        "key": "C",
+        "text": "減少研發費用---盡量降低研究發展的人力與經費"
+      },
+      {
+        "key": "D",
+        "text": "庫\n存水準低---零庫存為目標"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_31_225",
+    "globalIndex": 225,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 31,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "在圖像識別領域中，模式識別是一門與概率、統計緊密結合的科學，主要分為\n_____________模式識別等三種。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "智能"
+      },
+      {
+        "key": "B",
+        "text": "句法"
+      },
+      {
+        "key": "C",
+        "text": "統計"
+      },
+      {
+        "key": "D",
+        "text": "模糊"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_32_226",
+    "globalIndex": 226,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 32,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "目前智慧客服還不能完全取代人工客服。企業將智慧客服更多地用於\n_____________等方式進行。(請選擇二項)",
+    "options": [
+      {
+        "key": "A",
+        "text": "讓智慧客服首先能夠解決“即時客服”的問題"
+      },
+      {
+        "key": "B",
+        "text": "通過對用戶意圖的理解並將\n用戶意圖分類，普通常見問題直接通過人工客服解決"
+      },
+      {
+        "key": "C",
+        "text": "對用戶意圖的理解和預\n測及需求上，以調升或調降產品的售價"
+      },
+      {
+        "key": "D",
+        "text": "複雜問題由智慧客服轉到人工客服"
+      }
+    ],
+    "answer": "AD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_33_227",
+    "globalIndex": 227,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 33,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧當前的發展具有“四新”特徵，包括新挑戰以及_____________等。(請\n選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "新能源"
+      },
+      {
+        "key": "B",
+        "text": "新突破"
+      },
+      {
+        "key": "C",
+        "text": "新高地"
+      },
+      {
+        "key": "D",
+        "text": "新動能"
+      }
+    ],
+    "answer": "BCD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_34_228",
+    "globalIndex": 228,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 34,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "要完全理解大多數機器學習演算法，需要對一些關鍵的數學概念有一個基本的\n理解。機器學習使用的數學知識主要包括_____________。(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "線性代數"
+      },
+      {
+        "key": "B",
+        "text": "微積分"
+      },
+      {
+        "key": "C",
+        "text": "解析幾何"
+      },
+      {
+        "key": "D",
+        "text": "概率和統計"
+      }
+    ],
+    "answer": "ABD",
+    "images": []
+  },
+  {
+    "id": "ail_3_multiple_35_229",
+    "globalIndex": 229,
+    "examId": "ail",
+    "section": 3,
+    "sectionName": "第三份：單選與複選進階綜合題庫",
+    "number": 35,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "人工智慧的發展突破了“三算”方面的制約因素，這“三算”包括_____________。\n(請選三項(含)以上)",
+    "options": [
+      {
+        "key": "A",
+        "text": "算料"
+      },
+      {
+        "key": "B",
+        "text": "演算法"
+      },
+      {
+        "key": "C",
+        "text": "算力"
+      },
+      {
+        "key": "D",
+        "text": "運算元"
+      }
+    ],
+    "answer": "ABC",
+    "images": []
+  }
+]
