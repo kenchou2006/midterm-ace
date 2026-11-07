@@ -446,7 +446,7 @@ export function App() {
   if (loading) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col items-center justify-center p-4">
-        <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white shadow-lg animate-bounce mb-4">
+        <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-500/25 animate-bounce mb-4">
           <GraduationCap className="w-8 h-8" />
         </div>
         <h2 className="text-lg font-bold text-slate-800 dark:text-slate-100">
