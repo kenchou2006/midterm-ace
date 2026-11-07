@@ -68,6 +68,7 @@ export function App() {
 
   // Active Session
   const [activeSession, setActiveSession] = useState<QuizSession | null>(null);
+  const [pendingSession, setPendingSession] = useState<QuizSession | null>(null);
 
   // Config Modal State
   const [configModalExam, setConfigModalExam] = useState<ExamMeta | null>(null);
@@ -91,10 +92,10 @@ export function App() {
       try {
         reloadStorageData();
 
-        // Check if there was an in-progress session
+        // Check if there was an in-progress session (keep as pending, do not auto-force redirect)
         const existingSession = getActiveSession();
-        if (existingSession) {
-          setActiveSession(existingSession);
+        if (existingSession && !existingSession.isSubmitted) {
+          setPendingSession(existingSession);
         }
 
         const [metaRes, dbmsRes, secRes, nsmRes, ictpRes, ailRes, eecRes, toeicRes] = await Promise.all([
@@ -210,6 +211,7 @@ export function App() {
     };
 
     setActiveSession(newSession);
+    setPendingSession(newSession);
     saveActiveSession(newSession);
     setConfigModalExam(null);
   }, [exams, mistakes, rawToeicWords, rawQuestions]);
@@ -327,9 +329,22 @@ export function App() {
     });
 
     clearActiveSession();
+    setPendingSession(null);
     setActiveSession(completedSession);
     reloadStorageData();
   }, [activeSession, reloadStorageData]);
+
+  // Exit Quiz Handler
+  const handleExitQuiz = useCallback((shouldSave: boolean) => {
+    if (shouldSave && activeSession) {
+      saveActiveSession(activeSession);
+      setPendingSession(activeSession);
+    } else {
+      clearActiveSession();
+      setPendingSession(null);
+    }
+    setActiveSession(null);
+  }, [activeSession]);
 
   // Retake with same configuration
   const handleRetakeSame = useCallback(() => {
@@ -356,6 +371,7 @@ export function App() {
       isSubmitted: false
     };
     setActiveSession(newSession);
+    setPendingSession(newSession);
     saveActiveSession(newSession);
   }, [activeSession]);
 
@@ -389,6 +405,7 @@ export function App() {
     };
 
     setActiveSession(newSession);
+    setPendingSession(newSession);
     saveActiveSession(newSession);
   }, [exams]);
 
@@ -450,7 +467,7 @@ export function App() {
         onUpdateAnswer={handleUpdateAnswer}
         onToggleFlag={handleToggleFlag}
         onSubmitQuiz={handleSubmitQuiz}
-        onExitQuiz={() => setActiveSession(null)}
+        onExitQuiz={handleExitQuiz}
       />
     );
   }
@@ -496,14 +513,54 @@ export function App() {
         mistakeCount={Object.keys(mistakes).length}
         historyCount={history.length}
         bookmarkCount={Object.keys(bookmarks).length}
-        hasActiveQuiz={Boolean(activeSession && !activeSession.isSubmitted)}
-        onResumeQuiz={() => setActiveSession(activeSession)}
+        hasActiveQuiz={Boolean(pendingSession || (activeSession && !activeSession.isSubmitted))}
+        onResumeQuiz={() => {
+          const s = activeSession || pendingSession;
+          if (s) setActiveSession(s);
+        }}
       />
 
       {/* Main Content Area based on Tab */}
       <main className="flex-1 pb-24 sm:pb-16">
         {activeTab === 'exams' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fade-in">
+
+            {/* Pending Active Quiz Banner (if any) */}
+            {pendingSession && !activeSession && (
+              <div className="mb-6 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/40 dark:to-orange-950/30 border border-amber-300 dark:border-amber-700/60 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm animate-fade-in">
+                <div className="flex items-center gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+                    <Sparkles className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-amber-600 dark:text-amber-400 flex items-center gap-1.5">
+                      <span>暫停中的測驗進度</span>
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
+                    </div>
+                    <div className="text-sm font-black text-slate-800 dark:text-slate-100 mt-0.5">
+                      {pendingSession.examMeta.title} ‧ {pendingSession.config.mode === 'exam' ? '模擬考試' : '刷題練習'} (進度 {Object.keys(pendingSession.userAnswers).length} / {pendingSession.questions.length} 題)
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2.5 shrink-0">
+                  <button
+                    onClick={() => setActiveSession(pendingSession)}
+                    className="px-4 py-2 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition active:scale-95"
+                  >
+                    繼續作答
+                  </button>
+                  <button
+                    onClick={() => {
+                      clearActiveSession();
+                      setPendingSession(null);
+                    }}
+                    className="px-3.5 py-2 rounded-xl text-xs font-medium text-slate-500 hover:text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/40 transition"
+                  >
+                    捨棄此場
+                  </button>
+                </div>
+              </div>
+            )}
             
             {/* Hero Welcome Banner */}
             <div className="relative rounded-3xl bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white p-8 sm:p-10 shadow-xl overflow-hidden mb-10">

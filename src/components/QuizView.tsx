@@ -18,7 +18,7 @@ interface QuizViewProps {
   onUpdateAnswer: (questionId: string, answer: string, isConfirmed?: boolean) => void;
   onToggleFlag: (questionId: string) => void;
   onSubmitQuiz: () => void;
-  onExitQuiz: () => void;
+  onExitQuiz: (shouldSave: boolean) => void;
 }
 
 export const QuizView: React.FC<QuizViewProps> = ({
@@ -241,27 +241,38 @@ export const QuizView: React.FC<QuizViewProps> = ({
               <AlertTriangle className="w-6 h-6" />
             </div>
             <h3 className="text-base font-bold text-slate-900 dark:text-white mb-2">
-              確定要暫停或離開測驗嗎？
+              暫停或結束測驗？
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400 mb-6 leading-relaxed">
-              您的作答進度將自動暫存在本機，隨時可在上方點擊「返回測驗中」繼續完成。
+              您可以選擇暫存進度回大廳，或直接放棄結束本場測驗。
             </p>
-            <div className="grid grid-cols-2 gap-3">
-              <button
-                onClick={() => setShowExitConfirm(false)}
-                className="py-2.5 px-4 rounded-xl text-xs font-bold border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition"
-              >
-                繼續測驗
-              </button>
+            <div className="flex flex-col gap-2.5">
               <button
                 onClick={() => {
                   setShowExitConfirm(false);
-                  onExitQuiz();
+                  onExitQuiz(true);
                 }}
-                className="py-2.5 px-4 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition"
+                className="w-full py-2.5 px-4 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition active:scale-95"
               >
-                儲存並離開
+                暫停存檔並回大廳 (隨時可繼續)
               </button>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  onClick={() => setShowExitConfirm(false)}
+                  className="py-2.5 px-4 rounded-xl text-xs font-bold border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition"
+                >
+                  繼續作答
+                </button>
+                <button
+                  onClick={() => {
+                    setShowExitConfirm(false);
+                    onExitQuiz(false);
+                  }}
+                  className="py-2.5 px-4 rounded-xl text-xs font-bold text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/40 border border-rose-200 dark:border-rose-900/50 transition"
+                >
+                  放棄並捨棄此場
+                </button>
+              </div>
             </div>
           </div>
         </div>
