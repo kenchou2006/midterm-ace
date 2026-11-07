@@ -113,7 +113,7 @@ export const StatsView: React.FC<StatsViewProps> = ({
             <span className="text-xs text-slate-400 font-normal">題</span>
           </div>
           <div className="text-[11px] text-slate-400 mt-2">
-            4 科證照核心考試題庫
+            {exams.length > 0 ? `${exams.length} 科證照與專業考試題庫` : '題庫載入中...'}
           </div>
         </div>
 
