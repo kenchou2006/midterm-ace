@@ -148,7 +148,7 @@
       },
       {
         "key": "C",
-        "text": "將註解放在任何一行的 /* 和 */ 符號之間"
+        "text": "將註解放在任何一行的 /* 和 */ 符\n號之間"
       },
       {
         "key": "D",
@@ -664,27 +664,20 @@
     "options": [
       {
         "key": "A",
-        "text": "# 傳回考試的總分 (Python 單行註解)",
-        "image": "images/ictp/ictp_s1_q21_1_26.png"
-      },
-      {
-        "key": "B",
-        "text": "// 傳回考試的總分 (非 Python 語法)",
-        "image": "images/ictp/ictp_s1_q21_2_27.png"
+        "text": "(B)"
       },
       {
         "key": "C",
-        "text": "/* 傳回考試的總分 */ (非 Python 語法)",
-        "image": "images/ictp/ictp_s1_q21_3_28.png"
-      },
-      {
-        "key": "D",
-        "text": "' 傳回考試的總分 (非 Python 語法)",
-        "image": "images/ictp/ictp_s1_q21_4_29.png"
+        "text": "(D)"
       }
     ],
     "answer": "A",
-    "images": [],
+    "images": [
+      "images/ictp/ictp_s1_q21_1_26.png",
+      "images/ictp/ictp_s1_q21_2_27.png",
+      "images/ictp/ictp_s1_q21_3_28.png",
+      "images/ictp/ictp_s1_q21_4_29.png"
+    ],
     "page": 2
   },
   {
@@ -778,7 +771,7 @@
       },
       {
         "key": "D",
-        "text": "每個變數有其資料型態"
+        "text": "每個變\n數有其資料型態"
       }
     ],
     "answer": "C",
@@ -870,7 +863,7 @@
       },
       {
         "key": "C",
-        "text": "運算式運算結果的資料型態將以運算元中資料型態最大的變數為主"
+        "text": "運\n算式運算結果的資料型態將以運算元中資料型態最大的變數為主"
       },
       {
         "key": "D",
@@ -1226,7 +1219,7 @@
       },
       {
         "key": "C",
-        "text": "字串物件一但被配置，它的內容是不可變的"
+        "text": "字\n串物件一但被配置，它的內容是不可變的"
       },
       {
         "key": "D",
@@ -1422,7 +1415,7 @@
       },
       {
         "key": "C",
-        "text": "使用open()函數開啟檔案時，檔案路徑必須以跳脫序列來表示"
+        "text": "使用open()函數\n開啟檔案時，檔案路徑必須以跳脫序列來表示"
       },
       {
         "key": "D",
@@ -1508,31 +1501,24 @@
     "number": 47,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "第一科技軟體公司聘請你成為在程式開發團隊中程式設計部門的實習生，你必須撰寫一支程式要求使用者輸入一個值，並將其轉換為一個整數來進行運算，你需要編寫程式碼以符合要求，你應該使用哪個程式碼片段？",
+    "question": "第一科技軟體公司聘請你成為在程式開發團隊中程式設計部門的實習生，你必須撰寫一支程式要求使用者輸入一個值，並將其轉\n換為一個整數來進行運算，你需要編寫程式碼以符合要求，你應該使用哪個程式碼片段？",
     "options": [
       {
         "key": "A",
-        "text": "totalItemS = Str(input(\" 請輸入一個數值？ \"))",
-        "image": "images/ictp/ictp_s1_q47_1_43.png"
-      },
-      {
-        "key": "B",
-        "text": "totalItemS = float(input(\" 請輸入一個數值？ \"))",
-        "image": "images/ictp/ictp_s1_q47_2_44.png"
+        "text": "(B)"
       },
       {
         "key": "C",
-        "text": "totalItemS = input(\" 請輸入一個數值？ \")",
-        "image": "images/ictp/ictp_s1_q47_4_45.png"
-      },
-      {
-        "key": "D",
-        "text": "totalItemS = int(input(\" 請輸入一個數值？ \"))",
-        "image": "images/ictp/ictp_s1_q47_3_46.png"
+        "text": "(D)"
       }
     ],
     "answer": "D",
-    "images": [],
+    "images": [
+      "images/ictp/ictp_s1_q47_1_43.png",
+      "images/ictp/ictp_s1_q47_2_44.png",
+      "images/ictp/ictp_s1_q47_3_46.png",
+      "images/ictp/ictp_s1_q47_4_45.png"
+    ],
     "page": 3
   },
   {
@@ -1980,7 +1966,7 @@
       },
       {
         "key": "C",
-        "text": "try 敘述是用來捕捉例外"
+        "text": "try 敘述是用來捕捉例\n外"
       },
       {
         "key": "D",
@@ -2076,7 +2062,7 @@
       },
       {
         "key": "C",
-        "text": "不須特別設定，使用內定安裝即可"
+        "text": "不須特別設定，使用內定安裝即\n可"
       },
       {
         "key": "D",
@@ -2108,7 +2094,7 @@
       },
       {
         "key": "C",
-        "text": "「相對路徑」就是相對於現在目錄的路徑表示法"
+        "text": "「相對路徑」就\n是相對於現在目錄的路徑表示法"
       },
       {
         "key": "D",
@@ -2928,7 +2914,7 @@
       },
       {
         "key": "C",
-        "text": "dict（字典）是「鍵（Key）」與「值（Value）」對應的物件，是可變物件"
+        "text": "dict（字典）是「鍵（Key）」與「值（Value）」對應的物\n件，是可變物件"
       },
       {
         "key": "D",
@@ -3662,7 +3648,7 @@
       },
       {
         "key": "D",
-        "text": "不可以包含不同的資料型別"
+        "text": "不\n可以包含不同的資料型別"
       }
     ],
     "answer": "D",
@@ -3678,7 +3664,7 @@
     "number": 30,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "你為你的公司開發了Python 應用程式，一個名為books 的清單包含1000 種書籍，你需要分割這個清單，顯示由第二本書開始到最後，中間間隔1 本書籍，你應該使用哪個程式碼？",
+    "question": "你為你的公司開發了Python 應用程式，一個名為books 的清單包含1000 種書籍，你需要分割這個清單，顯示由第二本書開始到\n最後，中間間隔1 本書籍，你應該使用哪個程式碼？",
     "options": [
       {
         "key": "A",
@@ -3714,11 +3700,7 @@
     "options": [
       {
         "key": "A",
-        "text": "apple\nbanana\ncherry"
-      },
-      {
-        "key": "B",
-        "text": "['apple', 'banana', 'cherry']"
+        "text": "(B) ['apple', 'banana', 'cherry']"
       },
       {
         "key": "C",
@@ -3726,7 +3708,7 @@
       },
       {
         "key": "D",
-        "text": "error"
+        "text": "error  \napple \nbanana \ncherry"
       }
     ],
     "answer": "A",
@@ -4256,7 +4238,7 @@
       },
       {
         "key": "D",
-        "text": "序對內的元素可以用 [ ] 運算子來改變元素的值"
+        "text": "序對內的元素可\n以用 [ ] 運算子來改變元素的值"
       }
     ],
     "answer": "D",
@@ -4846,22 +4828,18 @@
       },
       {
         "key": "B",
-        "text": "5\n3\n1",
-        "image": "images/ictp/ictp_s3_q7_2_107.png"
-      },
-      {
-        "key": "C",
-        "text": "531"
+        "text": "(C) 531"
       },
       {
         "key": "D",
-        "text": "5\n3",
-        "image": "images/ictp/ictp_s3_q7_3_108.png"
+        "text": ""
       }
     ],
     "answer": "A",
     "images": [
-      "images/ictp/ictp_s3_q7_1_106.png"
+      "images/ictp/ictp_s3_q7_1_106.png",
+      "images/ictp/ictp_s3_q7_2_107.png",
+      "images/ictp/ictp_s3_q7_3_108.png"
     ],
     "page": 9
   },
@@ -4878,26 +4856,18 @@
     "options": [
       {
         "key": "A",
-        "text": "1\n3\n5",
-        "image": "images/ictp/ictp_s3_q8_3_110.png"
-      },
-      {
-        "key": "B",
-        "text": "1 3"
+        "text": "(B) 13"
       },
       {
         "key": "C",
-        "text": "1\n3",
-        "image": "images/ictp/ictp_s3_q8_2_111.png"
-      },
-      {
-        "key": "D",
-        "text": "1 3 5"
+        "text": "(D) 135"
       }
     ],
     "answer": "B",
     "images": [
-      "images/ictp/ictp_s3_q8_1_109.png"
+      "images/ictp/ictp_s3_q8_1_109.png",
+      "images/ictp/ictp_s3_q8_2_111.png",
+      "images/ictp/ictp_s3_q8_3_110.png"
     ],
     "page": 9
   },
@@ -5090,7 +5060,7 @@
       },
       {
         "key": "C",
-        "text": "如果要一次匯入多個套件，則必須以分號（;）隔開不同的套件名稱"
+        "text": "如果要一次匯入多個套件，則必須以\n分號（;）隔開不同的套件名稱"
       },
       {
         "key": "D",
@@ -5114,13 +5084,7 @@
     "options": [
       {
         "key": "A",
-        "text": "5\n3",
-        "image": "images/ictp/ictp_s3_q15_3_108.png"
-      },
-      {
-        "key": "B",
-        "text": "5\n3\n1",
-        "image": "images/ictp/ictp_s3_q15_2_107.png"
+        "text": "(B)"
       },
       {
         "key": "C",
@@ -5133,7 +5097,9 @@
     ],
     "answer": "A",
     "images": [
-      "images/ictp/ictp_s3_q15_1_118.png"
+      "images/ictp/ictp_s3_q15_1_118.png",
+      "images/ictp/ictp_s3_q15_2_107.png",
+      "images/ictp/ictp_s3_q15_3_108.png"
     ],
     "page": 10
   },
@@ -5182,26 +5148,18 @@
     "options": [
       {
         "key": "A",
-        "text": "0\n1\n2",
-        "image": "images/ictp/ictp_s3_q17_2_120.png"
-      },
-      {
-        "key": "B",
-        "text": "012"
+        "text": "(B) 012"
       },
       {
         "key": "C",
-        "text": "0\n1\n2\n3",
-        "image": "images/ictp/ictp_s3_q17_3_121.png"
-      },
-      {
-        "key": "D",
-        "text": "0123"
+        "text": "(D) 0123"
       }
     ],
     "answer": "A",
     "images": [
-      "images/ictp/ictp_s3_q17_1_119.png"
+      "images/ictp/ictp_s3_q17_1_119.png",
+      "images/ictp/ictp_s3_q17_2_120.png",
+      "images/ictp/ictp_s3_q17_3_121.png"
     ],
     "page": 10
   },
@@ -5264,7 +5222,7 @@
       },
       {
         "key": "D",
-        "text": "當程式執行到return 指令就終止，然後將值傳回"
+        "text": "當程式\n執行到return 指令就終止，然後將值傳回"
       }
     ],
     "answer": "A",
@@ -5364,7 +5322,7 @@
       },
       {
         "key": "D",
-        "text": "可以省去重複撰寫相同程式碼"
+        "text": "可以省去重複撰\n寫相同程式碼"
       }
     ],
     "answer": "B",
@@ -5494,7 +5452,7 @@
       },
       {
         "key": "C",
-        "text": "進入迴圈並不會做條件檢查"
+        "text": "進入迴圈\n並不會做條件檢查"
       },
       {
         "key": "D",
@@ -5930,7 +5888,7 @@
       },
       {
         "key": "D",
-        "text": "關鍵字引數的位置並不一定要依照參數順"
+        "text": "關鍵字引數的位\n置並不一定要依照參數順"
       }
     ],
     "answer": "C",
@@ -5954,7 +5912,7 @@
       },
       {
         "key": "B",
-        "text": "區域變數適用於所宣告的函數或流程控制的程式區塊"
+        "text": "區域變數適用於所宣告的函數或流程控制的程式區\n塊"
       },
       {
         "key": "C",
@@ -6152,13 +6110,7 @@
       },
       {
         "key": "B",
-        "text": "1\n3\n5",
-        "image": "images/ictp/ictp_s3_q46_3_146.png"
-      },
-      {
-        "key": "C",
-        "text": "1\n3",
-        "image": "images/ictp/ictp_s3_q46_2_147.png"
+        "text": "(C)"
       },
       {
         "key": "D",
@@ -6167,7 +6119,9 @@
     ],
     "answer": "C",
     "images": [
-      "images/ictp/ictp_s3_q46_1_145.png"
+      "images/ictp/ictp_s3_q46_1_145.png",
+      "images/ictp/ictp_s3_q46_2_147.png",
+      "images/ictp/ictp_s3_q46_3_146.png"
     ],
     "page": 13
   },
@@ -6192,7 +6146,7 @@
       },
       {
         "key": "C",
-        "text": "巢狀迴圈內外迴圈可以交錯使用"
+        "text": "巢狀迴圈內外\n迴圈可以交錯使用"
       },
       {
         "key": "D",
@@ -6246,7 +6200,7 @@
     "number": 49,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "你編寫一個函數可以讀取檔案並輸出檔案中的每一行，如下的程式碼，其中包含的行號只是做為參考，執行到第三行時會發生錯誤，請問原因為何？",
+    "question": "你編寫一個函數可以讀取檔案並輸出檔案中的每一行，如下的程式碼，其中包含的行號只是做為參考，執行到第三行時會發生錯\n誤，請問原因為何？",
     "options": [
       {
         "key": "A",
@@ -6778,7 +6732,7 @@
     "number": 65,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "你正在編寫使用randint 函數的應用程式，這個程式必須使用名稱rd 引用該函數，你需要導入該函數，你應該使用哪個程式碼片段？",
+    "question": "你正在編寫使用randint 函數的應用程式，這個程式必須使用名稱rd 引用該函數，你需要導入該函數，你應該使用哪個程式碼片\n段？",
     "options": [
       {
         "key": "A",
@@ -6794,7 +6748,7 @@
       },
       {
         "key": "D",
-        "text": "from random.randint rd"
+        "text": "from random.randint \nrd"
       }
     ],
     "answer": "A",
@@ -7652,7 +7606,7 @@
     "number": 24,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "你正在為一個公車公司編寫Python 應用程式，公司希望鼓勵學生和上班族儘量搭大眾運輸交通工具，學生和上班族將會獲得35% 的折扣，你編寫以下程式碼，其中包含的行號只是做為參考，你必須完成這個程式碼，在03 行中你將加入什麼程式碼？",
+    "question": "你正在為一個公車公司編寫Python 應用程式，公司希望鼓勵學生和上班族儘量搭大眾運輸交通工具，學生和上班族將會獲得35%\n的折扣，你編寫以下程式碼，其中包含的行號只是做為參考，你必須完成這個程式碼，在03 行中你將加入什麼程式碼？",
     "options": [
       {
         "key": "A",
@@ -7668,7 +7622,7 @@
       },
       {
         "key": "D",
-        "text": "if (not Student) and office_worker:"
+        "text": "if (not Student) \nand office_worker:"
       }
     ],
     "answer": "B",
@@ -7758,28 +7712,20 @@
     "options": [
       {
         "key": "A",
-        "text": "5 行星號 (無空行，1到5個*)",
-        "image": "images/ictp/ictp_s4_q27_5_193.png"
-      },
-      {
-        "key": "B",
-        "text": "4 行星號 (無空行，1到4個*)",
-        "image": "images/ictp/ictp_s4_q27_4_194.png"
+        "text": "(B)"
       },
       {
         "key": "C",
-        "text": "第1行為空行，接續1到4個*",
-        "image": "images/ictp/ictp_s4_q27_2_195.png"
-      },
-      {
-        "key": "D",
-        "text": "5 行星號 (第1行1個*，最後5個*)",
-        "image": "images/ictp/ictp_s4_q27_3_196.png"
+        "text": "(D)"
       }
     ],
     "answer": "C",
     "images": [
-      "images/ictp/ictp_s4_q27_1_192.png"
+      "images/ictp/ictp_s4_q27_1_192.png",
+      "images/ictp/ictp_s4_q27_2_195.png",
+      "images/ictp/ictp_s4_q27_3_196.png",
+      "images/ictp/ictp_s4_q27_4_194.png",
+      "images/ictp/ictp_s4_q27_5_193.png"
     ],
     "page": 18
   },
@@ -8012,7 +7958,7 @@
       },
       {
         "key": "D",
-        "text": "binary_search(a, start-1, mid-1, x)"
+        "text": "binary_search(a, start-\n1, mid-1, x)"
       }
     ],
     "answer": "A",

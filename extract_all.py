@@ -4,13 +4,15 @@ import re
 import json
 import os
 
-print("Starting extraction for all 4 exams...")
+RAW_DIR = '題庫原檔'
+
+print("Starting extraction for all 5 exams...")
 
 # ==========================================
 # 1. ICTP Extraction
 # ==========================================
 print("\n--- Processing ICTP ---")
-doc_ictp = fitz.open('(2026) ICTP 計算機程式語言國際認證Essentials Level題庫共250題.pdf')
+doc_ictp = fitz.open(os.path.join(RAW_DIR, '(2026) ICTP 計算機程式語言國際認證Essentials Level題庫共250題.pdf'))
 os.makedirs('public/images/ictp', exist_ok=True)
 
 ictp_questions = []
@@ -176,7 +178,7 @@ ail_questions = []
 ail_global_index = 0
 
 for filename, part_name, part_num in ail_files:
-    doc_ail = fitz.open(filename)
+    doc_ail = fitz.open(os.path.join(RAW_DIR, filename))
     text = ""
     for page in doc_ail:
         text += page.get_text() + "\n"
@@ -261,7 +263,7 @@ print(f"AIL extracted total: {len(ail_questions)} questions.")
 # 3. EEC Extraction
 # ==========================================
 print("\n--- Processing EEC ---")
-doc_eec = fitz.open('EEC企業電子規劃師_網路行銷(114&115)證照題庫(2026_10_12).pdf')
+doc_eec = fitz.open(os.path.join(RAW_DIR, 'EEC企業電子規劃師_網路行銷(114&115)證照題庫(2026_10_12).pdf'))
 os.makedirs('public/images/eec', exist_ok=True)
 
 # Extract 6 images
@@ -414,7 +416,7 @@ print(f"EEC extracted total: {len(eec_questions)} questions.")
 # 4. TOEIC Extraction
 # ==========================================
 print("\n--- Processing TOEIC ---")
-wb_toeic = openpyxl.load_workbook('TOEIC 必考單字與片語.xlsx', data_only=True)
+wb_toeic = openpyxl.load_workbook(os.path.join(RAW_DIR, 'TOEIC 必考單字與片語.xlsx'), data_only=True)
 toeic_words = []
 word_global_index = 0
 
@@ -439,7 +441,367 @@ for sheet_name in wb_toeic.sheetnames:
 
 print(f"TOEIC extracted total: {len(toeic_words)} vocabulary words.")
 
+# ==========================================
+# 5. Database Management System (DBMS) Extraction
+# ==========================================
+print("\n--- Processing Database Management System (DBMS) ---")
+import email
+from email import policy
+from bs4 import BeautifulSoup
+
+os.makedirs('public/images/dbms', exist_ok=True)
+
+dbms_answers = {
+    1: 'C', 2: 'D', 3: 'A', 4: 'B', 5: 'C', 6: 'C', 7: 'A', 8: 'B', 9: 'C', 10: 'A',
+    11: 'B', 12: 'A', 13: 'C', 14: 'D', 15: 'D', 16: 'B', 17: 'C', 18: 'D', 19: 'A', 20: 'B',
+    21: 'C', 22: 'D', 23: 'B', 24: 'C', 25: 'B', 26: 'D', 27: 'B', 28: 'C', 29: 'A', 30: 'C',
+    31: 'A', 32: 'D', 33: 'B', 34: 'B', 35: 'D', 36: 'C', 37: 'D', 38: 'B', 39: 'BD', 40: 'C',
+    41: 'A', 42: 'B', 43: 'B', 44: 'BD', 45: 'B', 46: 'C'
+}
+
+dbms_sections_def = [
+    (1, 9, 1, '第一單元：資料庫角色、系統架構與通訊協定'),
+    (10, 24, 2, '第二單元：關聯式資料庫原理與資料完整性限制'),
+    (25, 38, 3, '第三單元：實體關係模型 (ER Model) 與綱要轉換'),
+    (39, 46, 4, '第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)')
+]
+
+def get_dbms_section(num):
+    for start, end, s_id, s_name in dbms_sections_def:
+        if start <= num <= end:
+            return s_id, s_name
+    return 1, '一般單元'
+
+dbms_questions = []
+dbms_global_num = 0
+
+for page_idx in range(1, 24):
+    mpath = os.path.join(RAW_DIR, '資料庫管理系統', f'{page_idx}.mhtml')
+    if not os.path.exists(mpath):
+        continue
+    with open(mpath, 'rb') as f:
+        msg = email.message_from_binary_file(f, policy=policy.default)
+    html_part = next((part for part in msg.walk() if part.get_content_type() == 'text/html'), None)
+    if not html_part:
+        continue
+    soup = BeautifulSoup(html_part.get_payload(decode=True).decode('utf-8', errors='ignore'), 'html.parser')
+    items = soup.find_all('tr', class_='item')
+
+    for item in items:
+        dbms_global_num += 1
+        type_td = item.find('td', align='left')
+        qtype_raw = type_td.find('b').get_text(strip=True) if type_td and type_td.find('b') else ''
+        body_td = item.find_all('td')[2]
+
+        # Extract and save images
+        saved_imgs = []
+        for idx, img in enumerate(body_td.find_all('img')):
+            src = img.get('src')
+            found_img = False
+            for p in msg.walk():
+                loc = p.get('Content-Location', '')
+                cid = p.get('Content-ID', '').strip('<>')
+                if src in loc or src in cid or (loc and loc.endswith(os.path.basename(src))):
+                    idata = p.get_payload(decode=True)
+                    ext = 'png' if p.get_content_type() == 'image/png' else 'jpg'
+                    fname = f"dbms_q{dbms_global_num}_{idx+1}.{ext}"
+                    fpath = os.path.join('public/images/dbms', fname)
+                    with open(fpath, 'wb') as img_out:
+                        img_out.write(idata)
+                    saved_imgs.append(f"images/dbms/{fname}")
+                    found_img = True
+                    break
+
+        # Options
+        ol = body_td.find('ol')
+        opts = []
+        keys = ['A', 'B', 'C', 'D', 'E', 'F']
+        if ol:
+            for opt_idx, li in enumerate(ol.find_all('li')):
+                k = keys[opt_idx] if opt_idx < len(keys) else str(opt_idx + 1)
+                opts.append({'key': k, 'text': li.get_text(strip=True)})
+            ol.extract()
+
+        raw_q_text = body_td.get_text('\n', strip=True)
+        raw_q_text = re.sub(r'^\s*\d+\.\s*', '', raw_q_text)
+
+        # Clean formatting
+        if dbms_global_num == 24:
+            q_clean = '您正在設定關聯式資料庫中某個資料表的結構。\n對於下列每一項敘述，請選取 [正確] 為 O 或 [錯誤] 為 X：\n\n1. 資料表中欄位的每個值都必須是唯一的。\n2. 資料表中的每個資料列都必須是唯一的。\n3. 資料表中的每個資料行名稱都必須是唯一的。'
+        elif dbms_global_num == 39:
+            q_clean = '''您接受了某間地方慈善機構的 IT 實習工作。該慈善機構的資料模型有兩個資料表，名為 Chapter 和 Language，如下所示：
+
+【Chapter 資料表】
+ChapterId | City          | Region     | Country
+1         | Chicago       | Illinois   | USA
+2         | Los Angeles   | California | USA
+3         | New York City | New York   | USA
+4         | Toronto       | Ontario    | Canada
+
+【Language 資料表】
+LanguageId | LanguageName | Locale
+1          | English      | USA
+2          | English      | Canada
+3          | Spanish      | Spain
+4          | Spanish      | Mexico
+5          | French       | France
+5          | French       | Canada
+6          | German       | Germany
+
+您建立了名為 ChapterLanguage 的第三個資料表來關聯 Chapter 資料表和 Language 資料表。
+您需要從 Chapter 和 Language 資料表中選取資料行，以便為 ChapterLanguage 資料表建立複合主索引鍵。
+請問您應該選取哪兩個資料行？(請選擇 2 個答案)'''
+        elif dbms_global_num == 44:
+            q_clean = '您需要將資料庫正規化為第一正規形式 (1NF)。\n請問您必須符合哪兩項需求？(請選擇 2 個答案)'
+        elif dbms_global_num == 45:
+            q_clean = '''您有一個資料表包含以下資料：
+
+ProductID | ProductCategory
+32        | books
+25        | books
+67        | movies
+89        | movies
+
+請問哪一個資料庫詞彙是用來描述 ProductID 與 ProductCategory 之間的關聯性？'''
+        elif dbms_global_num == 46:
+            q_clean = '''您建立了下列資料表，其中顯示過去寵物表演的獲勝者：
+
+【寵物比賽獲勝者】
+ID | Event                   | Year | PetID | Birthdate       | City
+1  | Cutest Pet Fest         | 2009 | RG459 | 23-Jun-08       | Chicago
+2  | Pet Babies Invitational | 2010 | SP372 | August 12, 2009 | Montreal
+3  | Adorable Friends        | 2011 | BD116 | May 1, 2010     | Atlanta
+4  | AWHH Fest 2012          | 2012 | FD228 | August 12, 2009 | Detroit
+
+請問哪一個資料行可防止資料表成為第三正規形式 (3NF)？'''
+        else:
+            lines = [l.strip() for l in raw_q_text.replace('\xa0', ' ').split('\n') if l.strip()]
+            q_clean = '\n'.join(lines)
+
+        s_id, s_name = get_dbms_section(dbms_global_num)
+        ans = dbms_answers.get(dbms_global_num, 'A')
+        is_multi = len(ans) > 1 or qtype_raw == '多選'
+
+        dbms_questions.append({
+            'id': f'dbms_{s_id}_{dbms_global_num}',
+            'globalIndex': dbms_global_num,
+            'examId': 'dbms',
+            'section': s_id,
+            'sectionName': s_name,
+            'number': dbms_global_num,
+            'type': 'multiple' if is_multi else 'single',
+            'typeLabel': '複選題' if is_multi else '單選題',
+            'question': q_clean,
+            'options': opts,
+            'answer': ans,
+            'images': saved_imgs,
+            'page': page_idx
+        })
+
+print(f"DBMS extracted total: {len(dbms_questions)} questions.")
+
+# ==========================================
+# 6. Information Security (SEC) Extraction
+# ==========================================
+print("\n--- Processing Information Security (SEC) ---")
+import zipfile
+import xml.etree.ElementTree as ET
+
+docx_dir = os.path.join(RAW_DIR, '資訊安全概論 總複習')
+
+def extract_docx_paras(docx_path):
+    with zipfile.ZipFile(docx_path) as z:
+        xml_content = z.read('word/document.xml')
+        tree = ET.fromstring(xml_content)
+        paras = [''.join([n.text for n in p.iter() if n.tag.endswith('}t') and n.text]).strip() 
+                 for p in tree.iter() if p.tag.endswith('}p')]
+        paras = [p for p in paras if p]
+    return paras
+
+sec_files_def = [
+    ('H11410301_1基礎資安概念1.docx', 1, '基礎概念 (一)：資訊系統架構與 CIA 三要素'),
+    ('H11410301_1基礎資安概念2.docx', 2, '基礎概念 (二)：安全服務、安全機制與密碼學'),
+    ('H11410301_1基礎資安概念3.docx', 3, '基礎概念 (三)：綜合應用與實務案例'),
+    ('H11410301_2資安總複習1.docx', 4, '總複習 (一)：高階攻擊技術、事件管理與威脅情報'),
+    ('H11410301_2資安總複習2.docx', 5, '總複習 (二)：零信任架構、AI 安全與雲端行動防護'),
+    ('H11410301_2資安總複習3.docx', 6, '總複習 (三)：滲透測試、紅隊演練與事件回應'),
+    ('H11410301_2資安總複習4.docx', 7, '總複習 (四)：事件回應挑戰與合規標準'),
+    ('H11410301_2資安總複習5.docx', 8, '總複習 (五)：新興技術安全挑戰 (AI/雲端/行動/工控)')
+]
+
+sec_questions = []
+sec_global_index = 0
+
+for fn, sec_id, sec_name in sec_files_def:
+    fpath = os.path.join(docx_dir, fn)
+    if not os.path.exists(fpath):
+        continue
+    paras = extract_docx_paras(fpath)
+    i = 0
+    while i < len(paras):
+        p = paras[i]
+        if not re.match(r'^\d+\.', p) and not re.match(r'^[A-D]\.', p):
+            i += 1
+            continue
+        m_q = re.match(r'^(\d+)\.\s*(.*?)(?:\s+([A-D](?:\s+[A-D])*))?$', p)
+        if m_q:
+            orig_num = int(m_q.group(1))
+            q_text = m_q.group(2).strip()
+            ans_raw = m_q.group(3) if m_q.group(3) else 'A'
+            ans_clean = ''.join(ans_raw.split())
+            
+            i += 1
+            opt_lines = []
+            while i < len(paras) and not re.match(r'^\d+\.', paras[i]) and (re.search(r'\b[A-D]\.', paras[i]) or not any(paras[i].startswith(h) for h in ['資訊', '安全', '綜合', '密碼', '實務', '高階', '事件', '合規', '威脅', '零信任', 'AI', '雲端', '工控', '滲透', '資安', '###'])):
+                opt_lines.append(paras[i])
+                i += 1
+            
+            combined_opts = ' '.join(opt_lines)
+            opts = []
+            opt_matches = list(re.finditer(r'([A-D])\.\s*(.*?)(?=(?:[A-D]\.|$))', combined_opts))
+            for om in opt_matches:
+                opts.append({'key': om.group(1), 'text': om.group(2).strip()})
+                
+            sec_global_index += 1
+            is_multi = len(ans_clean) > 1
+            sec_questions.append({
+                'id': f'sec_{sec_id}_{sec_global_index}',
+                'globalIndex': sec_global_index,
+                'examId': 'sec',
+                'section': sec_id,
+                'sectionName': sec_name,
+                'number': sec_global_index,
+                'type': 'multiple' if is_multi else 'single',
+                'typeLabel': '複選題' if is_multi else '單選題',
+                'question': q_text,
+                'options': opts,
+                'answer': ans_clean,
+                'images': []
+            })
+        else:
+            i += 1
+
+print(f"SEC extracted total: {len(sec_questions)} questions.")
+
+# ==========================================
+# 7. Network Service Management (NSM) Extraction
+# ==========================================
+print("\n--- Processing Network Service Management (NSM) ---")
+import unicodedata
+import random
+
+doc_nsm = fitz.open(os.path.join(RAW_DIR, '網路服務管理 單字.pdf'))
+full_text = unicodedata.normalize('NFKC', ''.join(p.get_text() + '\n' for p in doc_nsm))
+lines = [l.strip() for l in full_text.split('\n') if l.strip()]
+
+words = []
+curr_word = None
+curr_meanings = []
+def has_chinese(s):
+    return any('\u4e00' <= ch <= '\u9fff' for ch in s)
+
+for l in lines:
+    if not has_chinese(l):
+        if curr_word is not None and not curr_meanings:
+            curr_word += ' ' + l
+        else:
+            if curr_word:
+                words.append({'word': curr_word, 'meanings': curr_meanings})
+            curr_word = l
+            curr_meanings = []
+    else:
+        if curr_word is None:
+            continue
+        curr_meanings.append(l)
+
+if curr_word:
+    words.append({'word': curr_word, 'meanings': curr_meanings})
+
+cleaned_words = []
+seen = set()
+for w in words:
+    wt = w['word'].strip()
+    if wt == 'employ' and wt in seen:
+        continue
+    seen.add(wt)
+    ms = []
+    for m in w['meanings']:
+        if m == '目的地目的文目的':
+            m = '目的地 / 目的端'
+        if m not in ms:
+            ms.append(m)
+    cleaned_words.append({'word': wt, 'meaning': '、'.join(ms)})
+
+nsm_questions = []
+total_w = len(cleaned_words)
+nsm_sections = [
+    (1, 24, 1, '第一單元：基礎傳輸與資料結構'),
+    (25, 48, 2, '第二單元：網路硬體、協定與位址'),
+    (49, 71, 3, '第三單元：系統管理與網路操作')
+]
+
+def get_nsm_section(idx):
+    for start, end, s_id, s_name in nsm_sections:
+        if start <= idx <= end:
+            return s_id, s_name
+    return 1, '一般單元'
+
+rng = random.Random(42)
+
+for idx, w in enumerate(cleaned_words):
+    q_num = idx + 1
+    s_id, s_name = get_nsm_section(q_num)
+    
+    other_indices = [i for i in range(total_w) if i != idx]
+    distractor_indices = rng.sample(other_indices, 3)
+    distractors = [cleaned_words[i]['meaning'] for i in distractor_indices]
+    
+    correct_pos = rng.randint(0, 3)
+    opt_texts = list(distractors)
+    opt_texts.insert(correct_pos, w['meaning'])
+    
+    keys = ['A', 'B', 'C', 'D']
+    opts = [{'key': keys[i], 'text': opt_texts[i]} for i in range(4)]
+    correct_key = keys[correct_pos]
+    
+    w_word = w['word']
+    w_meaning = w['meaning']
+    nsm_questions.append({
+        'id': f'nsm_{s_id}_{q_num}',
+        'globalIndex': q_num,
+        'examId': 'nsm',
+        'section': s_id,
+        'sectionName': s_name,
+        'number': q_num,
+        'type': 'single',
+        'typeLabel': '單選題',
+        'question': f'請問英文單字/術語「{w_word}」的中文字義為何？',
+        'options': opts,
+        'answer': correct_key,
+        'images': [],
+        'toeicData': {
+            'word': w_word,
+            'phonetic': '',
+            'meaning': w_meaning,
+            'pos': '網路術語',
+            'sentence': '',
+            'translation': '',
+            'notes': '網路服務管理核心字彙'
+        }
+    })
+
+print(f"NSM extracted total: {len(nsm_questions)} questions.")
+
 # Save JSON files
+with open('public/data/sec.json', 'w', encoding='utf-8') as f:
+    json.dump(sec_questions, f, ensure_ascii=False, indent=2)
+
+with open('public/data/nsm.json', 'w', encoding='utf-8') as f:
+    json.dump(nsm_questions, f, ensure_ascii=False, indent=2)
+
+with open('public/data/dbms.json', 'w', encoding='utf-8') as f:
+    json.dump(dbms_questions, f, ensure_ascii=False, indent=2)
+
 with open('public/data/ictp.json', 'w', encoding='utf-8') as f:
     json.dump(ictp_questions, f, ensure_ascii=False, indent=2)
 
@@ -454,6 +816,60 @@ with open('public/data/toeic.json', 'w', encoding='utf-8') as f:
 
 # Exams Metadata
 exams_meta = [
+    {
+        'id': 'dbms',
+        'title': '資料庫管理系統',
+        'subTitle': '期中線上測驗題庫 (共 46 題)',
+        'description': '涵蓋資料庫角色、系統架構、SQL Server 通訊協定、關聯式資料庫觀念、資料完整性限制、ER 模型圖示符號與正規化 (1NF/2NF/3NF) 等核心考題。',
+        'badge': '資料庫期中考',
+        'color': 'cyan',
+        'totalQuestions': len(dbms_questions),
+        'sections': [
+            {'id': 1, 'name': '第一單元：資料庫角色、系統架構與通訊協定 (9題)', 'count': 9},
+            {'id': 2, 'name': '第二單元：關聯式資料庫原理與資料完整性限制 (15題)', 'count': 15},
+            {'id': 3, 'name': '第三單元：實體關係模型 (ER Model) 與綱要轉換 (14題)', 'count': 14},
+            {'id': 4, 'name': '第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF) (8題)', 'count': 8}
+        ],
+        'defaultTimeMinutes': 50,
+        'passRate': 70
+    },
+    {
+        'id': 'sec',
+        'title': '資訊安全概論',
+        'subTitle': '基礎概念與期中/總複習題庫 (共 159 題)',
+        'description': '涵蓋系統架構 (SDLC/SSDLC)、CIA 三要素、安全服務與安全機制、密碼學、高階攻擊技術 (APT/DNS放大/供應鏈)、零信任架構、資安事件回應、AI 安全與雲端防護。',
+        'badge': '資安概論',
+        'color': 'violet',
+        'totalQuestions': len(sec_questions),
+        'sections': [
+            {'id': 1, 'name': '基礎概念 (一)：資訊系統架構與 CIA 三要素 (20題)', 'count': 20},
+            {'id': 2, 'name': '基礎概念 (二)：安全服務、安全機制與密碼學 (10題)', 'count': 10},
+            {'id': 3, 'name': '基礎概念 (三)：綜合應用與實務案例 (19題)', 'count': 19},
+            {'id': 4, 'name': '總複習 (一)：高階攻擊技術、事件管理與威脅情報 (20題)', 'count': 20},
+            {'id': 5, 'name': '總複習 (二)：零信任架構、AI 安全與雲端行動防護 (20題)', 'count': 20},
+            {'id': 6, 'name': '總複習 (三)：滲透測試、紅隊演練與事件回應 (20題)', 'count': 20},
+            {'id': 7, 'name': '總複習 (四)：事件回應挑戰與合規標準 (20題)', 'count': 20},
+            {'id': 8, 'name': '總複習 (五)：新興技術安全挑戰 (AI/雲端/行動/工控) (30題)', 'count': 30}
+        ],
+        'defaultTimeMinutes': 50,
+        'passRate': 70
+    },
+    {
+        'id': 'nsm',
+        'title': '網路服務管理',
+        'subTitle': '核心英文字彙與專業術語 (共 71 題)',
+        'description': '收錄網路服務管理必考核心英文字彙與專業術語（Frame、Routing Table、Flow Control、Mask 等），支援真人語音朗讀、釋義背題與隨堂測驗！',
+        'badge': '網服單字',
+        'color': 'teal',
+        'totalQuestions': len(nsm_questions),
+        'sections': [
+            {'id': 1, 'name': '第一單元：基礎傳輸與資料結構 (24字)', 'count': 24},
+            {'id': 2, 'name': '第二單元：網路硬體、協定與位址 (24字)', 'count': 24},
+            {'id': 3, 'name': '第三單元：系統管理與網路操作 (23字)', 'count': 23}
+        ],
+        'defaultTimeMinutes': 30,
+        'passRate': 70
+    },
     {
         'id': 'ictp',
         'title': 'ICTP 計算機程式語言國際認證',

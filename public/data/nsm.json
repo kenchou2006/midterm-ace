@@ -1,0 +1,2842 @@
+[
+  {
+    "id": "nsm_1_1",
+    "globalIndex": 1,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「acknowledgement」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "元素、成分、元件"
+      },
+      {
+        "key": "B",
+        "text": "確認"
+      },
+      {
+        "key": "C",
+        "text": "(=can) 能夠"
+      },
+      {
+        "key": "D",
+        "text": "中立派、獨立的、和機器無關的"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "acknowledgement",
+      "phonetic": "",
+      "meaning": "確認",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_2",
+    "globalIndex": 2,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「advantage」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "優點、優勢、利益"
+      },
+      {
+        "key": "B",
+        "text": "功能、函數、活動"
+      },
+      {
+        "key": "C",
+        "text": "錯誤"
+      },
+      {
+        "key": "D",
+        "text": "區分"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "advantage",
+      "phonetic": "",
+      "meaning": "優點、優勢、利益",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_3",
+    "globalIndex": 3,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「appropriate」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "適當的、盜用"
+      },
+      {
+        "key": "B",
+        "text": "可靠的、可信賴的"
+      },
+      {
+        "key": "C",
+        "text": "纜線"
+      },
+      {
+        "key": "D",
+        "text": "(=can) 能夠"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "appropriate",
+      "phonetic": "",
+      "meaning": "適當的、盜用",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_4",
+    "globalIndex": 4,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「assemble」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "組合"
+      },
+      {
+        "key": "B",
+        "text": "全雙工"
+      },
+      {
+        "key": "C",
+        "text": "閘道器"
+      },
+      {
+        "key": "D",
+        "text": "詳細說明、設定、規定"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "assemble",
+      "phonetic": "",
+      "meaning": "組合",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_5",
+    "globalIndex": 5,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「be able to」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "流量控制"
+      },
+      {
+        "key": "B",
+        "text": "(=can) 能夠"
+      },
+      {
+        "key": "C",
+        "text": "傳遞、轉移"
+      },
+      {
+        "key": "D",
+        "text": "註冊"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "be able to",
+      "phonetic": "",
+      "meaning": "(=can) 能夠",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_6",
+    "globalIndex": 6,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「cable」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "任務、角色"
+      },
+      {
+        "key": "B",
+        "text": "纜線"
+      },
+      {
+        "key": "C",
+        "text": "中立派、獨立的、和機器無關的"
+      },
+      {
+        "key": "D",
+        "text": "確認"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "cable",
+      "phonetic": "",
+      "meaning": "纜線",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_7",
+    "globalIndex": 7,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「characteristic」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠的、可信賴的"
+      },
+      {
+        "key": "B",
+        "text": "特性、特徵、指數"
+      },
+      {
+        "key": "C",
+        "text": "已排序的資料"
+      },
+      {
+        "key": "D",
+        "text": "中立派、獨立的、和機器無關的"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "characteristic",
+      "phonetic": "",
+      "meaning": "特性、特徵、指數",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_8",
+    "globalIndex": 8,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「conversation (converse)」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "會話、交談、逆向"
+      },
+      {
+        "key": "B",
+        "text": "全雙工"
+      },
+      {
+        "key": "C",
+        "text": "已排序的資料"
+      },
+      {
+        "key": "D",
+        "text": "區分"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "conversation (converse)",
+      "phonetic": "",
+      "meaning": "會話、交談、逆向",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_9",
+    "globalIndex": 9,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「correct」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提供、供應、規定"
+      },
+      {
+        "key": "B",
+        "text": "方向、用法說明、管理"
+      },
+      {
+        "key": "C",
+        "text": "正確的、恰當的"
+      },
+      {
+        "key": "D",
+        "text": "履行、執行、性能"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "correct",
+      "phonetic": "",
+      "meaning": "正確的、恰當的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_10",
+    "globalIndex": 10,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「decrease」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "減少、減小"
+      },
+      {
+        "key": "B",
+        "text": "包括"
+      },
+      {
+        "key": "C",
+        "text": "纜線"
+      },
+      {
+        "key": "D",
+        "text": "路由表"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "decrease",
+      "phonetic": "",
+      "meaning": "減少、減小",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_11",
+    "globalIndex": 11,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「destination」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提供、供應、規定"
+      },
+      {
+        "key": "B",
+        "text": "圖解、圖表、簡圖"
+      },
+      {
+        "key": "C",
+        "text": "目的地 / 目的端、目標"
+      },
+      {
+        "key": "D",
+        "text": "安裝"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "destination",
+      "phonetic": "",
+      "meaning": "目的地 / 目的端、目標",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_12",
+    "globalIndex": 12,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「diagram」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "欄位、封包中的欄位"
+      },
+      {
+        "key": "B",
+        "text": "圖解、圖表、簡圖"
+      },
+      {
+        "key": "C",
+        "text": "正確的、恰當的"
+      },
+      {
+        "key": "D",
+        "text": "纜線"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "diagram",
+      "phonetic": "",
+      "meaning": "圖解、圖表、簡圖",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_13",
+    "globalIndex": 13,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「different」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "不同的、有區別的"
+      },
+      {
+        "key": "B",
+        "text": "安裝"
+      },
+      {
+        "key": "C",
+        "text": "目的地 / 目的端、目標"
+      },
+      {
+        "key": "D",
+        "text": "閘道器"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "different",
+      "phonetic": "",
+      "meaning": "不同的、有區別的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_14",
+    "globalIndex": 14,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「direction」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提供、供應、規定"
+      },
+      {
+        "key": "B",
+        "text": "中立派、獨立的、和機器無關的"
+      },
+      {
+        "key": "C",
+        "text": "方向、用法說明、管理"
+      },
+      {
+        "key": "D",
+        "text": "路由表"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "direction",
+      "phonetic": "",
+      "meaning": "方向、用法說明、管理",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_15",
+    "globalIndex": 15,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「divid」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "交換、調換、交換機、反的"
+      },
+      {
+        "key": "B",
+        "text": "區分"
+      },
+      {
+        "key": "C",
+        "text": "私人的、秘密的"
+      },
+      {
+        "key": "D",
+        "text": "履行、執行、性能"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "divid",
+      "phonetic": "",
+      "meaning": "區分",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_16",
+    "globalIndex": 16,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「element」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加、利益、繁殖"
+      },
+      {
+        "key": "B",
+        "text": "元素、成分、元件"
+      },
+      {
+        "key": "C",
+        "text": "減少、減小"
+      },
+      {
+        "key": "D",
+        "text": "展出、表示、呈現"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "element",
+      "phonetic": "",
+      "meaning": "元素、成分、元件",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_17",
+    "globalIndex": 17,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「employ」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "交換、調換、交換機、反的"
+      },
+      {
+        "key": "B",
+        "text": "方案、組合、計劃"
+      },
+      {
+        "key": "C",
+        "text": "雇用、使用"
+      },
+      {
+        "key": "D",
+        "text": "提供、供應、規定"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "employ",
+      "phonetic": "",
+      "meaning": "雇用、使用",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_18",
+    "globalIndex": 18,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「encapsulate」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "功能、函數、活動"
+      },
+      {
+        "key": "B",
+        "text": "裝入膠囊、壓縮"
+      },
+      {
+        "key": "C",
+        "text": "倍數、並聯"
+      },
+      {
+        "key": "D",
+        "text": "會話、交談、逆向"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "encapsulate",
+      "phonetic": "",
+      "meaning": "裝入膠囊、壓縮",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_19",
+    "globalIndex": 19,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「error」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "(=can) 能夠"
+      },
+      {
+        "key": "B",
+        "text": "機械、結構"
+      },
+      {
+        "key": "C",
+        "text": "錯誤"
+      },
+      {
+        "key": "D",
+        "text": "收到、接收"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "error",
+      "phonetic": "",
+      "meaning": "錯誤",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_20",
+    "globalIndex": 20,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「establish establishment」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "正確的、恰當的"
+      },
+      {
+        "key": "B",
+        "text": "建立、安置、設立"
+      },
+      {
+        "key": "C",
+        "text": "全雙工"
+      },
+      {
+        "key": "D",
+        "text": "機械、結構"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "establish establishment",
+      "phonetic": "",
+      "meaning": "建立、安置、設立",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_21",
+    "globalIndex": 21,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「examine」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "來源、源頭、根源常式"
+      },
+      {
+        "key": "B",
+        "text": "檢查、審查"
+      },
+      {
+        "key": "C",
+        "text": "重組"
+      },
+      {
+        "key": "D",
+        "text": "路由表"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "examine",
+      "phonetic": "",
+      "meaning": "檢查、審查",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_22",
+    "globalIndex": 22,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「exchange」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "包括"
+      },
+      {
+        "key": "B",
+        "text": "裝入膠囊、壓縮"
+      },
+      {
+        "key": "C",
+        "text": "交換、調換、交換機、反的"
+      },
+      {
+        "key": "D",
+        "text": "主機"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "exchange",
+      "phonetic": "",
+      "meaning": "交換、調換、交換機、反的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_23",
+    "globalIndex": 23,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「exhibit」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠的、可信賴的"
+      },
+      {
+        "key": "B",
+        "text": "展出、表示、呈現"
+      },
+      {
+        "key": "C",
+        "text": "收到、接收"
+      },
+      {
+        "key": "D",
+        "text": "埠號"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "exhibit",
+      "phonetic": "",
+      "meaning": "展出、表示、呈現",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_1_24",
+    "globalIndex": 24,
+    "examId": "nsm",
+    "section": 1,
+    "sectionName": "第一單元：基礎傳輸與資料結構",
+    "number": 24,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「feature」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "特徵、特性"
+      },
+      {
+        "key": "B",
+        "text": "裝入膠囊、壓縮"
+      },
+      {
+        "key": "C",
+        "text": "子網路"
+      },
+      {
+        "key": "D",
+        "text": "來源、源頭、根源常式"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "feature",
+      "phonetic": "",
+      "meaning": "特徵、特性",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_25",
+    "globalIndex": 25,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「fiber」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "特性、特徵、指數"
+      },
+      {
+        "key": "B",
+        "text": "光纖"
+      },
+      {
+        "key": "C",
+        "text": "區分"
+      },
+      {
+        "key": "D",
+        "text": "建立、安置、設立"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "fiber",
+      "phonetic": "",
+      "meaning": "光纖",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_26",
+    "globalIndex": 26,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「field」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠的、可信賴的"
+      },
+      {
+        "key": "B",
+        "text": "正確的、恰當的"
+      },
+      {
+        "key": "C",
+        "text": "目的、效果、論題"
+      },
+      {
+        "key": "D",
+        "text": "欄位、封包中的欄位"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "field",
+      "phonetic": "",
+      "meaning": "欄位、封包中的欄位",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_27",
+    "globalIndex": 27,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「flow control」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "流量控制"
+      },
+      {
+        "key": "B",
+        "text": "方案、組合、計劃"
+      },
+      {
+        "key": "C",
+        "text": "終止、終端"
+      },
+      {
+        "key": "D",
+        "text": "意涵、暗示、蘊含"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "flow control",
+      "phonetic": "",
+      "meaning": "流量控制",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_28",
+    "globalIndex": 28,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「frame」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "區分"
+      },
+      {
+        "key": "B",
+        "text": "路徑方向、穿過、通過"
+      },
+      {
+        "key": "C",
+        "text": "訊框"
+      },
+      {
+        "key": "D",
+        "text": "增加、利益、繁殖"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "frame",
+      "phonetic": "",
+      "meaning": "訊框",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_29",
+    "globalIndex": 29,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「full duplex」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "區分"
+      },
+      {
+        "key": "B",
+        "text": "全雙工"
+      },
+      {
+        "key": "C",
+        "text": "安裝"
+      },
+      {
+        "key": "D",
+        "text": "表現、描繪、象徵"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "full duplex",
+      "phonetic": "",
+      "meaning": "全雙工",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_30",
+    "globalIndex": 30,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「function」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "路由表"
+      },
+      {
+        "key": "B",
+        "text": "功能、函數、活動"
+      },
+      {
+        "key": "C",
+        "text": "確認"
+      },
+      {
+        "key": "D",
+        "text": "包括"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "function",
+      "phonetic": "",
+      "meaning": "功能、函數、活動",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_31",
+    "globalIndex": 31,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「gateway」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "詳細說明、設定、規定"
+      },
+      {
+        "key": "B",
+        "text": "閘道器"
+      },
+      {
+        "key": "C",
+        "text": "方向、用法說明、管理"
+      },
+      {
+        "key": "D",
+        "text": "經營、處理、管理"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "gateway",
+      "phonetic": "",
+      "meaning": "閘道器",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_32",
+    "globalIndex": 32,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「handle」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "標示區、操作"
+      },
+      {
+        "key": "B",
+        "text": "建立、安置、設立"
+      },
+      {
+        "key": "C",
+        "text": "私人的、秘密的"
+      },
+      {
+        "key": "D",
+        "text": "檢查、審查"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "handle",
+      "phonetic": "",
+      "meaning": "標示區、操作",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_33",
+    "globalIndex": 33,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「host」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主機"
+      },
+      {
+        "key": "B",
+        "text": "倍數、並聯"
+      },
+      {
+        "key": "C",
+        "text": "部分、共享"
+      },
+      {
+        "key": "D",
+        "text": "適當的、盜用"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "host",
+      "phonetic": "",
+      "meaning": "主機",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_34",
+    "globalIndex": 34,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「implication」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "意涵、暗示、蘊含"
+      },
+      {
+        "key": "B",
+        "text": "埠號"
+      },
+      {
+        "key": "C",
+        "text": "遮罩"
+      },
+      {
+        "key": "D",
+        "text": "閘道器"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "implication",
+      "phonetic": "",
+      "meaning": "意涵、暗示、蘊含",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_35",
+    "globalIndex": 35,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「including」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "包括"
+      },
+      {
+        "key": "B",
+        "text": "閘道器"
+      },
+      {
+        "key": "C",
+        "text": "目的地 / 目的端、目標"
+      },
+      {
+        "key": "D",
+        "text": "部分、共享"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "including",
+      "phonetic": "",
+      "meaning": "包括",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_36",
+    "globalIndex": 36,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「increase」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "路徑方向、穿過、通過"
+      },
+      {
+        "key": "B",
+        "text": "增加、利益、繁殖"
+      },
+      {
+        "key": "C",
+        "text": "雇用、使用"
+      },
+      {
+        "key": "D",
+        "text": "分割、分段"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "increase",
+      "phonetic": "",
+      "meaning": "增加、利益、繁殖",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_37",
+    "globalIndex": 37,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「independent」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "意涵、暗示、蘊含"
+      },
+      {
+        "key": "B",
+        "text": "中立派、獨立的、和機器無關的"
+      },
+      {
+        "key": "C",
+        "text": "終止、終端"
+      },
+      {
+        "key": "D",
+        "text": "可靠的、可信賴的"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "independent",
+      "phonetic": "",
+      "meaning": "中立派、獨立的、和機器無關的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_38",
+    "globalIndex": 38,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「individual」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "傳遞、轉移"
+      },
+      {
+        "key": "B",
+        "text": "欄位、封包中的欄位"
+      },
+      {
+        "key": "C",
+        "text": "遮罩"
+      },
+      {
+        "key": "D",
+        "text": "個人的、單獨的"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "individual",
+      "phonetic": "",
+      "meaning": "個人的、單獨的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_39",
+    "globalIndex": 39,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「install」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "私人的、秘密的"
+      },
+      {
+        "key": "B",
+        "text": "需要、要求、命令"
+      },
+      {
+        "key": "C",
+        "text": "超網"
+      },
+      {
+        "key": "D",
+        "text": "安裝"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "install",
+      "phonetic": "",
+      "meaning": "安裝",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_40",
+    "globalIndex": 40,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「manage」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "經營、處理、管理"
+      },
+      {
+        "key": "B",
+        "text": "元素、成分、元件"
+      },
+      {
+        "key": "C",
+        "text": "標示區、操作"
+      },
+      {
+        "key": "D",
+        "text": "全雙工"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "manage",
+      "phonetic": "",
+      "meaning": "經營、處理、管理",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_41",
+    "globalIndex": 41,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「mask」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "已排序的資料"
+      },
+      {
+        "key": "B",
+        "text": "遮罩"
+      },
+      {
+        "key": "C",
+        "text": "適當的、盜用"
+      },
+      {
+        "key": "D",
+        "text": "功能、函數、活動"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "mask",
+      "phonetic": "",
+      "meaning": "遮罩",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_42",
+    "globalIndex": 42,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「mechanism」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "確認"
+      },
+      {
+        "key": "B",
+        "text": "機械、結構"
+      },
+      {
+        "key": "C",
+        "text": "減少、減小"
+      },
+      {
+        "key": "D",
+        "text": "會話、交談、逆向"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "mechanism",
+      "phonetic": "",
+      "meaning": "機械、結構",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_43",
+    "globalIndex": 43,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「multiple」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "倍數、並聯"
+      },
+      {
+        "key": "B",
+        "text": "正確的、恰當的"
+      },
+      {
+        "key": "C",
+        "text": "(=can) 能夠"
+      },
+      {
+        "key": "D",
+        "text": "觀察、遵守、注意"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "multiple",
+      "phonetic": "",
+      "meaning": "倍數、並聯",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_44",
+    "globalIndex": 44,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「observe」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "子網路"
+      },
+      {
+        "key": "B",
+        "text": "閘道器"
+      },
+      {
+        "key": "C",
+        "text": "增加、利益、繁殖"
+      },
+      {
+        "key": "D",
+        "text": "觀察、遵守、注意"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "observe",
+      "phonetic": "",
+      "meaning": "觀察、遵守、注意",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_45",
+    "globalIndex": 45,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「ordered data」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "訊框"
+      },
+      {
+        "key": "B",
+        "text": "傳遞、轉移"
+      },
+      {
+        "key": "C",
+        "text": "雇用、使用"
+      },
+      {
+        "key": "D",
+        "text": "已排序的資料"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "ordered data",
+      "phonetic": "",
+      "meaning": "已排序的資料",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_46",
+    "globalIndex": 46,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「parameter」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "標示區、操作"
+      },
+      {
+        "key": "B",
+        "text": "參數、傳遞的參數"
+      },
+      {
+        "key": "C",
+        "text": "分割、分段"
+      },
+      {
+        "key": "D",
+        "text": "復興、改造、重建"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "parameter",
+      "phonetic": "",
+      "meaning": "參數、傳遞的參數",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_47",
+    "globalIndex": 47,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「performance」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "不同的、有區別的"
+      },
+      {
+        "key": "B",
+        "text": "表現、描繪、象徵"
+      },
+      {
+        "key": "C",
+        "text": "參數、傳遞的參數"
+      },
+      {
+        "key": "D",
+        "text": "履行、執行、性能"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "performance",
+      "phonetic": "",
+      "meaning": "履行、執行、性能",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_2_48",
+    "globalIndex": 48,
+    "examId": "nsm",
+    "section": 2,
+    "sectionName": "第二單元：網路硬體、協定與位址",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「port number」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "埠號"
+      },
+      {
+        "key": "B",
+        "text": "復興、改造、重建"
+      },
+      {
+        "key": "C",
+        "text": "方案、組合、計劃"
+      },
+      {
+        "key": "D",
+        "text": "特性、特徵、指數"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "port number",
+      "phonetic": "",
+      "meaning": "埠號",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_49",
+    "globalIndex": 49,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 49,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「private」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "私人的、秘密的"
+      },
+      {
+        "key": "B",
+        "text": "會話、交談、逆向"
+      },
+      {
+        "key": "C",
+        "text": "收到、接收"
+      },
+      {
+        "key": "D",
+        "text": "觀察、遵守、注意"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "private",
+      "phonetic": "",
+      "meaning": "私人的、秘密的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_50",
+    "globalIndex": 50,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「provide」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "標示區、操作"
+      },
+      {
+        "key": "B",
+        "text": "光纖"
+      },
+      {
+        "key": "C",
+        "text": "路徑方向、穿過、通過"
+      },
+      {
+        "key": "D",
+        "text": "提供、供應、規定"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "provide",
+      "phonetic": "",
+      "meaning": "提供、供應、規定",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_51",
+    "globalIndex": 51,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「purpose」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "裝入膠囊、壓縮"
+      },
+      {
+        "key": "B",
+        "text": "可靠的、可信賴的"
+      },
+      {
+        "key": "C",
+        "text": "目的、效果、論題"
+      },
+      {
+        "key": "D",
+        "text": "特徵、特性"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "purpose",
+      "phonetic": "",
+      "meaning": "目的、效果、論題",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_52",
+    "globalIndex": 52,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「reassemble」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "方案、組合、計劃"
+      },
+      {
+        "key": "B",
+        "text": "標示區、操作"
+      },
+      {
+        "key": "C",
+        "text": "減少、減小"
+      },
+      {
+        "key": "D",
+        "text": "重組"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "reassemble",
+      "phonetic": "",
+      "meaning": "重組",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_53",
+    "globalIndex": 53,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「receive」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "收到、接收"
+      },
+      {
+        "key": "B",
+        "text": "不同的、有區別的"
+      },
+      {
+        "key": "C",
+        "text": "特性、特徵、指數"
+      },
+      {
+        "key": "D",
+        "text": "傳遞、轉移"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "receive",
+      "phonetic": "",
+      "meaning": "收到、接收",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_54",
+    "globalIndex": 54,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「reconstruction」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "圖解、圖表、簡圖"
+      },
+      {
+        "key": "B",
+        "text": "閘道器"
+      },
+      {
+        "key": "C",
+        "text": "交換、調換、交換機、反的"
+      },
+      {
+        "key": "D",
+        "text": "復興、改造、重建"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "reconstruction",
+      "phonetic": "",
+      "meaning": "復興、改造、重建",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_55",
+    "globalIndex": 55,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「register」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "部分、共享"
+      },
+      {
+        "key": "B",
+        "text": "送給、傳"
+      },
+      {
+        "key": "C",
+        "text": "訊框"
+      },
+      {
+        "key": "D",
+        "text": "註冊"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "register",
+      "phonetic": "",
+      "meaning": "註冊",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_56",
+    "globalIndex": 56,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「reliable」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠的、可信賴的"
+      },
+      {
+        "key": "B",
+        "text": "會話、交談、逆向"
+      },
+      {
+        "key": "C",
+        "text": "交換、調換、交換機、反的"
+      },
+      {
+        "key": "D",
+        "text": "私人的、秘密的"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "reliable",
+      "phonetic": "",
+      "meaning": "可靠的、可信賴的",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_57",
+    "globalIndex": 57,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「represent」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提供、供應、規定"
+      },
+      {
+        "key": "B",
+        "text": "意涵、暗示、蘊含"
+      },
+      {
+        "key": "C",
+        "text": "表現、描繪、象徵"
+      },
+      {
+        "key": "D",
+        "text": "路由表"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "represent",
+      "phonetic": "",
+      "meaning": "表現、描繪、象徵",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_58",
+    "globalIndex": 58,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「require」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "註冊"
+      },
+      {
+        "key": "B",
+        "text": "需要、要求、命令"
+      },
+      {
+        "key": "C",
+        "text": "部分、共享"
+      },
+      {
+        "key": "D",
+        "text": "建立、安置、設立"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "require",
+      "phonetic": "",
+      "meaning": "需要、要求、命令",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_59",
+    "globalIndex": 59,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「role」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "任務、角色"
+      },
+      {
+        "key": "B",
+        "text": "個人的、單獨的"
+      },
+      {
+        "key": "C",
+        "text": "訊框"
+      },
+      {
+        "key": "D",
+        "text": "會話、交談、逆向"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "role",
+      "phonetic": "",
+      "meaning": "任務、角色",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_60",
+    "globalIndex": 60,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「routing table」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "遮罩"
+      },
+      {
+        "key": "B",
+        "text": "會話、交談、逆向"
+      },
+      {
+        "key": "C",
+        "text": "特性、特徵、指數"
+      },
+      {
+        "key": "D",
+        "text": "路由表"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "routing table",
+      "phonetic": "",
+      "meaning": "路由表",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_61",
+    "globalIndex": 61,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 61,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「scheme」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "方案、組合、計劃"
+      },
+      {
+        "key": "B",
+        "text": "詳細說明、設定、規定"
+      },
+      {
+        "key": "C",
+        "text": "終止、終端"
+      },
+      {
+        "key": "D",
+        "text": "檢查、審查"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "scheme",
+      "phonetic": "",
+      "meaning": "方案、組合、計劃",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_62",
+    "globalIndex": 62,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 62,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「segmentation」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "分割、分段"
+      },
+      {
+        "key": "B",
+        "text": "子網路"
+      },
+      {
+        "key": "C",
+        "text": "目的地 / 目的端、目標"
+      },
+      {
+        "key": "D",
+        "text": "特徵、特性"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "segmentation",
+      "phonetic": "",
+      "meaning": "分割、分段",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_63",
+    "globalIndex": 63,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 63,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「send」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "送給、傳"
+      },
+      {
+        "key": "B",
+        "text": "正確的、恰當的"
+      },
+      {
+        "key": "C",
+        "text": "閘道器"
+      },
+      {
+        "key": "D",
+        "text": "重組"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "send",
+      "phonetic": "",
+      "meaning": "送給、傳",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_64",
+    "globalIndex": 64,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 64,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「share」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "標示區、操作"
+      },
+      {
+        "key": "B",
+        "text": "纜線"
+      },
+      {
+        "key": "C",
+        "text": "目的地 / 目的端、目標"
+      },
+      {
+        "key": "D",
+        "text": "部分、共享"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "share",
+      "phonetic": "",
+      "meaning": "部分、共享",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_65",
+    "globalIndex": 65,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 65,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「source」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "超網"
+      },
+      {
+        "key": "B",
+        "text": "來源、源頭、根源常式"
+      },
+      {
+        "key": "C",
+        "text": "遮罩"
+      },
+      {
+        "key": "D",
+        "text": "意涵、暗示、蘊含"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "source",
+      "phonetic": "",
+      "meaning": "來源、源頭、根源常式",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_66",
+    "globalIndex": 66,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 66,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「specify (specified)」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "遮罩"
+      },
+      {
+        "key": "B",
+        "text": "閘道器"
+      },
+      {
+        "key": "C",
+        "text": "意涵、暗示、蘊含"
+      },
+      {
+        "key": "D",
+        "text": "詳細說明、設定、規定"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "specify (specified)",
+      "phonetic": "",
+      "meaning": "詳細說明、設定、規定",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_67",
+    "globalIndex": 67,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 67,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「subnet」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "雇用、使用"
+      },
+      {
+        "key": "B",
+        "text": "安裝"
+      },
+      {
+        "key": "C",
+        "text": "子網路"
+      },
+      {
+        "key": "D",
+        "text": "任務、角色"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "subnet",
+      "phonetic": "",
+      "meaning": "子網路",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_68",
+    "globalIndex": 68,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 68,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「supernet」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "超網"
+      },
+      {
+        "key": "B",
+        "text": "減少、減小"
+      },
+      {
+        "key": "C",
+        "text": "優點、優勢、利益"
+      },
+      {
+        "key": "D",
+        "text": "任務、角色"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "toeicData": {
+      "word": "supernet",
+      "phonetic": "",
+      "meaning": "超網",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_69",
+    "globalIndex": 69,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 69,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「termination」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "減少、減小"
+      },
+      {
+        "key": "B",
+        "text": "路徑方向、穿過、通過"
+      },
+      {
+        "key": "C",
+        "text": "終止、終端"
+      },
+      {
+        "key": "D",
+        "text": "訊框"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "toeicData": {
+      "word": "termination",
+      "phonetic": "",
+      "meaning": "終止、終端",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_70",
+    "globalIndex": 70,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 70,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「through」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "雇用、使用"
+      },
+      {
+        "key": "B",
+        "text": "路徑方向、穿過、通過"
+      },
+      {
+        "key": "C",
+        "text": "已排序的資料"
+      },
+      {
+        "key": "D",
+        "text": "正確的、恰當的"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "toeicData": {
+      "word": "through",
+      "phonetic": "",
+      "meaning": "路徑方向、穿過、通過",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  },
+  {
+    "id": "nsm_3_71",
+    "globalIndex": 71,
+    "examId": "nsm",
+    "section": 3,
+    "sectionName": "第三單元：系統管理與網路操作",
+    "number": 71,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問英文單字/術語「transfer」的中文字義為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "埠號"
+      },
+      {
+        "key": "B",
+        "text": "中立派、獨立的、和機器無關的"
+      },
+      {
+        "key": "C",
+        "text": "檢查、審查"
+      },
+      {
+        "key": "D",
+        "text": "傳遞、轉移"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "toeicData": {
+      "word": "transfer",
+      "phonetic": "",
+      "meaning": "傳遞、轉移",
+      "pos": "網路術語",
+      "sentence": "",
+      "translation": "",
+      "notes": "網路服務管理核心字彙"
+    }
+  }
+]

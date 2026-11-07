@@ -1,5 +1,119 @@
 [
   {
+    "id": "dbms",
+    "title": "資料庫管理系統",
+    "subTitle": "期中線上測驗題庫 (共 46 題)",
+    "description": "涵蓋資料庫角色、系統架構、SQL Server 通訊協定、關聯式資料庫觀念、資料完整性限制、ER 模型圖示符號與正規化 (1NF/2NF/3NF) 等核心考題。",
+    "badge": "資料庫期中考",
+    "color": "cyan",
+    "totalQuestions": 46,
+    "sections": [
+      {
+        "id": 1,
+        "name": "第一單元：資料庫角色、系統架構與通訊協定 (9題)",
+        "count": 9
+      },
+      {
+        "id": 2,
+        "name": "第二單元：關聯式資料庫原理與資料完整性限制 (15題)",
+        "count": 15
+      },
+      {
+        "id": 3,
+        "name": "第三單元：實體關係模型 (ER Model) 與綱要轉換 (14題)",
+        "count": 14
+      },
+      {
+        "id": 4,
+        "name": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF) (8題)",
+        "count": 8
+      }
+    ],
+    "defaultTimeMinutes": 50,
+    "passRate": 70
+  },
+  {
+    "id": "sec",
+    "title": "資訊安全概論",
+    "subTitle": "基礎概念與期中/總複習題庫 (共 159 題)",
+    "description": "涵蓋系統架構 (SDLC/SSDLC)、CIA 三要素、安全服務與安全機制、密碼學、高階攻擊技術 (APT/DNS放大/供應鏈)、零信任架構、資安事件回應、AI 安全與雲端防護。",
+    "badge": "資安概論",
+    "color": "violet",
+    "totalQuestions": 159,
+    "sections": [
+      {
+        "id": 1,
+        "name": "基礎概念 (一)：資訊系統架構與 CIA 三要素 (20題)",
+        "count": 20
+      },
+      {
+        "id": 2,
+        "name": "基礎概念 (二)：安全服務、安全機制與密碼學 (10題)",
+        "count": 10
+      },
+      {
+        "id": 3,
+        "name": "基礎概念 (三)：綜合應用與實務案例 (19題)",
+        "count": 19
+      },
+      {
+        "id": 4,
+        "name": "總複習 (一)：高階攻擊技術、事件管理與威脅情報 (20題)",
+        "count": 20
+      },
+      {
+        "id": 5,
+        "name": "總複習 (二)：零信任架構、AI 安全與雲端行動防護 (20題)",
+        "count": 20
+      },
+      {
+        "id": 6,
+        "name": "總複習 (三)：滲透測試、紅隊演練與事件回應 (20題)",
+        "count": 20
+      },
+      {
+        "id": 7,
+        "name": "總複習 (四)：事件回應挑戰與合規標準 (20題)",
+        "count": 20
+      },
+      {
+        "id": 8,
+        "name": "總複習 (五)：新興技術安全挑戰 (AI/雲端/行動/工控) (30題)",
+        "count": 30
+      }
+    ],
+    "defaultTimeMinutes": 50,
+    "passRate": 70
+  },
+  {
+    "id": "nsm",
+    "title": "網路服務管理",
+    "subTitle": "核心英文字彙與專業術語 (共 71 題)",
+    "description": "收錄網路服務管理必考核心英文字彙與專業術語（Frame、Routing Table、Flow Control、Mask 等），支援真人語音朗讀、釋義背題與隨堂測驗！",
+    "badge": "網服單字",
+    "color": "teal",
+    "totalQuestions": 71,
+    "sections": [
+      {
+        "id": 1,
+        "name": "第一單元：基礎傳輸與資料結構 (24字)",
+        "count": 24
+      },
+      {
+        "id": 2,
+        "name": "第二單元：網路硬體、協定與位址 (24字)",
+        "count": 24
+      },
+      {
+        "id": 3,
+        "name": "第三單元：系統管理與網路操作 (23字)",
+        "count": 23
+      }
+    ],
+    "defaultTimeMinutes": 30,
+    "passRate": 70
+  },
+  {
     "id": "ictp",
     "title": "ICTP 計算機程式語言國際認證",
     "subTitle": "Python Essentials Level 題庫 (共 250 題)",

@@ -131,7 +131,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({
             <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2">
               選擇考試類別
             </label>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-2">
               {allExams.map((e) => (
                 <button
                   key={e.id}
@@ -291,7 +291,7 @@ export const ConfigModal: React.FC<ConfigModalProps> = ({
               <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2">
                 單字題型出題方式
               </label>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-2">
                 {[
                   { id: 'mixed', label: '綜合隨機', desc: '英選中+中選英+克漏字' },
                   { id: 'en_to_zh', label: '英選中', desc: '看單字選中文釋義' },

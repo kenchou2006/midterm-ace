@@ -13,12 +13,12 @@ export default defineConfig({
         'pwa-192x192.png',
         'pwa-512x512.png',
         'data/*.json',
-        'images/**/*.png'
+        'images/**/*.{png,jpg,jpeg}'
       ],
       manifest: {
         name: 'MidtermAce | 期中證照模擬測驗與刷題系統',
         short_name: 'MidtermAce',
-        description: '支援 ICTP Python、AIL 人工智慧、EEC 網路行銷、TOEIC 多益核心單字之全功能離線模擬測驗與刷題系統',
+        description: '支援 資料庫管理、資訊安全概論、網路服務管理、ICTP Python、AIL 人工智慧、EEC 網路行銷、TOEIC 多益核心單字之全功能離線模擬測驗與刷題系統',
         theme_color: '#2563eb',
         background_color: '#f8fafc',
         display: 'standalone',
@@ -45,7 +45,7 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,svg,json}'],
         maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15MB to cover all images and questions
         runtimeCaching: [
           {

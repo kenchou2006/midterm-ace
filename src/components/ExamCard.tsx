@@ -8,7 +8,8 @@ import {
   Layers, 
   Clock, 
   CheckCircle2,
-  ChevronRight
+  ChevronRight,
+  Eye
 } from 'lucide-react';
 
 interface ExamCardProps {
@@ -17,6 +18,7 @@ interface ExamCardProps {
   mistakeCount: number;
   lastScore: number | null;
   onOpenConfig: (exam: ExamMeta, defaultMode?: 'exam' | 'practice' | 'mistake_workout') => void;
+  onOpenStudy?: (exam: ExamMeta) => void;
 }
 
 export const ExamCard: React.FC<ExamCardProps> = ({
@@ -24,7 +26,8 @@ export const ExamCard: React.FC<ExamCardProps> = ({
   correctCount,
   mistakeCount,
   lastScore,
-  onOpenConfig
+  onOpenConfig,
+  onOpenStudy
 }) => {
   // Theme color styling
   const colorMap: Record<string, {
@@ -35,6 +38,30 @@ export const ExamCard: React.FC<ExamCardProps> = ({
     btnPrimary: string;
     accentRing: string;
   }> = {
+    cyan: {
+      border: 'hover:border-cyan-400 dark:hover:border-cyan-500',
+      badgeBg: 'bg-cyan-100 dark:bg-cyan-950/60',
+      badgeText: 'text-cyan-800 dark:text-cyan-300',
+      iconBg: 'from-cyan-600 to-blue-600',
+      btnPrimary: 'bg-cyan-600 hover:bg-cyan-700 text-white shadow-cyan-500/20',
+      accentRing: 'focus:ring-cyan-500'
+    },
+    violet: {
+      border: 'hover:border-violet-400 dark:hover:border-violet-500',
+      badgeBg: 'bg-violet-100 dark:bg-violet-950/60',
+      badgeText: 'text-violet-800 dark:text-violet-300',
+      iconBg: 'from-violet-600 to-purple-700',
+      btnPrimary: 'bg-violet-600 hover:bg-violet-700 text-white shadow-violet-500/20',
+      accentRing: 'focus:ring-violet-500'
+    },
+    teal: {
+      border: 'hover:border-teal-400 dark:hover:border-teal-500',
+      badgeBg: 'bg-teal-100 dark:bg-teal-950/60',
+      badgeText: 'text-teal-800 dark:text-teal-300',
+      iconBg: 'from-teal-600 to-emerald-700',
+      btnPrimary: 'bg-teal-600 hover:bg-teal-700 text-white shadow-teal-500/20',
+      accentRing: 'focus:ring-teal-500'
+    },
     indigo: {
       border: 'hover:border-indigo-400 dark:hover:border-indigo-500',
       badgeBg: 'bg-indigo-100 dark:bg-indigo-950/60',
@@ -164,10 +191,20 @@ export const ExamCard: React.FC<ExamCardProps> = ({
           <ChevronRight className="w-4 h-4 ml-auto" />
         </button>
 
+        {onOpenStudy && (
+          <button
+            onClick={() => onOpenStudy(exam)}
+            className="w-full py-2.5 px-3 rounded-xl font-bold text-xs bg-slate-100 hover:bg-cyan-50 hover:text-cyan-800 dark:bg-slate-800 dark:hover:bg-cyan-950/60 dark:hover:text-cyan-300 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1.5 transition border border-transparent hover:border-cyan-300 dark:hover:border-cyan-700"
+          >
+            <Eye className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" />
+            <span>先看題目 / 免測驗背題 ({exam.totalQuestions} 題)</span>
+          </button>
+        )}
+
         <div className="grid grid-cols-2 gap-2">
           <button
             onClick={() => onOpenConfig(exam, 'practice')}
-            className="py-2.5 px-3 rounded-xl font-medium text-xs bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1.5 transition"
+            className="py-2 px-3 rounded-xl font-medium text-xs bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/70 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1.5 transition border border-slate-200 dark:border-slate-700"
           >
             <Flame className="w-3.5 h-3.5 text-amber-500" />
             <span>即時刷題</span>
@@ -176,10 +213,10 @@ export const ExamCard: React.FC<ExamCardProps> = ({
           <button
             onClick={() => onOpenConfig(exam, 'mistake_workout')}
             disabled={mistakeCount === 0}
-            className={`py-2.5 px-3 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 transition ${
+            className={`py-2 px-3 rounded-xl font-medium text-xs flex items-center justify-center gap-1.5 transition border ${
               mistakeCount > 0
-                ? 'bg-rose-50 hover:bg-rose-100 text-rose-700 dark:bg-rose-950/40 dark:hover:bg-rose-900/60 dark:text-rose-300'
-                : 'bg-slate-50 text-slate-400 dark:bg-slate-800/30 dark:text-slate-600 cursor-not-allowed'
+                ? 'border-rose-200 dark:border-rose-900 bg-rose-50 hover:bg-rose-100 text-rose-700 dark:bg-rose-950/40 dark:hover:bg-rose-900/60 dark:text-rose-300'
+                : 'border-slate-200 dark:border-slate-800 bg-slate-50 text-slate-400 dark:bg-slate-800/30 dark:text-slate-600 cursor-not-allowed'
             }`}
           >
             <AlertTriangle className="w-3.5 h-3.5 text-rose-500" />

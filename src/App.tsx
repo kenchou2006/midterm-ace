@@ -18,6 +18,9 @@ import { MistakeBankView } from './components/MistakeBankView';
 import { HistoryView } from './components/HistoryView';
 import { BookmarksView } from './components/BookmarksView';
 import { StatsView } from './components/StatsView';
+import { StudyBrowseView } from './components/StudyBrowseView';
+import { MobileBottomNav } from './components/MobileBottomNav';
+import { ImageModal } from './components/ImageModal';
 import { 
   getMistakes, 
   recordMistake, 
@@ -70,6 +73,10 @@ export function App() {
   const [configModalExam, setConfigModalExam] = useState<ExamMeta | null>(null);
   const [configDefaultMode, setConfigDefaultMode] = useState<QuizMode>('exam');
 
+  // Study Browse State
+  const [browseExamId, setBrowseExamId] = useState<string>('dbms');
+  const [previewImage, setPreviewImage] = useState<string | null>(null);
+
   // Refresh LocalStorage data in state
   const reloadStorageData = useCallback(() => {
     setMistakes(getMistakes());
@@ -90,8 +97,11 @@ export function App() {
           setActiveSession(existingSession);
         }
 
-        const [metaRes, ictpRes, ailRes, eecRes, toeicRes] = await Promise.all([
+        const [metaRes, dbmsRes, secRes, nsmRes, ictpRes, ailRes, eecRes, toeicRes] = await Promise.all([
           fetch(resolveAssetUrl('data/exams_meta.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/dbms.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/sec.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/nsm.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/ictp.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/ail.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/eec.json')).then(r => r.json()),
@@ -100,6 +110,9 @@ export function App() {
 
         setExams(metaRes);
         setRawQuestions({
+          dbms: dbmsRes,
+          sec: secRes,
+          nsm: nsmRes,
           ictp: ictpRes,
           ail: ailRes,
           eec: eecRes
@@ -420,10 +433,10 @@ export function App() {
           <GraduationCap className="w-8 h-8" />
         </div>
         <h2 className="text-lg font-bold text-slate-800 dark:text-slate-100">
-          正在載入四種考試題庫與圖資...
+          正在載入七種考試題庫與圖資...
         </h2>
         <p className="text-xs text-slate-400 mt-1">
-          ICTP ‧ AIL ‧ EEC ‧ TOEIC 共 2,153 題
+          資料庫 ‧ 資安概論 ‧ 網路服管 ‧ ICTP ‧ AIL ‧ EEC ‧ TOEIC 共 2,429 題
         </p>
       </div>
     );
@@ -488,7 +501,7 @@ export function App() {
       />
 
       {/* Main Content Area based on Tab */}
-      <main className="flex-1 pb-16">
+      <main className="flex-1 pb-24 sm:pb-16">
         {activeTab === 'exams' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fade-in">
             
@@ -497,20 +510,20 @@ export function App() {
               <div className="relative z-10 max-w-2xl">
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-white/20 backdrop-blur-md text-blue-100 mb-4">
                   <Sparkles className="w-3.5 h-3.5" />
-                  <span>全功能離線題庫 ‧ 模擬考試 ‧ 即時刷題 ‧ 錯題消滅</span>
+                  <span>全功能離線題庫 ‧ 模擬考試 ‧ 即時刷題 ‧ 先看題目 ‧ 錯題消滅</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl font-black tracking-tight mb-3">
                   期中與專業認證模擬測驗系統
                 </h1>
                 <p className="text-sm sm:text-base text-blue-100 leading-relaxed mb-6">
-                  精選收錄本目錄下四門核心考試，支援自選範圍、自訂測驗題數、計時交卷、錯題本與對題歷史分析，助您考取高分及格！
+                  精選收錄本目錄下七門核心考試，支援先看題目背題、自選範圍、自訂測驗題數、計時交卷、錯題本與對題歷史分析，助您考取高分及格！
                 </p>
 
                 {/* Quick Stats Pill */}
                 <div className="flex flex-wrap items-center gap-4 text-xs font-bold text-blue-200">
                   <span className="flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                    總收錄 2,153 題
+                    總收錄 2,429 題
                   </span>
                   <span className="flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-amber-400"></span>
@@ -538,10 +551,10 @@ export function App() {
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
                   <GraduationCap className="w-5 h-5 text-blue-600" />
-                  <span>選擇測驗考試科目 (共 4 門)</span>
+                  <span>選擇測驗考試科目 (共 7 門)</span>
                 </h2>
                 <span className="text-xs text-slate-500 dark:text-slate-400">
-                  點擊各考試即可設定測驗題數與單元範圍
+                  點擊各考試即可設定測驗題數與單元範圍，或直接先看題目
                 </span>
               </div>
 
@@ -562,6 +575,10 @@ export function App() {
                         setConfigModalExam(targetExam);
                         setConfigDefaultMode(defaultMode || 'exam');
                       }}
+                      onOpenStudy={(targetExam) => {
+                        setBrowseExamId(targetExam.id);
+                        setActiveTab('browse');
+                      }}
                     />
                   );
                 })}
@@ -569,6 +586,22 @@ export function App() {
             </div>
 
           </div>
+        )}
+
+        {activeTab === 'browse' && (
+          <StudyBrowseView
+            exams={exams}
+            rawQuestions={rawQuestions}
+            rawToeicWords={rawToeicWords}
+            bookmarks={bookmarks}
+            onToggleBookmark={handleToggleBookmark}
+            initialExamId={browseExamId}
+            onStartQuizWithExam={(targetExam, mode) => {
+              setConfigModalExam(targetExam);
+              setConfigDefaultMode(mode || 'exam');
+            }}
+            onOpenImage={(src) => setPreviewImage(src)}
+          />
         )}
 
         {activeTab === 'mistakes' && (
@@ -630,11 +663,27 @@ export function App() {
         />
       )}
 
+      {/* Image Zoom Modal */}
+      {previewImage && (
+        <ImageModal
+          src={previewImage}
+          onClose={() => setPreviewImage(null)}
+        />
+      )}
+
+      {/* Mobile Bottom Navigation Bar */}
+      <MobileBottomNav
+        activeTab={activeTab}
+        onSelectTab={setActiveTab}
+        mistakeCount={Object.keys(mistakes).length}
+        bookmarkCount={Object.keys(bookmarks).length}
+      />
+
       {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm py-6 text-center text-xs text-slate-400">
+      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm py-6 text-center text-xs text-slate-400 mb-12 sm:mb-0">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>期中證照模擬測驗與刷題系統 ‧ 題庫由本機目錄 PDF/Excel 即時驅動</span>
-          <span>支援 ICTP Python ‧ AIL 人工智慧 ‧ EEC 網路行銷 ‧ TOEIC 多益</span>
+          <span>支援 資料庫管理 ‧ 資訊安全概論 ‧ 網路服務管理 ‧ ICTP Python ‧ AIL 人工智慧 ‧ EEC 網路行銷 ‧ TOEIC 多益</span>
         </div>
       </footer>
 

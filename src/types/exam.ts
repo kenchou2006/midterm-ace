@@ -43,7 +43,7 @@ export interface ExamMeta {
   subTitle: string;
   description: string;
   badge: string;
-  color: 'indigo' | 'emerald' | 'amber' | 'rose' | string;
+  color: 'indigo' | 'emerald' | 'amber' | 'rose' | 'cyan' | 'violet' | 'teal' | string;
   totalQuestions: number;
   sections: ExamSection[];
   defaultTimeMinutes: number;
