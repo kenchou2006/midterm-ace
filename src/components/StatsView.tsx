@@ -70,14 +70,16 @@ export const StatsView: React.FC<StatsViewProps> = ({
     const reader = new FileReader();
     reader.onload = (event) => {
       const content = event.target?.result as string;
-      const success = importAllData(content);
-      if (success) {
-        setImportMessage('備份資料成功匯入並已生效！');
+      const res = importAllData(content);
+      if (res.success) {
+        setImportMessage(
+          `備份已成功合併！已完整保留本地紀錄，並整併：${res.historyAdded} 筆測驗歷程、${res.mistakesMerged} 筆錯題、${res.correctsMerged} 筆掌握題目與收藏夾！`
+        );
         onDataImported();
       } else {
-        setImportMessage('匯入失敗：請確認檔案是否為合法的 ExamMaster 備份 JSON 檔案。');
+        setImportMessage(`匯入失敗：${res.error || '請確認檔案是否為合法的備份 JSON 檔案。'}`);
       }
-      setTimeout(() => setImportMessage(null), 4000);
+      setTimeout(() => setImportMessage(null), 5000);
     };
     reader.readAsText(file);
     if (fileInputRef.current) fileInputRef.current.value = '';
@@ -208,7 +210,7 @@ export const StatsView: React.FC<StatsViewProps> = ({
           本機資料備份與還原
         </h3>
         <p className="text-xs text-slate-500 dark:text-slate-400 mb-6">
-          將您的完整做題紀錄、錯題本、收藏題等所有個人學習數據匯出為 JSON 備份檔，或隨時在其他裝置匯入。
+          將您的完整做題紀錄、錯題本、收藏題等所有個人學習數據匯出為 JSON 備份檔；匯入時採智能非破壞性合併，同時完整保留本機紀錄與外來備份。
         </p>
 
         {importMessage && (
@@ -239,7 +241,7 @@ export const StatsView: React.FC<StatsViewProps> = ({
             className="px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition flex items-center gap-2 active:scale-95"
           >
             <Upload className="w-4 h-4 text-slate-500" />
-            <span>匯入還原備份檔</span>
+            <span>匯入備份 (智能合併保留本機)</span>
           </button>
 
           <button

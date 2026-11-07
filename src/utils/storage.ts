@@ -214,16 +214,157 @@ export function exportAllData(): string {
   return JSON.stringify(payload, null, 2);
 }
 
-export function importAllData(jsonStr: string): boolean {
+export interface ImportMergeResult {
+  success: boolean;
+  historyAdded: number;
+  mistakesMerged: number;
+  correctsMerged: number;
+  bookmarksMerged: number;
+  error?: string;
+}
+
+/**
+ * 匯入並智能合併備份資料（同時保留本地與匯入紀錄）
+ * - 歷史測驗：兩份合併並依紀錄特徵去重，按時間倒序排列
+ * - 錯題本：兩份合併，同題累加錯誤次數並保留最新作答時間
+ * - 已掌握題目：兩份合併，同題累加作答答對次數
+ * - 收藏夾：聯集保留兩者已標記收藏的題目
+ */
+export function importAllData(jsonStr: string): ImportMergeResult {
   try {
     const parsed = JSON.parse(jsonStr);
-    if (parsed.mistakes) localStorage.setItem(STORAGE_KEYS.MISTAKES, JSON.stringify(parsed.mistakes));
-    if (parsed.corrects) localStorage.setItem(STORAGE_KEYS.CORRECTS, JSON.stringify(parsed.corrects));
-    if (parsed.history) localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(parsed.history));
-    if (parsed.bookmarks) localStorage.setItem(STORAGE_KEYS.BOOKMARKS, JSON.stringify(parsed.bookmarks));
-    return true;
-  } catch (err) {
+    if (!parsed || typeof parsed !== 'object') {
+      return { success: false, historyAdded: 0, mistakesMerged: 0, correctsMerged: 0, bookmarksMerged: 0, error: '格式不合法的 JSON 檔案' };
+    }
+
+    // 1. Merge Mistakes
+    const localMistakes = getMistakes();
+    const importedMistakes = (parsed.mistakes && typeof parsed.mistakes === 'object') ? parsed.mistakes : {};
+    const mergedMistakes: Record<string, MistakeItem> = { ...localMistakes };
+    let mistakesMergedCount = 0;
+
+    for (const [qId, impItem] of Object.entries(importedMistakes as Record<string, MistakeItem>)) {
+      if (!impItem || !impItem.questionId) continue;
+      const localItem = mergedMistakes[qId];
+      if (!localItem) {
+        mergedMistakes[qId] = impItem;
+        mistakesMergedCount++;
+      } else {
+        const localTime = new Date(localItem.lastWrongAt || 0).getTime();
+        const impTime = new Date(impItem.lastWrongAt || 0).getTime();
+        const isImportNewer = impTime >= localTime;
+
+        mergedMistakes[qId] = {
+          ...localItem,
+          question: impItem.question || localItem.question,
+          examId: localItem.examId || impItem.examId,
+          errorCount: (localItem.errorCount || 1) + (impItem.errorCount || 1),
+          lastWrongAt: isImportNewer ? impItem.lastWrongAt : localItem.lastWrongAt,
+          lastUserAnswer: isImportNewer ? impItem.lastUserAnswer : localItem.lastUserAnswer
+        };
+        mistakesMergedCount++;
+      }
+    }
+    localStorage.setItem(STORAGE_KEYS.MISTAKES, JSON.stringify(mergedMistakes));
+
+    // 2. Merge Corrects
+    const localCorrects = getCorrects();
+    const importedCorrects = (parsed.corrects && typeof parsed.corrects === 'object') ? parsed.corrects : {};
+    const mergedCorrects: Record<string, CorrectItem> = { ...localCorrects };
+    let correctsMergedCount = 0;
+
+    for (const [qId, impItem] of Object.entries(importedCorrects as Record<string, CorrectItem>)) {
+      if (!impItem || !impItem.questionId) continue;
+      const localItem = mergedCorrects[qId];
+      if (!localItem) {
+        mergedCorrects[qId] = impItem;
+        correctsMergedCount++;
+      } else {
+        const localTime = new Date(localItem.lastCorrectAt || 0).getTime();
+        const impTime = new Date(impItem.lastCorrectAt || 0).getTime();
+        const isImportNewer = impTime >= localTime;
+
+        mergedCorrects[qId] = {
+          ...localItem,
+          examId: localItem.examId || impItem.examId,
+          correctCount: (localItem.correctCount || 1) + (impItem.correctCount || 1),
+          lastCorrectAt: isImportNewer ? impItem.lastCorrectAt : localItem.lastCorrectAt
+        };
+        correctsMergedCount++;
+      }
+    }
+    localStorage.setItem(STORAGE_KEYS.CORRECTS, JSON.stringify(mergedCorrects));
+
+    // 3. Merge Bookmarks
+    const localBookmarks = getBookmarks();
+    const importedBookmarks = (parsed.bookmarks && typeof parsed.bookmarks === 'object') ? parsed.bookmarks : {};
+    const mergedBookmarks: Record<string, boolean> = { ...localBookmarks };
+    let bookmarksMergedCount = 0;
+
+    for (const [qId, isBookmarked] of Object.entries(importedBookmarks as Record<string, boolean>)) {
+      if (isBookmarked) {
+        if (!mergedBookmarks[qId]) {
+          bookmarksMergedCount++;
+        }
+        mergedBookmarks[qId] = true;
+      }
+    }
+    localStorage.setItem(STORAGE_KEYS.BOOKMARKS, JSON.stringify(mergedBookmarks));
+
+    // 4. Merge Exam History
+    const localHistory = getHistory();
+    const importedHistory = Array.isArray(parsed.history) ? parsed.history : [];
+
+    const seenIds = new Set<string>();
+    const seenSignatures = new Set<string>();
+    const combinedHistory: HistoryItem[] = [];
+
+    const getSig = (h: HistoryItem) => `${h.examId}_${h.date}_${h.score}_${h.totalQuestions}_${h.correctCount}`;
+
+    // Add local first
+    for (const h of localHistory) {
+      if (h.id) seenIds.add(h.id);
+      seenSignatures.add(getSig(h));
+      combinedHistory.push(h);
+    }
+
+    let historyAddedCount = 0;
+    // Add imported if not duplicated
+    for (const h of importedHistory) {
+      const sig = getSig(h);
+      if ((h.id && seenIds.has(h.id)) || seenSignatures.has(sig)) {
+        continue;
+      }
+      if (h.id) seenIds.add(h.id);
+      seenSignatures.add(sig);
+      combinedHistory.push(h);
+      historyAddedCount++;
+    }
+
+    // Sort descending by date
+    combinedHistory.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+    // Limit to 100 entries to prevent quota limits
+    if (combinedHistory.length > 100) {
+      combinedHistory.length = 100;
+    }
+    localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(combinedHistory));
+
+    return {
+      success: true,
+      historyAdded: historyAddedCount,
+      mistakesMerged: mistakesMergedCount,
+      correctsMerged: correctsMergedCount,
+      bookmarksMerged: bookmarksMergedCount
+    };
+  } catch (err: any) {
     console.error('Failed to import data', err);
-    return false;
+    return {
+      success: false,
+      historyAdded: 0,
+      mistakesMerged: 0,
+      correctsMerged: 0,
+      bookmarksMerged: 0,
+      error: err?.message || '檔案解析失敗'
+    };
   }
 }
