@@ -115,9 +115,14 @@ export function App() {
           nsm: nsmRes,
           ictp: ictpRes,
           ail: ailRes,
-          eec: eecRes
+          eec: eecRes,
+          toeic: toeicRes
         });
-        setRawToeicWords(toeicRes);
+        setRawToeicWords(
+          toeicRes
+            .map((q: Question) => q.toeicData as RawToeicWord)
+            .filter(Boolean)
+        );
       } catch (err) {
         console.error('Failed to load question banks', err);
       } finally {
@@ -134,13 +139,8 @@ export function App() {
     Object.values(rawQuestions).forEach(list => {
       list.forEach(q => { map[q.id] = q; });
     });
-    // Add TOEIC words as questions
-    if (rawToeicWords.length > 0) {
-      const toeicQuestions = generateToeicQuestions(rawToeicWords, 'mixed');
-      toeicQuestions.forEach(q => { map[q.id] = q; });
-    }
     return map;
-  }, [rawQuestions, rawToeicWords]);
+  }, [rawQuestions]);
 
   // Start Quiz Handler
   const handleStartQuiz = useCallback((config: QuizConfig) => {
@@ -153,13 +153,13 @@ export function App() {
       // Pick from mistake bank for this exam
       const examMistakes = Object.values(mistakes).filter(m => m.examId === config.examId);
       pool = examMistakes.map(m => m.question);
-    } else if (config.examId === 'toeic') {
-      // Filter words by selected categories
+    } else if (config.examId === 'toeic' && (config.toeicType === 'zh_to_en' || config.toeicType === 'cloze')) {
+      // Generate dynamically only if user explicitly selected non-standard variant (中選英 or 克漏字)
       const selectedCats = new Set(config.selectedSections);
       const filteredWords = rawToeicWords.filter(w => selectedCats.has(w.category));
-      pool = generateToeicQuestions(filteredWords, config.toeicType || 'mixed');
+      pool = generateToeicQuestions(filteredWords, config.toeicType);
     } else {
-      // ICTP, AIL, EEC
+      // Pre-compiled static questions
       const questions = rawQuestions[config.examId] || [];
       const selectedSecs = new Set(config.selectedSections);
       pool = questions.filter(q => selectedSecs.has(q.section));

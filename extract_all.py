@@ -1,8 +1,35 @@
+import sys
+import os
+
+REQUIRED_MODULES = [
+    ('pymupdf', 'fitz'),
+    ('openpyxl', 'openpyxl'),
+    ('beautifulsoup4', 'bs4')
+]
+
+missing = []
+for pkg_name, mod_name in REQUIRED_MODULES:
+    try:
+        __import__(mod_name)
+    except ImportError:
+        missing.append(pkg_name)
+
+if missing:
+    meta_path = os.path.join('public', 'data', 'exams_meta.json')
+    if os.path.exists(meta_path):
+        print(f"[Notice] Missing Python dependencies: {', '.join(missing)}")
+        print("[Notice] Using existing pre-compiled question banks in public/data/. Skipping re-extraction.")
+        sys.exit(0)
+    else:
+        print(f"[Error] Missing required Python packages: {', '.join(missing)}", file=sys.stderr)
+        print("Please install them with: pip install -r requirements.txt", file=sys.stderr)
+        sys.exit(1)
+
 import fitz
 import openpyxl
 import re
 import json
-import os
+import random
 
 RAW_DIR = '題庫原檔'
 
@@ -439,7 +466,45 @@ for sheet_name in wb_toeic.sheetnames:
                 'notes': str(r[7]).strip() if r[7] else ''
             })
 
-print(f"TOEIC extracted total: {len(toeic_words)} vocabulary words.")
+# Pre-compile TOEIC questions with deterministic distractors at build time
+toeic_rng = random.Random(42)
+toeic_questions = []
+for idx, w in enumerate(toeic_words):
+    q_num = idx + 1
+    other_indices = [i for i in range(len(toeic_words)) if i != idx]
+    cat_indices = [i for i in range(len(toeic_words)) if i != idx and toeic_words[i]['category'] == w['category']]
+    if len(cat_indices) >= 3:
+        distractor_indices = toeic_rng.sample(cat_indices, 3)
+    else:
+        distractor_indices = toeic_rng.sample(other_indices, 3)
+    distractors = [toeic_words[i]['meaning'] for i in distractor_indices]
+    
+    correct_pos = toeic_rng.randint(0, 3)
+    opt_texts = list(distractors)
+    opt_texts.insert(correct_pos, w['meaning'])
+    
+    keys = ['A', 'B', 'C', 'D']
+    opts = [{'key': keys[i], 'text': opt_texts[i]} for i in range(4)]
+    correct_key = keys[correct_pos]
+    
+    w_pos_str = f"({w['pos']})" if w['pos'] else ""
+    toeic_questions.append({
+        'id': f"toeic_{w['category']}_{q_num}",
+        'globalIndex': q_num,
+        'examId': 'toeic',
+        'section': w['category'],
+        'sectionName': w['category'],
+        'number': q_num,
+        'type': 'single',
+        'typeLabel': '單選題',
+        'question': f"請選出單字「{w['word']}」{w_pos_str} 的正確中文意思：",
+        'options': opts,
+        'answer': correct_key,
+        'images': [],
+        'toeicData': w
+    })
+
+print(f"TOEIC extracted total: {len(toeic_words)} vocabulary words, pre-compiled {len(toeic_questions)} questions.")
 
 # ==========================================
 # 5. Database Management System (DBMS) Extraction
@@ -812,7 +877,7 @@ with open('public/data/eec.json', 'w', encoding='utf-8') as f:
     json.dump(eec_questions, f, ensure_ascii=False, indent=2)
 
 with open('public/data/toeic.json', 'w', encoding='utf-8') as f:
-    json.dump(toeic_words, f, ensure_ascii=False, indent=2)
+    json.dump(toeic_questions, f, ensure_ascii=False, indent=2)
 
 # Exams Metadata
 exams_meta = [

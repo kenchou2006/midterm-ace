@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "extract": "python3 extract_all.py",
+    "prebuild": "python3 extract_all.py",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },

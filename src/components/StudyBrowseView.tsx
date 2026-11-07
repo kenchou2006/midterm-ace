@@ -73,13 +73,14 @@ export const StudyBrowseView: React.FC<StudyBrowseViewProps> = ({
   // All questions for current exam
   const currentExamQuestions = useMemo<Question[]>(() => {
     if (!currentExam) return [];
-
-    if (currentExam.id === 'toeic') {
-      if (rawToeicWords.length === 0) return [];
+    const questions = rawQuestions[currentExam.id];
+    if (questions && questions.length > 0) {
+      return questions;
+    }
+    if (currentExam.id === 'toeic' && rawToeicWords.length > 0) {
       return generateToeicQuestions(rawToeicWords, 'mixed');
     }
-
-    return rawQuestions[currentExam.id] || [];
+    return [];
   }, [currentExam, rawQuestions, rawToeicWords]);
 
   // Filtered Questions
