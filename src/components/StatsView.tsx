@@ -165,7 +165,9 @@ export const StatsView: React.FC<StatsViewProps> = ({
           {exams.map(e => {
             const examCorrect = Object.values(corrects).filter(c => c.examId === e.id).length;
             const examMistakes = Object.values(mistakes).filter(m => m.examId === e.id).length;
-            const percentage = Math.min(100, Math.round((examCorrect / e.totalQuestions) * 100));
+            const percentage = (e.totalQuestions && e.totalQuestions > 0)
+              ? Math.min(100, Math.round((examCorrect / e.totalQuestions) * 100))
+              : 0;
 
             return (
               <div

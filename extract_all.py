@@ -317,7 +317,15 @@ eec_raw_questions = []
 current_unit = "單元一：行銷概念"
 
 for pno, page in enumerate(doc_eec):
-    tables = page.find_tables().tables
+    try:
+        tables = page.find_tables(strategy='lines').tables
+    except Exception:
+        tables = []
+    if not tables:
+        try:
+            tables = page.find_tables().tables
+        except Exception:
+            tables = []
     for tab in tables:
         for r in tab.extract():
             c0 = (r[0] or '').strip()
@@ -436,6 +444,16 @@ for q in eec_raw_questions:
         'images': q_images,
         'page': p
     })
+
+if len(eec_questions) == 0 and os.path.exists('public/data/eec.json'):
+    try:
+        with open('public/data/eec.json', 'r', encoding='utf-8') as f:
+            saved_eec = json.load(f)
+            if len(saved_eec) > 0:
+                print(f"[Fallback] EEC extraction yielded 0 questions; restored {len(saved_eec)} questions from public/data/eec.json")
+                eec_questions = saved_eec
+    except Exception as e:
+        print(f"Failed to restore eec.json: {e}")
 
 print(f"EEC extracted total: {len(eec_questions)} questions.")
 
