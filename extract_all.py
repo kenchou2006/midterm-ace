@@ -33,7 +33,7 @@ import random
 
 RAW_DIR = '題庫原檔'
 
-print("Starting extraction for all 5 exams...")
+print("Starting extraction for all exams...")
 
 # ==========================================
 # 1. ICTP Extraction
@@ -528,25 +528,125 @@ print(f"TOEIC extracted total: {len(toeic_words)} vocabulary words, pre-compiled
 # 5. Database Management System (DBMS) Extraction
 # ==========================================
 print("\n--- Processing Database Management System (DBMS) ---")
-import email
-from email import policy
-from bs4 import BeautifulSoup
-
 os.makedirs('public/images/dbms', exist_ok=True)
+for old_f in os.listdir('public/images/dbms'):
+    if old_f.startswith('dbms_'):
+        try:
+            os.remove(os.path.join('public/images/dbms', old_f))
+        except OSError:
+            pass
 
-dbms_answers = {
-    1: 'C', 2: 'D', 3: 'A', 4: 'B', 5: 'C', 6: 'C', 7: 'A', 8: 'B', 9: 'C', 10: 'A',
-    11: 'B', 12: 'A', 13: 'C', 14: 'D', 15: 'D', 16: 'B', 17: 'C', 18: 'D', 19: 'A', 20: 'B',
-    21: 'C', 22: 'D', 23: 'B', 24: 'C', 25: 'B', 26: 'D', 27: 'B', 28: 'C', 29: 'A', 30: 'C',
-    31: 'A', 32: 'D', 33: 'B', 34: 'B', 35: 'D', 36: 'C', 37: 'D', 38: 'B', 39: 'BD', 40: 'C',
-    41: 'A', 42: 'B', 43: 'B', 44: 'BD', 45: 'B', 46: 'C'
-}
+dbms_pdf_path = os.path.join(RAW_DIR, '資料庫管理系統', '115-1期中考試選擇題.pdf')
+doc_dbms = fitz.open(dbms_pdf_path)
 
+def abs_y(pnum, y):
+    return (pnum - 1) * 1000.0 + y
+
+# 1. Collect lines
+dbms_all_lines = []
+for pno, page in enumerate(doc_dbms):
+    pnum = pno + 1
+    d = page.get_text('dict')
+    for b in d['blocks']:
+        if b.get('type') == 0:
+            for l in b['lines']:
+                txt = "".join([s['text'] for s in l['spans']]).strip()
+                if not txt:
+                    continue
+                if re.match(r'^\d{1,2}$', txt) and l['bbox'][1] > 550:
+                    continue
+                if txt == '試卷內容' or txt == '配分：' or re.match(r'^\[\d+\.\d+\]$', txt):
+                    continue
+                dbms_all_lines.append({
+                    'pnum': pnum,
+                    'bbox': l['bbox'],
+                    'y0': l['bbox'][1],
+                    'y1': l['bbox'][3],
+                    'ay0': abs_y(pnum, l['bbox'][1]),
+                    'ay1': abs_y(pnum, l['bbox'][3]),
+                    'ay': abs_y(pnum, (l['bbox'][1] + l['bbox'][3]) / 2),
+                    'text': txt
+                })
+
+dbms_all_lines.sort(key=lambda x: x['ay'])
+
+# 2. Collect unique image placements
+dbms_all_imgs = []
+for pno, page in enumerate(doc_dbms):
+    pnum = pno + 1
+    seen_rects = set()
+    for img in page.get_images():
+        xref = img[0]
+        for r in page.get_image_rects(xref):
+            if pnum == 1 and r.y1 < 100:
+                continue
+            r_key = (round(r.x0, 1), round(r.y0, 1), round(r.x1, 1), round(r.y1, 1))
+            if r_key in seen_rects:
+                continue
+            seen_rects.add(r_key)
+            dbms_all_imgs.append({
+                'pnum': pnum,
+                'xref': xref,
+                'rect': r,
+                'ay0': abs_y(pnum, r.y0),
+                'ay1': abs_y(pnum, r.y1),
+                'ay': abs_y(pnum, (r.y0 + r.y1) / 2)
+            })
+dbms_all_imgs.sort(key=lambda x: x['ay'])
+
+# 3. Collect radio dots
+dbms_all_dots = []
+for pno, page in enumerate(doc_dbms):
+    pnum = pno + 1
+    for dr in page.get_drawings():
+        r = dr.get('rect')
+        w = r.x1 - r.x0
+        h = r.y1 - r.y0
+        fill = dr.get('fill')
+        if fill and fill != (1.0, 1.0, 1.0) and w < 7 and h < 7:
+            dbms_all_dots.append({
+                'pnum': pnum,
+                'rect': r,
+                'ay': abs_y(pnum, (r.y0 + r.y1) / 2),
+                'x': (r.x0 + r.x1) / 2
+            })
+dbms_all_dots.sort(key=lambda x: x['ay'])
+
+# 4. Collect checkmarks (\ue008)
+dbms_all_checks = []
+for pno, page in enumerate(doc_dbms):
+    pnum = pno + 1
+    for b in page.get_text('blocks'):
+        if '\ue008' in b[4]:
+            dbms_all_checks.append({
+                'pnum': pnum,
+                'ay': abs_y(pnum, (b[1] + b[3]) / 2),
+                'x': (b[0] + b[2]) / 2
+            })
+dbms_all_checks.sort(key=lambda x: x['ay'])
+
+# 5. Question boundaries
+dbms_q_indices = []
+for idx, l in enumerate(dbms_all_lines):
+    txt = l['text']
+    m = re.match(r'^(\d{1,2})\.\s*(.*)', txt)
+    if m:
+        num = int(m.group(1))
+        rest = m.group(2)
+        if num in [1, 2, 3] and '資料表中' in rest:
+            continue
+        if 1 <= num <= 74:
+            dbms_q_indices.append((num, idx))
+
+dbms_q_indices.sort(key=lambda x: x[0])
+
+# Sections definition
 dbms_sections_def = [
-    (1, 9, 1, '第一單元：資料庫角色、系統架構與通訊協定'),
-    (10, 24, 2, '第二單元：關聯式資料庫原理與資料完整性限制'),
-    (25, 38, 3, '第三單元：實體關係模型 (ER Model) 與綱要轉換'),
-    (39, 46, 4, '第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)')
+    (1, 13, 1, '第一單元：資料庫角色、系統架構與通訊協定'),
+    (14, 49, 2, '第二單元：關聯式資料庫原理與資料完整性限制'),
+    (50, 64, 3, '第三單元：實體關係模型 (ER Model) 與綱要轉換'),
+    (65, 71, 4, '第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)'),
+    (72, 74, 5, '第五單元：SQL Server 資料庫架構與 DDL 語法')
 ]
 
 def get_dbms_section(num):
@@ -556,63 +656,67 @@ def get_dbms_section(num):
     return 1, '一般單元'
 
 dbms_questions = []
-dbms_global_num = 0
 
-for page_idx in range(1, 24):
-    mpath = os.path.join(RAW_DIR, '資料庫管理系統', f'{page_idx}.mhtml')
-    if not os.path.exists(mpath):
-        continue
-    with open(mpath, 'rb') as f:
-        msg = email.message_from_binary_file(f, policy=policy.default)
-    html_part = next((part for part in msg.walk() if part.get_content_type() == 'text/html'), None)
-    if not html_part:
-        continue
-    soup = BeautifulSoup(html_part.get_payload(decode=True).decode('utf-8', errors='ignore'), 'html.parser')
-    items = soup.find_all('tr', class_='item')
-
-    for item in items:
-        dbms_global_num += 1
-        type_td = item.find('td', align='left')
-        qtype_raw = type_td.find('b').get_text(strip=True) if type_td and type_td.find('b') else ''
-        body_td = item.find_all('td')[2]
-
-        # Extract and save images
-        saved_imgs = []
-        for idx, img in enumerate(body_td.find_all('img')):
-            src = img.get('src')
-            found_img = False
-            for p in msg.walk():
-                loc = p.get('Content-Location', '')
-                cid = p.get('Content-ID', '').strip('<>')
-                if src in loc or src in cid or (loc and loc.endswith(os.path.basename(src))):
-                    idata = p.get_payload(decode=True)
-                    ext = 'png' if p.get_content_type() == 'image/png' else 'jpg'
-                    fname = f"dbms_q{dbms_global_num}_{idx+1}.{ext}"
-                    fpath = os.path.join('public/images/dbms', fname)
-                    with open(fpath, 'wb') as img_out:
-                        img_out.write(idata)
-                    saved_imgs.append(f"images/dbms/{fname}")
-                    found_img = True
-                    break
-
-        # Options
-        ol = body_td.find('ol')
-        opts = []
-        keys = ['A', 'B', 'C', 'D', 'E', 'F']
-        if ol:
-            for opt_idx, li in enumerate(ol.find_all('li')):
-                k = keys[opt_idx] if opt_idx < len(keys) else str(opt_idx + 1)
-                opts.append({'key': k, 'text': li.get_text(strip=True)})
-            ol.extract()
-
-        raw_q_text = body_td.get_text('\n', strip=True)
-        raw_q_text = re.sub(r'^\s*\d+\.\s*', '', raw_q_text)
-
-        # Clean formatting
-        if dbms_global_num == 24:
-            q_clean = '您正在設定關聯式資料庫中某個資料表的結構。\n對於下列每一項敘述，請選取 [正確] 為 O 或 [錯誤] 為 X：\n\n1. 資料表中欄位的每個值都必須是唯一的。\n2. 資料表中的每個資料列都必須是唯一的。\n3. 資料表中的每個資料行名稱都必須是唯一的。'
-        elif dbms_global_num == 39:
-            q_clean = '''您接受了某間地方慈善機構的 IT 實習工作。該慈善機構的資料模型有兩個資料表，名為 Chapter 和 Language，如下所示：
+for i, (qnum, start_idx) in enumerate(dbms_q_indices):
+    end_idx = dbms_q_indices[i+1][1] if i + 1 < len(dbms_q_indices) else len(dbms_all_lines)
+    q_lines = dbms_all_lines[start_idx:end_idx]
+    
+    start_ay = q_lines[0]['ay0']
+    end_ay = dbms_all_lines[end_idx]['ay0'] if i + 1 < len(dbms_q_indices) else 999999.0
+    
+    # Associated images
+    q_imgs = [img for img in dbms_all_imgs if start_ay - 5 <= img['ay'] < end_ay]
+    
+    # Save images
+    saved_imgs = []
+    for idx, img_info in enumerate(q_imgs):
+        xref = img_info['xref']
+        pix = fitz.Pixmap(doc_dbms, xref)
+        if pix.n >= 5:
+            pix = fitz.Pixmap(fitz.csRGB, pix)
+        fname = f"dbms_q{qnum}_{idx+1}.png"
+        fpath = os.path.join('public/images/dbms', fname)
+        pix.save(fpath)
+        saved_imgs.append(f"images/dbms/{fname}")
+    
+    stem_lines = []
+    options = []
+    curr_opt = None
+    in_options = False
+    
+    for l in q_lines:
+        txt = l['text']
+        opt_match = re.match(r'^([a-f])\.(.*)', txt)
+        if opt_match and not (qnum == 1 and not in_options and '下列何者' in txt):
+            in_options = True
+            letter = opt_match.group(1).upper()
+            rest_text = opt_match.group(2).strip()
+            curr_opt = {
+                'key': letter,
+                'text': rest_text,
+                'ay0': l['ay0'],
+                'ay1': l['ay1'],
+                'pnum': l['pnum']
+            }
+            options.append(curr_opt)
+        elif in_options and curr_opt:
+            if not curr_opt['text']:
+                curr_opt['text'] = txt
+            else:
+                curr_opt['text'] += ' ' + txt
+            curr_opt['ay1'] = max(curr_opt['ay1'], l['ay1'])
+        else:
+            stem_lines.append(txt)
+            
+    # Clean stem text
+    stem_raw = "\n".join(stem_lines)
+    stem_clean = re.sub(r'^\s*' + str(qnum) + r'\.\s*', '', stem_raw).strip()
+    
+    # Custom format polish for complex tables / questions
+    if qnum == 49:
+        stem_clean = '您正在設定關聯式資料庫中某個資料表的結構。\n對於下列每一項敘述，請選取 [正確] 為 O 或 [錯誤] 為 X：\n\n1. 資料表中欄位的每個值都必須是唯一的。\n2. 資料表中的每個資料列都必須是唯一的。\n3. 資料表中的每個資料行名稱都必須是唯一的。'
+    elif qnum == 64:
+        stem_clean = '''您接受了某間地方慈善機構的 IT 實習工作。該慈善機構的資料模型有兩個資料表，名為 Chapter 和 Language，如下所示：
 
 【Chapter 資料表】
 ChapterId | City          | Region     | Country
@@ -634,10 +738,10 @@ LanguageId | LanguageName | Locale
 您建立了名為 ChapterLanguage 的第三個資料表來關聯 Chapter 資料表和 Language 資料表。
 您需要從 Chapter 和 Language 資料表中選取資料行，以便為 ChapterLanguage 資料表建立複合主索引鍵。
 請問您應該選取哪兩個資料行？(請選擇 2 個答案)'''
-        elif dbms_global_num == 44:
-            q_clean = '您需要將資料庫正規化為第一正規形式 (1NF)。\n請問您必須符合哪兩項需求？(請選擇 2 個答案)'
-        elif dbms_global_num == 45:
-            q_clean = '''您有一個資料表包含以下資料：
+    elif qnum == 69:
+        stem_clean = '您需要將資料庫正規化為第一正規形式 (1NF)。\n請問您必須符合哪兩項需求？(請選擇 2 個答案)'
+    elif qnum == 70:
+        stem_clean = '''您有一個資料表包含以下資料：
 
 ProductID | ProductCategory
 32        | books
@@ -646,8 +750,8 @@ ProductID | ProductCategory
 89        | movies
 
 請問哪一個資料庫詞彙是用來描述 ProductID 與 ProductCategory 之間的關聯性？'''
-        elif dbms_global_num == 46:
-            q_clean = '''您建立了下列資料表，其中顯示過去寵物表演的獲勝者：
+    elif qnum == 71:
+        stem_clean = '''您建立了下列資料表，其中顯示過去寵物表演的獲勝者：
 
 【寵物比賽獲勝者】
 ID | Event                   | Year | PetID | Birthdate       | City
@@ -657,29 +761,52 @@ ID | Event                   | Year | PetID | Birthdate       | City
 4  | AWHH Fest 2012          | 2012 | FD228 | August 12, 2009 | Detroit
 
 請問哪一個資料行可防止資料表成為第三正規形式 (3NF)？'''
-        else:
-            lines = [l.strip() for l in raw_q_text.replace('\xa0', ' ').split('\n') if l.strip()]
-            q_clean = '\n'.join(lines)
-
-        s_id, s_name = get_dbms_section(dbms_global_num)
-        ans = dbms_answers.get(dbms_global_num, 'A')
-        is_multi = len(ans) > 1 or qtype_raw == '多選'
-
-        dbms_questions.append({
-            'id': f'dbms_{s_id}_{dbms_global_num}',
-            'globalIndex': dbms_global_num,
-            'examId': 'dbms',
-            'section': s_id,
-            'sectionName': s_name,
-            'number': dbms_global_num,
-            'type': 'multiple' if is_multi else 'single',
-            'typeLabel': '複選題' if is_multi else '單選題',
-            'question': q_clean,
-            'options': opts,
-            'answer': ans,
-            'images': saved_imgs,
-            'page': page_idx
-        })
+    else:
+        lines = [l.strip() for l in stem_clean.split('\n') if l.strip()]
+        stem_clean = '\n'.join(lines)
+        
+    clean_options = []
+    for o in options:
+        otext = re.sub(r'\s+', ' ', o['text']).strip()
+        clean_options.append({'key': o['key'], 'text': otext})
+        
+    q_dots = [d for d in dbms_all_dots if start_ay - 5 <= d['ay'] < end_ay]
+    q_checks = [c for c in dbms_all_checks if start_ay - 5 <= c['ay'] < end_ay]
+    
+    selected_keys = set()
+    for mark in q_dots + q_checks:
+        may = mark['ay']
+        best_opt = None
+        min_dist = 999999
+        for opt in options:
+            opt_c = (opt['ay0'] + opt['ay1']) / 2
+            dist = abs(may - opt_c)
+            if dist < min_dist:
+                min_dist = dist
+                best_opt = opt
+        if best_opt:
+            selected_keys.add(best_opt['key'])
+            
+    ans_str = "".join(sorted(list(selected_keys)))
+    is_multi = len(ans_str) > 1 or '請選擇2個答案' in stem_clean or '請選擇 2 個答案' in stem_clean
+    
+    s_id, s_name = get_dbms_section(qnum)
+    
+    dbms_questions.append({
+        'id': f'dbms_{s_id}_{qnum}',
+        'globalIndex': qnum,
+        'examId': 'dbms',
+        'section': s_id,
+        'sectionName': s_name,
+        'number': qnum,
+        'type': 'multiple' if is_multi else 'single',
+        'typeLabel': '複選題' if is_multi else '單選題',
+        'question': stem_clean,
+        'options': clean_options,
+        'answer': ans_str,
+        'images': saved_imgs,
+        'page': q_lines[0]['pnum']
+    })
 
 print(f"DBMS extracted total: {len(dbms_questions)} questions.")
 
@@ -897,21 +1024,53 @@ with open('public/data/eec.json', 'w', encoding='utf-8') as f:
 with open('public/data/toeic.json', 'w', encoding='utf-8') as f:
     json.dump(toeic_questions, f, ensure_ascii=False, indent=2)
 
+# ==========================================
+# 8. Listening Extraction
+# ==========================================
+print("\n--- Processing Listening ---")
+listening_questions = []
+try:
+    import extract_listening
+    listening_questions = extract_listening.questions
+    with open('public/data/listening.json', 'w', encoding='utf-8') as f:
+        json.dump(listening_questions, f, ensure_ascii=False, indent=2)
+    print(f"Loaded {len(listening_questions)} listening questions.")
+except Exception as e:
+    print(f"Warning: Could not process listening questions: {e}")
+    if os.path.exists('public/data/listening.json'):
+        with open('public/data/listening.json', 'r', encoding='utf-8') as f:
+            listening_questions = json.load(f)
+
 # Exams Metadata
 exams_meta = [
     {
+        'id': 'listening',
+        'title': '英文聽力測驗',
+        'subTitle': f'TOEIC 多益聽力期中測驗題庫 (共 {len(listening_questions)} 題)',
+        'description': '依據指定期中考題號（Part 1 ~ Part 4 共 33 題）完整收錄。附帶題目情境附圖、聽力對話／獨白完整英漢對照逐字稿、題目中英對照與精準詳解。',
+        'badge': '多益聽力',
+        'color': 'sky',
+        'totalQuestions': len(listening_questions),
+        'sections': [
+            {'id': 1, 'name': '第一部分：Part 1 照片描述 (2題)', 'count': len([q for q in listening_questions if q.get('section') == 1])},
+            {'id': 2, 'name': '第二部分：Part 2 應答問題 (4題)', 'count': len([q for q in listening_questions if q.get('section') == 2])},
+            {'id': 3, 'name': '第三部分：Part 3 簡短對話 (15題)', 'count': len([q for q in listening_questions if q.get('section') == 3])},
+            {'id': 4, 'name': '第四部分：Part 4 簡短獨白 (12題)', 'count': len([q for q in listening_questions if q.get('section') == 4])}
+        ],
+        'defaultTimeMinutes': 30,
+        'passRate': 70
+    },
+    {
         'id': 'dbms',
         'title': '資料庫管理系統',
-        'subTitle': '期中線上測驗題庫 (共 46 題)',
-        'description': '涵蓋資料庫角色、系統架構、SQL Server 通訊協定、關聯式資料庫觀念、資料完整性限制、ER 模型圖示符號與正規化 (1NF/2NF/3NF) 等核心考題。',
+        'subTitle': f'期中線上測驗題庫 (共 {len(dbms_questions)} 題)',
+        'description': '涵蓋資料庫角色、系統架構、SQL Server 通訊協定、關聯式資料庫觀念、資料完整性限制、ER 模型圖示符號、正規化理論 (1NF/2NF/3NF) 與 SQL DDL 語法等核心考題。',
         'badge': '資料庫期中考',
         'color': 'cyan',
         'totalQuestions': len(dbms_questions),
         'sections': [
-            {'id': 1, 'name': '第一單元：資料庫角色、系統架構與通訊協定 (9題)', 'count': 9},
-            {'id': 2, 'name': '第二單元：關聯式資料庫原理與資料完整性限制 (15題)', 'count': 15},
-            {'id': 3, 'name': '第三單元：實體關係模型 (ER Model) 與綱要轉換 (14題)', 'count': 14},
-            {'id': 4, 'name': '第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF) (8題)', 'count': 8}
+            {'id': s_id, 'name': f'{s_name} ({len([q for q in dbms_questions if q["section"] == s_id])}題)', 'count': len([q for q in dbms_questions if q["section"] == s_id])}
+            for _, _, s_id, s_name in dbms_sections_def
         ],
         'defaultTimeMinutes': 50,
         'passRate': 70

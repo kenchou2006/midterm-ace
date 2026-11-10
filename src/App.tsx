@@ -98,7 +98,7 @@ export function App() {
           setPendingSession(existingSession);
         }
 
-        const [metaRes, dbmsRes, secRes, nsmRes, ictpRes, ailRes, eecRes, toeicRes] = await Promise.all([
+        const [metaRes, dbmsRes, secRes, nsmRes, ictpRes, ailRes, eecRes, toeicRes, listeningRes] = await Promise.all([
           fetch(resolveAssetUrl('data/exams_meta.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/dbms.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/sec.json')).then(r => r.json()),
@@ -106,7 +106,8 @@ export function App() {
           fetch(resolveAssetUrl('data/ictp.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/ail.json')).then(r => r.json()),
           fetch(resolveAssetUrl('data/eec.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/toeic.json')).then(r => r.json())
+          fetch(resolveAssetUrl('data/toeic.json')).then(r => r.json()),
+          fetch(resolveAssetUrl('data/listening.json')).then(r => r.json())
         ]);
 
         setExams(metaRes);
@@ -117,7 +118,8 @@ export function App() {
           ictp: ictpRes,
           ail: ailRes,
           eec: eecRes,
-          toeic: toeicRes
+          toeic: toeicRes,
+          listening: listeningRes
         });
         setRawToeicWords(
           toeicRes

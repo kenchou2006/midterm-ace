@@ -93,6 +93,22 @@ export const ExamCard: React.FC<ExamCardProps> = ({
       iconBg: 'from-rose-600 to-pink-700',
       btnPrimary: 'bg-rose-600 hover:bg-rose-700 text-white shadow-rose-500/20',
       accentRing: 'focus:ring-rose-500'
+    },
+    sky: {
+      border: 'hover:border-sky-400 dark:hover:border-sky-500',
+      badgeBg: 'bg-sky-100 dark:bg-sky-950/60',
+      badgeText: 'text-sky-700 dark:text-sky-300',
+      iconBg: 'from-sky-500 to-blue-600',
+      btnPrimary: 'bg-sky-600 hover:bg-sky-700 text-white shadow-sky-500/20',
+      accentRing: 'focus:ring-sky-500'
+    },
+    blue: {
+      border: 'hover:border-blue-400 dark:hover:border-blue-500',
+      badgeBg: 'bg-blue-100 dark:bg-blue-950/60',
+      badgeText: 'text-blue-700 dark:text-blue-300',
+      iconBg: 'from-blue-600 to-indigo-700',
+      btnPrimary: 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-500/20',
+      accentRing: 'focus:ring-blue-500'
     }
   };
 

@@ -8,6 +8,38 @@
     "number": 1,
     "type": "single",
     "typeLabel": "單選題",
+    "question": "下列何者不屬於資料庫系統的一部份？",
+    "options": [
+      {
+        "key": "A",
+        "text": "資料庫"
+      },
+      {
+        "key": "B",
+        "text": "資料庫管理系統"
+      },
+      {
+        "key": "C",
+        "text": "資料庫使用者"
+      },
+      {
+        "key": "D",
+        "text": "應用程式"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "dbms_1_2",
+    "globalIndex": 2,
+    "examId": "dbms",
+    "section": 1,
+    "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
     "question": "資料庫系統中的哪一種使用者要負責撰寫使用者操作介面？",
     "options": [
       {
@@ -32,12 +64,108 @@
     "page": 1
   },
   {
-    "id": "dbms_1_2",
-    "globalIndex": 2,
+    "id": "dbms_1_3",
+    "globalIndex": 3,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 2,
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "將資料以表格的方式儲存, 並利用表格之間的關聯來查詢相關資料。是屬於何種架構的資料庫？",
+    "options": [
+      {
+        "key": "A",
+        "text": "階層式資料庫"
+      },
+      {
+        "key": "B",
+        "text": "關聯式資料庫"
+      },
+      {
+        "key": "C",
+        "text": "表格式資料庫"
+      },
+      {
+        "key": "D",
+        "text": "物件導向式資料庫"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "dbms_1_4",
+    "globalIndex": 4,
+    "examId": "dbms",
+    "section": 1,
+    "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問下列敘述何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "資料庫系統是經過整理好的資料集合, 也就是儲存資料的地方"
+      },
+      {
+        "key": "B",
+        "text": "一個資料庫系統只能有一個資料庫"
+      },
+      {
+        "key": "C",
+        "text": "應用程式是指管理資料庫的軟體, 它們負責使用者與資料庫之間的溝通"
+      },
+      {
+        "key": "D",
+        "text": "應用程式必須透過資料庫管理系統, 來存取及管理資料庫內的資料"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "dbms_1_5",
+    "globalIndex": 5,
+    "examId": "dbms",
+    "section": 1,
+    "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請問下列敘述何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "資料庫是儲存資料的地方"
+      },
+      {
+        "key": "B",
+        "text": "資料庫管理系統則是指管理資料庫軟體"
+      },
+      {
+        "key": "C",
+        "text": "應用程式是指自行開發的使用者介面"
+      },
+      {
+        "key": "D",
+        "text": "以上皆是"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 1
+  },
+  {
+    "id": "dbms_1_6",
+    "globalIndex": 6,
+    "examId": "dbms",
+    "section": 1,
+    "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
+    "number": 6,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關於資料庫系統的相關角色，以下何者正確？",
@@ -61,15 +189,15 @@
     ],
     "answer": "D",
     "images": [],
-    "page": 1
+    "page": 2
   },
   {
-    "id": "dbms_1_3",
-    "globalIndex": 3,
+    "id": "dbms_1_7",
+    "globalIndex": 7,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 3,
+    "number": 7,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關於資料庫系統的相關角色，以下何者正確？",
@@ -96,15 +224,15 @@
     "page": 2
   },
   {
-    "id": "dbms_1_4",
-    "globalIndex": 4,
+    "id": "dbms_1_8",
+    "globalIndex": 8,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 4,
+    "number": 8,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "如圖所示，\n資料庫管理系統\n獨立成一部\n資料庫伺服器\n(database server)，使用者可以利用\n本機的應用程式\n，並透過網路連線向\n資料庫伺服器\n進行資料的存取操作，這種架構屬於哪種資料庫系統架構？",
+    "question": "如圖所示，資料庫管理系統獨立成一部資料庫伺服器(database server)，使用者可以利用本機的應用程式，並透過網路連\n線向資料庫伺服器進行資料的存取操作，這種架構屬於哪種資料庫系統架構？",
     "options": [
       {
         "key": "A",
@@ -125,20 +253,20 @@
     ],
     "answer": "B",
     "images": [
-      "images/dbms/dbms_q4_1.jpg"
+      "images/dbms/dbms_q8_1.png"
     ],
     "page": 2
   },
   {
-    "id": "dbms_1_5",
-    "globalIndex": 5,
+    "id": "dbms_1_9",
+    "globalIndex": 9,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 5,
+    "number": 9,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "如圖所示，將使用者端的\n應用程式\n，獨立成一部\n應用伺服器\n(application server)，所有的應用程式或稱商業邏輯(business logic)獨立存放於\n應用伺服器\n，使用者端只要具有簡單的瀏覽器軟體，即可透過網際網路連線至\n應用伺服器\n，需要\n存取資料庫\n時，由\n應用伺服器\n透過網路連線，向\n資料庫伺服器\n進行安全認證與資料的存取，這種架構屬於哪種資料庫系統架構？",
+    "question": "如圖所示，將使用者端的應用程式，獨立成一部應用伺服器(application server)，所有的應用程式或稱商業邏輯\n(business logic)獨立存放於應用伺服器，使用者端只要具有簡單的瀏覽器軟體，即可透過網際網路連線至應用伺服器，需\n要存取資料庫時，由應用伺服器透過網路連線，向資料庫伺服器進行安全認證與資料的存取，這種架構屬於哪種資料庫系統\n架構？",
     "options": [
       {
         "key": "A",
@@ -159,20 +287,20 @@
     ],
     "answer": "C",
     "images": [
-      "images/dbms/dbms_q5_1.jpg"
+      "images/dbms/dbms_q9_1.png"
     ],
     "page": 3
   },
   {
-    "id": "dbms_1_6",
-    "globalIndex": 6,
+    "id": "dbms_1_10",
+    "globalIndex": 10,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 6,
+    "number": 10,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "利用SQL Server Management Studio連線至SQL Server時，下列哪一個方式無法連線？",
+    "question": "利用SQL Server Management Studio連線至SQL Server時，下列哪一個方式無法連線？",
     "options": [
       {
         "key": "A",
@@ -193,18 +321,18 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 3
+    "page": 4
   },
   {
-    "id": "dbms_1_7",
-    "globalIndex": 7,
+    "id": "dbms_1_11",
+    "globalIndex": 11,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 7,
+    "number": 11,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "SQL Server連線的網路協定有3種(如圖)，若要設定本機的應用程式可以直接連至本機的SQL SERVER，應開通哪個通訊協定？",
+    "question": "SQL Server連線的網路協定有3種(如圖)，若要設定本機的應用程式可以直接連至本機的SQL SERVER，應開通哪個通訊協\n定？",
     "options": [
       {
         "key": "A",
@@ -225,20 +353,20 @@
     ],
     "answer": "A",
     "images": [
-      "images/dbms/dbms_q7_1.jpg"
+      "images/dbms/dbms_q11_1.png"
     ],
-    "page": 4
+    "page": 5
   },
   {
-    "id": "dbms_1_8",
-    "globalIndex": 8,
+    "id": "dbms_1_12",
+    "globalIndex": 12,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 8,
+    "number": 12,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "SQL Server連線的網路協定有3種(如圖)，若要提供給外部使用者(屬於同一個區域網路)，透過SQL SERVER的主機名稱來連線，應開通哪個通訊協定？",
+    "question": "SQL Server連線的網路協定有3種(如圖)，若要提供給外部使用者(屬於同一個區域網路)，透過SQL SERVER的主機名稱來連\n線，應開通哪個通訊協定？",
     "options": [
       {
         "key": "A",
@@ -259,20 +387,20 @@
     ],
     "answer": "B",
     "images": [
-      "images/dbms/dbms_q8_1.jpg"
+      "images/dbms/dbms_q12_1.png"
     ],
-    "page": 4
+    "page": 5
   },
   {
-    "id": "dbms_1_9",
-    "globalIndex": 9,
+    "id": "dbms_1_13",
+    "globalIndex": 13,
     "examId": "dbms",
     "section": 1,
     "sectionName": "第一單元：資料庫角色、系統架構與通訊協定",
-    "number": 9,
+    "number": 13,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "SQL Server連線的網路協定有3種(如圖)，若要提供給外部使用者(整個Internet)，透過IP位址或是FQDN的方式連線，應開通哪個通訊協定？",
+    "question": "SQL Server連線的網路協定有3種(如圖)，若要提供給外部使用者(整個Internet)，透過IP位址或是FQDN的方式連線，應\n開通哪個通訊協定？",
     "options": [
       {
         "key": "A",
@@ -293,17 +421,17 @@
     ],
     "answer": "C",
     "images": [
-      "images/dbms/dbms_q9_1.jpg"
+      "images/dbms/dbms_q13_1.png"
     ],
-    "page": 5
+    "page": 6
   },
   {
-    "id": "dbms_2_10",
-    "globalIndex": 10,
+    "id": "dbms_2_14",
+    "globalIndex": 14,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 10,
+    "number": 14,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關聯式資料庫如何產生關聯？",
@@ -327,15 +455,15 @@
     ],
     "answer": "A",
     "images": [],
-    "page": 5
+    "page": 6
   },
   {
-    "id": "dbms_2_11",
-    "globalIndex": 11,
+    "id": "dbms_2_15",
+    "globalIndex": 15,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 11,
+    "number": 15,
     "type": "single",
     "typeLabel": "單選題",
     "question": "我們利用關聯式資料庫中的何種屬性來建立兩個資料表間的關聯？",
@@ -359,15 +487,15 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 6
+    "page": 7
   },
   {
-    "id": "dbms_2_12",
-    "globalIndex": 12,
+    "id": "dbms_2_16",
+    "globalIndex": 16,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 12,
+    "number": 16,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在資料表中，我們利用何種屬性來做為唯一識別該筆記錄的依據？",
@@ -391,15 +519,15 @@
     ],
     "answer": "A",
     "images": [],
-    "page": 6
+    "page": 7
   },
   {
-    "id": "dbms_2_13",
-    "globalIndex": 13,
+    "id": "dbms_2_17",
+    "globalIndex": 17,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 13,
+    "number": 17,
     "type": "single",
     "typeLabel": "單選題",
     "question": "我們在資料表中設定何種屬性可確保資料表的實體完整性？",
@@ -426,12 +554,12 @@
     "page": 7
   },
   {
-    "id": "dbms_2_14",
-    "globalIndex": 14,
+    "id": "dbms_2_18",
+    "globalIndex": 18,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 14,
+    "number": 18,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關於分割資料表並建立關聯的優點，下列何者正確？",
@@ -458,12 +586,12 @@
     "page": 7
   },
   {
-    "id": "dbms_2_15",
-    "globalIndex": 15,
+    "id": "dbms_2_19",
+    "globalIndex": 19,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 15,
+    "number": 19,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關於主鍵(PrimaryKey)的敘述，下列何者正確？",
@@ -478,7 +606,7 @@
       },
       {
         "key": "C",
-        "text": "每個資料表只有一個欄位設定為主鍵，但有時可能沒有一個欄位具有唯一性，此時可考慮使用兩個或多個欄位組合起來做為主鍵"
+        "text": "每個資料表只有一個欄位設定為主鍵，但有時可能沒有一個欄位具有唯一性，此時可考慮使用兩個或多個欄位組合 起來做為主鍵"
       },
       {
         "key": "D",
@@ -490,12 +618,12 @@
     "page": 8
   },
   {
-    "id": "dbms_2_16",
-    "globalIndex": 16,
+    "id": "dbms_2_20",
+    "globalIndex": 20,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 16,
+    "number": 20,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關於連外鍵(ForeignKey)的敘述，下列何者錯誤？",
@@ -522,12 +650,12 @@
     "page": 8
   },
   {
-    "id": "dbms_2_17",
-    "globalIndex": 17,
+    "id": "dbms_2_21",
+    "globalIndex": 21,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 17,
+    "number": 21,
     "type": "single",
     "typeLabel": "單選題",
     "question": "關聯式資料庫中，我們是以2維的矩陣來儲存資料，會將資料儲存在表格，而這些表格稱為甚麼？",
@@ -551,15 +679,15 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 9
+    "page": 8
   },
   {
-    "id": "dbms_2_18",
-    "globalIndex": 18,
+    "id": "dbms_2_22",
+    "globalIndex": 22,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 18,
+    "number": 22,
     "type": "single",
     "typeLabel": "單選題",
     "question": "哪種資料庫的架構是以物件導向的方式來設計資料庫，其中包含了物件的屬性、方法、類別及繼承等特性？",
@@ -583,18 +711,18 @@
     ],
     "answer": "D",
     "images": [],
-    "page": 9
+    "page": 8
   },
   {
-    "id": "dbms_2_19",
-    "globalIndex": 19,
+    "id": "dbms_2_23",
+    "globalIndex": 23,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 19,
+    "number": 23,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "為了確保資料表中的記錄是唯一的，例如每一本書都有一個書籍編號，不同的書若使用相同的編號是不被允許的，這是為了維護哪個資料完整性？",
+    "question": "為了確保資料表中的記錄是唯一的，例如每一本書都有一個書籍編號，不同的書若使用相同的編號是不被允許的，這是\n為了維護哪個資料完整性？",
     "options": [
       {
         "key": "A",
@@ -615,18 +743,18 @@
     ],
     "answer": "A",
     "images": [],
-    "page": 10
+    "page": 8
   },
   {
-    "id": "dbms_2_20",
-    "globalIndex": 20,
+    "id": "dbms_2_24",
+    "globalIndex": 24,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 20,
+    "number": 24,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "若我們在書籍訂單資料表的單價欄位設定資料的範圍為 100 到 999 之間，是為了要維護資料的哪個完整性？",
+    "question": "若我們在書籍訂單資料表的單價欄位設定資料的範圍為100 到 999 之間，是為了要維護資料的哪個完整性？",
     "options": [
       {
         "key": "A",
@@ -647,18 +775,18 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 10
+    "page": 9
   },
   {
-    "id": "dbms_2_21",
-    "globalIndex": 21,
+    "id": "dbms_2_25",
+    "globalIndex": 25,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 21,
+    "number": 25,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "為了確保相關資料表間的資料一致，避免因一個資料表的記錄改變，而造成另一個資料表的內容變成無效值，我們可以透過下列哪個資料完整性來完成？",
+    "question": "為了確保相關資料表間的資料一致，避免因一個資料表的記錄改變，而造成另一個資料表的內容變成無效值，我們可以\n透過下列哪個資料完整性來完成？",
     "options": [
       {
         "key": "A",
@@ -679,15 +807,15 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 11
+    "page": 9
   },
   {
-    "id": "dbms_2_22",
-    "globalIndex": 22,
+    "id": "dbms_2_26",
+    "globalIndex": 26,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 22,
+    "number": 26,
     "type": "single",
     "typeLabel": "單選題",
     "question": "由使用者自行定義，例如某個客戶欠款超過6個月，則下次再下訂單時就不再賣他，這種資料完整性屬於？",
@@ -711,18 +839,700 @@
     ],
     "answer": "D",
     "images": [],
-    "page": 11
+    "page": 9
   },
   {
-    "id": "dbms_2_23",
-    "globalIndex": 23,
+    "id": "dbms_2_27",
+    "globalIndex": 27,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 23,
+    "number": 27,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "您的資料庫有一個Department\n資料表以及一個Employee 資料表。\n您需要確保一位員工只能被指派到一個現有的部門。\n請問您應該對Employee\n資料表用什麼？",
+    "question": "科系資料表，紀錄科系相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較為合適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "科系代號"
+      },
+      {
+        "key": "B",
+        "text": "科系名稱"
+      },
+      {
+        "key": "C",
+        "text": "位置"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/dbms/dbms_q27_1.png"
+    ],
+    "page": 9
+  },
+  {
+    "id": "dbms_2_28",
+    "globalIndex": 28,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "學生資料表，紀錄學生相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較為合適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "學號"
+      },
+      {
+        "key": "B",
+        "text": "科系代號"
+      },
+      {
+        "key": "C",
+        "text": "姓名"
+      },
+      {
+        "key": "D",
+        "text": "年級"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/dbms/dbms_q28_1.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "dbms_2_29",
+    "globalIndex": 29,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "出版公司資料表，紀錄出版公司相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較為合\n適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "出版公司代號"
+      },
+      {
+        "key": "B",
+        "text": "出版公司名稱"
+      },
+      {
+        "key": "C",
+        "text": "聯絡人"
+      },
+      {
+        "key": "D",
+        "text": "以上皆非"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/dbms/dbms_q29_1.png"
+    ],
+    "page": 10
+  },
+  {
+    "id": "dbms_2_30",
+    "globalIndex": 30,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 30,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "書籍資料表，紀錄書籍相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較為合適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "書籍代號"
+      },
+      {
+        "key": "B",
+        "text": "出版公司代號"
+      },
+      {
+        "key": "C",
+        "text": "書籍名稱"
+      },
+      {
+        "key": "D",
+        "text": "出版日期"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/dbms/dbms_q30_1.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "dbms_2_31",
+    "globalIndex": 31,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "作者資料表，紀錄作者相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較為合適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "作者代號"
+      },
+      {
+        "key": "B",
+        "text": "作者姓名"
+      },
+      {
+        "key": "C",
+        "text": "聯絡電話"
+      },
+      {
+        "key": "D",
+        "text": "email"
+      }
+    ],
+    "answer": "A",
+    "images": [
+      "images/dbms/dbms_q31_1.png"
+    ],
+    "page": 11
+  },
+  {
+    "id": "dbms_2_32",
+    "globalIndex": 32,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 32,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "借閱紀錄資料表，紀錄學生借閱書籍的相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較\n為合適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "書籍代號"
+      },
+      {
+        "key": "B",
+        "text": "學號+書籍代號"
+      },
+      {
+        "key": "C",
+        "text": "學號+借閱日期"
+      },
+      {
+        "key": "D",
+        "text": "學號+書籍代號+借閱日期"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/dbms/dbms_q32_1.png"
+    ],
+    "page": 12
+  },
+  {
+    "id": "dbms_2_33",
+    "globalIndex": 33,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "作者著作資料表，紀錄作者著作相關資訊，如圖所示，請問哪個(些)欄位設定為主鍵(Primary Key，主索引鍵)較為合\n適？",
+    "options": [
+      {
+        "key": "A",
+        "text": "作者代號"
+      },
+      {
+        "key": "B",
+        "text": "書籍代號"
+      },
+      {
+        "key": "C",
+        "text": "作者代號+書籍代號"
+      },
+      {
+        "key": "D",
+        "text": "以上皆否"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/dbms/dbms_q33_1.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "dbms_2_34",
+    "globalIndex": 34,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 34,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "科系資料表與學生資料表之間的關聯(如圖所示)，要利用哪個欄位當作連外鍵(Foreign Key，外部索引鍵)建立關聯較為\n合適？(A.B表示：A資料表中的B欄位)",
+    "options": [
+      {
+        "key": "A",
+        "text": "科系.科系代號"
+      },
+      {
+        "key": "B",
+        "text": "科系.科系名稱"
+      },
+      {
+        "key": "C",
+        "text": "學生.學號"
+      },
+      {
+        "key": "D",
+        "text": "學生.科系代號"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/dbms/dbms_q34_1.png"
+    ],
+    "page": 13
+  },
+  {
+    "id": "dbms_2_35",
+    "globalIndex": 35,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "出版公司資料表與書籍資料表之間的關聯(如圖所示)，要利用哪個欄位當作連外鍵(Foreign Key，外部索引鍵)建立關聯\n較為合適？(A.B表示：A資料表中的B欄位)",
+    "options": [
+      {
+        "key": "A",
+        "text": "出版公司.出版公司代號"
+      },
+      {
+        "key": "B",
+        "text": "出版公司.出版公司名稱"
+      },
+      {
+        "key": "C",
+        "text": "書籍.書籍代號"
+      },
+      {
+        "key": "D",
+        "text": "書籍.出版公司代號"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/dbms/dbms_q35_1.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "dbms_2_36",
+    "globalIndex": 36,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "作者資料表與作者著作資料表之間的關聯(如圖所示)，要利用哪個欄位當作連外鍵(Foreign Key，外部索引鍵)建立關聯\n較為合適？(A.B表示：A資料表中的B欄位)",
+    "options": [
+      {
+        "key": "A",
+        "text": "作者.作者代號"
+      },
+      {
+        "key": "B",
+        "text": "作者.作者姓名"
+      },
+      {
+        "key": "C",
+        "text": "作者著作.作者代號"
+      },
+      {
+        "key": "D",
+        "text": "作者著作.書籍代號"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/dbms/dbms_q36_1.png"
+    ],
+    "page": 14
+  },
+  {
+    "id": "dbms_2_37",
+    "globalIndex": 37,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 37,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "學生資料表與借閱紀錄資料表之間的關聯(如圖所示)，要利用哪個欄位當作連外鍵(Foreign Key，外部索引鍵)建立關聯\n較為合適？(A.B表示：A資料表中的B欄位)",
+    "options": [
+      {
+        "key": "A",
+        "text": "學生.學號"
+      },
+      {
+        "key": "B",
+        "text": "學生.姓名"
+      },
+      {
+        "key": "C",
+        "text": "借閱紀錄.學號"
+      },
+      {
+        "key": "D",
+        "text": "借閱紀錄.借閱日期"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/dbms/dbms_q37_1.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "dbms_2_38",
+    "globalIndex": 38,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "書籍資料表與借閱紀錄資料表之間的關聯(如圖所示)，要利用哪個欄位當作連外鍵(Foreign Key，外部索引鍵)建立關聯\n較為合適？(A.B表示：A資料表中的B欄位)",
+    "options": [
+      {
+        "key": "A",
+        "text": "書籍.書籍代號"
+      },
+      {
+        "key": "B",
+        "text": "書籍.書籍名稱"
+      },
+      {
+        "key": "C",
+        "text": "借閱紀錄.書籍代號"
+      },
+      {
+        "key": "D",
+        "text": "借閱紀錄.借閱日期"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/dbms/dbms_q38_1.png"
+    ],
+    "page": 15
+  },
+  {
+    "id": "dbms_2_39",
+    "globalIndex": 39,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "書籍資料表與作者著作資料表之間的關聯(如圖所示)，要利用哪個欄位當作連外鍵(Foreign Key，外部索引鍵)建立關聯\n較為合適？(A.B表示：A資料表中的B欄位)",
+    "options": [
+      {
+        "key": "A",
+        "text": "書籍.書籍代號"
+      },
+      {
+        "key": "B",
+        "text": "書籍.書籍名稱"
+      },
+      {
+        "key": "C",
+        "text": "作者著作.作者代號"
+      },
+      {
+        "key": "D",
+        "text": "作者著作.書籍代號"
+      }
+    ],
+    "answer": "D",
+    "images": [
+      "images/dbms/dbms_q39_1.png"
+    ],
+    "page": 16
+  },
+  {
+    "id": "dbms_2_40",
+    "globalIndex": 40,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 40,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "科系資料表與學生資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/dbms/dbms_q40_1.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "dbms_2_41",
+    "globalIndex": 41,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 41,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "出版公司資料表與書籍資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/dbms/dbms_q41_1.png"
+    ],
+    "page": 17
+  },
+  {
+    "id": "dbms_2_42",
+    "globalIndex": 42,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "學生資料表與借閱紀錄資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/dbms/dbms_q42_1.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "dbms_2_43",
+    "globalIndex": 43,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 43,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "書籍資料表與借閱紀錄資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/dbms/dbms_q43_1.png"
+    ],
+    "page": 18
+  },
+  {
+    "id": "dbms_2_44",
+    "globalIndex": 44,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "根據 <學生資料表與借閱紀錄資料表間的關係> 跟 <書籍資料表與借閱紀錄資料表間的關係> ，可以知道學生資料表與\n書籍資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/dbms/dbms_q44_1.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "dbms_2_45",
+    "globalIndex": 45,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "作者資料表與作者著作資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/dbms/dbms_q45_1.png"
+    ],
+    "page": 19
+  },
+  {
+    "id": "dbms_2_46",
+    "globalIndex": 46,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 46,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "書籍資料表與作者著作資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/dbms/dbms_q46_1.png"
+    ],
+    "page": 20
+  },
+  {
+    "id": "dbms_2_47",
+    "globalIndex": 47,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "根據 <作者資料表與作者著作資料表間的關係> 跟 <書籍資料表與作者著作資料表間的關係> ，可以知道作者資料表與\n書籍資料表間的關聯(如圖所示)，是屬於哪種關係的關聯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "一對一"
+      },
+      {
+        "key": "B",
+        "text": "一對多"
+      },
+      {
+        "key": "C",
+        "text": "多對多"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/dbms/dbms_q47_1.png"
+    ],
+    "page": 20
+  },
+  {
+    "id": "dbms_2_48",
+    "globalIndex": 48,
+    "examId": "dbms",
+    "section": 2,
+    "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "您的資料庫有一個Department  資料表以及一個Employee 資料表。\n您需要確保一位員工只能被指派到一個現有的部門。\n請問您應該對Employee資料表用什麼？",
     "options": [
       {
         "key": "A",
@@ -747,15 +1557,15 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 12
+    "page": 21
   },
   {
-    "id": "dbms_2_24",
-    "globalIndex": 24,
+    "id": "dbms_2_49",
+    "globalIndex": 49,
     "examId": "dbms",
     "section": 2,
     "sectionName": "第二單元：關聯式資料庫原理與資料完整性限制",
-    "number": 24,
+    "number": 49,
     "type": "single",
     "typeLabel": "單選題",
     "question": "您正在設定關聯式資料庫中某個資料表的結構。\n對於下列每一項敘述，請選取 [正確] 為 O 或 [錯誤] 為 X：\n\n1. 資料表中欄位的每個值都必須是唯一的。\n2. 資料表中的每個資料列都必須是唯一的。\n3. 資料表中的每個資料行名稱都必須是唯一的。",
@@ -779,15 +1589,15 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 12
+    "page": 21
   },
   {
-    "id": "dbms_3_25",
-    "globalIndex": 25,
+    "id": "dbms_3_50",
+    "globalIndex": 50,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 25,
+    "number": 50,
     "type": "single",
     "typeLabel": "單選題",
     "question": "下列何者非實體-關係模型的主要構成元素？",
@@ -811,15 +1621,15 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 13
+    "page": 22
   },
   {
-    "id": "dbms_3_26",
-    "globalIndex": 26,
+    "id": "dbms_3_51",
+    "globalIndex": 51,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 26,
+    "number": 51,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表以下何種元素？",
@@ -843,17 +1653,17 @@
     ],
     "answer": "D",
     "images": [
-      "images/dbms/dbms_q26_1.jpg"
+      "images/dbms/dbms_q51_1.png"
     ],
-    "page": 13
+    "page": 22
   },
   {
-    "id": "dbms_3_27",
-    "globalIndex": 27,
+    "id": "dbms_3_52",
+    "globalIndex": 52,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 27,
+    "number": 52,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表以下何種元素？",
@@ -877,17 +1687,17 @@
     ],
     "answer": "B",
     "images": [
-      "images/dbms/dbms_q27_1.jpg"
+      "images/dbms/dbms_q52_1.png"
     ],
-    "page": 14
+    "page": 22
   },
   {
-    "id": "dbms_3_28",
-    "globalIndex": 28,
+    "id": "dbms_3_53",
+    "globalIndex": 53,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 28,
+    "number": 53,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表以下何種元素？",
@@ -911,17 +1721,17 @@
     ],
     "answer": "C",
     "images": [
-      "images/dbms/dbms_q28_1.jpg"
+      "images/dbms/dbms_q53_1.png"
     ],
-    "page": 14
+    "page": 23
   },
   {
-    "id": "dbms_3_29",
-    "globalIndex": 29,
+    "id": "dbms_3_54",
+    "globalIndex": 54,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 29,
+    "number": 54,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表以下何種元素？",
@@ -945,17 +1755,17 @@
     ],
     "answer": "A",
     "images": [
-      "images/dbms/dbms_q29_1.jpg"
+      "images/dbms/dbms_q54_1.png"
     ],
-    "page": 15
+    "page": 23
   },
   {
-    "id": "dbms_3_30",
-    "globalIndex": 30,
+    "id": "dbms_3_55",
+    "globalIndex": 55,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 30,
+    "number": 55,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表一個屬性具有一個以上的值時，稱為何種元素？",
@@ -979,17 +1789,17 @@
     ],
     "answer": "C",
     "images": [
-      "images/dbms/dbms_q30_1.jpg"
+      "images/dbms/dbms_q55_1.png"
     ],
-    "page": 15
+    "page": 23
   },
   {
-    "id": "dbms_3_31",
-    "globalIndex": 31,
+    "id": "dbms_3_56",
+    "globalIndex": 56,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 31,
+    "number": 56,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來唯一代表該實體的屬性，稱為何種元素？",
@@ -1013,17 +1823,17 @@
     ],
     "answer": "A",
     "images": [
-      "images/dbms/dbms_q31_1.jpg"
+      "images/dbms/dbms_q56_1.png"
     ],
-    "page": 16
+    "page": 23
   },
   {
-    "id": "dbms_3_32",
-    "globalIndex": 32,
+    "id": "dbms_3_57",
+    "globalIndex": 57,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 32,
+    "number": 57,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表某些屬性又可再細分為多個小屬性，稱為何種元素？",
@@ -1047,17 +1857,17 @@
     ],
     "answer": "D",
     "images": [
-      "images/dbms/dbms_q32_1.jpg"
+      "images/dbms/dbms_q57_1.png"
     ],
-    "page": 16
+    "page": 24
   },
   {
-    "id": "dbms_3_33",
-    "globalIndex": 33,
+    "id": "dbms_3_58",
+    "globalIndex": 58,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 33,
+    "number": 58,
     "type": "single",
     "typeLabel": "單選題",
     "question": "在實體-關係圖中，我們以圖示來代表某些屬性是其他屬性推導而來，稱為何種元素？",
@@ -1081,20 +1891,20 @@
     ],
     "answer": "B",
     "images": [
-      "images/dbms/dbms_q33_1.jpg"
+      "images/dbms/dbms_q58_1.png"
     ],
-    "page": 17
+    "page": 24
   },
   {
-    "id": "dbms_3_34",
-    "globalIndex": 34,
+    "id": "dbms_3_59",
+    "globalIndex": 59,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 34,
+    "number": 59,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "在實體-關係模型中，如果甲實體中的任一實例，可對應到乙實體中的多個實例；而乙實體中的任一實例，也可對應到甲實體中的多個實例。我們稱它們之間的關係為",
+    "question": "在實體-關係模型中，如果甲實體中的任一實例，可對應到乙實體中的多個實例；而乙實體中的任一實例，也可對應到甲\n實體中的多個實例。我們稱它們之間的關係為",
     "options": [
       {
         "key": "A",
@@ -1115,18 +1925,18 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 17
+    "page": 25
   },
   {
-    "id": "dbms_3_35",
-    "globalIndex": 35,
+    "id": "dbms_3_60",
+    "globalIndex": 60,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 35,
+    "number": 60,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "假設學生實體中有一個地址屬性，為了方便區分，所以我們又將它再細分為城市及街道名...等屬性，我們稱這些屬性為何？",
+    "question": "假設學生實體中有一個地址屬性，為了方便區分，所以我們又將它再細分為城市及街道名...等屬性，我們稱這些屬性為\n何？",
     "options": [
       {
         "key": "A",
@@ -1147,15 +1957,15 @@
     ],
     "answer": "D",
     "images": [],
-    "page": 18
+    "page": 25
   },
   {
-    "id": "dbms_3_36",
-    "globalIndex": 36,
+    "id": "dbms_3_61",
+    "globalIndex": 61,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 36,
+    "number": 61,
     "type": "single",
     "typeLabel": "單選題",
     "question": "由實體-關係圖推導出關聯式資料庫的過程中，若為實體，則會被轉換為何？",
@@ -1179,15 +1989,15 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 18
+    "page": 25
   },
   {
-    "id": "dbms_3_37",
-    "globalIndex": 37,
+    "id": "dbms_3_62",
+    "globalIndex": 62,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 37,
+    "number": 62,
     "type": "single",
     "typeLabel": "單選題",
     "question": "由實體-關係圖推導出關聯式資料庫的過程中，若該屬性為鍵屬性，則會被轉換為何？",
@@ -1211,15 +2021,15 @@
     ],
     "answer": "D",
     "images": [],
-    "page": 19
+    "page": 25
   },
   {
-    "id": "dbms_3_38",
-    "globalIndex": 38,
+    "id": "dbms_3_63",
+    "globalIndex": 63,
     "examId": "dbms",
     "section": 3,
     "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
-    "number": 38,
+    "number": 63,
     "type": "single",
     "typeLabel": "單選題",
     "question": "由實體-關係圖導出關聯式資料庫的過程中，若學生實體的專長屬性為多值屬性，則該如何處理？",
@@ -1230,7 +2040,7 @@
       },
       {
         "key": "B",
-        "text": "為專長屬性另外建立專長資料表，將學生實體的鍵屬性加入專長資料表，成為專長資料表的連外鍵，並且與該資料表的識別欄位合起來成為主鍵"
+        "text": "為專長屬性另外建立專長資料表，將學生實體的鍵屬性加入專長資料表，成為專長資料表的連外鍵，並且與該資料 表的識別欄位合起來成為主鍵"
       },
       {
         "key": "C",
@@ -1243,15 +2053,15 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 19
+    "page": 25
   },
   {
-    "id": "dbms_4_39",
-    "globalIndex": 39,
+    "id": "dbms_3_64",
+    "globalIndex": 64,
     "examId": "dbms",
-    "section": 4,
-    "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 39,
+    "section": 3,
+    "sectionName": "第三單元：實體關係模型 (ER Model) 與綱要轉換",
+    "number": 64,
     "type": "multiple",
     "typeLabel": "複選題",
     "question": "您接受了某間地方慈善機構的 IT 實習工作。該慈善機構的資料模型有兩個資料表，名為 Chapter 和 Language，如下所示：\n\n【Chapter 資料表】\nChapterId | City          | Region     | Country\n1         | Chicago       | Illinois   | USA\n2         | Los Angeles   | California | USA\n3         | New York City | New York   | USA\n4         | Toronto       | Ontario    | Canada\n\n【Language 資料表】\nLanguageId | LanguageName | Locale\n1          | English      | USA\n2          | English      | Canada\n3          | Spanish      | Spain\n4          | Spanish      | Mexico\n5          | French       | France\n5          | French       | Canada\n6          | German       | Germany\n\n您建立了名為 ChapterLanguage 的第三個資料表來關聯 Chapter 資料表和 Language 資料表。\n您需要從 Chapter 和 Language 資料表中選取資料行，以便為 ChapterLanguage 資料表建立複合主索引鍵。\n請問您應該選取哪兩個資料行？(請選擇 2 個答案)",
@@ -1283,15 +2093,15 @@
     ],
     "answer": "BD",
     "images": [],
-    "page": 20
+    "page": 26
   },
   {
-    "id": "dbms_4_40",
-    "globalIndex": 40,
+    "id": "dbms_4_65",
+    "globalIndex": 65,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 40,
+    "number": 65,
     "type": "single",
     "typeLabel": "單選題",
     "question": "請問我們在資料表中除去與主鍵的遞移相依的欄位，是屬於正規化中的第幾階段？",
@@ -1315,15 +2125,15 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 20
+    "page": 27
   },
   {
-    "id": "dbms_4_41",
-    "globalIndex": 41,
+    "id": "dbms_4_66",
+    "globalIndex": 66,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 41,
+    "number": 66,
     "type": "single",
     "typeLabel": "單選題",
     "question": "請問我們不允許資料表當中，具有多值屬性或組合屬性存在，是屬於正規化中的第幾階段？",
@@ -1347,15 +2157,15 @@
     ],
     "answer": "A",
     "images": [],
-    "page": 21
+    "page": 27
   },
   {
-    "id": "dbms_4_42",
-    "globalIndex": 42,
+    "id": "dbms_4_67",
+    "globalIndex": 67,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 42,
+    "number": 67,
     "type": "single",
     "typeLabel": "單選題",
     "question": "請問我們在資料表中除去與主鍵部分相依的欄位，是屬於正規化中的第幾階段？",
@@ -1379,18 +2189,18 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 21
+    "page": 27
   },
   {
-    "id": "dbms_4_43",
-    "globalIndex": 43,
+    "id": "dbms_4_68",
+    "globalIndex": 68,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 43,
+    "number": 68,
     "type": "single",
     "typeLabel": "單選題",
-    "question": "帳目管理資料表中有甲、乙、丙三個欄位，其中甲欄位和乙欄位具有資料相依性而乙欄位和丙欄位也具有資料相依性，我們稱甲欄位和丙欄位具有何種關係？",
+    "question": "帳目管理資料表中有甲、乙、丙三個欄位，其中甲欄位和乙欄位具有資料相依性而乙欄位和丙欄位也具有資料相依性，\n我們稱甲欄位和丙欄位具有何種關係？",
     "options": [
       {
         "key": "A",
@@ -1411,15 +2221,15 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 22
+    "page": 27
   },
   {
-    "id": "dbms_4_44",
-    "globalIndex": 44,
+    "id": "dbms_4_69",
+    "globalIndex": 69,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 44,
+    "number": 69,
     "type": "multiple",
     "typeLabel": "複選題",
     "question": "您需要將資料庫正規化為第一正規形式 (1NF)。\n請問您必須符合哪兩項需求？(請選擇 2 個答案)",
@@ -1443,15 +2253,15 @@
     ],
     "answer": "BD",
     "images": [],
-    "page": 22
+    "page": 28
   },
   {
-    "id": "dbms_4_45",
-    "globalIndex": 45,
+    "id": "dbms_4_70",
+    "globalIndex": 70,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 45,
+    "number": 70,
     "type": "single",
     "typeLabel": "單選題",
     "question": "您有一個資料表包含以下資料：\n\nProductID | ProductCategory\n32        | books\n25        | books\n67        | movies\n89        | movies\n\n請問哪一個資料庫詞彙是用來描述 ProductID 與 ProductCategory 之間的關聯性？",
@@ -1479,15 +2289,15 @@
     ],
     "answer": "B",
     "images": [],
-    "page": 23
+    "page": 28
   },
   {
-    "id": "dbms_4_46",
-    "globalIndex": 46,
+    "id": "dbms_4_71",
+    "globalIndex": 71,
     "examId": "dbms",
     "section": 4,
     "sectionName": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF)",
-    "number": 46,
+    "number": 71,
     "type": "single",
     "typeLabel": "單選題",
     "question": "您建立了下列資料表，其中顯示過去寵物表演的獲勝者：\n\n【寵物比賽獲勝者】\nID | Event                   | Year | PetID | Birthdate       | City\n1  | Cutest Pet Fest         | 2009 | RG459 | 23-Jun-08       | Chicago\n2  | Pet Babies Invitational | 2010 | SP372 | August 12, 2009 | Montreal\n3  | Adorable Friends        | 2011 | BD116 | May 1, 2010     | Atlanta\n4  | AWHH Fest 2012          | 2012 | FD228 | August 12, 2009 | Detroit\n\n請問哪一個資料行可防止資料表成為第三正規形式 (3NF)？",
@@ -1511,6 +2321,102 @@
     ],
     "answer": "C",
     "images": [],
-    "page": 23
+    "page": 28
+  },
+  {
+    "id": "dbms_5_72",
+    "globalIndex": 72,
+    "examId": "dbms",
+    "section": 5,
+    "sectionName": "第五單元：SQL Server 資料庫架構與 DDL 語法",
+    "number": 72,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於SQL Server 的相關資料庫描述，以下何者錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "master資料庫屬於系統層級的資料庫，是一個核心資料庫"
+      },
+      {
+        "key": "B",
+        "text": "model資料庫是一個樣版資料庫，在新增資料庫時，系統會參考此資料庫來新增資料庫"
+      },
+      {
+        "key": "C",
+        "text": "msdb資料庫是提供給使用者暫時儲存資料的一個資料庫"
+      },
+      {
+        "key": "D",
+        "text": "凡是由使用者自建的資料庫都屬於使用者資料庫"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "dbms_5_73",
+    "globalIndex": 73,
+    "examId": "dbms",
+    "section": 5,
+    "sectionName": "第五單元：SQL Server 資料庫架構與 DDL 語法",
+    "number": 73,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於SQL Server 資料庫檔案類型的描述，下列何者錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主要資料檔(Primary Data File)包含資料庫的啟動資訊，也就是記錄所有其他檔案的相關資訊"
+      },
+      {
+        "key": "B",
+        "text": "次要資料檔(Secondary Data File)是除了主要資料檔以外的資料檔"
+      },
+      {
+        "key": "C",
+        "text": "記錄檔(Log File)是保存所有交易的歷程，可復原資料庫的所有記錄資訊"
+      },
+      {
+        "key": "D",
+        "text": "一個資料庫中僅能有一個主要資料檔，可以沒有次要資料檔，亦可擁有數個次要資料檔，另外僅能有一個記錄檔"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 29
+  },
+  {
+    "id": "dbms_5_74",
+    "globalIndex": 74,
+    "examId": "dbms",
+    "section": 5,
+    "sectionName": "第五單元：SQL Server 資料庫架構與 DDL 語法",
+    "number": 74,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "如果想利用SQL DDL語法建立一個名稱為Chihlee的資料庫，下列語法何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "CREATE TABLE Chihlee"
+      },
+      {
+        "key": "B",
+        "text": "ALTER DATABASE Chihlee"
+      },
+      {
+        "key": "C",
+        "text": "DROP DATABASE Chihlee"
+      },
+      {
+        "key": "D",
+        "text": "CREATE DATABASE Chihlee"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "page": 29
   }
 ]

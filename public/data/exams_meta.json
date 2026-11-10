@@ -1,32 +1,70 @@
 [
   {
-    "id": "dbms",
-    "title": "資料庫管理系統",
-    "subTitle": "期中線上測驗題庫 (共 46 題)",
-    "description": "涵蓋資料庫角色、系統架構、SQL Server 通訊協定、關聯式資料庫觀念、資料完整性限制、ER 模型圖示符號與正規化 (1NF/2NF/3NF) 等核心考題。",
-    "badge": "資料庫期中考",
-    "color": "cyan",
-    "totalQuestions": 46,
+    "id": "listening",
+    "title": "英文聽力測驗",
+    "subTitle": "TOEIC 多益聽力期中測驗題庫 (共 33 題)",
+    "description": "依據指定期中考題號（Part 1 ~ Part 4 共 33 題）完整收錄。附帶題目情境附圖、聽力對話／獨白完整英漢對照逐字稿、題目中英對照與精準詳解。",
+    "badge": "多益聽力",
+    "color": "sky",
+    "totalQuestions": 33,
     "sections": [
       {
         "id": 1,
-        "name": "第一單元：資料庫角色、系統架構與通訊協定 (9題)",
-        "count": 9
+        "name": "第一部分：Part 1 照片描述 (2題)",
+        "count": 2
       },
       {
         "id": 2,
-        "name": "第二單元：關聯式資料庫原理與資料完整性限制 (15題)",
-        "count": 15
+        "name": "第二部分：Part 2 應答問題 (4題)",
+        "count": 4
       },
       {
         "id": 3,
-        "name": "第三單元：實體關係模型 (ER Model) 與綱要轉換 (14題)",
-        "count": 14
+        "name": "第三部分：Part 3 簡短對話 (15題)",
+        "count": 15
       },
       {
         "id": 4,
-        "name": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF) (8題)",
-        "count": 8
+        "name": "第四部分：Part 4 簡短獨白 (12題)",
+        "count": 12
+      }
+    ],
+    "defaultTimeMinutes": 30,
+    "passRate": 70
+  },
+  {
+    "id": "dbms",
+    "title": "資料庫管理系統",
+    "subTitle": "期中線上測驗題庫 (共 74 題)",
+    "description": "涵蓋資料庫角色、系統架構、SQL Server 通訊協定、關聯式資料庫觀念、資料完整性限制、ER 模型圖示符號、正規化理論 (1NF/2NF/3NF) 與 SQL DDL 語法等核心考題。",
+    "badge": "資料庫期中考",
+    "color": "cyan",
+    "totalQuestions": 74,
+    "sections": [
+      {
+        "id": 1,
+        "name": "第一單元：資料庫角色、系統架構與通訊協定 (13題)",
+        "count": 13
+      },
+      {
+        "id": 2,
+        "name": "第二單元：關聯式資料庫原理與資料完整性限制 (36題)",
+        "count": 36
+      },
+      {
+        "id": 3,
+        "name": "第三單元：實體關係模型 (ER Model) 與綱要轉換 (15題)",
+        "count": 15
+      },
+      {
+        "id": 4,
+        "name": "第四單元：資料庫正規化理論與實戰 (1NF/2NF/3NF) (7題)",
+        "count": 7
+      },
+      {
+        "id": 5,
+        "name": "第五單元：SQL Server 資料庫架構與 DDL 語法 (3題)",
+        "count": 3
       }
     ],
     "defaultTimeMinutes": 50,
