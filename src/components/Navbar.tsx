@@ -23,6 +23,7 @@ interface NavbarProps {
   bookmarkCount: number;
   hasActiveQuiz: boolean;
   onResumeQuiz?: () => void;
+  examCount?: number;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -32,7 +33,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   historyCount,
   bookmarkCount,
   hasActiveQuiz,
-  onResumeQuiz
+  onResumeQuiz,
+  examCount = 8
 }) => {
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [isOnline, setIsOnline] = useState<boolean>(navigator.onLine);
@@ -83,11 +85,11 @@ export const Navbar: React.FC<NavbarProps> = ({
                   MidtermAce 期中刷題網
                 </span>
                 <span className="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300">
-                  7科題庫
+                  {examCount}科題庫
                 </span>
               </div>
               <p className="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">
-                資料庫 ‧ 資安概論 ‧ 網路服管 ‧ ICTP Python ‧ AIL ‧ EEC ‧ TOEIC
+                多益聽力 ‧ 資料庫 ‧ 資安概論 ‧ 網路服管 ‧ ICTP Python ‧ AIL ‧ EEC ‧ TOEIC
               </p>
             </div>
           </div>

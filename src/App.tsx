@@ -145,6 +145,10 @@ export function App() {
     return map;
   }, [rawQuestions]);
 
+  const totalQuestionsCount = useMemo(() => {
+    return exams.reduce((sum, e) => sum + e.totalQuestions, 0);
+  }, [exams]);
+
   // Start Quiz Handler
   const handleStartQuiz = useCallback((config: QuizConfig) => {
     const examMeta = exams.find(e => e.id === config.examId);
@@ -452,10 +456,10 @@ export function App() {
           <GraduationCap className="w-8 h-8" />
         </div>
         <h2 className="text-lg font-bold text-slate-800 dark:text-slate-100">
-          正在載入七種考試題庫與圖資...
+          正在載入題庫與圖資...
         </h2>
         <p className="text-xs text-slate-400 mt-1">
-          資料庫 ‧ 資安概論 ‧ 網路服管 ‧ ICTP ‧ AIL ‧ EEC ‧ TOEIC 共 2,429 題
+          多益聽力 ‧ 資料庫 ‧ 資安概論 ‧ 網路服管 ‧ ICTP ‧ AIL ‧ EEC ‧ TOEIC 共 2,490 題
         </p>
       </div>
     );
@@ -488,6 +492,7 @@ export function App() {
           historyCount={history.length}
           bookmarkCount={Object.keys(bookmarks).length}
           hasActiveQuiz={false}
+          examCount={exams.length}
         />
         <ResultView
           session={activeSession}
@@ -520,6 +525,7 @@ export function App() {
           const s = activeSession || pendingSession;
           if (s) setActiveSession(s);
         }}
+        examCount={exams.length}
       />
 
       {/* Main Content Area based on Tab */}
@@ -575,14 +581,14 @@ export function App() {
                   期中與專業認證模擬測驗系統
                 </h1>
                 <p className="text-sm sm:text-base text-blue-100 leading-relaxed mb-6">
-                  精選收錄本目錄下七門核心考試，支援先看題目背題、自選範圍、自訂測驗題數、計時交卷、錯題本與對題歷史分析，助您考取高分及格！
+                  精選收錄本目錄下 {exams.length} 門核心考試，支援先看題目背題、自選範圍、自訂測驗題數、計時交卷、錯題本與對題歷史分析，助您考取高分及格！
                 </p>
 
                 {/* Quick Stats Pill */}
                 <div className="flex flex-wrap items-center gap-4 text-xs font-bold text-blue-200">
                   <span className="flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                    總收錄 2,429 題
+                    總收錄 {totalQuestionsCount.toLocaleString()} 題
                   </span>
                   <span className="flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-amber-400"></span>
@@ -610,7 +616,7 @@ export function App() {
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
                   <GraduationCap className="w-5 h-5 text-blue-600" />
-                  <span>選擇測驗考試科目 (共 7 門)</span>
+                  <span>選擇測驗考試科目 (共 {exams.length} 門)</span>
                 </h2>
                 <span className="text-xs text-slate-500 dark:text-slate-400">
                   點擊各考試即可設定測驗題數與單元範圍，或直接先看題目
