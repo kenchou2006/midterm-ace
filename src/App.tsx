@@ -39,6 +39,7 @@ import {
 } from './utils/storage';
 import { generateToeicQuestions, RawToeicWord } from './utils/toeicGenerator';
 import { resolveAssetUrl } from './utils/asset';
+import { useScrollHeader } from './utils/useScrollHeader';
 import { Sparkles, GraduationCap, Flame, ArrowRight } from 'lucide-react';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -51,6 +52,9 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function App() {
+  // Auto-collapsing header on downward scroll
+  const isHeaderVisible = useScrollHeader(10, 60);
+
   // Navigation
   const [activeTab, setActiveTab] = useState<ActiveTab>('exams');
 
@@ -98,34 +102,30 @@ export function App() {
           setPendingSession(existingSession);
         }
 
-        const [metaRes, dbmsRes, secRes, nsmRes, ictpRes, ailRes, eecRes, toeicRes, listeningRes] = await Promise.all([
-          fetch(resolveAssetUrl('data/exams_meta.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/dbms.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/sec.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/nsm.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/ictp.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/ail.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/eec.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/toeic.json')).then(r => r.json()),
-          fetch(resolveAssetUrl('data/listening.json')).then(r => r.json())
-        ]);
-
+        const metaRes: ExamMeta[] = await fetch(resolveAssetUrl('data/exams_meta.json')).then(r => r.json());
         setExams(metaRes);
-        setRawQuestions({
-          dbms: dbmsRes,
-          sec: secRes,
-          nsm: nsmRes,
-          ictp: ictpRes,
-          ail: ailRes,
-          eec: eecRes,
-          toeic: toeicRes,
-          listening: listeningRes
-        });
-        setRawToeicWords(
-          toeicRes
-            .map((q: Question) => q.toeicData as RawToeicWord)
-            .filter(Boolean)
+
+        const questionEntries = await Promise.all(
+          metaRes.map(async (exam) => {
+            try {
+              const res = await fetch(resolveAssetUrl(`data/${exam.id}.json`)).then(r => r.json());
+              return [exam.id, res] as const;
+            } catch (err) {
+              console.error(`Failed to load data/${exam.id}.json`, err);
+              return [exam.id, []] as const;
+            }
+          })
         );
+        const questionsMap: Record<string, Question[]> = Object.fromEntries(questionEntries);
+
+        setRawQuestions(questionsMap);
+        if (questionsMap.toeic) {
+          setRawToeicWords(
+            questionsMap.toeic
+              .map((q: Question) => q.toeicData as RawToeicWord)
+              .filter(Boolean)
+          );
+        }
       } catch (err) {
         console.error('Failed to load question banks', err);
       } finally {
@@ -526,6 +526,7 @@ export function App() {
           if (s) setActiveSession(s);
         }}
         examCount={exams.length}
+        isVisible={isHeaderVisible}
       />
 
       {/* Main Content Area based on Tab */}
@@ -666,6 +667,7 @@ export function App() {
               setConfigDefaultMode(mode || 'exam');
             }}
             onOpenImage={(src) => setPreviewImage(src)}
+            isHeaderVisible={isHeaderVisible}
           />
         )}
 

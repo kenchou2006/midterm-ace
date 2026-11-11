@@ -1041,6 +1041,32 @@ except Exception as e:
         with open('public/data/listening.json', 'r', encoding='utf-8') as f:
             listening_questions = json.load(f)
 
+# ==========================================
+# 9. IoT & NSM HW4 Extraction
+# ==========================================
+print("\n--- Processing IoT & NSM HW4 ---")
+iot_questions = []
+nsm_hw4_questions = []
+try:
+    import extract_new_exams
+    iot_questions = extract_new_exams.extract_iot()
+    with open('public/data/iot.json', 'w', encoding='utf-8') as f:
+        json.dump(iot_questions, f, ensure_ascii=False, indent=2)
+    print(f"Loaded {len(iot_questions)} IoT questions.")
+
+    nsm_hw4_questions = extract_new_exams.extract_nsm_hw4()
+    with open('public/data/nsm_hw4.json', 'w', encoding='utf-8') as f:
+        json.dump(nsm_hw4_questions, f, ensure_ascii=False, indent=2)
+    print(f"Loaded {len(nsm_hw4_questions)} NSM HW4 questions.")
+except Exception as e:
+    print(f"Warning: Could not process IoT / NSM HW4 questions: {e}")
+    if os.path.exists('public/data/iot.json'):
+        with open('public/data/iot.json', 'r', encoding='utf-8') as f:
+            iot_questions = json.load(f)
+    if os.path.exists('public/data/nsm_hw4.json'):
+        with open('public/data/nsm_hw4.json', 'r', encoding='utf-8') as f:
+            nsm_hw4_questions = json.load(f)
+
 # Exams Metadata
 exams_meta = [
     {
@@ -1098,7 +1124,7 @@ exams_meta = [
     },
     {
         'id': 'nsm',
-        'title': '網路服務管理',
+        'title': '網路服務管理 (核心英文字彙)',
         'subTitle': '核心英文字彙與專業術語 (共 71 題)',
         'description': '收錄網路服務管理必考核心英文字彙與專業術語（Frame、Routing Table、Flow Control、Mask 等），支援真人語音朗讀、釋義背題與隨堂測驗！',
         'badge': '網服單字',
@@ -1110,6 +1136,39 @@ exams_meta = [
             {'id': 3, 'name': '第三單元：系統管理與網路操作 (23字)', 'count': 23}
         ],
         'defaultTimeMinutes': 30,
+        'passRate': 70
+    },
+    {
+        'id': 'nsm_hw4',
+        'title': '網路服務管理 (設備操作 - 作業四)',
+        'subTitle': f'作業四 設備操作與 Cisco CLI 實務 (共 {len(nsm_hw4_questions)} 題)',
+        'description': '收錄作業四設備操作全題庫。涵蓋 Cisco 路由器與交換器 CLI 指令、running/startup-config、密碼加密、跳線與直線選擇、Trunk/VLAN 架構拓樸圖、SSH/Telnet 遠端登入與安全設定、Catalyst 2950 清除組態等核心考題。已完成正解校驗與詳解！',
+        'badge': '網服設備操作',
+        'color': 'emerald',
+        'totalQuestions': len(nsm_hw4_questions),
+        'sections': [
+            {'id': 1, 'name': '第一部分：Cisco 基礎操作、設定檔與密碼加密 (8題)', 'count': 8},
+            {'id': 2, 'name': '第二部分：網路連線、線材、Trunk 與 VLAN 實務 (9題)', 'count': 9},
+            {'id': 3, 'name': '第三部分：SSH 安全連線、Telnet 排錯與設備維護 (8題)', 'count': 8}
+        ],
+        'defaultTimeMinutes': 30,
+        'passRate': 70
+    },
+    {
+        'id': 'iot',
+        'title': '物聯網智慧應用及技術',
+        'subTitle': f'期中/證照線上測驗題庫 (共 {len(iot_questions)} 題)',
+        'description': '收錄物聯網三層架構（感知層/網路層/應用層）、發展戰略、智慧社區/醫療/電網/交通、感測器、ZigBee/藍芽/條碼技術，以及 LoRa、MQTT、CoAP、邊緣運算、IIoT 與 Matter 最新標準考題。',
+        'badge': '物聯網期中',
+        'color': 'amber',
+        'totalQuestions': len(iot_questions),
+        'sections': [
+            {'id': 1, 'name': '第一單元：物聯網概念、政策與架構分層 (9題)', 'count': 9},
+            {'id': 2, 'name': '第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通) (18題)', 'count': 18},
+            {'id': 3, 'name': '第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼) (23題)', 'count': 23},
+            {'id': 4, 'name': '第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT) (10題)', 'count': 10}
+        ],
+        'defaultTimeMinutes': 50,
         'passRate': 70
     },
     {

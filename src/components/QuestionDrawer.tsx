@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { Question, QuizMode } from '../types/exam';
 import { X, CheckCircle2, Bookmark, HelpCircle } from 'lucide-react';
 
@@ -32,7 +33,7 @@ export const QuestionDrawer: React.FC<QuestionDrawerProps> = ({
   const flaggedCount = Object.keys(flagged).filter(k => flagged[k]).length;
   const unansweredCount = total - answeredCount;
 
-  return (
+  return createPortal(
     <div 
       className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex justify-end animate-fade-in"
       onClick={onClose}
@@ -138,6 +139,7 @@ export const QuestionDrawer: React.FC<QuestionDrawerProps> = ({
         </div>
 
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

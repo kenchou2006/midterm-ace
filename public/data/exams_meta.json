@@ -125,7 +125,7 @@
   },
   {
     "id": "nsm",
-    "title": "網路服務管理",
+    "title": "網路服務管理 (核心英文字彙)",
     "subTitle": "核心英文字彙與專業術語 (共 71 題)",
     "description": "收錄網路服務管理必考核心英文字彙與專業術語（Frame、Routing Table、Flow Control、Mask 等），支援真人語音朗讀、釋義背題與隨堂測驗！",
     "badge": "網服單字",
@@ -149,6 +149,67 @@
       }
     ],
     "defaultTimeMinutes": 30,
+    "passRate": 70
+  },
+  {
+    "id": "nsm_hw4",
+    "title": "網路服務管理 (設備操作 - 作業四)",
+    "subTitle": "作業四 設備操作與 Cisco CLI 實務 (共 25 題)",
+    "description": "收錄作業四設備操作全題庫。涵蓋 Cisco 路由器與交換器 CLI 指令、running/startup-config、密碼加密、跳線與直線選擇、Trunk/VLAN 架構拓樸圖、SSH/Telnet 遠端登入與安全設定、Catalyst 2950 清除組態等核心考題。已完成正解校驗與詳解！",
+    "badge": "網服設備操作",
+    "color": "emerald",
+    "totalQuestions": 25,
+    "sections": [
+      {
+        "id": 1,
+        "name": "第一部分：Cisco 基礎操作、設定檔與密碼加密 (8題)",
+        "count": 8
+      },
+      {
+        "id": 2,
+        "name": "第二部分：網路連線、線材、Trunk 與 VLAN 實務 (9題)",
+        "count": 9
+      },
+      {
+        "id": 3,
+        "name": "第三部分：SSH 安全連線、Telnet 排錯與設備維護 (8題)",
+        "count": 8
+      }
+    ],
+    "defaultTimeMinutes": 30,
+    "passRate": 70
+  },
+  {
+    "id": "iot",
+    "title": "物聯網智慧應用及技術",
+    "subTitle": "期中/證照線上測驗題庫 (共 60 題)",
+    "description": "收錄物聯網三層架構（感知層/網路層/應用層）、發展戰略、智慧社區/醫療/電網/交通、感測器、ZigBee/藍芽/條碼技術，以及 LoRa、MQTT、CoAP、邊緣運算、IIoT 與 Matter 最新標準考題。",
+    "badge": "物聯網期中",
+    "color": "amber",
+    "totalQuestions": 60,
+    "sections": [
+      {
+        "id": 1,
+        "name": "第一單元：物聯網概念、政策與架構分層 (9題)",
+        "count": 9
+      },
+      {
+        "id": 2,
+        "name": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通) (18題)",
+        "count": 18
+      },
+      {
+        "id": 3,
+        "name": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼) (23題)",
+        "count": 23
+      },
+      {
+        "id": 4,
+        "name": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT) (10題)",
+        "count": 10
+      }
+    ],
+    "defaultTimeMinutes": 50,
     "passRate": 70
   },
   {

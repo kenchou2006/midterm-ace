@@ -20,6 +20,9 @@ export interface Question {
   answer: string;
   images?: string[];
   page?: number;
+  explanation?: string;
+  transcript?: string;
+  transcriptZh?: string;
   toeicData?: {
     word: string;
     phonetic: string;

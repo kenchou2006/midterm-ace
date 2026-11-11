@@ -341,6 +341,16 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               )}
             </div>
 
+            {/* Question Explanation */}
+            {question.explanation && (
+              <div className="pt-2.5 border-t border-slate-200 dark:border-slate-700">
+                <span className="font-semibold text-slate-800 dark:text-slate-200">💡 題目詳解與說明：</span>
+                <p className="mt-1 text-slate-600 dark:text-slate-300 leading-relaxed bg-white/70 dark:bg-slate-900/60 p-3 rounded-xl border border-slate-200/80 dark:border-slate-800 text-xs sm:text-sm">
+                  {question.explanation}
+                </p>
+              </div>
+            )}
+
             {/* TOEIC Word Notes / Collocations */}
             {question.toeicData && (
               <div className="pt-2 border-t border-slate-200 dark:border-slate-700 space-y-1">

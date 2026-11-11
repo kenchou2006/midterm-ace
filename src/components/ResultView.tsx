@@ -378,6 +378,13 @@ export const ResultView: React.FC<ResultViewProps> = ({
                       釋義：{q.toeicData.meaning}
                     </div>
                   )}
+
+                  {q.explanation && (
+                    <div className="pt-2 border-t border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+                      <span className="font-bold text-slate-900 dark:text-white">💡 詳解：</span>
+                      <span>{q.explanation}</span>
+                    </div>
+                  )}
                 </div>
 
               </div>

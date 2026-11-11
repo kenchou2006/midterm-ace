@@ -302,6 +302,13 @@ export const MistakeBankView: React.FC<MistakeBankViewProps> = ({
                   </span>
                 </div>
 
+                {q.explanation && (
+                  <div className="mt-2.5 p-2.5 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border border-blue-200/80 dark:border-blue-900/50 text-xs text-blue-950 dark:text-blue-200 leading-relaxed">
+                    <span className="font-bold text-blue-800 dark:text-blue-300">💡 詳解說明：</span>
+                    <span>{q.explanation}</span>
+                  </div>
+                )}
+
               </div>
             );
           })}

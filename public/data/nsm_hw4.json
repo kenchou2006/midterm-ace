@@ -1,0 +1,884 @@
+[
+  {
+    "id": "nsm_hw4_1_1",
+    "globalIndex": 1,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種協定是用來做為安全的遠端登入連線。",
+    "options": [
+      {
+        "key": "A",
+        "text": "ARP"
+      },
+      {
+        "key": "B",
+        "text": "Telnet"
+      },
+      {
+        "key": "C",
+        "text": "WEP"
+      },
+      {
+        "key": "D",
+        "text": "SSH"
+      },
+      {
+        "key": "E",
+        "text": "SNMP"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "SSH (Secure Shell) 是專門用於安全加密遠端登入與指令傳輸的協定，預設連接埠為 TCP 22。Telnet 則為明文傳輸，不具安全性。"
+  },
+  {
+    "id": "nsm_hw4_1_2",
+    "globalIndex": 2,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一個指令可以將所有的明文密碼進行加密。",
+    "options": [
+      {
+        "key": "A",
+        "text": "Router# service password-encryption"
+      },
+      {
+        "key": "B",
+        "text": "Router(config)# password-encryption"
+      },
+      {
+        "key": "C",
+        "text": "Router(config)# service password-encryption"
+      },
+      {
+        "key": "D",
+        "text": "Router# password-encryption"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "在全域組態模式 Router(config)# 下執行 service password-encryption 指令，可將設定檔中所有現存及未來的明文密碼進行弱加密（Type 7）。"
+  },
+  {
+    "id": "nsm_hw4_1_3",
+    "globalIndex": 3,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "儲存在RAM 儲存CLI組態命令結果 關機後消失   以上敘述指的是?",
+    "options": [
+      {
+        "key": "A",
+        "text": "running-config"
+      },
+      {
+        "key": "B",
+        "text": "startup-config"
+      },
+      {
+        "key": "C",
+        "text": "restart-config"
+      },
+      {
+        "key": "D",
+        "text": "file-config"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "running-config 儲存在 RAM（記憶體）中，代表路由器目前的動態執行組態，關機或重新啟動後若未儲存將會消失。"
+  },
+  {
+    "id": "nsm_hw4_1_4",
+    "globalIndex": 4,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "若要讓設定檔中的密碼不以明文顯示，應如何設定？",
+    "options": [
+      {
+        "key": "A",
+        "text": "enable secret"
+      },
+      {
+        "key": "B",
+        "text": "encrypt password"
+      },
+      {
+        "key": "C",
+        "text": "service password-encryption"
+      },
+      {
+        "key": "D",
+        "text": "crypto key generate rsa"
+      },
+      {
+        "key": "E",
+        "text": "login local"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "【校正說明：原測驗作答複選 A, C 錯誤】若要讓設定檔（如 running-config）中所有密碼不以明文顯示，標準指令為全域模式下的 service password-encryption。enable secret 僅使用 MD5 加密特權模式密碼，不能對其他密碼加密。"
+  },
+  {
+    "id": "nsm_hw4_1_5",
+    "globalIndex": 5,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 5,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些登入方式屬於遠端登入？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Telnet"
+      },
+      {
+        "key": "B",
+        "text": "SSH"
+      },
+      {
+        "key": "C",
+        "text": "Console"
+      },
+      {
+        "key": "D",
+        "text": "AUX"
+      },
+      {
+        "key": "E",
+        "text": "Ethernet"
+      }
+    ],
+    "answer": "A,B",
+    "images": [],
+    "explanation": "Telnet 與 SSH 是透過 IP 網路遠端連線管理網路設備的協定（遠端登入 Remote Access）。Console 與 AUX 則為實體線路的本地登入。"
+  },
+  {
+    "id": "nsm_hw4_1_6",
+    "globalIndex": 6,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當網路管理員使用IOS指令更改了路由器的主機名稱，這個設定會儲存在那個地方?",
+    "options": [
+      {
+        "key": "A",
+        "text": "RAM"
+      },
+      {
+        "key": "B",
+        "text": "NVRAM"
+      },
+      {
+        "key": "C",
+        "text": "FLASH"
+      },
+      {
+        "key": "D",
+        "text": "ROM"
+      },
+      {
+        "key": "E",
+        "text": "PCMCIA"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "在 CLI 中使用 IOS 指令更改主機名稱（hostname），該指令會立即套用於正在執行的組態，儲存在 RAM（running-config）中，直到執行 copy running-config startup-config 才會存入 NVRAM。"
+  },
+  {
+    "id": "nsm_hw4_1_7",
+    "globalIndex": 7,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "SSH 的主要優點是什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "傳輸速度快於 Telnet"
+      },
+      {
+        "key": "B",
+        "text": "加密傳輸提高安全性"
+      },
+      {
+        "key": "C",
+        "text": "不需設定 IP"
+      },
+      {
+        "key": "D",
+        "text": "僅限於 Console 模式"
+      },
+      {
+        "key": "E",
+        "text": "無需使用者帳號"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "SSH 的核心優點為透過公私鑰加密所有傳輸的資料與密碼（加密傳輸提高安全性），防範封包竊聽與中間人攻擊。"
+  },
+  {
+    "id": "nsm_hw4_1_8",
+    "globalIndex": 8,
+    "examId": "nsm_hw4",
+    "section": 1,
+    "sectionName": "第一部分：Cisco 基礎操作、設定檔與密碼加密",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當路由器開機時, 找不到 IOS 與 設定檔, 此時路由器會到哪裡尋找相關檔案?",
+    "options": [
+      {
+        "key": "A",
+        "text": "TFTP"
+      },
+      {
+        "key": "B",
+        "text": "FLASH"
+      },
+      {
+        "key": "C",
+        "text": "RAM"
+      },
+      {
+        "key": "D",
+        "text": "NVRAM"
+      },
+      {
+        "key": "E",
+        "text": "HD"
+      },
+      {
+        "key": "F",
+        "text": "SSD"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "Cisco 路由器開機時，若在本地 FLASH 找不到 IOS 映像檔且 NVRAM 亦無設定檔，系統開機流程會嘗試透過網路連線到 TFTP 伺服器尋找並下載開機檔案。"
+  },
+  {
+    "id": "nsm_hw4_2_9",
+    "globalIndex": 9,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "PC 直接連結到路由器的 fa0/0, 請問必須使用哪一種線材?",
+    "options": [
+      {
+        "key": "A",
+        "text": "跳線"
+      },
+      {
+        "key": "B",
+        "text": "直線"
+      },
+      {
+        "key": "C",
+        "text": "console 線"
+      },
+      {
+        "key": "D",
+        "text": "光纎"
+      },
+      {
+        "key": "E",
+        "text": "沒有答案"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "PC 網卡與路由器 FastEthernet 介面兩者在乙太網路標準中同屬 MDI（Medium Dependent Interface）設備，兩台相同類型的設備直接相連時必須使用「跳線（Crossover Cable）」。"
+  },
+  {
+    "id": "nsm_hw4_2_10",
+    "globalIndex": 10,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 10,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "參考下列網路架構中，網管人員在交換器與路由器設定，要將VLAN3與VLAN4中的電腦能夠存取Server，下列那些乙太網路的區段必須設定為Trunk。(Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      },
+      {
+        "key": "E",
+        "text": "E"
+      },
+      {
+        "key": "F",
+        "text": "F"
+      }
+    ],
+    "answer": "C,F",
+    "images": [
+      "images/nsm/nsm_q10.png"
+    ],
+    "explanation": "在交換器與路由器／伺服器之間傳遞多個 VLAN（VLAN 3 與 VLAN 4）的訊務時，兩台交換器之間的鏈路（Link C）以及核心交換器連接伺服器/路由器的幹線鏈路（Link F）必須設定為 Trunk（802.1Q 幹線）。"
+  },
+  {
+    "id": "nsm_hw4_2_11",
+    "globalIndex": 11,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 11,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "設定 SSH 登入時，應包含哪些指令？",
+    "options": [
+      {
+        "key": "A",
+        "text": "crypto key generate rsa"
+      },
+      {
+        "key": "B",
+        "text": "ip domain-name myCompany.com"
+      },
+      {
+        "key": "C",
+        "text": "line vty 0 4"
+      },
+      {
+        "key": "D",
+        "text": "vlan 1 ip"
+      },
+      {
+        "key": "E",
+        "text": "transport input ssh"
+      }
+    ],
+    "answer": "A,B,E",
+    "images": [],
+    "explanation": "【校正說明：原測驗作答 A, B, C, E 錯誤】設定 SSH 登入的核心指令包括：(A) crypto key generate rsa（產生加密金鑰並啟用 SSH）、(B) ip domain-name myCompany.com（設定網域名稱以產生 FQDN 金鑰）、(E) transport input ssh（限制 VTY 線路僅接受 SSH 登入）。line vty 0 4 僅為進入設定模式之指令，非 SSH 專用設定指令；vlan 1 ip 語法錯誤。"
+  },
+  {
+    "id": "nsm_hw4_2_12",
+    "globalIndex": 12,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 12,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些屬於本地登入方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Console"
+      },
+      {
+        "key": "B",
+        "text": "Telnet"
+      },
+      {
+        "key": "C",
+        "text": "SSH"
+      },
+      {
+        "key": "D",
+        "text": "AUX"
+      },
+      {
+        "key": "E",
+        "text": "Ethernet"
+      }
+    ],
+    "answer": "A,D",
+    "images": [],
+    "explanation": "【校正說明：原測驗作答漏選 D 導致錯誤】本地登入（Local / Out-of-band 頻外管理）是指透過實體纜線直接連接設備硬體連接埠，包含 Console 埠與 AUX（Auxiliary 輔助埠）。Telnet 與 SSH 屬於網路遠端登入。"
+  },
+  {
+    "id": "nsm_hw4_2_13",
+    "globalIndex": 13,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "那一個提示符號是管理者模式。",
+    "options": [
+      {
+        "key": "A",
+        "text": "#"
+      },
+      {
+        "key": "B",
+        "text": "$"
+      },
+      {
+        "key": "C",
+        "text": "%"
+      },
+      {
+        "key": "D",
+        "text": "&"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "Cisco IOS 的提示字元中，井字號 #（例如 Router#）代表特權 EXEC 模式（Privileged EXEC Mode / 管理者模式）；大於符號 > 代表使用者 EXEC 模式。"
+  },
+  {
+    "id": "nsm_hw4_2_14",
+    "globalIndex": 14,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "以下哪一項是遠端登入的方法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Console"
+      },
+      {
+        "key": "B",
+        "text": "AUX"
+      },
+      {
+        "key": "C",
+        "text": "Telnet"
+      },
+      {
+        "key": "D",
+        "text": "HDMI"
+      },
+      {
+        "key": "E",
+        "text": "VGA"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "Telnet 屬於應用層遠端登入協定，可透過 TCP/IP 網路遠端連線至設備 CLI 介面。Console 與 AUX 屬於本地端實體線路連接。"
+  },
+  {
+    "id": "nsm_hw4_2_15",
+    "globalIndex": 15,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "請參考下列輸出訊息，請問該路由器中最大的組態檔案(configure file)可以儲存多大。",
+    "options": [
+      {
+        "key": "A",
+        "text": "14688k bytes"
+      },
+      {
+        "key": "B",
+        "text": "191k bytes"
+      },
+      {
+        "key": "C",
+        "text": "1638k bytes"
+      },
+      {
+        "key": "D",
+        "text": "63488k bytes"
+      }
+    ],
+    "answer": "B",
+    "images": [
+      "images/nsm/nsm_q15.png"
+    ],
+    "explanation": "由圖片中的 show version 輸出訊息可見：「191K bytes of NVRAM」。路由器的組態檔案（startup-config）儲存於 NVRAM 中，因此該路由器最大的組態檔案容量即為 191k bytes。"
+  },
+  {
+    "id": "nsm_hw4_2_16",
+    "globalIndex": 16,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "當一台交換器已經設定新的Trunk連線，那些Vlan的資料可以經過新的Trunk?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By default, all defined VLANs are allowed on the trunk"
+      },
+      {
+        "key": "B",
+        "text": "Each single VLAN, or VLAN range, must be specified with the switchport mode commandB.\tEach single VLAN, or VLAN range, must be specified with the switchport mode command"
+      },
+      {
+        "key": "C",
+        "text": "Each single VLAN, or VLAN range, must be specified with the vtp domain command"
+      },
+      {
+        "key": "D",
+        "text": "Each single VLAN, or VLAN range, must be specified with the vlan database command"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "在 Cisco 交換器上建立 802.1Q Trunk 幹線連線時，預設情況下（By default）所有已定義的 VLAN（VLAN 1 ~ 4094）皆被允許通過該 Trunk。"
+  },
+  {
+    "id": "nsm_hw4_2_17",
+    "globalIndex": 17,
+    "examId": "nsm_hw4",
+    "section": 2,
+    "sectionName": "第二部分：網路連線、線材、Trunk 與 VLAN 實務",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "假設目前交換器是預設組態，請問下列哪一個範圍可以增加、修改及刪除Vlan ID。",
+    "options": [
+      {
+        "key": "A",
+        "text": "through 1001"
+      },
+      {
+        "key": "B",
+        "text": "through 1001"
+      },
+      {
+        "key": "C",
+        "text": "1 through 1002"
+      },
+      {
+        "key": "D",
+        "text": "2 through 1005"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "在 Cisco 交換器的預設標準 VLAN 範圍（1 ~ 1005）中，VLAN 1 為預設且不可刪除之 VLAN，1002 ~ 1005 保留給 Token Ring 與 FDDI。因此一般網管人員可以自由增加、修改及刪除的 VLAN ID 範圍為 2 至 1001。"
+  },
+  {
+    "id": "nsm_hw4_3_18",
+    "globalIndex": 18,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "若要啟用 SSH 加密登入，哪一項設定是必要的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "設定 VLAN 1 的 IP"
+      },
+      {
+        "key": "B",
+        "text": "設定 hostname 與 domain-name"
+      },
+      {
+        "key": "C",
+        "text": "啟用 Telnet"
+      },
+      {
+        "key": "D",
+        "text": "使用 console 連線"
+      },
+      {
+        "key": "E",
+        "text": "設定 enable password"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "在 Cisco IOS 中產生 RSA 加密金鑰前，必須先設定主機名稱（hostname）與網域名稱（ip domain-name），兩者結合成 FQDN 才能成功產生金鑰啟用 SSH。"
+  },
+  {
+    "id": "nsm_hw4_3_19",
+    "globalIndex": 19,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 19,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "管理者無法建立telnet連線到路由器中，根據下列資訊，請問是甚麼問題。",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Level 5 password is not set. (Level 5 密碼未設定)"
+      },
+      {
+        "key": "B",
+        "text": "An ACL is blocking Telnet access (ACL 阻擋 telnet 的存取)"
+      },
+      {
+        "key": "C",
+        "text": "The vty password is missing.(vty的密碼遺失)"
+      },
+      {
+        "key": "D",
+        "text": "The console password password is missing. (console密碼遺失)"
+      }
+    ],
+    "answer": "C",
+    "images": [
+      "images/nsm/nsm_q19.png"
+    ],
+    "explanation": "圖片中顯示「Password required, but none set」，表示在 line vty 線路上啟用了登入檢查（login），但尚未設定 vty 連線密碼（The vty password is missing），因此 Cisco IOS 基於安全保護拒絕 Telnet 連線。"
+  },
+  {
+    "id": "nsm_hw4_3_20",
+    "globalIndex": 20,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 20,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "要讓 VTY 埠僅接受 SSH 登入，應使用哪一行設定？",
+    "options": [
+      {
+        "key": "A",
+        "text": "transport input ssh"
+      },
+      {
+        "key": "B",
+        "text": "login password"
+      },
+      {
+        "key": "C",
+        "text": "ssh enable"
+      },
+      {
+        "key": "D",
+        "text": "line console 0"
+      },
+      {
+        "key": "E",
+        "text": "telnet disable"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "在虛擬終端線路模式 Router(config-line)# 下，指令 transport input ssh 可強制該 VTY 埠僅接受加密的 SSH 遠端連線，全面封鎖不安全的 Telnet。"
+  },
+  {
+    "id": "nsm_hw4_3_21",
+    "globalIndex": 21,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "PC 直接連結到交換器的 fa0/0, 請問必須使用哪一種線材?",
+    "options": [
+      {
+        "key": "A",
+        "text": "跳線"
+      },
+      {
+        "key": "B",
+        "text": "直線"
+      },
+      {
+        "key": "C",
+        "text": "console 線"
+      },
+      {
+        "key": "D",
+        "text": "光纎"
+      },
+      {
+        "key": "E",
+        "text": "沒有答案"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "PC 網卡為 MDI 設備，交換器（Switch）埠為 MDI-X 設備。不同類型的網路硬體設備直接相連時，應使用標準「直線（Straight-through Cable）」。"
+  },
+  {
+    "id": "nsm_hw4_3_22",
+    "globalIndex": 22,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 22,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "當有一台Catalyst 2950 交換器要被重新設定，需要下列那些步驟才能將這台交換器的舊組態全部清除。(Choose three.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Erase flash"
+      },
+      {
+        "key": "B",
+        "text": "Restart the switch"
+      },
+      {
+        "key": "C",
+        "text": "Delete the VLAN database"
+      },
+      {
+        "key": "D",
+        "text": "Erase the running configuration"
+      },
+      {
+        "key": "E",
+        "text": "Erase the startup configuration"
+      },
+      {
+        "key": "F",
+        "text": "Modify the configuration register"
+      }
+    ],
+    "answer": "B,C,E",
+    "images": [],
+    "explanation": "將 Cisco Catalyst 2950 交換器完全清除舊組態以重新設定的三大步驟為：1. delete flash:vlan.dat（Delete the VLAN database）；2. erase startup-config（Erase the startup configuration）；3. reload（Restart the switch）。"
+  },
+  {
+    "id": "nsm_hw4_3_23",
+    "globalIndex": 23,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "儲存在NVRAM 關機後存在   以上敘述指的是?",
+    "options": [
+      {
+        "key": "A",
+        "text": "running-config"
+      },
+      {
+        "key": "B",
+        "text": "startup-config"
+      },
+      {
+        "key": "C",
+        "text": "restart-config"
+      },
+      {
+        "key": "D",
+        "text": "file-config"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "儲存在 NVRAM（非揮發性記憶體）中、設備關機或重開後依然保留的設定檔案為 startup-config（開機啟動設定檔）。"
+  },
+  {
+    "id": "nsm_hw4_3_24",
+    "globalIndex": 24,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 24,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "設定 SSH 安全登入時，哪些步驟是正確的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "設定 hostname"
+      },
+      {
+        "key": "B",
+        "text": "設定 telnet enable"
+      },
+      {
+        "key": "C",
+        "text": "產生 RSA 金鑰"
+      },
+      {
+        "key": "D",
+        "text": "啟用 http server"
+      },
+      {
+        "key": "E",
+        "text": "設定 transport input ssh"
+      }
+    ],
+    "answer": "A,C,E",
+    "images": [],
+    "explanation": "【校正說明：原測驗作答漏選 A, C 錯誤】在 Cisco 設備上設定 SSH 安全登入的正確認證與啟用步驟包括：(A) 設定主機名稱（hostname）；(C) 產生 RSA 金鑰（crypto key generate rsa）；(E) 設定 VTY 僅接受 SSH（transport input ssh）。"
+  },
+  {
+    "id": "nsm_hw4_3_25",
+    "globalIndex": 25,
+    "examId": "nsm_hw4",
+    "section": 3,
+    "sectionName": "第三部分：SSH 安全連線、Telnet 排錯與設備維護",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "目前一台路由器有兩個乙太網路介面，需要連接四個Vlan，要如何用最好的路由器的網路介面來完成這項工作。",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use a hub to connect the four VLANS with a Fast Ethemet interface on the router."
+      },
+      {
+        "key": "B",
+        "text": "Add a second router to handle the VLAN traffic."
+      },
+      {
+        "key": "C",
+        "text": "Add two more Fast Ethermet interfaces."
+      },
+      {
+        "key": "D",
+        "text": "Implement a router-on-a-stick configuration."
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "當路由器實體介面有限但需連接多個 VLAN 進行繞送時，最佳作法為採用「單臂路由器（Router-on-a-stick）」架構，在單一實體 FastEthernet 介面上建立多個子介面（Sub-interfaces）並配置 802.1Q 封裝與 IP 位址。"
+  }
+]

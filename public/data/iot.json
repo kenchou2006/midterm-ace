@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "iot_1_1",
+    "globalIndex": 1,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 1,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "美國總統歐巴馬提倡物聯網振興經濟戰略，確立了物聯網的國家戰略高度"
+      },
+      {
+        "key": "B",
+        "text": "日本政府為了成功發展物聯網技術，將其物聯網發展政策分成 e-Japan、u-Japan、以及 i-Japan 三個階段"
+      },
+      {
+        "key": "C",
+        "text": "中國以智慧地球為號召，詳細地從規格制定、應用發展、打造產業鏈等面向進行全方位物聯網布局"
+      },
+      {
+        "key": "D",
+        "text": "台灣陸續投入與物聯網的相關技術發展，其中政府部門更致力於推動 M-Taiwan、I-Taiwan、U-Taiwan 等物聯網相關計畫"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 中國以智慧地球為號召，詳細地從規格制定、應用發展、打造產業鏈等面向進行全方位物聯網布局（中國是以『感知中國』為號召，智慧地球為IBM提出）"
+  },
+  {
+    "id": "iot_1_2",
+    "globalIndex": 2,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 2,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "台灣陸續投入與物聯網的相關技術發展，其中政府部門更致力於推動物聯網相關計畫，下列哪一項計畫不屬於台灣政府所推動？",
+    "options": [
+      {
+        "key": "A",
+        "text": "M-Taiwan"
+      },
+      {
+        "key": "B",
+        "text": "E-Taiwan"
+      },
+      {
+        "key": "C",
+        "text": "I-Taiwan"
+      },
+      {
+        "key": "D",
+        "text": "U-Taiwan"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) E-Taiwan"
+  },
+  {
+    "id": "iot_1_3",
+    "globalIndex": 3,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 3,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於物聯網，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "IBM 提出了智慧地球的概念，可視為物聯網的雛型"
+      },
+      {
+        "key": "B",
+        "text": "物聯網就是把感測器裝備到各種真實物體上，並通過網際網路連接起來，進而運行特定的程序，以實現物與物的直接通信"
+      },
+      {
+        "key": "C",
+        "text": "物聯網可賦予智慧給物件，並擁有與其他物件或人溝通的能力"
+      },
+      {
+        "key": "D",
+        "text": "物聯網的英文名稱為 Interconnection of Things (IoT)"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 物聯網的英文名稱為 Interconnection of Things (IoT)（正確英文名稱應為 Internet of Things, IoT）"
+  },
+  {
+    "id": "iot_1_4",
+    "globalIndex": 4,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 4,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "IBM 提出了下列哪一種概念，可視為物聯網的雛型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "行動地球"
+      },
+      {
+        "key": "B",
+        "text": "智慧地球"
+      },
+      {
+        "key": "C",
+        "text": "智慧城市"
+      },
+      {
+        "key": "D",
+        "text": "感知城市"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 智慧地球"
+  },
+  {
+    "id": "iot_1_5",
+    "globalIndex": 5,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 5,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "中國以下列哪一項為號召，進行全方位物聯網布局？",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧地球"
+      },
+      {
+        "key": "B",
+        "text": "感知寰宇"
+      },
+      {
+        "key": "C",
+        "text": "感知中國"
+      },
+      {
+        "key": "D",
+        "text": "智慧寰宇"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 感知中國"
+  },
+  {
+    "id": "iot_1_6",
+    "globalIndex": 6,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 6,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "歐洲電信標準協會（ETSI）將物聯網劃分為三個階層，由下至上應為下列哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "應用層、感知層、網路層"
+      },
+      {
+        "key": "B",
+        "text": "網路層、感知層、應用層"
+      },
+      {
+        "key": "C",
+        "text": "感知層、應用層、網路層"
+      },
+      {
+        "key": "D",
+        "text": "感知層、網路層、應用層"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 感知層、網路層、應用層"
+  },
+  {
+    "id": "iot_1_7",
+    "globalIndex": 7,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 7,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "歐洲電信標準協會（ETSI）將物聯網劃分為三個階層，但不包含下列哪一層？",
+    "options": [
+      {
+        "key": "A",
+        "text": "應用層"
+      },
+      {
+        "key": "B",
+        "text": "呈現層"
+      },
+      {
+        "key": "C",
+        "text": "感知層"
+      },
+      {
+        "key": "D",
+        "text": "網路層"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 呈現層"
+  },
+  {
+    "id": "iot_1_8",
+    "globalIndex": 8,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 8,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不屬於感知層的技術？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ZigBee"
+      },
+      {
+        "key": "B",
+        "text": "GPRS"
+      },
+      {
+        "key": "C",
+        "text": "RFID"
+      },
+      {
+        "key": "D",
+        "text": "QR Code"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) GPRS（GPRS屬於網路層/傳輸層技術）"
+  },
+  {
+    "id": "iot_1_9",
+    "globalIndex": 9,
+    "examId": "iot",
+    "section": 1,
+    "sectionName": "第一單元：物聯網概念、政策與架構分層",
+    "number": 9,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不屬於網路層的技術？",
+    "options": [
+      {
+        "key": "A",
+        "text": "無線電信網路"
+      },
+      {
+        "key": "B",
+        "text": "無線數據網路"
+      },
+      {
+        "key": "C",
+        "text": "無線感測器網路"
+      },
+      {
+        "key": "D",
+        "text": "雲端運算技術"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 雲端運算技術（雲端運算屬於應用層或平台層技術）"
+  },
+  {
+    "id": "iot_2_10",
+    "globalIndex": 10,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 10,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於智慧社區系統，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧社區系統可即時將重要的公告通知住戶，讓公告不漏接"
+      },
+      {
+        "key": "B",
+        "text": "管委會及各住戶可以透過智慧社區系統，獲知管理費繳交的情況"
+      },
+      {
+        "key": "C",
+        "text": "智慧社區系統可以透過智慧物件的資訊交換及互動，將不必要的電燈關閉，以節省不必要的浪費"
+      },
+      {
+        "key": "D",
+        "text": "智慧社區系統可以取代社區的守衛"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 智慧社區系統可以取代社區的守衛"
+  },
+  {
+    "id": "iot_2_11",
+    "globalIndex": 11,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 11,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於智慧社區，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧社區希望可以藉由各種智慧物件的獨立運作，創造健康、便利、舒適的生活環境"
+      },
+      {
+        "key": "B",
+        "text": "智慧社區希望可以透過各種智慧物件的數據蒐集及分析，提供社區居民個人化的服務需求"
+      },
+      {
+        "key": "C",
+        "text": "智慧社區希望可以透過各種智慧物件的整合應用，提供更適時、適性、適地的服務，實現社區居民的智慧生活訴求"
+      },
+      {
+        "key": "D",
+        "text": "智慧社區希望可以藉由各種智慧物件的資訊傳遞及控制，為社區居民營造一個舒適、便利的生活環境"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 智慧社區希望可以藉由各種智慧物件的獨立運作..."
+  },
+  {
+    "id": "iot_2_12",
+    "globalIndex": 12,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 12,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "行政院於2006年產業科技策略會議中，導入科技生活化的概念，定義了智慧化居住空間，關於此議題，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "建築物導入永續環保觀念與智慧化等相關產業技術，建構主動感知及滿足使用者需求之建築空間"
+      },
+      {
+        "key": "B",
+        "text": "創造安全、健康、便利、舒適、節能與永續的工作及生活環境"
+      },
+      {
+        "key": "C",
+        "text": "其範疇包括智慧家庭、智慧建築、智慧社區與智慧都市"
+      },
+      {
+        "key": "D",
+        "text": "在應用上短期將以安全監控、能源管理、健康照護為優先：中長期目標則以熱帶智慧化居住空間為整合載具"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 中長期目標則以熱帶智慧化居住空間為整合載具"
+  },
+  {
+    "id": "iot_2_13",
+    "globalIndex": 13,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 13,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於智慧電網，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧電網可利用資通訊技術收集供應端與使用端的電力供應狀況，以達到節約能源、降低損耗、增強電網可靠性為目的"
+      },
+      {
+        "key": "B",
+        "text": "智慧電網包含了一個智慧型電表基礎建設（AMI），用於紀錄系統所有電能的流動"
+      },
+      {
+        "key": "C",
+        "text": "智慧電網可以改善現有輸電網路的效能，但無法整合新能源，如風能、太陽能等"
+      },
+      {
+        "key": "D",
+        "text": "智慧電網之另一目的為將電網上的裝置由人工監測，進化到遙測或是遙控，再進化到自動判斷調整控制"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 智慧電網可以改善現有輸電網路的效能，但無法整合新能源..."
+  },
+  {
+    "id": "iot_2_14",
+    "globalIndex": 14,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 14,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於智慧電網，下列敘述哪一項錯誤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧電網感知層可提供追蹤能源消耗的高峰和通知忘記關閉設備的服務"
+      },
+      {
+        "key": "B",
+        "text": "智慧電網網路層負責運送資料到整個網路的控制中心"
+      },
+      {
+        "key": "C",
+        "text": "智慧電網傳輸層負責將電量使用資訊透過網際網路傳至配電者的資料蒐集中心"
+      },
+      {
+        "key": "D",
+        "text": "智慧電網應用層可以提供電量消耗視覺化的服務，將智慧電網所蒐集到之用電資訊，透過圖表方式呈現"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 智慧電網傳輸層負責..."
+  },
+  {
+    "id": "iot_2_15",
+    "globalIndex": 15,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 15,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種系統，不屬於智慧交通的一環？",
+    "options": [
+      {
+        "key": "A",
+        "text": "車輛防撞系統"
+      },
+      {
+        "key": "B",
+        "text": "智慧型號誌控制系統"
+      },
+      {
+        "key": "C",
+        "text": "緊急醫療通知系統"
+      },
+      {
+        "key": "D",
+        "text": "物流管理系統"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 物流管理系統"
+  },
+  {
+    "id": "iot_2_16",
+    "globalIndex": 16,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 16,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "家庭能源管理系統（HEMS）不包含下列哪一種功能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "耗能感知"
+      },
+      {
+        "key": "B",
+        "text": "能源控管"
+      },
+      {
+        "key": "C",
+        "text": "人工抄表"
+      },
+      {
+        "key": "D",
+        "text": "連網通訊"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 人工抄表"
+  },
+  {
+    "id": "iot_2_17",
+    "globalIndex": 17,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 17,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是智慧電網所設計的目的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "整合發電"
+      },
+      {
+        "key": "B",
+        "text": "分配電量"
+      },
+      {
+        "key": "C",
+        "text": "管理使用端電量"
+      },
+      {
+        "key": "D",
+        "text": "提供無線上網"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) 提供無線上網"
+  },
+  {
+    "id": "iot_2_18",
+    "globalIndex": 18,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 18,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於智慧型電表（Smart meter），下列敘述哪一項正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "是一種感應式電表"
+      },
+      {
+        "key": "B",
+        "text": "可自動將用電資料上傳到網路"
+      },
+      {
+        "key": "C",
+        "text": "是以電磁感應線圈原理製作的"
+      },
+      {
+        "key": "D",
+        "text": "仍需以人力方式進行手動抄表"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 可自動將用電資料上傳到網路"
+  },
+  {
+    "id": "iot_2_19",
+    "globalIndex": 19,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 19,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "智慧型感知行車紀錄器結合了傳統的行車紀錄器、環境感知及網路功能，下列哪些物理參數被列入主要的環境監測紀錄內？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "溫溼度"
+      },
+      {
+        "key": "B",
+        "text": "二氧化碳感測器"
+      },
+      {
+        "key": "C",
+        "text": "三軸加速度"
+      },
+      {
+        "key": "D",
+        "text": "車門防盜開關"
+      }
+    ],
+    "answer": "A,C",
+    "images": [],
+    "explanation": "(A) 溫溼度, (C) 三軸加速度"
+  },
+  {
+    "id": "iot_2_20",
+    "globalIndex": 20,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 20,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "RFID 主要可應用於醫院下列哪些系統內？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "病患床邊資訊看板系統"
+      },
+      {
+        "key": "B",
+        "text": "病患床邊智能照護系統"
+      },
+      {
+        "key": "C",
+        "text": "行動醫療推車"
+      },
+      {
+        "key": "D",
+        "text": "辦公室自動化系統"
+      }
+    ],
+    "answer": "A,B,C",
+    "images": [],
+    "explanation": "(A) 病患床邊資訊看板系統, (B) 病患床邊智能照護系統, (C) 行動醫療推車"
+  },
+  {
+    "id": "iot_2_21",
+    "globalIndex": 21,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 21,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "物聯網在醫療領域的應用被稱作智慧醫療，其中有兩項重要的特色，一為強調訊息的及時採集，二為下列哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "資訊流通"
+      },
+      {
+        "key": "B",
+        "text": "即時分析"
+      },
+      {
+        "key": "C",
+        "text": "即時醫療"
+      },
+      {
+        "key": "D",
+        "text": "即時照護"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 即時分析"
+  },
+  {
+    "id": "iot_2_22",
+    "globalIndex": 22,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 22,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "依照應用場景的不同，下列哪一項不屬於智慧醫療的三大類型之一？",
+    "options": [
+      {
+        "key": "A",
+        "text": "藥政管理"
+      },
+      {
+        "key": "B",
+        "text": "健康照護"
+      },
+      {
+        "key": "C",
+        "text": "醫療管理"
+      },
+      {
+        "key": "D",
+        "text": "醫療感測"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 藥政管理（智慧醫療三大類型為健康照護、醫療管理、醫療感測）"
+  },
+  {
+    "id": "iot_2_23",
+    "globalIndex": 23,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 23,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧藥盒服藥提醒系統屬於下列哪一種智慧醫療類型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "健康照護"
+      },
+      {
+        "key": "B",
+        "text": "藥政管理"
+      },
+      {
+        "key": "C",
+        "text": "醫療管理"
+      },
+      {
+        "key": "D",
+        "text": "醫療感測"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 健康照護"
+  },
+  {
+    "id": "iot_2_24",
+    "globalIndex": 24,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 24,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "一般而言，物聯網的應用技術可分為四大類，除智慧生活外，尚有下列哪三項？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧運輸"
+      },
+      {
+        "key": "B",
+        "text": "智慧醫療"
+      },
+      {
+        "key": "C",
+        "text": "智慧電網"
+      },
+      {
+        "key": "D",
+        "text": "綠色建築"
+      }
+    ],
+    "answer": "A,B,C",
+    "images": [],
+    "explanation": "(A) 智慧運輸, (B) 智慧醫療, (C) 智慧電網"
+  },
+  {
+    "id": "iot_2_25",
+    "globalIndex": 25,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 25,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "依歐洲電信標準協會（ETSI）將物聯網劃分成三個階層，政府為提倡節能減碳做環保並保障大眾搭乘公共運輸時的安全性，故建立先進大眾運輸服務系統，此系統應屬於下列哪一層？",
+    "options": [
+      {
+        "key": "A",
+        "text": "應用層"
+      },
+      {
+        "key": "B",
+        "text": "傳輸層"
+      },
+      {
+        "key": "C",
+        "text": "網路層"
+      },
+      {
+        "key": "D",
+        "text": "感知層"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 應用層"
+  },
+  {
+    "id": "iot_2_26",
+    "globalIndex": 26,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 26,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "於醫院內，若有缺失，可能造成病人服錯藥或輸血錯誤，甚至誤用手術器材與針筒導致急性過敏或敗血症，故將各項藥品、血袋、針筒或手術器材等物品加裝RFID，作為流程管理追蹤之用，並結合醫療廢棄物管理，以上敘述屬於下列哪一種智慧醫療應用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "健康照護"
+      },
+      {
+        "key": "B",
+        "text": "醫療管理"
+      },
+      {
+        "key": "C",
+        "text": "醫療感測"
+      },
+      {
+        "key": "D",
+        "text": "藥材管理"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 醫療管理"
+  },
+  {
+    "id": "iot_2_27",
+    "globalIndex": 27,
+    "examId": "iot",
+    "section": 2,
+    "sectionName": "第二單元：物聯網智慧應用實務 (社區/電網/醫療/交通)",
+    "number": 27,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧電網透過下列哪一項建設，讓使用者可以了解家中電量，且配電端亦可了解電量使用情況，進而針對發電與配電之間做良好的調度？",
+    "options": [
+      {
+        "key": "A",
+        "text": "智慧型電表基礎建設（AMI）"
+      },
+      {
+        "key": "B",
+        "text": "智慧型電表（Smart meter）"
+      },
+      {
+        "key": "C",
+        "text": "網路電表（Net meter）"
+      },
+      {
+        "key": "D",
+        "text": "電力線通信（PLC）"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 智慧型電表基礎建設（AMI）"
+  },
+  {
+    "id": "iot_3_28",
+    "globalIndex": 28,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 28,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項是手機用來偵測方向及速度的感測器？",
+    "options": [
+      {
+        "key": "A",
+        "text": "超音波"
+      },
+      {
+        "key": "B",
+        "text": "三軸加速度計"
+      },
+      {
+        "key": "C",
+        "text": "電子羅盤"
+      },
+      {
+        "key": "D",
+        "text": "陀螺儀"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 三軸加速度計"
+  },
+  {
+    "id": "iot_3_29",
+    "globalIndex": 29,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 29,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項是悠遊卡所使用的感測技術？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ZigBee"
+      },
+      {
+        "key": "B",
+        "text": "Wi-Fi"
+      },
+      {
+        "key": "C",
+        "text": "RFID"
+      },
+      {
+        "key": "D",
+        "text": "NFC"
+      }
+    ],
+    "answer": "D",
+    "images": [],
+    "explanation": "(D) NFC（悠遊卡為近場通訊技術NFC應用）"
+  },
+  {
+    "id": "iot_3_30",
+    "globalIndex": 30,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 30,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是智慧型手機可能配備的通訊系統？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "3G"
+      },
+      {
+        "key": "B",
+        "text": "Wi-Fi"
+      },
+      {
+        "key": "C",
+        "text": "Ethernet"
+      },
+      {
+        "key": "D",
+        "text": "NFC"
+      }
+    ],
+    "answer": "A,B,D",
+    "images": [],
+    "explanation": "(A) 3G, (B) Wi-Fi, (D) NFC"
+  },
+  {
+    "id": "iot_3_31",
+    "globalIndex": 31,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 31,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是目前可被手機接受的條碼技術？",
+    "options": [
+      {
+        "key": "A",
+        "text": "QR Code"
+      },
+      {
+        "key": "B",
+        "text": "Bar Code"
+      },
+      {
+        "key": "C",
+        "text": "CRC Code"
+      },
+      {
+        "key": "D",
+        "text": "DataMatrix Code"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) CRC Code（CRC為循環冗餘校驗碼，非條碼）"
+  },
+  {
+    "id": "iot_3_32",
+    "globalIndex": 32,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 32,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是手機的作業系統？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "Android"
+      },
+      {
+        "key": "B",
+        "text": "iOS"
+      },
+      {
+        "key": "C",
+        "text": "Windows Phone"
+      },
+      {
+        "key": "D",
+        "text": "Inventor"
+      }
+    ],
+    "answer": "A,B,C",
+    "images": [],
+    "explanation": "(A) Android, (B) iOS, (C) Windows Phone"
+  },
+  {
+    "id": "iot_3_33",
+    "globalIndex": 33,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 33,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項是智慧型手機尋找附近餐廳的主要技術？",
+    "options": [
+      {
+        "key": "A",
+        "text": "三軸加速度計"
+      },
+      {
+        "key": "B",
+        "text": "衛星定位系統"
+      },
+      {
+        "key": "C",
+        "text": "陀螺儀"
+      },
+      {
+        "key": "D",
+        "text": "超音波"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 衛星定位系統"
+  },
+  {
+    "id": "iot_3_34",
+    "globalIndex": 34,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 34,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是智慧型手機的應用？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "訂購網路商品"
+      },
+      {
+        "key": "B",
+        "text": "查詢客戶資料"
+      },
+      {
+        "key": "C",
+        "text": "當作電子錢包，進行小額付款"
+      },
+      {
+        "key": "D",
+        "text": "將資料儲存在雲端硬碟"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "images": [],
+    "explanation": "(A) 訂購網路商品, (B) 查詢客戶資料, (C) 當作電子錢包，進行小額付款, (D) 將資料儲存在雲端硬碟"
+  },
+  {
+    "id": "iot_3_35",
+    "globalIndex": 35,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 35,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項不是智慧型手機在NFC上的應用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在行動支付中，縮短交易時間"
+      },
+      {
+        "key": "B",
+        "text": "在運輸中，取代實體通行證"
+      },
+      {
+        "key": "C",
+        "text": "在交通中，規劃路徑，縮短行車時間"
+      },
+      {
+        "key": "D",
+        "text": "在信用評價中，取代實體會員卡"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 在交通中，規劃路徑，縮短行車時間"
+  },
+  {
+    "id": "iot_3_36",
+    "globalIndex": 36,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 36,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項技術不是行動支付的解決方案？",
+    "options": [
+      {
+        "key": "A",
+        "text": "NFC"
+      },
+      {
+        "key": "B",
+        "text": "GPS"
+      },
+      {
+        "key": "C",
+        "text": "RFID"
+      },
+      {
+        "key": "D",
+        "text": "QR code"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) GPS"
+  },
+  {
+    "id": "iot_3_37",
+    "globalIndex": 37,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 37,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些為 ZigBee 網路層支援的三種網路拓樸？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "星狀拓樸"
+      },
+      {
+        "key": "B",
+        "text": "樹狀拓樸"
+      },
+      {
+        "key": "C",
+        "text": "環狀拓樸"
+      },
+      {
+        "key": "D",
+        "text": "網狀拓樸"
+      }
+    ],
+    "answer": "A,B,D",
+    "images": [],
+    "explanation": "(A) 星狀拓樸, (B) 樹狀拓樸, (D) 網狀拓樸"
+  },
+  {
+    "id": "iot_3_38",
+    "globalIndex": 38,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 38,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種標準的媒體存取控制層包含在ZigBee 的全功能裝置中？",
+    "options": [
+      {
+        "key": "A",
+        "text": "IEEE 802.3"
+      },
+      {
+        "key": "B",
+        "text": "IEEE 802.11n"
+      },
+      {
+        "key": "C",
+        "text": "IEEE 802.15.4"
+      },
+      {
+        "key": "D",
+        "text": "IEEE 802.20"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) IEEE 802.15.4"
+  },
+  {
+    "id": "iot_3_39",
+    "globalIndex": 39,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 39,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種 ZigBee 網路裝置的角色負責整個網路的啟動、結合及地址表等功能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Router"
+      },
+      {
+        "key": "B",
+        "text": "PAN Coordinator"
+      },
+      {
+        "key": "C",
+        "text": "End Device"
+      },
+      {
+        "key": "D",
+        "text": "Switch"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) PAN Coordinator"
+  },
+  {
+    "id": "iot_3_40",
+    "globalIndex": 40,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 40,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是藍芽（Bluetooth）的特性？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "成本低"
+      },
+      {
+        "key": "B",
+        "text": "長距離"
+      },
+      {
+        "key": "C",
+        "text": "效益高"
+      },
+      {
+        "key": "D",
+        "text": "隨意無線連接"
+      }
+    ],
+    "answer": "A,C,D",
+    "images": [],
+    "explanation": "(A) 成本低, (C) 效益高, (D) 隨意無線連接（藍芽為短距離無線通訊）"
+  },
+  {
+    "id": "iot_3_41",
+    "globalIndex": 41,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 41,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "關於藍芽（Bluetooth），下列敘述哪些正確？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "階層式的架構"
+      },
+      {
+        "key": "B",
+        "text": "Bluetooth 裝置可以同時扮演 Master 和 Slave 的角色"
+      },
+      {
+        "key": "C",
+        "text": "一個 Piconet 最多有8個 Slave"
+      },
+      {
+        "key": "D",
+        "text": "一個 Scatternet 最多可由256個 Piconet 組合"
+      }
+    ],
+    "answer": "B,C",
+    "images": [],
+    "explanation": "(B) Bluetooth 裝置可以同時扮演 Master 和 Slave 的角色, (C) 一個 Piconet 最多有8個 Slave"
+  },
+  {
+    "id": "iot_3_42",
+    "globalIndex": 42,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 42,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一項為Wi-Fi所採用的標準？",
+    "options": [
+      {
+        "key": "A",
+        "text": "IEEE 802.3"
+      },
+      {
+        "key": "B",
+        "text": "IEEE 802.11"
+      },
+      {
+        "key": "C",
+        "text": "IEEE 802.15"
+      },
+      {
+        "key": "D",
+        "text": "IEEE 802.20"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) IEEE 802.11"
+  },
+  {
+    "id": "iot_3_43",
+    "globalIndex": 43,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 43,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些是無線區域網路的連結架構？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "基礎建設模式（Infrastructure Mode）"
+      },
+      {
+        "key": "B",
+        "text": "點對點模式（Point-to-Point Mode）"
+      },
+      {
+        "key": "C",
+        "text": "隨建即連模式（Ad Hoc Mode）"
+      },
+      {
+        "key": "D",
+        "text": "集中式模式（Central Mode）"
+      }
+    ],
+    "answer": "A,C",
+    "images": [],
+    "explanation": "(A) 基礎建設模式（Infrastructure Mode）, (C) 隨建即連模式（Ad Hoc Mode）"
+  },
+  {
+    "id": "iot_3_44",
+    "globalIndex": 44,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 44,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在無線區域網路中的基礎建設模式（Infrastructure Mode）中，傳輸的方式應為下列哪一種？",
+    "options": [
+      {
+        "key": "A",
+        "text": "免競爭週期"
+      },
+      {
+        "key": "B",
+        "text": "競爭週期"
+      },
+      {
+        "key": "C",
+        "text": "免競爭週期與競爭週期"
+      },
+      {
+        "key": "D",
+        "text": "公平分配週期"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 免競爭週期與競爭週期"
+  },
+  {
+    "id": "iot_3_45",
+    "globalIndex": 45,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 45,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在無線區域網路中的隨建即連模式（Ad Hoc Mode）中，傳輸的方式為下列哪一種？",
+    "options": [
+      {
+        "key": "A",
+        "text": "免競爭週期"
+      },
+      {
+        "key": "B",
+        "text": "競爭週期"
+      },
+      {
+        "key": "C",
+        "text": "免競爭週期與競爭週期"
+      },
+      {
+        "key": "D",
+        "text": "公平分配週期"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 競爭週期"
+  },
+  {
+    "id": "iot_3_46",
+    "globalIndex": 46,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 46,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "目前國際商品條碼 GS1 主要由下列哪兩大系統整合而成？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "通用產品代碼（UPC）"
+      },
+      {
+        "key": "B",
+        "text": "歐洲商品條碼（EAN）"
+      },
+      {
+        "key": "C",
+        "text": "美國統一編碼協會（UCC）"
+      },
+      {
+        "key": "D",
+        "text": "食品工業統一碼（UGPIC）"
+      }
+    ],
+    "answer": "A,B",
+    "images": [],
+    "explanation": "(A) 通用產品代碼（UPC）, (B) 歐洲商品條碼（EAN）"
+  },
+  {
+    "id": "iot_3_47",
+    "globalIndex": 47,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 47,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "大家常在各大百貨超級市場物品包裝上看到的條碼，最早成功應用於下列哪一種美國產業？",
+    "options": [
+      {
+        "key": "A",
+        "text": "食品業"
+      },
+      {
+        "key": "B",
+        "text": "家電業"
+      },
+      {
+        "key": "C",
+        "text": "運輸業"
+      },
+      {
+        "key": "D",
+        "text": "成衣業"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 食品業"
+  },
+  {
+    "id": "iot_3_48",
+    "globalIndex": 48,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 48,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "一般商品包裝上都印製有條碼，台灣的國家代碼為下列哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "471"
+      },
+      {
+        "key": "B",
+        "text": "886"
+      },
+      {
+        "key": "C",
+        "text": "957"
+      },
+      {
+        "key": "D",
+        "text": "977"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 471"
+  },
+  {
+    "id": "iot_3_49",
+    "globalIndex": 49,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 49,
+    "type": "multiple",
+    "typeLabel": "複選題",
+    "question": "下列哪些為一維條碼技術的優點？（複選）",
+    "options": [
+      {
+        "key": "A",
+        "text": "可靠性高"
+      },
+      {
+        "key": "B",
+        "text": "成本低"
+      },
+      {
+        "key": "C",
+        "text": "自由度大"
+      },
+      {
+        "key": "D",
+        "text": "容錯率高"
+      }
+    ],
+    "answer": "A,B",
+    "images": [],
+    "explanation": "(A) 可靠性高, (B) 成本低"
+  },
+  {
+    "id": "iot_3_50",
+    "globalIndex": 50,
+    "examId": "iot",
+    "section": 3,
+    "sectionName": "第三單元：感測裝置、短距通訊與識別技術 (手機/ZigBee/藍芽/條碼)",
+    "number": 50,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在台灣若有新書出版或新期刊創立應向下列哪一個機關申請 ISBN 與 ISSN 代碼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "國家圖書館"
+      },
+      {
+        "key": "B",
+        "text": "中央研究院"
+      },
+      {
+        "key": "C",
+        "text": "台北市立圖書館"
+      },
+      {
+        "key": "D",
+        "text": "中華民國商品條碼策進會"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 國家圖書館"
+  },
+  {
+    "id": "iot_4_51",
+    "globalIndex": 51,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 51,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在物聯網架構中，負責將感知層所採集到的龐大資料進行高速運算、儲存與巨量資料分析的層級通常為何？",
+    "options": [
+      {
+        "key": "A",
+        "text": "感知層"
+      },
+      {
+        "key": "B",
+        "text": "網路傳輸層"
+      },
+      {
+        "key": "C",
+        "text": "平台與雲端運算層"
+      },
+      {
+        "key": "D",
+        "text": "實體驅動層"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) 平台與雲端運算層"
+  },
+  {
+    "id": "iot_4_52",
+    "globalIndex": 52,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 52,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "下列哪一種低功耗廣域網路（LPWAN）通訊技術是專門為物聯網長距離、低功耗傳輸所設計，且多運行於免授權頻段（如Sub-GHz）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "LoRa"
+      },
+      {
+        "key": "B",
+        "text": "Bluetooth 5.0"
+      },
+      {
+        "key": "C",
+        "text": "NFC"
+      },
+      {
+        "key": "D",
+        "text": "Gigabit Ethernet"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) LoRa"
+  },
+  {
+    "id": "iot_4_53",
+    "globalIndex": 53,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 53,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在物聯網資安防護中，下列哪一項攻擊手法最常針對物聯網設備預設密碼薄弱、安全性不足的漏洞，進而組成龐大殭屍網路發動DDoS攻擊？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mirai 惡意軟體攻擊"
+      },
+      {
+        "key": "B",
+        "text": "SQL隱碼攻擊"
+      },
+      {
+        "key": "C",
+        "text": "跨站腳本攻擊 (XSS)"
+      },
+      {
+        "key": "D",
+        "text": "緩衝區溢位型病毒"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) Mirai 惡意軟體攻擊"
+  },
+  {
+    "id": "iot_4_54",
+    "globalIndex": 54,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 54,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "物聯網通訊協定中，常應用於輕量級M2M（Machine-to-Machine）通訊、基於RESTful架構且採用UDP傳輸層協定的是下列哪一項？",
+    "options": [
+      {
+        "key": "A",
+        "text": "HTTP"
+      },
+      {
+        "key": "B",
+        "text": "MQTT"
+      },
+      {
+        "key": "C",
+        "text": "CoAP"
+      },
+      {
+        "key": "D",
+        "text": "FTP"
+      }
+    ],
+    "answer": "C",
+    "images": [],
+    "explanation": "(C) CoAP"
+  },
+  {
+    "id": "iot_4_55",
+    "globalIndex": 55,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 55,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "關於MQTT（Message Queuing Telemetry Transport）通訊協定的敘述，下列何者正確？",
+    "options": [
+      {
+        "key": "A",
+        "text": "採用請求/回應（Request/Response）模式"
+      },
+      {
+        "key": "B",
+        "text": "採用發布/訂閱（Publish/Subscribe）輕量化訊息模式"
+      },
+      {
+        "key": "C",
+        "text": "必須運行於TCP之上且消耗大量頻寬"
+      },
+      {
+        "key": "D",
+        "text": "不支援任何QoS（服務品質）等級設定"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 採用發布/訂閱（Publish/Subscribe）輕量化訊息模式"
+  },
+  {
+    "id": "iot_4_56",
+    "globalIndex": 56,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 56,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧農業系統中，透過布建土壤濕度感測器與自動化灌溉系統，當濕度低於設定閾值時自動灑水，這種在物端直接進行資料處理與即時反應的運算模式稱為：",
+    "options": [
+      {
+        "key": "A",
+        "text": "雲端運算 (Cloud Computing)"
+      },
+      {
+        "key": "B",
+        "text": "邊緣運算 (Edge Computing)"
+      },
+      {
+        "key": "C",
+        "text": "批次運算 (Batch Processing)"
+      },
+      {
+        "key": "D",
+        "text": "區塊鏈運算"
+      }
+    ],
+    "answer": "B",
+    "images": [],
+    "explanation": "(B) 邊緣運算 (Edge Computing)"
+  },
+  {
+    "id": "iot_4_57",
+    "globalIndex": 57,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 57,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "物聯網裝置辨識中，RFID電子標籤（Tag）依據供電與工作原理可分為主動式（Active）、被動式（Passive）以及下列哪一種類型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "半被動式（Semi-passive / 標籤講談式）"
+      },
+      {
+        "key": "B",
+        "text": "太陽能直驅式"
+      },
+      {
+        "key": "C",
+        "text": "磁感應變壓式"
+      },
+      {
+        "key": "D",
+        "text": "紅外線反射式"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 半被動式（Semi-passive / 標籤講談式）"
+  },
+  {
+    "id": "iot_4_58",
+    "globalIndex": 58,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 58,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "工業物聯網（IIoT）與傳統消費型物聯網（Consumer IoT）相比，下列哪一項往往是工業物聯網最為嚴苛的要求？",
+    "options": [
+      {
+        "key": "A",
+        "text": "超低延遲與極高的可靠性/即時性"
+      },
+      {
+        "key": "B",
+        "text": "設備成本必須低於1美元"
+      },
+      {
+        "key": "C",
+        "text": "不需要任何加密認證機制"
+      },
+      {
+        "key": "D",
+        "text": "容許頻繁斷線與高達數秒的傳輸延遲"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 超低延遲與極高的可靠性/即時性"
+  },
+  {
+    "id": "iot_4_59",
+    "globalIndex": 59,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 59,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "在智慧物流與供應鏈追蹤中，結合物聯網感測器即時監控冷鏈運輸過程中的溫度與濕度變化，以確保生鮮食品或疫苗品質的技術系統核心為：",
+    "options": [
+      {
+        "key": "A",
+        "text": "冷鏈物聯網與環境感知監控"
+      },
+      {
+        "key": "B",
+        "text": "傳統人工紙本記錄單"
+      },
+      {
+        "key": "C",
+        "text": "單純的條碼掃描建檔"
+      },
+      {
+        "key": "D",
+        "text": "網頁瀏覽器快取機制"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) 冷鏈物聯網與環境感知監控"
+  },
+  {
+    "id": "iot_4_60",
+    "globalIndex": 60,
+    "examId": "iot",
+    "section": 4,
+    "sectionName": "第四單元：進階物聯網協定、邊緣運算與資安 (LoRa/MQTT/CoAP/IIoT)",
+    "number": 60,
+    "type": "single",
+    "typeLabel": "單選題",
+    "question": "智慧家庭通訊標準中，由大型科技公司（如Apple, Google, Amazon等）共同推動、旨在打破生態系隔閡、基於IP的智慧家居開源互通連線標準為下列何者？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Matter"
+      },
+      {
+        "key": "B",
+        "text": "ZigBee Pro"
+      },
+      {
+        "key": "C",
+        "text": "Z-Wave 專利協定"
+      },
+      {
+        "key": "D",
+        "text": "藍芽Mesh"
+      }
+    ],
+    "answer": "A",
+    "images": [],
+    "explanation": "(A) Matter"
+  }
+]
