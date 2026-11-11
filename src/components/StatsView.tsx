@@ -10,9 +10,13 @@ import {
   FileText, 
   ShieldCheck, 
   Database,
-  Layers
+  Layers,
+  Sparkles,
+  RefreshCw,
+  Clock
 } from 'lucide-react';
 import { exportAllData, importAllData } from '../utils/storage';
+import { AppUpdateState } from '../utils/useAppUpdate';
 
 interface StatsViewProps {
   exams: ExamMeta[];
@@ -22,6 +26,7 @@ interface StatsViewProps {
   bookmarks: Record<string, boolean>;
   onDataReset: () => void;
   onDataImported: () => void;
+  appUpdate?: AppUpdateState;
 }
 
 export const StatsView: React.FC<StatsViewProps> = ({
@@ -31,7 +36,8 @@ export const StatsView: React.FC<StatsViewProps> = ({
   corrects,
   bookmarks,
   onDataReset,
-  onDataImported
+  onDataImported,
+  appUpdate
 }) => {
   const [showResetConfirm, setShowResetConfirm] = useState<boolean>(false);
   const [importMessage, setImportMessage] = useState<string | null>(null);
@@ -203,6 +209,80 @@ export const StatsView: React.FC<StatsViewProps> = ({
               </div>
             );
           })}
+        </div>
+      </div>
+
+      {/* System Version & Auto-update Section */}
+      <div className="p-6 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <h3 className="text-base font-bold text-slate-900 dark:text-white">
+                系統版本與連線更新
+              </h3>
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300">
+                v{appUpdate?.currentVersion || '2.1.0'}
+              </span>
+            </div>
+            <p className="text-xs text-slate-500 dark:text-slate-400">
+              裝置每次開啟網頁或從背景切換時，皆會自動連線伺服器檢查有無最新題目與功能。
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 shrink-0">
+            {appUpdate?.hasUpdate ? (
+              <button
+                onClick={appUpdate.applyUpdate}
+                className="px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-md shadow-emerald-500/20 active:scale-95 transition flex items-center gap-2 animate-pulse"
+              >
+                <RefreshCw className="w-4 h-4" />
+                <span>立即套用更新</span>
+              </button>
+            ) : (
+              <button
+                onClick={() => appUpdate?.checkForUpdates(true)}
+                disabled={appUpdate?.isChecking}
+                className="px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition flex items-center gap-2 active:scale-95 disabled:opacity-50"
+              >
+                <RefreshCw className={`w-4 h-4 ${appUpdate?.isChecking ? 'animate-spin text-blue-600' : 'text-slate-500'}`} />
+                <span>{appUpdate?.isChecking ? '檢查中...' : '檢查新版本'}</span>
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* Status display */}
+        <div className="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-850 border border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
+          <div className="flex items-center gap-2">
+            <span className="text-slate-400">版本狀態：</span>
+            {appUpdate?.isChecking ? (
+              <span className="font-semibold text-blue-600 dark:text-blue-400 flex items-center gap-1">
+                <RefreshCw className="w-3 h-3 animate-spin" />
+                <span>正在連線伺服器檢查最新版本...</span>
+              </span>
+            ) : appUpdate?.hasUpdate ? (
+              <span className="font-bold text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5 text-emerald-500 animate-pulse" />
+                <span>發現新版本 {appUpdate.latestVersion?.version ? `(v${appUpdate.latestVersion.version})` : ''}！點擊上方按鈕即可立即套用。</span>
+              </span>
+            ) : appUpdate?.checkStatus === 'up-to-date' ? (
+              <span className="font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
+                <span>目前已是最新版本，所有題庫與程式碼皆已同步！</span>
+              </span>
+            ) : (
+              <span className="text-slate-500 dark:text-slate-400">
+                自動更新偵測已就緒 (開機與切換分頁時自動偵測)
+              </span>
+            )}
+          </div>
+
+          {appUpdate?.lastCheckedTime && (
+            <div className="text-[11px] text-slate-400 flex items-center gap-1">
+              <Clock className="w-3 h-3" />
+              <span>上次檢查：{new Date(appUpdate.lastCheckedTime).toLocaleTimeString('zh-TW')}</span>
+            </div>
+          )}
         </div>
       </div>
 

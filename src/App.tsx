@@ -21,6 +21,7 @@ import { StatsView } from './components/StatsView';
 import { StudyBrowseView } from './components/StudyBrowseView';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { ImageModal } from './components/ImageModal';
+import { UpdateNotification } from './components/UpdateNotification';
 import { 
   getMistakes, 
   recordMistake, 
@@ -40,6 +41,7 @@ import {
 import { generateToeicQuestions, RawToeicWord } from './utils/toeicGenerator';
 import { resolveAssetUrl } from './utils/asset';
 import { useScrollHeader } from './utils/useScrollHeader';
+import { useAppUpdate } from './utils/useAppUpdate';
 import { Sparkles, GraduationCap, Flame, ArrowRight } from 'lucide-react';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -73,6 +75,9 @@ export function App() {
   // Active Session
   const [activeSession, setActiveSession] = useState<QuizSession | null>(null);
   const [pendingSession, setPendingSession] = useState<QuizSession | null>(null);
+
+  // Auto Version Checker & PWA Updater
+  const appUpdate = useAppUpdate(Boolean(activeSession && !activeSession.isSubmitted));
 
   // Config Modal State
   const [configModalExam, setConfigModalExam] = useState<ExamMeta | null>(null);
@@ -527,6 +532,8 @@ export function App() {
         }}
         examCount={exams.length}
         isVisible={isHeaderVisible}
+        hasUpdate={appUpdate.hasUpdate}
+        onApplyUpdate={appUpdate.applyUpdate}
       />
 
       {/* Main Content Area based on Tab */}
@@ -713,6 +720,7 @@ export function App() {
             bookmarks={bookmarks}
             onDataReset={handleResetAllData}
             onDataImported={reloadStorageData}
+            appUpdate={appUpdate}
           />
         )}
       </main>
@@ -737,6 +745,16 @@ export function App() {
           onClose={() => setPreviewImage(null)}
         />
       )}
+
+      {/* Auto-update Floating Notification Banner */}
+      <UpdateNotification
+        hasUpdate={appUpdate.hasUpdate}
+        showToast={appUpdate.showToast}
+        latestVersion={appUpdate.latestVersion}
+        onApplyUpdate={appUpdate.applyUpdate}
+        onDismiss={appUpdate.dismissUpdateToast}
+        hasActiveQuiz={Boolean(activeSession && !activeSession.isSubmitted)}
+      />
 
       {/* Mobile Bottom Navigation Bar */}
       <MobileBottomNav

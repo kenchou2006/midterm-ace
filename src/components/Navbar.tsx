@@ -25,6 +25,8 @@ interface NavbarProps {
   onResumeQuiz?: () => void;
   examCount?: number;
   isVisible?: boolean;
+  hasUpdate?: boolean;
+  onApplyUpdate?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -36,7 +38,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   hasActiveQuiz,
   onResumeQuiz,
   examCount = 8,
-  isVisible = true
+  isVisible = true,
+  hasUpdate = false,
+  onApplyUpdate
 }) => {
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [isOnline, setIsOnline] = useState<boolean>(navigator.onLine);
@@ -208,6 +212,19 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <WifiOff className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
                 <span className="hidden md:inline">離線模式</span>
               </div>
+            )}
+
+            {/* New Version Update Button */}
+            {hasUpdate && onApplyUpdate && (
+              <button
+                onClick={onApplyUpdate}
+                className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs sm:text-sm font-bold bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white shadow-sm shadow-emerald-500/20 animate-pulse transition transform hover:scale-105"
+                title="發現新版本！點擊立即更新重整"
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">有新版本</span>
+                <span className="sm:hidden">更新</span>
+              </button>
             )}
 
             {/* PWA Install Button */}
