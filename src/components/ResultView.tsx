@@ -18,6 +18,12 @@ import confetti from 'canvas-confetti';
 import { playSpeech } from '../utils/toeicGenerator';
 import { resolveAssetUrl } from '../utils/asset';
 import { ImageModal } from './ImageModal';
+import { 
+  isAnswerCorrect, 
+  isOptionInAnswer, 
+  formatDisplayAnswer, 
+  deduplicateOptions 
+} from '../utils/answerHelper';
 
 interface ResultViewProps {
   session: QuizSession;
@@ -64,16 +70,12 @@ export const ResultView: React.FC<ResultViewProps> = ({
 
   // Mistakes in this session
   const mistakeQuestions = session.questions.filter(q => {
-    const userAns = (session.userAnswers[q.id] || '').split('').sort().join('');
-    const trueAns = q.answer.split('').sort().join('');
-    return userAns !== trueAns;
+    return !isAnswerCorrect(session.userAnswers[q.id], q.answer);
   });
 
   // Filtered review list
   const filteredQuestions = session.questions.filter(q => {
-    const userAns = (session.userAnswers[q.id] || '').split('').sort().join('');
-    const trueAns = q.answer.split('').sort().join('');
-    const isCorrect = userAns === trueAns;
+    const isCorrect = isAnswerCorrect(session.userAnswers[q.id], q.answer);
 
     if (filterType === 'wrong') return !isCorrect;
     if (filterType === 'correct') return isCorrect;
@@ -248,10 +250,9 @@ export const ResultView: React.FC<ResultViewProps> = ({
         <div className="space-y-4">
           {filteredQuestions.map((q, idx) => {
             const userAns = session.userAnswers[q.id] || '';
-            const userAnsNorm = userAns.split('').sort().join('');
-            const trueAnsNorm = q.answer.split('').sort().join('');
-            const isCorrect = userAnsNorm === trueAnsNorm;
+            const isCorrect = isAnswerCorrect(userAns, q.answer);
             const isBookmarked = Boolean(bookmarks[q.id]);
+            const safeOptions = deduplicateOptions(q.options);
 
             return (
               <div 
@@ -328,9 +329,9 @@ export const ResultView: React.FC<ResultViewProps> = ({
 
                 {/* Options List */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
-                  {q.options.map((opt) => {
-                    const isUserChoice = userAns.includes(opt.key);
-                    const isTrueChoice = q.answer.includes(opt.key);
+                  {safeOptions.map((opt) => {
+                    const isUserChoice = isOptionInAnswer(opt.key, userAns);
+                    const isTrueChoice = isOptionInAnswer(opt.key, q.answer);
 
                     let boxStyle = 'border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 text-slate-700 dark:text-slate-300';
                     if (isTrueChoice) {
@@ -362,13 +363,13 @@ export const ResultView: React.FC<ResultViewProps> = ({
                     <div>
                       <span className="text-slate-500">正確答案：</span>
                       <span className="font-bold font-mono text-emerald-600 dark:text-emerald-400">
-                        {q.answer}
+                        {formatDisplayAnswer(q.answer)}
                       </span>
                     </div>
                     <div>
                       <span className="text-slate-500">您的作答：</span>
                       <span className={`font-bold font-mono ${isCorrect ? 'text-emerald-600' : 'text-rose-600'}`}>
-                        {userAns || '(未作答)'}
+                        {userAns ? formatDisplayAnswer(userAns) : '(未作答)'}
                       </span>
                     </div>
                   </div>

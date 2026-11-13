@@ -2,6 +2,7 @@ import React from 'react';
 import { createPortal } from 'react-dom';
 import { Question, QuizMode } from '../types/exam';
 import { X, CheckCircle2, Bookmark, HelpCircle } from 'lucide-react';
+import { isAnswerCorrect } from '../utils/answerHelper';
 
 interface QuestionDrawerProps {
   questions: Question[];
@@ -89,7 +90,7 @@ export const QuestionDrawer: React.FC<QuestionDrawerProps> = ({
               let btnStyle = 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100';
 
               if (mode === 'practice' && isAnswered) {
-                const isCorrect = ans.split('').sort().join('') === q.answer.split('').sort().join('');
+                const isCorrect = isAnswerCorrect(ans, q.answer);
                 if (isCorrect) {
                   btnStyle = 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-bold';
                 } else if (q.type !== 'multiple') {

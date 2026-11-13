@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Question, QuizMode } from '../types/exam';
 import { 
   Bookmark, 
@@ -14,6 +14,13 @@ import {
 } from 'lucide-react';
 import { playSpeech } from '../utils/toeicGenerator';
 import { resolveAssetUrl } from '../utils/asset';
+import { 
+  isAnswerCorrect, 
+  isOptionInAnswer, 
+  formatDisplayAnswer, 
+  normalizeAnswer, 
+  deduplicateOptions 
+} from '../utils/answerHelper';
 
 interface QuestionCardProps {
   question: Question;
@@ -45,26 +52,27 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   // For multiple choice in practice mode: temporary selection before confirm
   const [showExplanation, setShowExplanation] = useState<boolean>(false);
 
-  // Check correctness
-  const isCorrect = isAnswered && (
-    userAnswer.split('').sort().join('') === question.answer.split('').sort().join('')
-  );
+  // Check correctness using robust answer normalizer
+  const isCorrect = isAnswered && isAnswerCorrect(userAnswer, question.answer);
 
   // Whether practice feedback (green/red & explanation) should be revealed
   const isRevealed = mode === 'practice' && isAnswered && (!isMultiple || showExplanation);
+
+  // Safeguard against duplicate option keys in data
+  const safeOptions = useMemo(() => deduplicateOptions(question.options), [question.options]);
 
   const handleOptionClick = (key: string) => {
     if (isMultiple) {
       if (showExplanation) return; // already submitted
       // Toggle key in userAnswer string
-      const currentSelected = userAnswer ? userAnswer.split('') : [];
+      const currentSelected = normalizeAnswer(userAnswer).split('');
       let updated: string[];
       if (currentSelected.includes(key)) {
         updated = currentSelected.filter(k => k !== key);
       } else {
         updated = [...currentSelected, key];
       }
-      onSelectAnswer(updated.sort().join(''), false);
+      onSelectAnswer(normalizeAnswer(updated.join('')), false);
     } else {
       onSelectAnswer(key, true);
       if (mode === 'practice') {
@@ -186,7 +194,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             { key: 'X', label: '錯誤 (False)', icon: XIcon, color: 'rose' }
           ].map((item) => {
             const isSelected = userAnswer === item.key;
-            const isCorrectOption = question.answer === item.key;
+            const isCorrectOption = isOptionInAnswer(item.key, question.answer);
             
             let btnStyle = 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
             
@@ -222,12 +230,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       ) : (
         /* Standard Single or Multiple Choice Options */
         <div className="space-y-3 mb-6">
-          {question.options.map((opt) => {
+          {safeOptions.map((opt) => {
             const isSelected = isMultiple
-              ? userAnswer.includes(opt.key)
+              ? isOptionInAnswer(opt.key, userAnswer)
               : userAnswer === opt.key;
             
-            const isCorrectOption = question.answer.includes(opt.key);
+            const isCorrectOption = isOptionInAnswer(opt.key, question.answer);
 
             let optStyle = 'border-slate-200 dark:border-slate-800 hover:border-blue-300 dark:hover:border-blue-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
             let badgeStyle = 'border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300';
@@ -332,11 +340,11 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             <div>
               <span className="font-semibold text-slate-900 dark:text-white">標準答案：</span>
               <span className="font-mono font-bold text-emerald-700 dark:text-emerald-300 bg-white dark:bg-slate-900 px-2 py-0.5 rounded border border-emerald-300 dark:border-emerald-700 ml-1">
-                {question.answer}
+                {formatDisplayAnswer(question.answer)}
               </span>
               {userAnswer && !isCorrect && (
                 <span className="ml-3 text-slate-500">
-                  (您的作答：<span className="font-bold text-rose-600">{userAnswer}</span>)
+                  (您的作答：<span className="font-bold text-rose-600">{formatDisplayAnswer(userAnswer)}</span>)
                 </span>
               )}
             </div>

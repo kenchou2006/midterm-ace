@@ -603,7 +603,7 @@
         "text": "車門防盜開關"
       }
     ],
-    "answer": "A,C",
+    "answer": "AC",
     "images": [],
     "explanation": "(A) 溫溼度, (C) 三軸加速度"
   },
@@ -635,7 +635,7 @@
         "text": "辦公室自動化系統"
       }
     ],
-    "answer": "A,B,C",
+    "answer": "ABC",
     "images": [],
     "explanation": "(A) 病患床邊資訊看板系統, (B) 病患床邊智能照護系統, (C) 行動醫療推車"
   },
@@ -763,7 +763,7 @@
         "text": "綠色建築"
       }
     ],
-    "answer": "A,B,C",
+    "answer": "ABC",
     "images": [],
     "explanation": "(A) 智慧運輸, (B) 智慧醫療, (C) 智慧電網"
   },
@@ -955,7 +955,7 @@
         "text": "NFC"
       }
     ],
-    "answer": "A,B,D",
+    "answer": "ABD",
     "images": [],
     "explanation": "(A) 3G, (B) Wi-Fi, (D) NFC"
   },
@@ -1019,7 +1019,7 @@
         "text": "Inventor"
       }
     ],
-    "answer": "A,B,C",
+    "answer": "ABC",
     "images": [],
     "explanation": "(A) Android, (B) iOS, (C) Windows Phone"
   },
@@ -1083,7 +1083,7 @@
         "text": "將資料儲存在雲端硬碟"
       }
     ],
-    "answer": "A,B,C,D",
+    "answer": "ABCD",
     "images": [],
     "explanation": "(A) 訂購網路商品, (B) 查詢客戶資料, (C) 當作電子錢包，進行小額付款, (D) 將資料儲存在雲端硬碟"
   },
@@ -1179,7 +1179,7 @@
         "text": "網狀拓樸"
       }
     ],
-    "answer": "A,B,D",
+    "answer": "ABD",
     "images": [],
     "explanation": "(A) 星狀拓樸, (B) 樹狀拓樸, (D) 網狀拓樸"
   },
@@ -1275,7 +1275,7 @@
         "text": "隨意無線連接"
       }
     ],
-    "answer": "A,C,D",
+    "answer": "ACD",
     "images": [],
     "explanation": "(A) 成本低, (C) 效益高, (D) 隨意無線連接（藍芽為短距離無線通訊）"
   },
@@ -1307,7 +1307,7 @@
         "text": "一個 Scatternet 最多可由256個 Piconet 組合"
       }
     ],
-    "answer": "B,C",
+    "answer": "BC",
     "images": [],
     "explanation": "(B) Bluetooth 裝置可以同時扮演 Master 和 Slave 的角色, (C) 一個 Piconet 最多有8個 Slave"
   },
@@ -1371,7 +1371,7 @@
         "text": "集中式模式（Central Mode）"
       }
     ],
-    "answer": "A,C",
+    "answer": "AC",
     "images": [],
     "explanation": "(A) 基礎建設模式（Infrastructure Mode）, (C) 隨建即連模式（Ad Hoc Mode）"
   },
@@ -1467,7 +1467,7 @@
         "text": "食品工業統一碼（UGPIC）"
       }
     ],
-    "answer": "A,B",
+    "answer": "AB",
     "images": [],
     "explanation": "(A) 通用產品代碼（UPC）, (B) 歐洲商品條碼（EAN）"
   },
@@ -1563,7 +1563,7 @@
         "text": "容錯率高"
       }
     ],
-    "answer": "A,B",
+    "answer": "AB",
     "images": [],
     "explanation": "(A) 可靠性高, (B) 成本低"
   },

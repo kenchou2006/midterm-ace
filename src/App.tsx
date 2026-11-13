@@ -42,6 +42,12 @@ import { generateToeicQuestions, RawToeicWord } from './utils/toeicGenerator';
 import { resolveAssetUrl } from './utils/asset';
 import { useScrollHeader } from './utils/useScrollHeader';
 import { useAppUpdate } from './utils/useAppUpdate';
+import { 
+  normalizeAnswer, 
+  isAnswerCorrect, 
+  isOptionInAnswer, 
+  deduplicateOptions 
+} from './utils/answerHelper';
 import { Sparkles, GraduationCap, Flame, ArrowRight } from 'lucide-react';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -187,13 +193,14 @@ export function App() {
     if (config.shuffleOptions) {
       finalQuestions = finalQuestions.map(q => {
         if (q.type === 'true_false' || q.options.length <= 1) return q;
-        const shuffledOpts = shuffle(q.options);
+        const cleanOpts = deduplicateOptions(q.options);
+        const shuffledOpts = shuffle(cleanOpts);
         // Map new keys A, B, C, D
-        const keys = ['A', 'B', 'C', 'D', 'E'];
+        const keys = ['A', 'B', 'C', 'D', 'E', 'F'];
         let updatedAnswer = '';
         const mappedOptions = shuffledOpts.map((opt, i) => {
-          const newKey = keys[i];
-          if (q.answer.includes(opt.key)) {
+          const newKey = keys[i] || opt.key;
+          if (isOptionInAnswer(opt.key, q.answer)) {
             updatedAnswer += newKey;
           }
           return {
@@ -204,7 +211,7 @@ export function App() {
         return {
           ...q,
           options: mappedOptions,
-          answer: updatedAnswer.split('').sort().join('')
+          answer: normalizeAnswer(updatedAnswer)
         };
       });
     }
@@ -246,7 +253,7 @@ export function App() {
         if (q && answer) {
           const isMulti = q.type === 'multiple';
           if (!isMulti || isConfirmed) {
-            const isCorrect = answer.split('').sort().join('') === q.answer.split('').sort().join('');
+            const isCorrect = isAnswerCorrect(answer, q.answer);
             if (isCorrect) {
               recordCorrect(q.examId, q.id);
               // In mistake workout, remove from mistake bank if answered correctly!
@@ -292,9 +299,8 @@ export function App() {
     let wrongCount = 0;
 
     activeSession.questions.forEach(q => {
-      const userAns = (activeSession.userAnswers[q.id] || '').split('').sort().join('');
-      const trueAns = q.answer.split('').sort().join('');
-      if (userAns && userAns === trueAns) {
+      const isCorrect = isAnswerCorrect(activeSession.userAnswers[q.id], q.answer);
+      if (isCorrect) {
         correctCount++;
         recordCorrect(q.examId, q.id);
         // If in mistake workout mode, answer correct removes it from mistake bank

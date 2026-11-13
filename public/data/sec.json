@@ -924,14 +924,6 @@
       {
         "key": "D",
         "text": "兩者皆無安全性"
-      },
-      {
-        "key": "C",
-        "text": "Traffic Analysis"
-      },
-      {
-        "key": "D",
-        "text": "Repudiation"
       }
     ],
     "answer": "A",
@@ -4001,10 +3993,6 @@
       {
         "key": "D",
         "text": "成本分析"
-      },
-      {
-        "key": "D",
-        "text": "測試結果難以量化"
       }
     ],
     "answer": "A",

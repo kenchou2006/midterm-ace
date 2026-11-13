@@ -15,6 +15,7 @@ import {
 import { playSpeech } from '../utils/toeicGenerator';
 import { resolveAssetUrl } from '../utils/asset';
 import { ImageModal } from './ImageModal';
+import { isOptionInAnswer, formatDisplayAnswer, deduplicateOptions } from '../utils/answerHelper';
 
 interface MistakeBankViewProps {
   mistakes: Record<string, MistakeItem>;
@@ -259,9 +260,9 @@ export const MistakeBankView: React.FC<MistakeBankViewProps> = ({
 
                 {/* Options List */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
-                  {q.options.map(opt => {
-                    const isCorrectOpt = q.answer.includes(opt.key);
-                    const wasUserAns = item.lastUserAnswer.includes(opt.key);
+                  {deduplicateOptions(q.options).map(opt => {
+                    const isCorrectOpt = isOptionInAnswer(opt.key, q.answer);
+                    const wasUserAns = isOptionInAnswer(opt.key, item.lastUserAnswer);
 
                     let style = 'border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/40 text-slate-700 dark:text-slate-300';
                     if (isCorrectOpt) {
@@ -289,12 +290,12 @@ export const MistakeBankView: React.FC<MistakeBankViewProps> = ({
                   <div className="flex items-center gap-3">
                     <span className="text-slate-500">標準正確答案：</span>
                     <span className="font-bold font-mono text-emerald-600 dark:text-emerald-400">
-                      {q.answer}
+                      {formatDisplayAnswer(q.answer)}
                     </span>
                     <span className="text-slate-400">|</span>
                     <span className="text-slate-500">上次作答：</span>
                     <span className="font-bold font-mono text-rose-600">
-                      {item.lastUserAnswer || '(未作答)'}
+                      {item.lastUserAnswer ? formatDisplayAnswer(item.lastUserAnswer) : '(未作答)'}
                     </span>
                   </div>
                   <span className="text-[11px] text-slate-400">

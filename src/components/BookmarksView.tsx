@@ -4,6 +4,7 @@ import { Bookmark, Play, Volume2, Trash2, Layers, CheckCircle2 } from 'lucide-re
 import { playSpeech } from '../utils/toeicGenerator';
 import { resolveAssetUrl } from '../utils/asset';
 import { ImageModal } from './ImageModal';
+import { isOptionInAnswer, formatDisplayAnswer, deduplicateOptions } from '../utils/answerHelper';
 
 interface BookmarksViewProps {
   bookmarks: Record<string, boolean>;
@@ -172,11 +173,11 @@ export const BookmarksView: React.FC<BookmarksViewProps> = ({
                 )}
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
-                  {q.options.map(opt => (
+                  {deduplicateOptions(q.options).map(opt => (
                     <div
                       key={opt.key}
                       className={`p-2 rounded-xl border text-xs flex flex-col gap-1 ${
-                        q.answer.includes(opt.key)
+                        isOptionInAnswer(opt.key, q.answer)
                           ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-100 font-bold'
                           : 'border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400'
                       }`}
@@ -196,7 +197,7 @@ export const BookmarksView: React.FC<BookmarksViewProps> = ({
                   <div>
                     <span className="text-slate-400">標準答案：</span>
                     <span className="font-bold font-mono text-emerald-600 dark:text-emerald-400 ml-1">
-                      {q.answer}
+                      {formatDisplayAnswer(q.answer)}
                     </span>
                   </div>
                   {q.toeicData && (

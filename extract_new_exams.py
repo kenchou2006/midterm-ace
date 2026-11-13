@@ -86,7 +86,7 @@ def extract_iot():
         for k in ans_keys:
             if k not in clean_keys:
                 clean_keys.append(k)
-        ans_str = ','.join(clean_keys)
+        ans_str = ''.join(sorted(clean_keys))
         
         is_multi = len(clean_keys) > 1 or '複選' in q['title'] or '哪些' in q['title']
         exp = re.sub(r'^【正確答案\s*/?\s*解析】\s*', '', q['answer_raw']).strip()
@@ -155,14 +155,14 @@ def extract_nsm_hw4():
         2: ('C', '單選題', '在全域組態模式 Router(config)# 下執行 service password-encryption 指令，可將設定檔中所有現存及未來的明文密碼進行弱加密（Type 7）。'),
         3: ('A', '單選題', 'running-config 儲存在 RAM（記憶體）中，代表路由器目前的動態執行組態，關機或重新啟動後若未儲存將會消失。'),
         4: ('C', '單選題', '【校正說明：原測驗作答複選 A, C 錯誤】若要讓設定檔（如 running-config）中所有密碼不以明文顯示，標準指令為全域模式下的 service password-encryption。enable secret 僅使用 MD5 加密特權模式密碼，不能對其他密碼加密。'),
-        5: ('A,B', '複選題', 'Telnet 與 SSH 是透過 IP 網路遠端連線管理網路設備的協定（遠端登入 Remote Access）。Console 與 AUX 則為實體線路的本地登入。'),
+        5: ('AB', '複選題', 'Telnet 與 SSH 是透過 IP 網路遠端連線管理網路設備的協定（遠端登入 Remote Access）。Console 與 AUX 則為實體線路的本地登入。'),
         6: ('A', '單選題', '在 CLI 中使用 IOS 指令更改主機名稱（hostname），該指令會立即套用於正在執行的組態，儲存在 RAM（running-config）中，直到執行 copy running-config startup-config 才會存入 NVRAM。'),
         7: ('B', '單選題', 'SSH 的核心優點為透過公私鑰加密所有傳輸的資料與密碼（加密傳輸提高安全性），防範封包竊聽與中間人攻擊。'),
         8: ('A', '單選題', 'Cisco 路由器開機時，若在本地 FLASH 找不到 IOS 映像檔且 NVRAM 亦無設定檔，系統開機流程會嘗試透過網路連線到 TFTP 伺服器尋找並下載開機檔案。'),
         9: ('A', '單選題', 'PC 網卡與路由器 FastEthernet 介面兩者在乙太網路標準中同屬 MDI（Medium Dependent Interface）設備，兩台相同類型的設備直接相連時必須使用「跳線（Crossover Cable）」。'),
-        10: ('C,F', '複選題', '在交換器與路由器／伺服器之間傳遞多個 VLAN（VLAN 3 與 VLAN 4）的訊務時，兩台交換器之間的鏈路（Link C）以及核心交換器連接伺服器/路由器的幹線鏈路（Link F）必須設定為 Trunk（802.1Q 幹線）。'),
-        11: ('A,B,E', '複選題', '【校正說明：原測驗作答 A, B, C, E 錯誤】設定 SSH 登入的核心指令包括：(A) crypto key generate rsa（產生加密金鑰並啟用 SSH）、(B) ip domain-name myCompany.com（設定網域名稱以產生 FQDN 金鑰）、(E) transport input ssh（限制 VTY 線路僅接受 SSH 登入）。line vty 0 4 僅為進入設定模式之指令，非 SSH 專用設定指令；vlan 1 ip 語法錯誤。'),
-        12: ('A,D', '複選題', '【校正說明：原測驗作答漏選 D 導致錯誤】本地登入（Local / Out-of-band 頻外管理）是指透過實體纜線直接連接設備硬體連接埠，包含 Console 埠與 AUX（Auxiliary 輔助埠）。Telnet 與 SSH 屬於網路遠端登入。'),
+        10: ('CF', '複選題', '在交換器與路由器／伺服器之間傳遞多個 VLAN（VLAN 3 與 VLAN 4）的訊務時，兩台交換器之間的鏈路（Link C）以及核心交換器連接伺服器/路由器的幹線鏈路（Link F）必須設定為 Trunk（802.1Q 幹線）。'),
+        11: ('ABE', '複選題', '【校正說明：原測驗作答 A, B, C, E 錯誤】設定 SSH 登入的核心指令包括：(A) crypto key generate rsa（產生加密金鑰並啟用 SSH）、(B) ip domain-name myCompany.com（設定網域名稱以產生 FQDN 金鑰）、(E) transport input ssh（限制 VTY 線路僅接受 SSH 登入）。line vty 0 4 僅為進入設定模式之指令，非 SSH 專用設定指令；vlan 1 ip 語法錯誤。'),
+        12: ('AD', '複選題', '【校正說明：原測驗作答漏選 D 導致錯誤】本地登入（Local / Out-of-band 頻外管理）是指透過實體纜線直接連接設備硬體連接埠，包含 Console 埠與 AUX（Auxiliary 輔助埠）。Telnet 與 SSH 屬於網路遠端登入。'),
         13: ('A', '單選題', 'Cisco IOS 的提示字元中，井字號 #（例如 Router#）代表特權 EXEC 模式（Privileged EXEC Mode / 管理者模式）；大於符號 > 代表使用者 EXEC 模式。'),
         14: ('C', '單選題', 'Telnet 屬於應用層遠端登入協定，可透過 TCP/IP 網路遠端連線至設備 CLI 介面。Console 與 AUX 屬於本地端實體線路連接。'),
         15: ('B', '單選題', '由圖片中的 show version 輸出訊息可見：「191K bytes of NVRAM」。路由器的組態檔案（startup-config）儲存於 NVRAM 中，因此該路由器最大的組態檔案容量即為 191k bytes。'),
@@ -172,9 +172,9 @@ def extract_nsm_hw4():
         19: ('C', '單選題', '圖片中顯示「Password required, but none set」，表示在 line vty 線路上啟用了登入檢查（login），但尚未設定 vty 連線密碼（The vty password is missing），因此 Cisco IOS 基於安全保護拒絕 Telnet 連線。'),
         20: ('A', '單選題', '在虛擬終端線路模式 Router(config-line)# 下，指令 transport input ssh 可強制該 VTY 埠僅接受加密的 SSH 遠端連線，全面封鎖不安全的 Telnet。'),
         21: ('B', '單選題', 'PC 網卡為 MDI 設備，交換器（Switch）埠為 MDI-X 設備。不同類型的網路硬體設備直接相連時，應使用標準「直線（Straight-through Cable）」。'),
-        22: ('B,C,E', '複選題', '將 Cisco Catalyst 2950 交換器完全清除舊組態以重新設定的三大步驟為：1. delete flash:vlan.dat（Delete the VLAN database）；2. erase startup-config（Erase the startup configuration）；3. reload（Restart the switch）。'),
+        22: ('BCE', '複選題', '將 Cisco Catalyst 2950 交換器完全清除舊組態以重新設定的三大步驟為：1. delete flash:vlan.dat（Delete the VLAN database）；2. erase startup-config（Erase the startup configuration）；3. reload（Restart the switch）。'),
         23: ('B', '單選題', '儲存在 NVRAM（非揮發性記憶體）中、設備關機或重開後依然保留的設定檔案為 startup-config（開機啟動設定檔）。'),
-        24: ('A,C,E', '複選題', '【校正說明：原測驗作答漏選 A, C 錯誤】在 Cisco 設備上設定 SSH 安全登入的正確認證與啟用步驟包括：(A) 設定主機名稱（hostname）；(C) 產生 RSA 金鑰（crypto key generate rsa）；(E) 設定 VTY 僅接受 SSH（transport input ssh）。'),
+        24: ('ACE', '複選題', '【校正說明：原測驗作答漏選 A, C 錯誤】在 Cisco 設備上設定 SSH 安全登入的正確認證與啟用步驟包括：(A) 設定主機名稱（hostname）；(C) 產生 RSA 金鑰（crypto key generate rsa）；(E) 設定 VTY 僅接受 SSH（transport input ssh）。'),
         25: ('D', '單選題', '當路由器實體介面有限但需連接多個 VLAN 進行繞送時，最佳作法為採用「單臂路由器（Router-on-a-stick）」架構，在單一實體 FastEthernet 介面上建立多個子介面（Sub-interfaces）並配置 802.1Q 封裝與 IP 位址。')
     }
 
@@ -218,8 +218,9 @@ def extract_nsm_hw4():
             images.append('images/nsm/nsm_q19.png')
             
         sec_id, sec_name = get_nsm_hw4_section(q_num)
-        ans_str, type_label, exp = nsm_hw4_answers[q_num]
-        is_multi = ',' in ans_str or type_label == '複選題'
+        ans_raw, type_label, exp = nsm_hw4_answers[q_num]
+        ans_str = ''.join(sorted(re.findall(r'[A-Za-z0-9]', ans_raw)))
+        is_multi = len(ans_str) > 1 or type_label == '複選題'
         
         nsm_hw4_questions.append({
             'id': f'nsm_hw4_{sec_id}_{q_num}',

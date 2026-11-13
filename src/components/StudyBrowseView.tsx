@@ -8,6 +8,7 @@ import {
 } from '../types/exam';
 import { RawToeicWord, generateToeicQuestions, playSpeech } from '../utils/toeicGenerator';
 import { resolveAssetUrl } from '../utils/asset';
+import { normalizeAnswer, formatDisplayAnswer, deduplicateOptions } from '../utils/answerHelper';
 import { 
   Eye, 
   EyeOff, 
@@ -435,7 +436,8 @@ export const StudyBrowseView: React.FC<StudyBrowseViewProps> = ({
           {filteredQuestions.map((q, idx) => {
             const isBookmarked = Boolean(bookmarks[q.id]);
             const isRevealed = revealMode === 'always_show' || Boolean(revealedIds[q.id]);
-            const ansKeySet = new Set(q.answer.split(''));
+            const ansKeySet = new Set(normalizeAnswer(q.answer).split(''));
+            const safeOptions = deduplicateOptions(q.options);
 
             return (
               <div
@@ -548,7 +550,7 @@ export const StudyBrowseView: React.FC<StudyBrowseViewProps> = ({
 
                 {/* Options List */}
                 <div className="space-y-2.5 mb-5">
-                  {q.options.map((opt) => {
+                  {safeOptions.map((opt) => {
                     const isOptionCorrect = ansKeySet.has(opt.key);
                     const showOptionHighlight = isRevealed && isOptionCorrect;
 
@@ -595,9 +597,9 @@ export const StudyBrowseView: React.FC<StudyBrowseViewProps> = ({
                         <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
                         <span className="font-bold">正確答案：</span>
                         <span className="font-mono font-black text-sm text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-900 px-2 py-0.5 rounded-md">
-                          【 {q.answer} 】
+                          【 {formatDisplayAnswer(q.answer)} 】
                         </span>
-                        {q.options.filter(o => ansKeySet.has(o.key)).map(o => (
+                        {safeOptions.filter(o => ansKeySet.has(o.key)).map(o => (
                           <span key={o.key} className="hidden sm:inline text-xs text-emerald-800 dark:text-emerald-300">
                             {o.text.length > 30 ? o.text.substring(0, 30) + '...' : o.text}
                           </span>

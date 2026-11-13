@@ -167,7 +167,7 @@
         "text": "Ethernet"
       }
     ],
-    "answer": "A,B",
+    "answer": "AB",
     "images": [],
     "explanation": "Telnet 與 SSH 是透過 IP 網路遠端連線管理網路設備的協定（遠端登入 Remote Access）。Console 與 AUX 則為實體線路的本地登入。"
   },
@@ -355,7 +355,7 @@
         "text": "F"
       }
     ],
-    "answer": "C,F",
+    "answer": "CF",
     "images": [
       "images/nsm/nsm_q10.png"
     ],
@@ -393,7 +393,7 @@
         "text": "transport input ssh"
       }
     ],
-    "answer": "A,B,E",
+    "answer": "ABE",
     "images": [],
     "explanation": "【校正說明：原測驗作答 A, B, C, E 錯誤】設定 SSH 登入的核心指令包括：(A) crypto key generate rsa（產生加密金鑰並啟用 SSH）、(B) ip domain-name myCompany.com（設定網域名稱以產生 FQDN 金鑰）、(E) transport input ssh（限制 VTY 線路僅接受 SSH 登入）。line vty 0 4 僅為進入設定模式之指令，非 SSH 專用設定指令；vlan 1 ip 語法錯誤。"
   },
@@ -429,7 +429,7 @@
         "text": "Ethernet"
       }
     ],
-    "answer": "A,D",
+    "answer": "AD",
     "images": [],
     "explanation": "【校正說明：原測驗作答漏選 D 導致錯誤】本地登入（Local / Out-of-band 頻外管理）是指透過實體纜線直接連接設備硬體連接埠，包含 Console 埠與 AUX（Auxiliary 輔助埠）。Telnet 與 SSH 屬於網路遠端登入。"
   },
@@ -777,7 +777,7 @@
         "text": "Modify the configuration register"
       }
     ],
-    "answer": "B,C,E",
+    "answer": "BCE",
     "images": [],
     "explanation": "將 Cisco Catalyst 2950 交換器完全清除舊組態以重新設定的三大步驟為：1. delete flash:vlan.dat（Delete the VLAN database）；2. erase startup-config（Erase the startup configuration）；3. reload（Restart the switch）。"
   },
@@ -845,7 +845,7 @@
         "text": "設定 transport input ssh"
       }
     ],
-    "answer": "A,C,E",
+    "answer": "ACE",
     "images": [],
     "explanation": "【校正說明：原測驗作答漏選 A, C 錯誤】在 Cisco 設備上設定 SSH 安全登入的正確認證與啟用步驟包括：(A) 設定主機名稱（hostname）；(C) 產生 RSA 金鑰（crypto key generate rsa）；(E) 設定 VTY 僅接受 SSH（transport input ssh）。"
   },

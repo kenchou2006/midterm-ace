@@ -147,6 +147,12 @@ for pno, page in enumerate(doc_ictp):
             for letter in ['A', 'B', 'C', 'D']:
                 options.append({'key': letter, 'text': ''})
                 
+        keys_present = {o['key'] for o in options}
+        for letter in ['A', 'B', 'C', 'D']:
+            if letter not in keys_present:
+                options.append({'key': letter, 'text': ''})
+        options.sort(key=lambda o: o['key'])
+                
         ictp_questions.append({
             'id': f"ictp_{current_section}_{q_num}",
             'globalIndex': global_index,
@@ -868,9 +874,13 @@ for fn, sec_id, sec_name in sec_files_def:
             
             combined_opts = ' '.join(opt_lines)
             opts = []
+            seen_keys = set()
             opt_matches = list(re.finditer(r'([A-D])\.\s*(.*?)(?=(?:[A-D]\.|$))', combined_opts))
             for om in opt_matches:
-                opts.append({'key': om.group(1), 'text': om.group(2).strip()})
+                k = om.group(1)
+                if k not in seen_keys:
+                    seen_keys.add(k)
+                    opts.append({'key': k, 'text': om.group(2).strip()})
                 
             sec_global_index += 1
             is_multi = len(ans_clean) > 1
